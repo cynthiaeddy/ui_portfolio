@@ -1,0 +1,98 @@
+#NavbarContainer {
+  padding-top: 5rem;
+  width: 100%;
+  position: fixed;
+  height: 12.5rem;
+  display: flex;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  /* flex-direction: column; */
+  background: white;
+  margin-bottom: 2rem;
+  border: 0.25px solid black;
+  padding-left: 10%;
+  padding-right: 10%
+
+}
+.NavbarSection {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center
+}
+
+.Navbar-items {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 3rem; */
+  height: 3rem;
+  /* width: 60%; */
+  /* margin: auto; */
+  /* margin-top: 10rem; */
+  display: flex;
+height: 100px;
+/* padding: 40px 10px; */
+/* flex-direction: column;
+justify-content: center; */
+align-items: center;
+/* gap: 10px; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: 100;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  /* font-family: gelica, sans-serif; */
+
+  /* font-family: 'Nunito', sans-serif; */
+  color: #000;
+
+text-align: center;
+/* navbar_text */
+font-family: "Neue Haas Grotesk Text Pro";
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 300;
+line-height: 4rem; /* 266.667% */
+letter-spacing: .3rem;
+text-transform: uppercase;
+text-decoration-style: none;
+}
+
+
+a {
+  text-decoration: none !important;
+}
+.nav-links {
+  /* font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  /* letter-spacing: 1px; */
+  /* color: black */
+}
+
+
+
+.Navbar-section {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 357px;
+}
+.logo {
+width: 53px;
+height: 54.178px;
+}
+.nav-item {
+display: flex;
+height: 100px;
+padding: 20px 20px;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
+gap: 10px;
+}

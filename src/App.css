@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overscroll-behavior: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* //hide scrollbar// */
+* {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  font-size: 62.5%;
+}
+/* font-family: gelica, sans-serif; */
+
+/* font-family: neue-haas-grotesk-display, sans-serif; */
+
+
+.AppContainer {
+  width: 100vw;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-style: normal;
+  text-align: center;
+  background: white;
+  overflow-y: scroll;
+  content: '';
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  bottom: 0;
+  background: snow;
+  position: relative;
+  z-index: 10;
+  min-height: 100vh;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
