@@ -6,8 +6,6 @@ import navActive from '../../assets/bug.svg'
 export const Navbar = () => {
   return (
     <nav id='NavbarContainer'>
-      {/* <div className='Navbar-items'> */}
-
       <div className='NavbarSection'>
         <ul className='Navbar-items'>
           <li className='nav-item'>
@@ -111,7 +109,6 @@ export const Navbar = () => {
           <img src={logo} className='logo' alt='logo' />
         </div>
       </div>
-      {/* </div> */}
     </nav>
   )
 }
