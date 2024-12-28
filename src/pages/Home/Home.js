@@ -2,10 +2,13 @@ import './Home.css'
 
 export const Home = () => {
   return (
-<div>
-      <div>i am</div>
-      <div></div>
-</div>
+    <section className='HomeContainer'>
+      <div className='Home_main_type'>i am</div>
+      <div className='HomeButtonContainer'>
+        <div className='HomeButton ux'>a ux/ui designer</div>
+        <div className='HomeButton'>print & digital designer</div>
+        <div className='HomeButton'>software developer</div>
+      </div>
+    </section>
   )
-
 }

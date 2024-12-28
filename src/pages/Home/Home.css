@@ -1,0 +1,32 @@
+.HomeContainer {
+  margin-top: 20rem;
+  max-width: 1250px;
+  margin-left: 25%;
+}
+
+.Home_main_type {
+  font-size: 28rem;
+  text-transform: lowercase;
+  font-weight:600;
+  letter-spacing: -.05em;
+  line-height: .85;
+  text-align: left;
+  margin-left: -1rem
+}
+
+.HomeButtonContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.HomeButton {
+  font-size: 6.75rem;
+  text-transform: lowercase;
+  font-weight:600;
+  letter-spacing: -.03em;
+  line-height: 1;
+  margin-left: 5.5rem
+}
+.HomeButton.ux{
+  margin-left: 0
+}
