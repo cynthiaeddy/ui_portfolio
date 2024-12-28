@@ -11,45 +11,100 @@ export const Navbar = () => {
       <div className='NavbarSection'>
         <ul className='Navbar-items'>
           <li className='nav-item'>
-            <NavLink
-              to='/'
-              className={({ isActive }) =>
-                isActive ? 'nav-links nav-link-active' : 'nav-links inactive'
-              }
-            >
+            <NavLink to='/' className='nav-links' activeClassName='active'>
               Home
+              <img
+                src={navActive}
+                className='navActive'
+                alt='navActive'
+                style={{
+                  visibility: ({ isActive }) =>
+                    isActive ? 'visible' : 'hidden',
+                }}
+              />
             </NavLink>
-            <img src={navActive} className='navActive' alt='navActive' />
           </li>
           <li className='nav-item'>
-            <NavLink to='/ux_ui' className='nav-links'>
+            <NavLink to='/ux_ui' className='nav-links' activeClassName='active'>
               ux/ui
+              <img
+                src={navActive}
+                className='navActive'
+                alt='navActive'
+                style={{
+                  visibility: ({ isActive }) =>
+                    isActive ? 'visible' : 'hidden',
+                }}
+              />
             </NavLink>
-            <img src={navActive} className='navActive' alt='navActive' />
           </li>
           <li className='nav-item'>
-            <NavLink to='/design' className='nav-links'>
+            <NavLink
+              to='/design'
+              className='nav-links'
+              activeClassName='active'
+            >
               editorial design
+              <img
+                src={navActive}
+                className='navActive'
+                alt='navActive'
+                style={{
+                  visibility: ({ isActive }) =>
+                    isActive ? 'visible' : 'hidden',
+                }}
+              />
             </NavLink>
-            <img src={navActive} className='navActive' alt='navActive' />
           </li>
           <li className='nav-item'>
-            <NavLink to='/development' className='nav-links'>
+            <NavLink
+              to='/development'
+              className='nav-links'
+              activeClassName='active'
+            >
               web development
+              <img
+                src={navActive}
+                className='navActive'
+                alt='navActive'
+                style={{
+                  visibility: ({ isActive }) =>
+                    isActive ? 'visible' : 'hidden',
+                }}
+              />
             </NavLink>
-            <img src={navActive} className='navActive' alt='navActive' />
           </li>
           <li className='nav-item'>
-            <NavLink to='/about' className='nav-links'>
+            <NavLink to='/about' className='nav-links' activeClassName='active'>
               about
+              <img
+                src={navActive}
+                className='navActive'
+                alt='navActive'
+                style={{
+                  visibility: ({ isActive }) =>
+                    isActive ? 'visible' : 'hidden',
+                }}
+              />
             </NavLink>
-            <img src={navActive} className='navActive' alt='navActive' />
           </li>
           <li className='nav-item'>
-            <NavLink to='/contact' className='nav-links'>
+            <NavLink
+              to='/contact'
+              className='nav-links'
+              activeClassName='active'
+            >
               contact
+              <img
+                src={navActive}
+                className='navActive'
+                alt='navActive'
+                style={{
+                  visibility: ({ isActive }) =>
+                    isActive ? 'visible' : 'hidden',
+                }}
+              />
             </NavLink>
-            <img src={navActive} className='navActive' alt='navActive' />
           </li>
         </ul>
         <div className='Navbar-logo'>

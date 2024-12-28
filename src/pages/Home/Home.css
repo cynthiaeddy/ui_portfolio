@@ -5,7 +5,7 @@
 }
 
 .Home_main_type {
-  font-size: 28rem;
+  font-size: 23rem;
   text-transform: lowercase;
   font-weight:600;
   letter-spacing: -.05em;
@@ -20,13 +20,13 @@
   align-items: flex-start;
 }
 .HomeButton {
-  font-size: 6.75rem;
+  font-size: 5.5rem;
   text-transform: lowercase;
   font-weight:600;
   letter-spacing: -.03em;
-  line-height: 1;
+  line-height: 1.1;
   margin-left: 5.5rem
 }
 .HomeButton.ux{
-  margin-left: 0
+  margin-left: 0;
 }
