@@ -5,17 +5,14 @@ import quilt from '../../assets/about/quilt.png'
 import './About.css'
 export const About = () => {
   return (
-    <section className='Container about'>
-      <div className='AboutHi'>
-        hiya, i&apos;m <br />
-        cynthia
-      </div>
-      <div className='AboutContainerNew'>
+    <section className='Container'>
+      <div className='AboutContainer'>
         <div className='AboutImages'>
           <img src={me} className='AboutImage me' alt={me} />
           <img src={quilt} className='AboutImage' alt={quilt} />
           <img src={outside} className='AboutImage' alt={outside} />
         </div>
+        <div className='AboutHi'>hiya, i&apos;m cynthia</div>
         <h4 className='AboutText'>
           I&apos;ve been lucky enough to design across a variety of mediums,
           starting in print and making my way into digital early on—working on
