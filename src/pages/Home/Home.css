@@ -1,24 +1,4 @@
-.HomeContainer {
-  margin-top: 20rem;
-  max-width: 1250px;
-  margin-left: 25%;
-}
 
-.Home_main_type {
-  font-size: 23rem;
-  text-transform: lowercase;
-  font-weight:600;
-  letter-spacing: -.05em;
-  line-height: .85;
-  text-align: left;
-  margin-left: -1rem
-}
-
-.HomeButtonContainer{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
 .HomeButton {
   font-size: 5.5rem;
   text-transform: lowercase;
@@ -34,7 +14,7 @@
 .HomeButton.ux{
   margin-left: 0;
   color: #000;
-  margin-bottom: 1.5rem;
+  margin-bottom: .95rem;
 }
 
 .HomeButton:hover {
@@ -44,6 +24,26 @@
 .HomeButton.ux:hover {
   color: #808080;
 }
+.HomeButton.ux.default {
+  color: #808080;
+  margin-bottom: .05rem;
+}
+
+a.HomeButton.ux.default > span.smallSlash  {
+  color: #808080}
+
+  .HomeButton.ux.default:hover {
+    color: rgba(0, 0, 0, 0.3);
+
+  }
+
+  a.HomeButton.ux.default:hover > span.smallSlash  {
+    color: rgba(0, 0, 0, 0.3)}
+
+    .HomeButton.print {
+      color: #000;
+    cursor: default
+    }
 
 
 hr {

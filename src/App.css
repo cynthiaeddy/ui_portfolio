@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+
 }
 body {
   display: flex;
@@ -53,8 +54,28 @@ html {
   z-index: 10;
   min-height: 100vh;
 }
+.HomeButtonContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 
 ul {
   padding: 0;
   list-style-type: none;
+}
+.Container {
+  margin:auto;
+  margin-top: 20rem;
+  /* max-width: 1250px; */
+}
+.main_type {
+  font-size: 23rem;
+  text-transform: lowercase;
+  font-weight:600;
+  letter-spacing: -.05em;
+  line-height: .85;
+  text-align: left;
+  margin-left: -1rem
 }

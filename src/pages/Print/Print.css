@@ -1,0 +1,16 @@
+.PrintContainer {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  max-width: 120rem;
+  margin: auto
+
+}
+
+.InnerContainer {
+  height: 100rem;
+  max-width: 110rem;
+  margin: auto;
+  margin-top: 6rem;
+
+}

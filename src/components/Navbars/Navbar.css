@@ -3,7 +3,6 @@
   width: 100%;
   position: fixed;
   height: 13.5rem;
-  /* display: flex; */
   top: 3%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -47,8 +46,7 @@ text-decoration-style: none;
 }
 
 .nav-links {
-  display: flex
-  ;
+  display: flex;
       flex-direction: column;
       justify-content: center;
       align-content: center;
@@ -59,8 +57,6 @@ text-decoration-style: none;
 a {
   text-decoration: none !important;
 }
-
-
 
 
 .Navbar-section {
@@ -89,9 +85,7 @@ align-items: center
 
 
 .nav-link.active .icon {
-
   visibility: visible; /* Visible when the link is active */
-
 }
 
 
@@ -102,16 +96,8 @@ padding-left: 0;
 }
 .active {
   font-weight: 600;
+  letter-spacing: .34rem;
 }
 
-.navActive.yes {
-  visibility: visible;
-}
-
-.navActive.no {
-  visibility: hidden;
-}
-.nav-links.active {
 
 
-}

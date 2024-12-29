@@ -3,8 +3,8 @@ import './Home.css'
 
 export const Home = () => {
   return (
-    <section className='HomeContainer'>
-      <div className='Home_main_type'>i am</div>
+    <section className='Container'>
+      <div className='main_type'>i am</div>
       <div className='HomeButtonContainer'>
         <NavLink to='ux_ui' className='HomeButton ux'>
           a ux<span className='smallSlash'>/</span>ui designer{' '}
