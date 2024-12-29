@@ -1,0 +1,56 @@
+
+.Container.contact {
+display: flex;
+width: 120rem;
+padding-left: 10%;
+padding-right: 10%;
+max-width: 120rem;
+margin: auto;
+margin-top: 27rem
+}
+
+.Contact_text {
+  font-weight: 600;
+  align-self: start;
+
+}
+
+.ContactForm {
+  width: 50%;
+  /* margin-left: 3rem; */
+  display: flex;
+  flex-direction: column;
+}
+.ContactForm.text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+  width:75%;
+  margin-left:4rem
+}
+input {
+  background-color: initial;
+  border-bottom: .5px solid black;
+}
+textarea {
+  background-color: initial;
+  border: .5px solid black;
+  min-height: 15rem;
+}
+
+.AboutContact {
+  font-size: 5.5rem;
+  text-transform: lowercase;
+  font-weight:600;
+  letter-spacing: -.03em;
+  line-height: 1.1;
+  color: #000;
+  margin-top: 19.5rem;
+  text-align: left;
+  margin-left: 18%;
+  margin-bottom: 3rem
+}
+.Button_website.form {
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
