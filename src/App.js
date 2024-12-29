@@ -7,6 +7,8 @@ import { Navbar } from './components/Navbars/Navbar'
 import { Home } from './pages/Home/Home'
 import { Print } from './pages/Print/Print'
 import { Development } from './pages/Development/Development'
+import { About } from './pages/About/About'
+import { Contact } from './pages/Contact/Contact'
 
 const App = () => {
   let routes = (
@@ -14,6 +16,8 @@ const App = () => {
       <Route exact path='/' element={<Home />} />
       <Route exact path='/design' element={<Print />} />
       <Route exact path='/development' element={<Development />} />
+      <Route exact path='/about' element={<About />} />
+      <Route exact path='/contact' element={<Contact />} />
     </Routes>
   )
   return (

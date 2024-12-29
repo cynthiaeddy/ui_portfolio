@@ -1,0 +1,55 @@
+.AboutContainer {
+  padding-left: 10%;
+    padding-right: 10%;
+    max-width: 120rem;
+    margin: auto;
+    display: flex;
+   flex-direction: column;
+   margin-top: 1.5rem;
+   margin-bottom: 6rem
+}
+h4 {
+color: #000;
+font-family: "Neue Haas Grotesk Display Pro";
+font-size: 2.2rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2;
+letter-spacing: 1.75px;
+text-transform:initial;
+}
+.AboutImages {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  width: 60%;
+  margin: auto;
+  margin-left: 18%
+}
+.AboutImage {
+width: 90%;
+margin: 0 1rem;
+align-self: center;
+}
+
+
+.AboutHi {
+  font-size: 5.5rem;
+  text-transform: lowercase;
+  font-weight:600;
+  letter-spacing: -.03em;
+  line-height: 1.1;
+  color: #000;
+  margin-top: 1.4rem;
+  text-align: left;
+  margin-left: 19%;
+  margin-bottom: 3rem
+}
+
+.AboutText {
+  text-align: left;
+    margin-left: 24%;
+
+}
+
