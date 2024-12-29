@@ -15,7 +15,9 @@ export const PrintImages = () => {
         </figure>
         <figure className='PrintImages'>
           <img className='PrintImage' src={lunch} alt={lunch} />
-          <figcaption className='Print_captions'>shape magazine</figcaption>
+          <figcaption className='Print_captions no_margin'>
+            shape magazine
+          </figcaption>
         </figure>
       </div>
       <div className='Web'>
@@ -35,7 +37,7 @@ export const PrintImages = () => {
         </figure>
         <figure className='WebImages'>
           <img className='WebImage hb' src={ipad_hb} alt={ipad_hb} />
-          <figcaption className='Print_captions'>
+          <figcaption className='Print_captions no_margin'>
             house beautiful
             <br />
             magazine

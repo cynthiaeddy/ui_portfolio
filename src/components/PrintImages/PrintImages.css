@@ -1,21 +1,31 @@
-img.PrintImage {
-  height: 385px;
-
+.PrintImagesContainer {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+margin-bottom: 4rem;
 
 }
+.PrintImage {
+  height: 380px;
+  align-self: center;
+max-height: 420px
+}
+
 .PrintImage.fit {
   border: .5px solid black;
   margin-right: 6rem
 }
-img.WebImage {
-  height: 423px;
-  margin-right: 6rem
+.WebImage {
+  height: 420px;
+  margin-right: 6rem;
+  max-height: 430px;
+  align-self: center;
 }
 
-img.WebImage.hb {
-  margin-right: 0
+.WebImage.hb {
+  margin-right: 0px
 }
-figure.PrintImages, figure.WebImages {
+.PrintImages, .WebImages {
   display: flex;
   flex-direction: column;}
 
@@ -35,24 +45,22 @@ figure.PrintImages, figure.WebImages {
   line-height: 2;
 
 }
-section.PrintImagesContainer {
-  display: flex;
-  flex-direction: column;
-align-items: center;
-}
 
 .Button_website {
   background-color: black;
   color: white;
-  padding: 1rem 3rem;
-  margin-top: 3rem;
+  padding: .5rem 2rem;
   width: fit-content;
   border-radius: 10rem;
   margin-bottom: 10rem;
-  font-weight: 600
+  font-weight: 600;
 }
+
 .Button_website:hover {
   box-shadow: 5px 5px 10px rgba(36, 36, 36, 0.5);
   color:bisque
 
+}
+.Print_captions.no_margin {
+  margin-right: 0
 }
