@@ -23,7 +23,17 @@ export const Print = () => {
       </section>
     <div className='PrintContainer'>
         <div className='InnerContainer'>
-          {<PrintImages/>}</div>
+          {<PrintImages />}</div>
+          <div>
+      <a
+                href='https://www.cynthiaeddy.me'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='Footer_text'
+              >
+      <button className='Button_website'>click to view print & digital website</button>
+              </a>
+      </div>
     </div>
     </>
   )

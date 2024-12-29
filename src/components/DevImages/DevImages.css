@@ -1,0 +1,8 @@
+section.DevImagesContainer {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
+.DevImage {
+  width: 200px
+}
