@@ -1,16 +1,3 @@
-.PrintContainer {
-  /* width: 100%; */
-  padding-left: 10%;
-  padding-right: 10%;
-  max-width: 120rem;
-  margin: auto
-
-}
-
-.InnerContainer {
-  margin-top: 6rem;
-
-}
 .main_type.co {
   font-size: 18rem;
 }

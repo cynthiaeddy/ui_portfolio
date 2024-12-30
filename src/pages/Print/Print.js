@@ -6,10 +6,9 @@ import '../Home/Home.css'
 import './Print.css'
 import { PrintImages } from '../../components/PrintImages/PrintImages.js'
 export const Print = () => {
-  // eslint-disable-next-line prettier/prettier
   return (
     <>
-      <section className='Container'>
+      <section className='TopContainer'>
         <div className='main_type'>i am</div>
         <div className='HomeButtonContainer'>
           <NavLink to='/ux_ui' className='HomeButton ux default'>
@@ -21,7 +20,7 @@ export const Print = () => {
           </NavLink>
         </div>
       </section>
-    <div className='PrintContainer'>
+    <div className='BottomContainer'>
         <div className='InnerContainer'>
           {<PrintImages />}</div>
           <div>

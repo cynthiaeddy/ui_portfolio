@@ -7,7 +7,7 @@ export const Development = () => {
   // eslint-disable-next-line prettier/prettier
   return (
     <>
-      <section className='Container'>
+      <section className='TopContainer'>
         <div className='main_type'>i am</div>
         <div className='HomeButtonContainer'>
           <NavLink to='/ux_ui' className='HomeButton ux default'>
@@ -19,7 +19,7 @@ export const Development = () => {
           <div className='HomeButton print'>software developer</div>
         </div>
       </section>
-      <div className='PrintContainer'>
+      <div className='BottomContainer'>
         <div className='InnerContainer'>{<DevImages />}</div>
         <div>
           <a

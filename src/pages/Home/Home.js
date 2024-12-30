@@ -3,7 +3,7 @@ import './Home.css'
 
 export const Home = () => {
   return (
-    <section className='Container'>
+    <section className='TopContainer'>
       <div className='main_type'>i am</div>
       <div className='HomeButtonContainer'>
         <NavLink to='ux_ui' className='HomeButton ux'>

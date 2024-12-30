@@ -5,18 +5,27 @@ align-items: center;
 margin-bottom: 4rem;
 
 }
+
+.PrintImagesfit {
+  width:33%
+}
+
+.PrintImages.lunch {
+  width: 66%
+}
 .PrintImage {
-  height: 380px;
+  height: 400px;
   align-self: center;
 max-height: 420px
 }
+
 
 .PrintImage.fit {
   border: .5px solid black;
   margin-right: 6rem
 }
 .WebImage {
-  height: 420px;
+  height: 445px;
   margin-right: 6rem;
   max-height: 430px;
   align-self: center;
@@ -31,7 +40,8 @@ max-height: 420px
 
 .Print, .Web {
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+  width: 100%
 }
 
 .Web {

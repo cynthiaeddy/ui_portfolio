@@ -65,7 +65,7 @@ ul {
   padding: 0;
   list-style-type: none;
 }
-.Container {
+.TopContainer {
   margin:auto;
   margin-top: 27rem;
 }
@@ -79,6 +79,14 @@ ul {
   margin-left: -1rem
 }
 
+.BottomContainer {
+  margin: auto;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  width: 95rem
+
+}
+
 .Button_website {
   background-color: black;
   color: white;
@@ -87,6 +95,7 @@ ul {
   border-radius: 10rem;
   margin-bottom: 10rem;
   font-weight: 600;
+  height: 4.25rem
 }
 
 .Button_website:hover {

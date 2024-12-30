@@ -6,11 +6,13 @@
   height: 55rem;
   display: flex;
   flex-direction: column;
+  background-color: #FFF;
 
 }
 .Card {
   display: flex;
-  height: 47.5rem
+  height: 47.5rem;
+  width:100%
 }
 .CardOpener {
   font-family: gelica, sans-serif;
@@ -42,11 +44,16 @@ p {
 .CardText {
   display:flex;
   flex-direction: column;
-  width: 100%;
-  margin-right: 1.5rem
+  width: 50%;
+  margin-right: 1.5rem;
+  /* max-width: 19rem; */
+  /* min-width:18.5rem */
 }
 .CardImage {
-  width: 100%;
+  width: 50%;
+  /* max-width:18.6rem;
+  min-width: 18.3rem */
+
 }
 .IndiCard {
   width: 100%;
@@ -67,4 +74,10 @@ box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
   font-weight: 600;
   border-top: .5px solid #000;
   padding: 2.5rem
+}
+
+
+/* ///// Media Queries ///// */
+@media screen and (min-width: 1350px) {
+
 }

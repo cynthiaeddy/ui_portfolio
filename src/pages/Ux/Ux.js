@@ -4,7 +4,7 @@ import { SscCard } from '../../components/Ux/CardButtons/SscCard'
 export const Ux = () => {
   return (
     <>
-      <section className='Container'>
+      <section className='TopContainer'>
         <div className='main_type'>i am</div>
         <div className='HomeButtonContainer'>
           <div className='UxButton '>
@@ -18,7 +18,7 @@ export const Ux = () => {
           </NavLink>
         </div>
       </section>
-      <div className='UxContainer'>
+      <div className='BottomContainer'>
         <div className='UxTopContainer'>
           <SscCard />
           <SscCard />

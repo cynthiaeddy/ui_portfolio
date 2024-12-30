@@ -9,11 +9,11 @@ export const PrintImages = () => {
   return (
     <section className='PrintImagesContainer'>
       <div className='Print'>
-        <figure className='PrintImages'>
+        <figure className='PrintImages fit'>
           <img className='PrintImage fit' src={fit} alt={fit} />
           <figcaption className='Print_captions'>shape magazine</figcaption>
         </figure>
-        <figure className='PrintImages'>
+        <figure className='PrintImages lunch'>
           <img className='PrintImage' src={lunch} alt={lunch} />
           <figcaption className='Print_captions no_margin'>
             shape magazine
