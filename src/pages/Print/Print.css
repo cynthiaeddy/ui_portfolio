@@ -11,3 +11,19 @@
   margin-top: 6rem;
 
 }
+.main_type.co {
+  font-size: 18rem;
+}
+.print_text {
+  font-size: 4.25rem;
+  text-transform: lowercase;
+  font-weight:600;
+  letter-spacing: -.03em;
+  line-height: 1.1;
+  margin-left: 4.3rem;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: inherit;
+  text-transform: lowercase;
+
+
+}

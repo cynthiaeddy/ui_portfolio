@@ -1,0 +1,36 @@
+.Card {
+  border: 1px solid #000;
+  display: flex;
+  padding: 2rem
+}
+.CardOpener {
+  font-family: gelica, sans-serif;
+  font-size: 3rem;
+  text-transform:initial;
+  letter-spacing: .02rem;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+
+}
+h6 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-align: left;
+}
+p {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  ;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 1.5;
+  text-align: left;
+  text-transform:initial;
+  letter-spacing: .1rem;
+}
+.CardText {
+  display:flex;
+  flex-direction: column;
+  width: 50%
+}
