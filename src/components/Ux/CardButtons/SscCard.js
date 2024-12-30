@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 /* eslint-disable prettier/prettier */
+import opener from '../../../assets/ssc/soap_opener.png'
 import './CardButtons.css'
 export const SscCard = () => {
   return (
@@ -17,9 +18,9 @@ export const SscCard = () => {
         </p>
       </div>
       <div className='CardImage'>
-        <img className='CardImage' src={opener} alt={opener} />
-      </div>
+        <img className='IndiCard' src={opener} alt={opener} />
       <button className='Button_website'>view project</button>
+      </div>
     </div>
   )
 }
