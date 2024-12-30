@@ -21,7 +21,8 @@
 .Card.fh {
   display: flex;
   height: 100%;
-  width:100%
+  width:100%;
+  margin-bottom: 2.5rem;
 }
 .CardOpener {
   font-family: gelica, sans-serif;
@@ -64,6 +65,7 @@ p.CardDescription.nyt {
 }
 .CardImage {
   width: 50%;
+  margin-bottom:3rem
 }
 .CardImage.fh {
   width: 65%;
@@ -76,7 +78,7 @@ p.CardDescription.nyt {
 .IndiCard_two{
   margin-left: -1rem;
   width: 21%;
-  margin-top: -2.75rem;
+  margin-top: -.25rem;
   align-self: center;
 }
 

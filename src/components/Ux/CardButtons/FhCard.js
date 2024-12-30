@@ -31,7 +31,7 @@ export const FhCard = () => {
           </p>
         </div>
       </section>
-      <div className='footer nyt'>add a feature to an existing website</div>
+      <div className='footer nyt'>redesign and responsive website</div>
     </div>
   )
 }
