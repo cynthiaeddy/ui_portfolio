@@ -4,7 +4,8 @@ import opener from '../../../assets/ssc/soap_opener.png'
 import './CardButtons.css'
 export const SscCard = () => {
   return (
-    <div className='Card'>
+    <div className='CardContainer'>
+      <section className='Card'>
       <div className='CardText'>
         <div className='CardOpener'>
           Sustainable Soap Co. needed a website redesign to better reflect its
@@ -19,8 +20,10 @@ export const SscCard = () => {
       </div>
       <div className='CardImage'>
         <img className='IndiCard' src={opener} alt={opener} />
-      <button className='Button_website'>view project</button>
+        <button className='Button_website'>view project</button>
       </div>
+      </section>
+       <div className='footer'>end to end project</div>
     </div>
   )
 }
