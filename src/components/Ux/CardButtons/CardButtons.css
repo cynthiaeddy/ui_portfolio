@@ -1,5 +1,5 @@
 .CardContainer {
-  border: 1px solid #000;
+  border: .75px solid #000;
   display: flex;
   padding: 2rem;
   width: 46.5%;
@@ -9,9 +9,18 @@
   background-color: #FFF;
 
 }
+.CardContainer.fh {
+  width: 100%;
+  height: 48rem
+}
 .Card {
   display: flex;
   height: 47.5rem;
+  width:100%
+}
+.Card.fh {
+  display: flex;
+  height: 100%;
   width:100%
 }
 .CardOpener {
@@ -27,7 +36,7 @@
 }
 h6 {
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-align: left;
   line-height: 1.5
 }
@@ -49,14 +58,31 @@ p.CardDescription.nyt {
   flex-direction: column;
   width: 50%;
   margin-right: 1.5rem;
-
+}
+.CardText.fh {
+  padding-left: 2rem
 }
 .CardImage {
   width: 50%;
 }
+.CardImage.fh {
+  width: 65%;
+}
 .IndiCard {
   width: 100%;
   margin-bottom: 1rem;
+
+}
+.IndiCard_two{
+  margin-left: -1rem;
+  width: 21%;
+  margin-top: -2.75rem;
+  align-self: center;
+}
+
+
+.IndiCard.fh {
+  margin-bottom: .5rem;
 
 }
 .CardContainer:hover {
