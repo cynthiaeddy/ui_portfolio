@@ -41,19 +41,18 @@ p {
   text-transform:initial;
   letter-spacing: .1rem;
 }
+p.CardDescription.nyt {
+  letter-spacing: .04rem;
+}
 .CardText {
   display:flex;
   flex-direction: column;
   width: 50%;
   margin-right: 1.5rem;
-  /* max-width: 19rem; */
-  /* min-width:18.5rem */
+
 }
 .CardImage {
   width: 50%;
-  /* max-width:18.6rem;
-  min-width: 18.3rem */
-
 }
 .IndiCard {
   width: 100%;
@@ -75,9 +74,7 @@ box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
   border-top: .5px solid #000;
   padding: 2.5rem
 }
-
-
-/* ///// Media Queries ///// */
-@media screen and (min-width: 1350px) {
-
+.footer.nyt {
+  letter-spacing: .3rem;
 }
+
