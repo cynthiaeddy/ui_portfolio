@@ -24,10 +24,7 @@ text-transform:initial;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
-  /* width: 60%; */
   width:90%;
-  /* margin: auto;
-  margin-left: 18% */
   min-width: 450px
 }
 .AboutImage {
@@ -60,12 +57,9 @@ font-weight: 300;
 
 .Container.about {
   display: flex;
-width: 120rem;
-padding-left: 10%;
-padding-right: 10%;
-max-width: 120rem;
+width: 95rem;
 margin: auto;
-margin-top: 27rem
+margin-top: 30rem
 }
 .AboutContainerNew {
   width: 50%;

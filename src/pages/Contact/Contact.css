@@ -1,12 +1,9 @@
 
 .Container.contact {
 display: flex;
-width: 120rem;
-padding-left: 10%;
-padding-right: 10%;
-max-width: 120rem;
+width: 95rem;
 margin: auto;
-margin-top: 27rem
+margin-top: 30rem
 }
 
 .Contact_text {
