@@ -21,3 +21,59 @@
     border-radius: 20px;
 
 }
+.textWrapper {
+  background: #231F20;
+  width: 100%;
+  height: 20rem;
+  border-radius: 20px;
+  margin-top: .5px;
+  padding: 4rem
+
+}
+h2 {
+  font-family: gelica, sans-serif;
+  color: white;
+  font-size: 4.5rem;
+  text-transform: initial;
+  letter-spacing: .01rem;
+  line-height: 1.5;
+}
+h5 {
+  font-size: 2.1rem;
+  color:white;
+  text-transform: initial;
+  letter-spacing: .1rem;
+  font-weight: 400;
+   font-family: "neue-haas-grotesk-display", sans-serif;;
+}
+.h5.black {
+  color: black;
+  text-align: left
+}
+.h5.small {
+  color: black;
+  font-size: 1.9rem;
+  text-align: left;
+  line-height: 1.6;
+
+
+}
+.h6.studies {
+  font-size: 1.4rem;
+}
+.h6.small {
+  margin-bottom: .5rem
+}
+
+
+.OpenerInfo {
+  display: flex;
+  margin: 4rem;
+  justify-content: space-between;
+}
+.Info {
+  width: 80%
+}
+.InfoSmall {
+  width: 15%
+}

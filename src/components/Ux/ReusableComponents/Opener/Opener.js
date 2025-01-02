@@ -13,6 +13,48 @@ export const Opener = () => {
         <img className='OpenerFoto' src={soap_ive} alt={soap_ive} />
       </div>
       <div className='background'></div>
+      <div className='textWrapper'>
+        <h2>Sustainable Soap Co.</h2>
+        <h5>
+          specializes in small batch sustainable products such as soaps, shampoo
+          and lotions for hair and body.
+        </h5>
+      </div>
+      <div className='OpenerInfo'>
+        <div className='Info'>
+          <h6 className='h6 studies'>PROBLEM</h6>
+          <h5 className='h5 black'>
+            The website struggles with low traffic and customer engagement due
+            to a generic design that fails to stand out. A redesign is needed to
+            create a visually appealing experience aligned with the brand&apos;s
+            sustainable ethos, boosting conversions and user satisfaction.
+          </h5>
+          <br />
+          <h6 className='h6 studies'>solution</h6>
+          <h5 className='h5 black'>
+            How might we redesign the website to create an engaging, visually
+            appealing experience that showcases it&apos;s eco-friendly products,
+            reflects it&apos;s sustainable ethos, and effectively converts
+            visitors into loyal customers?
+          </h5>
+        </div>
+        <div className='InfoSmall'>
+          <h6 className='h6 small'>role</h6>
+          <h5 className='h5 small'>
+            UX Researcher <br />
+            UI Designer
+          </h5>
+          <br />
+          <h6 className='h6 small'>duration</h6>
+          <h5 className='h5 small'>12 Weeks</h5>
+          <br />
+          <h6 className='h6 small'>tools</h6>
+          <h5 className='h5 small'>
+            Figma <br />
+            Photoshop
+          </h5>
+        </div>
+      </div>
     </section>
   )
 }
