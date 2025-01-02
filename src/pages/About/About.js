@@ -7,7 +7,7 @@ export const About = () => {
   return (
     <section className='Container about'>
       <div className='AboutHi'>
-        hiya, i&apos;m <br />
+        hiya,i&apos;m <br />
         cynthia
       </div>
       <div className='AboutContainerNew'>

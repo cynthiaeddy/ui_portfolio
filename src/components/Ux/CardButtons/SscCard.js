@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom'
 import opener from '../../../assets/ssc/soap_opener.png'
 import './CardButtons.css'
 export const SscCard = () => {
   return (
-    <div className='CardContainer'>
+    <Link to='ssc' className='CardContainer'>
       <section className='Card'>
         <div className='CardText'>
           <div className='CardOpener'>
@@ -22,6 +23,6 @@ export const SscCard = () => {
         </div>
       </section>
       <div className='footer'>end to end project</div>
-    </div>
+    </Link>
   )
 }

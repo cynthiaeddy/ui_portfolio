@@ -1,0 +1,23 @@
+.OpenerContainer {
+  width: 95rem;
+
+}
+
+
+.Opener {
+  display: flex;
+  margin: auto;
+  width: 80rem;
+  justify-content: space-between;
+}
+.OpenerFoto {
+  width: 31%
+}
+.background {
+    background: #231F20;
+    margin-top: -25rem;
+    width: 100%;
+    height: 31rem;
+    border-radius: 20px;
+
+}

@@ -10,6 +10,7 @@ import { Development } from './pages/Development/Development'
 import { About } from './pages/About/About'
 import { Contact } from './pages/Contact/Contact'
 import { Ux } from './pages/Ux/Ux'
+import { Ssc } from './pages/CaseStudies/Ssc/Ssc'
 
 const App = () => {
   let routes = (
@@ -20,6 +21,7 @@ const App = () => {
       <Route exact path='/about' element={<About />} />
       <Route exact path='/contact' element={<Contact />} />
       <Route exact path='/ux_ui' element={<Ux />} />
+      <Route exact path='/ux_ui/ssc' element={<Ssc />} />
     </Routes>
   )
   return (
