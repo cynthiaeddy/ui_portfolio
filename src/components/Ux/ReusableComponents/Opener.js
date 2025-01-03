@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import './ReusableComponents.css'
-import opener_down from '../../../../assets/ssc/opener_down.png'
-import soap_ive from '../../../../assets/ssc/soap_ive.png'
-import soap_opener from '../../../../assets/ssc/soap_opener.png'
+import opener_down from '../../../assets/ssc/opener_down.png'
+import soap_ive from '../../../assets/ssc/soap_ive.png'
+import soap_opener from '../../../assets/ssc/soap_opener.png'
 
 export const Opener = () => {
   return (
@@ -55,6 +55,7 @@ export const Opener = () => {
           </h5>
         </div>
       </div>
+      <div className='divider_curved'></div>
     </section>
   )
 }

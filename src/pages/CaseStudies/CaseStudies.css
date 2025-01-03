@@ -1,3 +1,14 @@
 .Container.studies {
 margin: auto;
-margin-top: 20rem}
+margin-top: 20rem;
+background: #FAF9F8;
+width: 100%
+}
+.WideContainer {
+  width: 100%;
+  background: #FAF9F8;
+}
+.StudiesTopContainer {
+  margin: auto;
+  padding-top: 3rem
+}

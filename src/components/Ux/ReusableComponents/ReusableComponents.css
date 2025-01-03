@@ -1,6 +1,11 @@
 .OpenerContainer {
   width: 95rem;
-
+  margin: auto;
+  margin-bottom: 9rem
+}
+.WideContainer {
+  width: 100%;
+  background: #231F20
 }
 
 
@@ -55,8 +60,9 @@ h5 {
   font-size: 1.9rem;
   text-align: left;
   line-height: 1.6;
-
-
+}
+.h5.dropCap {
+  text-align: left;
 }
 .h6.studies {
   font-size: 1.4rem;
@@ -70,6 +76,7 @@ h5 {
   display: flex;
   margin: 4rem;
   justify-content: space-between;
+  margin-bottom: 0
 }
 .Info {
   width: 80%
@@ -77,3 +84,45 @@ h5 {
 .InfoSmall {
   width: 15%
 }
+
+.divider_curved {
+  width: 100%;
+  height: 3rem;
+  border-radius: 20px;
+border-bottom: 1px solid #000;
+margin-bottom: 2rem;}
+
+.BlackHeds {
+  background: black;
+  padding: 2rem;
+  width: fit-content;
+  height:fit-content;
+  margin: auto;
+  margin-bottom: .5px;
+  border-radius: 20px;
+  width: fit-content;
+  height: fit-content;
+  line-height: 0;
+  padding: 1rem 1.5rem;
+
+}
+
+
+.h5.dropCap::first-letter {
+  font-family: gelica, sans-serif;
+  color: white;
+  font-size: 12rem;
+  float: left;
+  line-height: .9; /* from 1 */
+  margin-right: 0.05em;
+  font-weight: 200;
+}
+
+.StudiesTopContainer {
+  background: #231F20;
+  width: 95rem;
+  padding-top: 5rem
+}
+
+
+

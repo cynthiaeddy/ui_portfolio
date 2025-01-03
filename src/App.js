@@ -10,7 +10,7 @@ import { Development } from './pages/Development/Development'
 import { About } from './pages/About/About'
 import { Contact } from './pages/Contact/Contact'
 import { Ux } from './pages/Ux/Ux'
-import { Ssc } from './pages/CaseStudies/Ssc/Ssc'
+import { Ssc } from './pages/CaseStudies/Ssc'
 
 const App = () => {
   let routes = (
