@@ -5,7 +5,20 @@
 }
 .WideContainer {
   width: 100%;
-  background: #231F20
+  background: #231F20;
+  border-radius: 20px;
+  display: flex
+  ;
+      flex-direction: column;
+}
+.InnerContainer {
+  display: flex;
+  margin: auto;
+  width: 95rem;
+  flex-direction: column;
+}
+.WideContainer.bottom {
+  margin-top: .5px
 }
 
 
@@ -43,13 +56,14 @@ h2 {
   letter-spacing: .01rem;
   line-height: 1.5;
 }
-h5 {
+h5,.leadin {
   font-size: 2.1rem;
   color:white;
   text-transform: initial;
   letter-spacing: .1rem;
   font-weight: 400;
    font-family: "neue-haas-grotesk-display", sans-serif;;
+   text-align: left;
 }
 .h5.black {
   color: black;
@@ -63,6 +77,8 @@ h5 {
 }
 .h5.dropCap {
   text-align: left;
+  margin-top:5rem;
+
 }
 .h6.studies {
   font-size: 1.4rem;
@@ -113,16 +129,77 @@ margin-bottom: 2rem;}
   color: white;
   font-size: 12rem;
   float: left;
-  line-height: .9; /* from 1 */
+  line-height: .85; /* from 1 */
   margin-right: 0.05em;
   font-weight: 200;
 }
-
-.StudiesTopContainer {
-  background: #231F20;
-  width: 95rem;
-  padding-top: 5rem
+.h5.leadins {
+  margin-top: 6rem;
+  margin-bottom: 5rem
+}
+.leadin {
+  font-weight: 600;
 }
 
+.StudiesTopContainer {
+  padding-top: 5rem;
+}
+.ButtonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 5;
+  position: relative;
+  margin-top: 3rem
+}
+.ButtonContainer.persona {
+  margin-top: 5rem
+}
 
+.Button.enlarge {
+  background: black;
+  color: white;
+  padding: .5rem 2rem;
+  border-radius: 10rem;
+  width: fit-content;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  border: 1.25px solid rgb(160, 157, 157);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.magnifier {
+  width: 7%
+}
+.competitive {
+  width: 75rem;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: -11rem;
+}
+.competitive.persona {
+  margin-top: -5rem;
+  margin-bottom: 6rem
+}
 
+.h5.bullets {
+  margin-top: 2rem
+}
+
+li {
+  list-style: '•';
+  color: white;
+  font-size: 2rem;
+  padding-left: 1rem
+}
+
+li.first_li_research {
+  padding-left: 1rem
+}
+ul {
+  padding-left: .75rem
+}
+
+.space {
+  padding-left: 1rem
+}
