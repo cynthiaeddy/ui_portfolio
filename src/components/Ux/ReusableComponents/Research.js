@@ -12,11 +12,11 @@ export const Research = () => {
 
   const modalSscOpen = () => {
     setIsmodalSscOpen(true)
-    document.body.style.overflow = 'hidden' // Prevent scrolling
+    document.body.style.overflow = 'hidden'
   }
   const modalSscClose = () => {
     setIsmodalSscOpen(false)
-    document.body.style.overflow = 'auto' // Restore scrolling
+    document.body.style.overflow = 'auto'
   }
 
   return (
@@ -25,9 +25,7 @@ export const Research = () => {
         <h2>Research</h2>
       </div>
       <section className='WideContainer '>
-        <div className='InnerContainer'>
-          {/* Add the closing tag for the div */}
-        </div>
+        <div className='InnerContainer'></div>
         <h5 className='h5 dropCap'>
           To kick off the research phase, I conducted an in-depth analysis of
           competing sustainable soap brands. The focus was to uncover what sets
@@ -107,7 +105,9 @@ export const Research = () => {
 
           <div className='ButtonContainer'>
             <div className='Button enlarge'>affinity mapping</div>
-            <img className='magnifier' src={mag_blk} alt={mag_blk} />
+            <button onClick={modalSscOpen}>
+              <img className='magnifier' src={mag_blk} alt={mag_blk} />
+            </button>
           </div>
           <img className='competitive' src={affinity_map} alt={affinity_map} />
           <div className='ButtonContainer persona'>

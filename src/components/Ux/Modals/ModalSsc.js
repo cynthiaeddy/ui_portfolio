@@ -1,6 +1,7 @@
 import './Modals.css'
 // import { GrClose } from 'react-icons/gr'
 import { IoCloseCircle } from 'react-icons/io5'
+// import closeButton from
 import competitive_lg from '../../../assets/ssc/competitive_two.png'
 
 export const ModalSsc = ({ isOpen = true, modalSscClose }) => {
@@ -18,7 +19,11 @@ export const ModalSsc = ({ isOpen = true, modalSscClose }) => {
           >
             <IoCloseCircle
               size={32}
-              style={{ float: 'right', background: 'white' }}
+              style={{
+                float: 'right',
+                background: 'white',
+                borderRadius: '50%',
+              }}
             />
           </button>
           <div className='ModalContainerScroll'>

@@ -17,13 +17,16 @@
   z-index: 175;
   width: 90%;
   top: 15%;
-  /* background: #FAF9F8; */
-  max-width: 150rem
+  background: #000;
+  max-width: 150rem;
+  padding: 1rem 4rem 4rem 4rem;
+  border-radius: 20px
 
 }
 .ModalContainerScroll {
   overflow: scroll;
   height: 80rem;
+  border-radius: 10px;
 }
 .ModalContainer-button {
   height: 4rem;
