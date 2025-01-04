@@ -167,15 +167,19 @@ margin-bottom: 2rem;}
   border: 1.25px solid rgb(160, 157, 157);
   font-size: 1.3rem;
   font-weight: 600;
+  position: relative;
+  z-index: 50;
 }
 .magnifier {
-  width: 7%
+  width: 6rem;
+  position: relative;
+  z-index: 50;
 }
 .competitive {
   width: 75rem;
   border-radius: 20px;
   margin: auto;
-  margin-top: -11rem;
+  margin-top: -11.5rem;
 }
 .competitive.persona {
   margin-top: -5rem;

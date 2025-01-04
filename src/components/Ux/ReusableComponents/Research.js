@@ -1,11 +1,22 @@
+import { useState } from 'react'
 import './ReusableComponents.css'
 // import mag_wh from '../../../assets/ssc/mag_white.png'
 import mag_blk from '../../../assets/ssc/mag_blk.png'
 import competitive_sm from '../../../assets/ssc/competitive_sm.png'
 import affinity_map from '../../../assets/ssc/ive_affinity_mapsm.png'
 import persona from '../../../assets/ssc/ive_persona.png'
+import { ModalSsc } from '../Modals/ModalSsc'
 
 export const Research = () => {
+  const [isModalAboutUsOpen, setIsModalAboutUsOpen] = useState(false)
+
+  const modalAboutUsOpen = () => {
+    setIsModalAboutUsOpen(true)
+  }
+  const modalAboutUsClose = () => {
+    setIsModalAboutUsOpen(false)
+  }
+
   return (
     <>
       <div className='BlackHeds'>
@@ -13,22 +24,26 @@ export const Research = () => {
       </div>
       <section className='WideContainer '>
         <div className='InnerContainer'>
-          <h5 className='h5 dropCap'>
-            To kick off the research phase, I conducted an in-depth analysis of
-            competing sustainable soap brands. The focus was to uncover what
-            sets Sustainable Soap Co. apart and identify ways to showcase their
-            commitment to eco-conscious practices through refined, distinctive
-            branding.
-          </h5>
-          <div className='ButtonContainer'>
-            <div className='Button enlarge'>competitve analysis swot</div>
+          {/* Add the closing tag for the div */}
+        </div>
+        <h5 className='h5 dropCap'>
+          To kick off the research phase, I conducted an in-depth analysis of
+          competing sustainable soap brands. The focus was to uncover what sets
+          Sustainable Soap Co. apart and identify ways to showcase their
+          commitment to eco-conscious practices through refined, distinctive
+          branding.
+        </h5>
+        <div className='ButtonContainer'>
+          <div className='Button enlarge'>competitve analysis swot</div>
+          <button onClick={modalAboutUsOpen}>
             <img className='magnifier' src={mag_blk} alt={mag_blk} />
-          </div>
+          </button>
           <img
             className='competitive'
             src={competitive_sm}
             alt={competitive_sm}
           />
+
           <h5 className='h5 leadins'>
             <span className='leadin'>From the competitive analysis,</span> I
             learned that while many sustainable soap brands focus on
@@ -99,6 +114,10 @@ export const Research = () => {
           <img className='competitive persona' src={persona} alt={persona} />
         </div>
       </section>
+      <ModalSsc
+        isOpen={isModalAboutUsOpen}
+        modalAboutUsClose={modalAboutUsClose}
+      />
     </>
   )
 }
