@@ -3,6 +3,9 @@
   margin: auto;
   margin-bottom: 9rem
 }
+.OpenerContainer.define {
+  margin-top: 4rem
+}
 .WideContainer {
   width: 100%;
   background: #231F20;
@@ -18,7 +21,8 @@
   flex-direction: column;
 }
 .WideContainer.bottom {
-  margin-top: .5px
+  margin-top: .5px;
+  margin-bottom: 9rem
 }
 
 
@@ -56,6 +60,9 @@ h2 {
   letter-spacing: .01rem;
   line-height: 1.5;
 }
+.h2_white {
+  color: black
+}
 h5,.leadin {
   font-size: 2.1rem;
   color:white;
@@ -65,20 +72,23 @@ h5,.leadin {
    font-family: "neue-haas-grotesk-display", sans-serif;;
    text-align: left;
 }
+.h5.openerType {
+  text-align: center;
+}
 .h5.black {
   color: black;
-  text-align: left
+}
+.h5.black.center {
+  text-align: center;
+  margin-bottom: 3rem;
 }
 .h5.small {
   color: black;
   font-size: 1.9rem;
-  text-align: left;
   line-height: 1.6;
 }
-.h5.dropCap {
-  text-align: left;
+.h5.dropCap, .h5.marginTop {
   margin-top:5rem;
-
 }
 .h6.studies {
   font-size: 1.4rem;
@@ -86,6 +96,7 @@ h5,.leadin {
 .h6.small {
   margin-bottom: .5rem
 }
+
 
 
 .OpenerInfo {
@@ -122,6 +133,11 @@ margin-bottom: 2rem;}
   padding: 1rem 1.5rem;
 
 }
+.BlackHeds.white {
+  background: white;
+  border: 1.5px solid black;
+  /* margin-top: 4rem */
+}
 
 
 .h5.dropCap::first-letter {
@@ -140,6 +156,10 @@ margin-bottom: 2rem;}
 .leadin {
   font-weight: 600;
 }
+.leadin.black {
+  color: black;
+
+}
 
 .StudiesTopContainer {
   padding-top: 5rem;
@@ -152,9 +172,7 @@ margin-bottom: 2rem;}
   position: relative;
   margin-top: 3rem
 }
-.ButtonContainer.persona {
-  margin-top: 5rem
-}
+
 
 .Button.enlarge {
   background: black;
@@ -209,4 +227,24 @@ ul {
 
 .space {
   padding-left: 1rem
+}
+
+.dropCap.hang {
+  font-family: gelica, sans-serif;
+  font-weight: 200;
+  color: black;
+  font-size: 5.5rem;
+  float: left;
+  margin-top: .75rem;
+}
+.dropCap.hang.one {
+  margin-left:1rem
+}
+
+
+.smallWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-left: 1rem
 }

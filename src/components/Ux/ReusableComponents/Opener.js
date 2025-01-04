@@ -15,7 +15,7 @@ export const Opener = () => {
       <div className='background'></div>
       <div className='textWrapper'>
         <h2>Sustainable Soap Co.</h2>
-        <h5>
+        <h5 className='h5 openerType'>
           specializes in small batch sustainable products such as soaps, shampoo
           and lotions for hair and body.
         </h5>

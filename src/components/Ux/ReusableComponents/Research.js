@@ -121,7 +121,13 @@ export const Research = () => {
             </button>
           </div>
           <img className='competitive' src={affinity_map} alt={affinity_map} />
-          <div className='ButtonContainer persona'>
+          <h5 className='h5 marginTop'>
+            <span className='leadin'>Emma represents a growing segment </span>
+            of eco-conscious consumers who want to make sustainable choices
+            while maintaining quality and convenience, highlighting the need for
+            better transparency in sustainable shopping.
+          </h5>
+          <div className='ButtonContainer'>
             <div className='Button enlarge'>persona</div>
           </div>
           <img className='competitive persona' src={persona} alt={persona} />
