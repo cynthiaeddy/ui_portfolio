@@ -1,7 +1,8 @@
 /* eslint-disable prettier/prettier */
 import { useState } from 'react'
 import './ReusableComponents.css'
-// import mag_wh from '../../../assets/ssc/mag_wh.png'
+// eslint-disable-next-line no-unused-vars
+import mag_wh from '../../../assets/ssc/mag_wh.png'
 import mag_blk from '../../../assets/ssc/mag_blk.png'
 import competitive_sm from '../../../assets/ssc/competitive_sm.png'
 import affinity_map from '../../../assets/ssc/ive_affinity_mapsm.png'
@@ -12,6 +13,16 @@ import { ModalSscAffinity } from '../Modals/ModalSscAffinity'
 export const Research = () => {
   const [ismodalSscOpen, setIsmodalSscOpen] = useState(false)
   const [ismodalSscAffinityOpen, setIsmodalSscAffinityOpen] = useState(false)
+  const [hover, setHover] = useState(false);
+
+  const handleMouseIn = () => {
+    setHover(true);
+  };
+
+  const handleMouseOut = () => {
+    setHover(false);
+  };
+
 
   const modalSscOpen = () => {
     setIsmodalSscOpen(true)
@@ -30,6 +41,8 @@ export const Research = () => {
     document.body.style.overflow = 'auto'
   }
 
+
+
   return (
     <>
       <div className='BlackHeds'>
@@ -46,8 +59,10 @@ export const Research = () => {
           </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>competitve analysis swot</div>
-            <button onClick={modalSscOpen}>
-              <img className='magnifier' src={mag_blk} alt={mag_blk} />
+            <button onClick={modalSscOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
+            {hover ? <img className='magnifier' src={mag_wh} alt={mag_wh}
+              /> : <img className='magnifier' src={mag_blk} alt={mag_blk}
+              />}
             </button>
             <img
               className='competitive'
@@ -117,8 +132,10 @@ export const Research = () => {
 
           <div className='ButtonContainer'>
             <div className='Button enlarge'>affinity mapping</div>
-            <button onClick={modalSscAffinityOpen}>
-              <img className='magnifier' src={mag_blk} alt={mag_blk} />
+            <button onClick={modalSscAffinityOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
+            {hover ? <img className='magnifier' src={mag_wh} alt={mag_wh}
+              /> : <img className='magnifier' src={mag_blk} alt={mag_blk}
+              />}
             </button>
           <img className='competitive' src={affinity_map} alt={affinity_map} />
           <h5 className='h5 marginTop'>
