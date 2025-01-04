@@ -1,6 +1,7 @@
+/* eslint-disable prettier/prettier */
 import { useState } from 'react'
 import './ReusableComponents.css'
-// import mag_wh from '../../../assets/ssc/mag_white.png'
+// import mag_wh from '../../../assets/ssc/mag_wh.png'
 import mag_blk from '../../../assets/ssc/mag_blk.png'
 import competitive_sm from '../../../assets/ssc/competitive_sm.png'
 import affinity_map from '../../../assets/ssc/ive_affinity_mapsm.png'
@@ -119,14 +120,14 @@ export const Research = () => {
             <button onClick={modalSscAffinityOpen}>
               <img className='magnifier' src={mag_blk} alt={mag_blk} />
             </button>
-          </div>
           <img className='competitive' src={affinity_map} alt={affinity_map} />
           <h5 className='h5 marginTop'>
             <span className='leadin'>Emma represents a growing segment </span>
             of eco-conscious consumers who want to make sustainable choices
             while maintaining quality and convenience, highlighting the need for
             better transparency in sustainable shopping.
-          </h5>
+            </h5>
+            </div>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>persona</div>
           </div>
