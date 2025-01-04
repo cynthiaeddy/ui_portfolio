@@ -24,6 +24,9 @@
   margin-top: .5px;
   margin-bottom: 9rem
 }
+.WideContainer.ideate {
+  padding-bottom: 8rem;
+}
 
 
 .Opener {
@@ -155,6 +158,8 @@ margin-bottom: 2rem;}
 }
 .leadin {
   font-weight: 600;
+  font-size: 1.95rem;
+  letter-spacing: .05rem;
 }
 .leadin.black {
   color: black;
@@ -193,18 +198,22 @@ margin-bottom: 2rem;}
   position: relative;
   z-index: 50;
 }
-.competitive {
+.competitive, .mood {
   width: 75rem;
   border-radius: 20px;
   margin: auto;
   margin-top: -11.5rem;
+}
+
+.mood, .style {
+  margin-top: -5rem;
 }
 .competitive_lg {
   width: 100%
 }
 .competitive.persona {
   margin-top: -5rem;
-  margin-bottom: 6rem
+  margin-bottom: 8rem
 }
 
 .h5.bullets {
