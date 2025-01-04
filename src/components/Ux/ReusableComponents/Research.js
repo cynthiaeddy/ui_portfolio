@@ -6,9 +6,11 @@ import competitive_sm from '../../../assets/ssc/competitive_sm.png'
 import affinity_map from '../../../assets/ssc/ive_affinity_mapsm.png'
 import persona from '../../../assets/ssc/ive_persona.png'
 import { ModalSsc } from '../Modals/ModalSsc'
+import { ModalSscAffinity } from '../Modals/ModalSscAffinity'
 
 export const Research = () => {
   const [ismodalSscOpen, setIsmodalSscOpen] = useState(false)
+  const [ismodalSscAffinityOpen, setIsmodalSscAffinityOpen] = useState(false)
 
   const modalSscOpen = () => {
     setIsmodalSscOpen(true)
@@ -16,6 +18,14 @@ export const Research = () => {
   }
   const modalSscClose = () => {
     setIsmodalSscOpen(false)
+    document.body.style.overflow = 'auto'
+  }
+  const modalSscAffinityOpen = () => {
+    setIsmodalSscAffinityOpen(true)
+    document.body.style.overflow = 'hidden'
+  }
+  const modalSscAffinityClose = () => {
+    setIsmodalSscAffinityOpen(false)
     document.body.style.overflow = 'auto'
   }
 
@@ -106,7 +116,7 @@ export const Research = () => {
 
           <div className='ButtonContainer'>
             <div className='Button enlarge'>affinity mapping</div>
-            <button onClick={modalSscOpen}>
+            <button onClick={modalSscAffinityOpen}>
               <img className='magnifier' src={mag_blk} alt={mag_blk} />
             </button>
           </div>
@@ -118,6 +128,10 @@ export const Research = () => {
         </div>
       </section>
       <ModalSsc isOpen={ismodalSscOpen} modalSscClose={modalSscClose} />
+      <ModalSscAffinity
+        isOpen={ismodalSscAffinityOpen}
+        modalSscClose={modalSscAffinityClose}
+      />
     </>
   )
 }
