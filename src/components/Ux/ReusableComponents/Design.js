@@ -7,7 +7,7 @@ import mag_blk from '../../../assets/ssc/mag_blk.png'
 import user_flow from '../../../assets/ssc/ssc_user_flow.png'
 import mid_fi from '../../../assets/ssc/ive_mid_fi.png'
 import { ModalSscFlow } from '../Modals/ModalSscFlow'
-// import { ModalSscLoFi } from '../Modals/ModalSscLoFi'
+import { ModalSscLoFi } from '../Modals/ModalSscLoFi'
 
 export const Design = () => {
   const [hover, setHover] = useState(false);
@@ -97,7 +97,7 @@ export const Design = () => {
         </ul>
         <div className='ButtonContainer'>
                     <div className='Button enlarge white'>low fidelity wireframes</div>
-                    <button onClick={''} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
+                    <button onClick={modalSscLoFiOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
                     {hover ? <img className='magnifier' src={mag_blk} alt={mag_blk}
                       /> : <img className='magnifier' src={mag_wh} alt={mag_wh}
                       />}
@@ -107,7 +107,7 @@ export const Design = () => {
 
       </section>
       <ModalSscFlow isOpen={ismodalSscFlowOpen} modalSscClose={modalSscFlowClose} />
-      {/* <ModalSscLoFi isOpen={ismodalSscLoFiOpen} modalSscClose={modalSscLoFiClose} /> */}
+      <ModalSscLoFi isOpen={ismodalSscLoFiOpen} modalSscClose={modalSscLoFiClose} />
     </>
   )
 }
