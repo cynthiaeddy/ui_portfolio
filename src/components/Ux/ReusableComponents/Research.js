@@ -25,44 +25,45 @@ export const Research = () => {
         <h2>Research</h2>
       </div>
       <section className='WideContainer '>
-        <div className='InnerContainer'></div>
-        <h5 className='h5 dropCap'>
-          To kick off the research phase, I conducted an in-depth analysis of
-          competing sustainable soap brands. The focus was to uncover what sets
-          Sustainable Soap Co. apart and identify ways to showcase their
-          commitment to eco-conscious practices through refined, distinctive
-          branding.
-        </h5>
-        <div className='ButtonContainer'>
-          <div className='Button enlarge'>competitve analysis swot</div>
-          <button onClick={modalSscOpen}>
-            <img className='magnifier' src={mag_blk} alt={mag_blk} />
-          </button>
-          <img
-            className='competitive'
-            src={competitive_sm}
-            alt={competitive_sm}
-          />
-
-          <h5 className='h5 leadins'>
-            <span className='leadin'>From the competitive analysis,</span> I
-            learned that while many sustainable soap brands focus on
-            eco-friendly values and high-quality, handcrafted products, there
-            are clear opportunities for Sustainable Soap Co. to stand out.
-            Customers are increasingly drawn to small, artisan businesses that
-            prioritize local sourcing and sustainability, and by strengthening
-            Sustainable Soap Co.&apos;s brand story and visual appeal, we can
-            better reflect the quality of their products and create a stronger
-            connection with their audience. <br />
-            <br />
-            <span className='leadin'>
-              Competitors also have inconsistent
-            </span>{' '}
-            branding and poor site navigation, presenting an opportunity for us
-            to improve user experience by refining Sustainable Soap Co.&apos;s
-            design and making features like product reviews and search
-            functionality more visible.
+        <div className='InnerContainer'>
+          <h5 className='h5 dropCap'>
+            To kick off the research phase, I conducted an in-depth analysis of
+            competing sustainable soap brands. The focus was to uncover what
+            sets Sustainable Soap Co. apart and identify ways to showcase their
+            commitment to eco-conscious practices through refined, distinctive
+            branding.
           </h5>
+          <div className='ButtonContainer'>
+            <div className='Button enlarge'>competitve analysis swot</div>
+            <button onClick={modalSscOpen}>
+              <img className='magnifier' src={mag_blk} alt={mag_blk} />
+            </button>
+            <img
+              className='competitive'
+              src={competitive_sm}
+              alt={competitive_sm}
+            />
+
+            <h5 className='h5 leadins'>
+              <span className='leadin'>From the competitive analysis,</span> I
+              learned that while many sustainable soap brands focus on
+              eco-friendly values and high-quality, handcrafted products, there
+              are clear opportunities for Sustainable Soap Co. to stand out.
+              Customers are increasingly drawn to small, artisan businesses that
+              prioritize local sourcing and sustainability, and by strengthening
+              Sustainable Soap Co.&apos;s brand story and visual appeal, we can
+              better reflect the quality of their products and create a stronger
+              connection with their audience. <br />
+              <br />
+              <span className='leadin'>
+                Competitors also have inconsistent
+              </span>{' '}
+              branding and poor site navigation, presenting an opportunity for
+              us to improve user experience by refining Sustainable Soap
+              Co.&apos;s design and making features like product reviews and
+              search functionality more visible.
+            </h5>
+          </div>
         </div>
       </section>
       <section className='WideContainer bottom'>
