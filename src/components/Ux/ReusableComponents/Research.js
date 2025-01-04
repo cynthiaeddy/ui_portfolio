@@ -8,13 +8,15 @@ import persona from '../../../assets/ssc/ive_persona.png'
 import { ModalSsc } from '../Modals/ModalSsc'
 
 export const Research = () => {
-  const [isModalAboutUsOpen, setIsModalAboutUsOpen] = useState(false)
+  const [ismodalSscOpen, setIsmodalSscOpen] = useState(false)
 
-  const modalAboutUsOpen = () => {
-    setIsModalAboutUsOpen(true)
+  const modalSscOpen = () => {
+    setIsmodalSscOpen(true)
+    document.body.style.overflow = 'hidden' // Prevent scrolling
   }
-  const modalAboutUsClose = () => {
-    setIsModalAboutUsOpen(false)
+  const modalSscClose = () => {
+    setIsmodalSscOpen(false)
+    document.body.style.overflow = 'auto' // Restore scrolling
   }
 
   return (
@@ -35,7 +37,7 @@ export const Research = () => {
         </h5>
         <div className='ButtonContainer'>
           <div className='Button enlarge'>competitve analysis swot</div>
-          <button onClick={modalAboutUsOpen}>
+          <button onClick={modalSscOpen}>
             <img className='magnifier' src={mag_blk} alt={mag_blk} />
           </button>
           <img
@@ -114,10 +116,7 @@ export const Research = () => {
           <img className='competitive persona' src={persona} alt={persona} />
         </div>
       </section>
-      <ModalSsc
-        isOpen={isModalAboutUsOpen}
-        modalAboutUsClose={modalAboutUsClose}
-      />
+      <ModalSsc isOpen={ismodalSscOpen} modalSscClose={modalSscClose} />
     </>
   )
 }

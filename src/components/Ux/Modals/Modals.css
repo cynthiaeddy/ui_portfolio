@@ -8,7 +8,6 @@
   background: rgba(0, 0, 0, 0.7);
   height: 100vh;
   width: 100vw;
-  padding-top: 100%;
 }
 
 .ModalContainer {
@@ -16,9 +15,18 @@
   left: 50%;
   transform: translate(-50%);
   z-index: 175;
-  width: 50%;
-  max-width: 600px;
-  top: 0;
-  top: 20%;
-  background: white;
+  width: 90%;
+  top: 15%;
+  /* background: #FAF9F8; */
+  max-width: 150rem
+
+}
+.ModalContainerScroll {
+  overflow: scroll;
+  height: 80rem;
+}
+.ModalContainer-button {
+  height: 4rem;
+  font-size: 2rem;
+  background: none;
 }
