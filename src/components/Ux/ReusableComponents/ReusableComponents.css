@@ -20,6 +20,10 @@
   width: 95rem;
   flex-direction: column;
 }
+.InnerContainer.prototype {
+  display:block;
+  margin-bottom: 9rem
+}
 .WideContainer.bottom {
   margin-top: .5px;
   margin-bottom: 9rem
@@ -313,4 +317,8 @@ ul {
   flex-direction: column;
   margin-top: 2rem;
   margin-left: 1rem
+}
+
+.prototype {
+  width: 35rem
 }
