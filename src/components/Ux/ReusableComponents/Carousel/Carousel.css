@@ -13,40 +13,27 @@
   height: 100vh;
 }
 
-/* Button styles for Previous/Next */
-.carousel-button {
-  padding: 16px 32px;
-  background-color: #3b82f6;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.carousel-button:hover {
-  background-color: #2563eb;
-}
-
-.carousel-button:focus {
-  outline: none;
-}
-
-/* Add margin between buttons */
 .prev-button {
-  margin-right: 24px;
+background:  #231F20;
+margin-right: -3rem
+
 }
 
-.next-button {
-  margin-left: 24px;
+ .next-button {
+  background:  #231F20;
+  margin-left: -3rem
+
+  }
+
+
+img.carousel-image {
+  width: 95rem
 }
 
-/* Container for the carousel content (title) */
-.carousel-content {
-  text-align: center;
-}
-
-/* Title styling */
-.carousel-title {
-  font-size: 36px;
+.arrow {
+  width: 4rem;
+  position: relative;
+  z-index: 50;
+  background-color:  #231F20;
+  margin-bottom:14rem
 }

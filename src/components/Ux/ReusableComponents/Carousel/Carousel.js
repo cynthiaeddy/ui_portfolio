@@ -1,8 +1,31 @@
+// ItemCarousel.js
 import React, { useState } from 'react'
-import './Carousel.css' // Import the custom CSS file
-
-const Carousel = ({ items }) => {
+import './Carousel.css' // Custom CSS for your carousel
+import { items } from './items' // Import items from the data folder
+import arrowL from '../../../../assets/ssc/arrowL.png'
+import arrowLhover from '../../../../assets/ssc/arrowLhover.png'
+import arrowR from '../../../../assets/ssc/arrowR.png'
+import arrowRhover from '../../../../assets/ssc/arrowRhover.png'
+export const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
+  // eslint-disable-next-line no-unused-vars
+  const [hover, setHover] = useState(false)
+  const [hoverR, setHoverR] = useState(false)
+
+  const handleMouseIn = () => {
+    setHover(true)
+  }
+
+  const handleMouseOut = () => {
+    setHover(false)
+  }
+  const handleMouseInR = () => {
+    setHoverR(true)
+  }
+
+  const handleMouseOutR = () => {
+    setHoverR(false)
+  }
 
   const goToPrevious = () => {
     setCurrentIndex((prevIndex) =>
@@ -18,17 +41,38 @@ const Carousel = ({ items }) => {
 
   return (
     <div className='carousel-container'>
-      <button className='carousel-button prev-button' onClick={goToPrevious}>
-        Previous
+      <button
+        className='prev-button'
+        onClick={goToPrevious}
+        onMouseOver={handleMouseIn}
+        onMouseOut={handleMouseOut}
+      >
+        {hover ? (
+          <img className='arrow' src={arrowLhover} alt={arrowLhover} />
+        ) : (
+          <img className='arrow' src={arrowL} alt={arrowL} />
+        )}
       </button>
       <div className='carousel-content'>
+        <img
+          className='carousel-image'
+          src={items[currentIndex].image}
+          alt={items[currentIndex].title}
+        />
         <h1 className='carousel-title'>{items[currentIndex].title}</h1>
       </div>
-      <button className='carousel-button next-button' onClick={goToNext}>
-        Next
+      <button
+        className='next-button'
+        onClick={goToNext}
+        onMouseOver={handleMouseInR}
+        onMouseOut={handleMouseOutR}
+      >
+        {hoverR ? (
+          <img className='arrow' src={arrowRhover} alt={arrowRhover} />
+        ) : (
+          <img className='arrow' src={arrowR} alt={arrowR} />
+        )}
       </button>
     </div>
   )
 }
-
-export default ItemCarousel
