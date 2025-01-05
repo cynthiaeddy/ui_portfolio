@@ -82,13 +82,14 @@ h2 {
   color: black
 }
 h5,.leadin {
-  font-size: 2.1rem;
+  font-size: 1.9rem;
   color:white;
   text-transform: initial;
   letter-spacing: .1rem;
   font-weight: 400;
    font-family: "neue-haas-grotesk-display", sans-serif;;
    text-align: left;
+   line-height: 1.6;
 }
 .h5.openerType {
   text-align: center;
@@ -141,7 +142,7 @@ li.smHed {
   width: 100%;
   height: 3rem;
   border-radius: 20px;
-border-bottom: 1px solid #000;
+border-bottom: .5px solid #000;
 margin-bottom: 2rem;}
 
 .divider_curved.top {
@@ -179,7 +180,7 @@ margin-bottom: 2rem;}
 .h5.dropCap::first-letter {
   font-family: gelica, sans-serif;
   color: white;
-  font-size: 12rem;
+  font-size: 10.5rem;
   float: left;
   line-height: .85; /* from 1 */
   margin-right: 0.05em;
@@ -198,7 +199,7 @@ margin-bottom: 2rem;}
 }
 .leadin {
   font-weight: 600;
-  font-size: 1.95rem;
+  font-size: 1.75rem;
   letter-spacing: .05rem;
 }
 .leadin.black {

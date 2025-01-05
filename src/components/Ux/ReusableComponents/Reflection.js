@@ -24,13 +24,13 @@ export const Reflection = () => {
           <h5 className='h5'>
             I discovered that users had varying interpretations of sustainability, with some perspectives being quite clear and others more ambiguous. The original design of the website was quite basic, lacking much of the information users expressed as important in my initial research. As I aimed to include the elements users considered essential for purchasing sustainable products, it became challenging to create a more comprehensive website within the timeframe. However, this process was ultimately rewarding as it allowed me to enhance the user experience significantly.
           </h5>
-          <br /><br />
+          <br />
           <h5 className='leadin'>
           How could I have improved my approach?
           </h5>
           <h5 className='h5'>
           I could have reached out and questioned sustainability experts and content creators which might have helped in crafting more impactful messaging about the products.          </h5>
-          <br /><br />
+          <br />
           <h5 className='leadin'>
           What insights did I gain?          </h5>
           <h5 className='h5'>
