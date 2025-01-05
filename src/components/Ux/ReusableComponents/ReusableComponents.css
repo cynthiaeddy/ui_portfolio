@@ -28,6 +28,10 @@
   padding-bottom: 8rem;
   margin-bottom: 9rem
 }
+.WideContainer.testing {
+  padding-bottom: 3rem;
+  margin-bottom: 9rem
+}
 
 
 .Opener {
@@ -229,6 +233,10 @@ margin-bottom: 2rem;}
   width: 6rem;
   position: relative;
   z-index: 50;
+  ;
+}
+.magnifier.wh {
+  background-color: #FAF9F8;
 }
 .competitive, .mood {
   width: 75rem;

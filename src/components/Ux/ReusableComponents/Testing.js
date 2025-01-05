@@ -16,7 +16,7 @@ export const Testing = () => {
       <div className='BlackHeds'>
         <h2>Testing</h2>
       </div>
-      <section className='WideContainer ideate'>
+      <section className='WideContainer testing'>
         <div className='InnerContainer'>
         <h5 className='h5 dropCap'>
         The moderated testing of the high-fidelity wireframes involved five participants who evaluated the site&apos;s usability and design enhancements. All participants rated the site a perfect 5 out of 5 for ease of use, finding the purchasing process intuitive and the navigation straightforward. However, some users noted  that the sustainability information felt vague and suggested adding a dedicated page to clarify the companyaposs practices. Overall, the site scored 98% for ease of use and 100% for checkout flow. <br /><br />

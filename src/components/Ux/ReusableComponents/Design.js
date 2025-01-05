@@ -2,8 +2,8 @@
 import { useState } from 'react'
 /* eslint-disable prettier/prettier */
 import './ReusableComponents.css'
-import mag_wh from '../../../assets/ssc/mag_wh.png'
-import mag_blk from '../../../assets/ssc/mag_blk.png'
+import magWh from '../../../assets/ssc/magWh.png'
+import magWhH from '../../../assets/ssc/magWhH.png'
 import user_flow from '../../../assets/ssc/ssc_user_flow.png'
 import hiFi from '../../../assets/ssc/hifi_crop.jpg'
 import mid_fi from '../../../assets/ssc/ive_mid_fi.png'
@@ -64,8 +64,8 @@ export const Design = () => {
         <div className='ButtonContainer'>
                     <div className='Button enlarge white'>affinity mapping</div>
                     <button onClick={modalSscFlowOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
-                    {hover ? <img className='magnifier' src={mag_blk} alt={mag_blk}
-                      /> : <img className='magnifier' src={mag_wh} alt={mag_wh}
+                    {hover ? <img className='magnifier wh' src={magWhH} alt={magWhH}
+                      /> : <img className='magnifier wh' src={magWh} alt={magWh}
                       />}
                     </button>
           <img className='competitive flow' src={user_flow} alt={user_flow} />
@@ -110,8 +110,8 @@ export const Design = () => {
         <div className='ButtonContainer'>
                     <div className='Button enlarge white'>low fidelity wireframes</div>
                     <button onClick={modalSscLoFiOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
-                    {hover ? <img className='magnifier' src={mag_blk} alt={mag_blk}
-                      /> : <img className='magnifier' src={mag_wh} alt={mag_wh}
+                    {hover ? <img className='magnifier wh' src={magWhH} alt={magWhH}
+                      /> : <img className='magnifier wh' src={magWh} alt={magWh}
                       />}
                     </button>
           <img className='competitive mid_fi' src={mid_fi} alt={mid_fi} />
@@ -130,8 +130,8 @@ export const Design = () => {
         <div className='ButtonContainer'>
                     <div className='Button enlarge white'>high fidelity wireframes</div>
                     <button onClick={modalSscHiFiOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
-                    {hover ? <img className='magnifier' src={mag_blk} alt={mag_blk}
-                      /> : <img className='magnifier' src={mag_wh} alt={mag_wh}
+                    {hover ? <img className='magnifier wh' src={magWhH} alt={magWhH}
+                      /> : <img className='magnifier wh' src={magWh} alt={magWh}
                       />}
                     </button>
           <img className='competitive hi_fi' src={hiFi} alt={hiFi} />
