@@ -2,8 +2,8 @@
 import { useState } from 'react'
 import './ReusableComponents.css'
 // eslint-disable-next-line no-unused-vars
-import mag_wh from '../../../assets/ssc/mag_wh.png'
-import mag_blk from '../../../assets/ssc/mag_blk.png'
+import magBlk1H from '../../../assets/ssc/magBlk1H.png'
+import magBlk1 from '../../../assets/ssc/magBlk1.png'
 import competitive_sm from '../../../assets/ssc/competitive_sm.png'
 import affinity_map from '../../../assets/ssc/ive_affinity_mapsm.png'
 import persona from '../../../assets/ssc/ive_persona.png'
@@ -60,8 +60,8 @@ export const Research = () => {
           <div className='ButtonContainer'>
             <div className='Button enlarge'>competitve analysis swot</div>
             <button onClick={modalSscOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
-            {hover ? <img className='magnifier' src={mag_wh} alt={mag_wh}
-              /> : <img className='magnifier' src={mag_blk} alt={mag_blk}
+            {hover ? <img className='magnifier' src={magBlk1H} alt={magBlk1H}
+              /> : <img className='magnifier' src={magBlk1} alt={magBlk1}
               />}
             </button>
             <img
@@ -133,8 +133,8 @@ export const Research = () => {
           <div className='ButtonContainer'>
             <div className='Button enlarge'>affinity mapping</div>
             <button onClick={modalSscAffinityOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
-            {hover ? <img className='magnifier' src={mag_wh} alt={mag_wh}
-              /> : <img className='magnifier' src={mag_blk} alt={mag_blk}
+            {hover ? <img className='magnifier' src={magBlk1H} alt={magBlk1H}
+              /> : <img className='magnifier' src={magBlk1} alt={magBlk1}
               />}
             </button>
           <img className='competitive' src={affinity_map} alt={affinity_map} />

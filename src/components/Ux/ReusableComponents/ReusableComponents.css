@@ -20,14 +20,29 @@
   width: 95rem;
   flex-direction: column;
 }
+.InnerContainer.prototype {
+  display:block;
+  margin-bottom: 9rem
+}
+.InnerContainer.reflection  {
+  margin-top: 4rem
+}
 .WideContainer.bottom {
   margin-top: .5px;
   margin-bottom: 9rem
 }
 .WideContainer.ideate {
   padding-bottom: 8rem;
+  margin-bottom: 9rem
 }
-
+.WideContainer.testing {
+  padding-bottom: 3rem;
+  margin-bottom: 9rem
+}
+.WideContainer.reflection {
+  padding-bottom: 6rem;
+  border-radius: 20px 20px 0px 0px;
+}
 
 .Opener {
   display: flex;
@@ -67,13 +82,14 @@ h2 {
   color: black
 }
 h5,.leadin {
-  font-size: 2.1rem;
+  font-size: 1.9rem;
   color:white;
   text-transform: initial;
   letter-spacing: .1rem;
   font-weight: 400;
    font-family: "neue-haas-grotesk-display", sans-serif;;
    text-align: left;
+   line-height: 1.6;
 }
 .h5.openerType {
   text-align: center;
@@ -90,6 +106,7 @@ h5,.leadin {
   font-size: 1.9rem;
   line-height: 1.6;
 }
+
 .h5.dropCap, .h5.marginTop {
   margin-top:5rem;
 }
@@ -98,6 +115,12 @@ h5,.leadin {
 }
 .h6.small {
   margin-bottom: .5rem
+}
+.h6.small.space {
+  margin-top: 1rem
+}
+li.smHed {
+  margin-left:-3rem
 }
 
 
@@ -119,8 +142,19 @@ h5,.leadin {
   width: 100%;
   height: 3rem;
   border-radius: 20px;
-border-bottom: 1px solid #000;
+border-bottom: .5px solid #000;
 margin-bottom: 2rem;}
+
+.divider_curved.top {
+  margin-bottom: 0rem
+}
+
+.divider_curved_down {
+  width: 100%;
+  height: 3rem;
+  border-radius: 20px;
+  border-top: 1px solid #000;
+}
 
 .BlackHeds {
   background: black;
@@ -146,11 +180,18 @@ margin-bottom: 2rem;}
 .h5.dropCap::first-letter {
   font-family: gelica, sans-serif;
   color: white;
-  font-size: 12rem;
+  font-size: 10.5rem;
   float: left;
   line-height: .85; /* from 1 */
   margin-right: 0.05em;
   font-weight: 200;
+}
+
+.h5.dropcap.black {
+  color: black
+}
+.h5.dropCap.black::first-letter {
+  color: black
 }
 .h5.leadins {
   margin-top: 6rem;
@@ -158,7 +199,7 @@ margin-bottom: 2rem;}
 }
 .leadin {
   font-weight: 600;
-  font-size: 1.95rem;
+  font-size: 1.75rem;
   letter-spacing: .05rem;
 }
 .leadin.black {
@@ -193,10 +234,20 @@ margin-bottom: 2rem;}
   position: relative;
   z-index: 50;
 }
+.Button.enlarge.white {
+  background: white;
+  color:black;
+  border: 1.25px solid black
+
+}
 .magnifier {
   width: 6rem;
   position: relative;
   z-index: 50;
+  ;
+}
+.magnifier.wh {
+  background-color: #FAF9F8;
 }
 .competitive, .mood {
   width: 75rem;
@@ -207,6 +258,18 @@ margin-bottom: 2rem;}
 
 .mood, .style {
   margin-top: -5rem;
+}
+.competitive.flow {
+  width: 85rem;
+  margin-top: -14.5rem;
+}
+.competitive.mid_fi {
+  width: 81.5rem;
+  margin-top: -2.5rem;
+}
+.competitive.hi_fi {
+  width:95rem;
+  margin-top: -4.5rem;
 }
 .competitive_lg {
   width: 100%
@@ -226,10 +289,15 @@ li {
   font-size: 2rem;
   padding-left: 1rem
 }
+li.black {
+  color: black
+}
 
 li.first_li_research {
   padding-left: 1rem
 }
+
+
 ul {
   padding-left: .75rem
 }
@@ -256,4 +324,8 @@ ul {
   flex-direction: column;
   margin-top: 2rem;
   margin-left: 1rem
+}
+
+.prototype {
+  width: 35rem
 }
