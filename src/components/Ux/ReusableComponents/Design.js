@@ -5,14 +5,18 @@ import './ReusableComponents.css'
 import mag_wh from '../../../assets/ssc/mag_wh.png'
 import mag_blk from '../../../assets/ssc/mag_blk.png'
 import user_flow from '../../../assets/ssc/ssc_user_flow.png'
+import hiFi from '../../../assets/ssc/hifi_crop.jpg'
 import mid_fi from '../../../assets/ssc/ive_mid_fi.png'
 import { ModalSscFlow } from '../Modals/ModalSscFlow'
 import { ModalSscLoFi } from '../Modals/ModalSscLoFi'
+import { ModalSscHiFi } from '../Modals/ModalSscHiFi'
+
 
 export const Design = () => {
   const [hover, setHover] = useState(false);
   const [ismodalSscFlowOpen, setIsmodalSscFlowOpen] = useState(false)
   const [ismodalSscLoFiOpen, setIsmodalSscLoFiOpen] = useState(false)
+  const [ismodalSscHiFiOpen, setIsmodalSscHiFiOpen] = useState(false)
 
     const handleMouseIn = () => {
       setHover(true);
@@ -37,6 +41,14 @@ export const Design = () => {
     }
     const modalSscLoFiClose = () => {
       setIsmodalSscLoFiOpen(false)
+      document.body.style.overflow = 'auto'
+    }
+    const modalSscHiFiOpen = () => {
+      setIsmodalSscHiFiOpen(true)
+      document.body.style.overflow = 'hidden'
+    }
+    const modalSscHiFiClose = () => {
+      setIsmodalSscHiFiOpen(false)
       document.body.style.overflow = 'auto'
     }
   return (
@@ -104,10 +116,32 @@ export const Design = () => {
                     </button>
           <img className='competitive mid_fi' src={mid_fi} alt={mid_fi} />
         </div>
+        <div className='divider_curved top'></div>
+        <h5 className='h5 dropCap black'>
+        In moderated testing of the low-fidelity wireframes, 5 participants completed their tasks of exploring the homepage, purchasing the vegan soap and accessing information about the company&apos;s sustainability practices and product usage. All five users succeeded without errors and found the navigation intuitive, though they suggested increasing the hamburger menu size and improving access to product reviews. <br /> <br /> Next steps for the high-fidelity wireframes:        </h5>
+        <ul className='h5 bullets'>
+            <li className='first_li_research black'>
+              <h5 className='h5 black'>Expanding the navigation bar and detailing sustainability practices via new pages of an ingredients glossary and reviews to enhance transparency and user satisfaction.</h5>
+            </li>
+            <li className='black'>
+              <h5 className='h5 black'> Art deco branding theme was already established. The new logo and branding echo and coexist with old in order for it to be updated seamlessly and cohesively, while making the brand more distinct and emphasizing sustainability again in the tagline.</h5>
+            </li>
+        </ul>
+        <div className='ButtonContainer'>
+                    <div className='Button enlarge white'>high fidelity wireframes</div>
+                    <button onClick={modalSscHiFiOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
+                    {hover ? <img className='magnifier' src={mag_blk} alt={mag_blk}
+                      /> : <img className='magnifier' src={mag_wh} alt={mag_wh}
+                      />}
+                    </button>
+          <img className='competitive hi_fi' src={hiFi} alt={hiFi} />
+        </div>
+
 
       </section>
       <ModalSscFlow isOpen={ismodalSscFlowOpen} modalSscClose={modalSscFlowClose} />
       <ModalSscLoFi isOpen={ismodalSscLoFiOpen} modalSscClose={modalSscLoFiClose} />
+      <ModalSscHiFi isOpen={ismodalSscHiFiOpen} modalSscClose={modalSscHiFiClose} />
     </>
   )
 }
