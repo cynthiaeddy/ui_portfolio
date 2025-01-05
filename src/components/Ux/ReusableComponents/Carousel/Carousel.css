@@ -1,0 +1,52 @@
+/* General reset for the page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main container for the carousel */
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Button styles for Previous/Next */
+.carousel-button {
+  padding: 16px 32px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.carousel-button:hover {
+  background-color: #2563eb;
+}
+
+.carousel-button:focus {
+  outline: none;
+}
+
+/* Add margin between buttons */
+.prev-button {
+  margin-right: 24px;
+}
+
+.next-button {
+  margin-left: 24px;
+}
+
+/* Container for the carousel content (title) */
+.carousel-content {
+  text-align: center;
+}
+
+/* Title styling */
+.carousel-title {
+  font-size: 36px;
+}

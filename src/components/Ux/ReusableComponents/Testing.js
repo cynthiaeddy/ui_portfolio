@@ -1,12 +1,22 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable no-unused-vars */
 import './ReusableComponents.css'
+import Slider from "react-slick";
+
+
 // import mag_wh from '../../../assets/ssc/mag_white.png'
 import mag_blk from '../../../assets/ssc/mag_blk.png'
 import ive_mood_resize from '../../../assets/ssc/ive_mood.png'
 import ive_style from '../../../assets/ssc/ive_style_resize.png'
 
 export const Testing = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
   return (
     <>
       <div className='BlackHeds'>
@@ -20,6 +30,28 @@ export const Testing = () => {
           </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>iterations carousel</div>
+            <div className="slider-container">
+      <Slider {...settings}>
+        <div>
+          <h3>1</h3>
+        </div>
+        <div>
+          <h3>2</h3>
+        </div>
+        <div>
+          <h3>3</h3>
+        </div>
+        <div>
+          <h3>4</h3>
+        </div>
+        <div>
+          <h3>5</h3>
+        </div>
+        <div>
+          <h3>6</h3>
+        </div>
+      </Slider>
+    </div>
 
 
           </div>
