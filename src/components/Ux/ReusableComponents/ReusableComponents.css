@@ -24,6 +24,9 @@
   display:block;
   margin-bottom: 9rem
 }
+.InnerContainer.reflection  {
+  margin-top: 4rem
+}
 .WideContainer.bottom {
   margin-top: .5px;
   margin-bottom: 9rem
@@ -36,7 +39,10 @@
   padding-bottom: 3rem;
   margin-bottom: 9rem
 }
-
+.WideContainer.reflection {
+  padding-bottom: 6rem;
+  border-radius: 20px 20px 0px 0px;
+}
 
 .Opener {
   display: flex;
