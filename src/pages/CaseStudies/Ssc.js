@@ -4,6 +4,7 @@ import { Research } from '../../components/Ux/ReusableComponents/Research'
 import { Define } from '../../components/Ux/ReusableComponents/Define'
 import { Ideate } from '../../components/Ux/ReusableComponents/Ideate'
 import { Design } from '../../components/Ux/ReusableComponents/Design'
+import { Testing } from '../../components/Ux/ReusableComponents/Testing'
 
 export const Ssc = () => {
   return (
@@ -13,6 +14,7 @@ export const Ssc = () => {
       <Define />
       <Ideate />
       <Design />
+      <Testing />
     </section>
   )
 }
