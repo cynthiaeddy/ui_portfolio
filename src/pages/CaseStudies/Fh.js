@@ -2,7 +2,7 @@ import './CaseStudies.css'
 import { OpenerFh } from '../../components/Ux/ReusableComponents/Fh/OpenerFh'
 import { ResearchFh } from '../../components/Ux/ReusableComponents/Fh/ResearchFh'
 import { DefineFh } from '../../components/Ux/ReusableComponents/Fh/DefineFh'
-// import { Ideate } from '../../components/Ux/ReusableComponents/Ideate'
+import { IdeateFh } from '../../components/Ux/ReusableComponents/Fh/IdeateFh'
 // import { Design } from '../../components/Ux/ReusableComponents/Design'
 // import { Testing } from '../../components/Ux/ReusableComponents/Testing'
 // import { Prototype } from '../../components/Ux/ReusableComponents/Prototype'
@@ -14,8 +14,8 @@ export const Fh = () => {
       <OpenerFh />
       <ResearchFh />
       <DefineFh />
-      {/* <Ideate />
-      <Design />
+      <IdeateFh />
+      {/* <Design />
       <Testing />
       <Prototype />
       <Reflection /> */}
