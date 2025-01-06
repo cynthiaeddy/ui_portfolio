@@ -3,7 +3,7 @@ import { OpenerFh } from '../../components/Ux/ReusableComponents/Fh/OpenerFh'
 import { ResearchFh } from '../../components/Ux/ReusableComponents/Fh/ResearchFh'
 import { DefineFh } from '../../components/Ux/ReusableComponents/Fh/DefineFh'
 import { IdeateFh } from '../../components/Ux/ReusableComponents/Fh/IdeateFh'
-// import { Design } from '../../components/Ux/ReusableComponents/Design'
+import { DesignFh } from '../../components/Ux/ReusableComponents/Fh/DesignFh'
 // import { Testing } from '../../components/Ux/ReusableComponents/Testing'
 // import { Prototype } from '../../components/Ux/ReusableComponents/Prototype'
 // import { Reflection } from '../../components/Ux/ReusableComponents/Reflection'
@@ -15,8 +15,8 @@ export const Fh = () => {
       <ResearchFh />
       <DefineFh />
       <IdeateFh />
-      {/* <Design />
-      <Testing />
+      <DesignFh />
+      {/* <Testing />
       <Prototype />
       <Reflection /> */}
     </section>

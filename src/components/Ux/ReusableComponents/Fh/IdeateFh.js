@@ -47,6 +47,12 @@ export const IdeateFh = () => {
               alt={style_tile}
             />
           </div>
+          <h5 className='h5 marginTop'>
+            <span className='leadin'>I incorporated design elements </span>
+            from the clinic&apos;s interior, including neon signage and the
+            signature cat wallpaper, ensuring the digital experience mirrored
+            the lively, welcoming atmosphere of the clinic itself.
+          </h5>
         </div>
       </section>
     </>

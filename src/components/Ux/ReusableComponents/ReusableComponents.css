@@ -275,7 +275,10 @@ margin-bottom: 2rem;}
   margin: auto;
   margin-top: -11.5rem;
 }
-
+.competitive.designFh{
+  width: 90rem;
+  margin-top: -3rem
+}
 .mood, .style {
   margin-top: -5rem;
 }
