@@ -7,12 +7,12 @@ import magBlk1 from '../../../../assets/ssc/magBlk1.png'
 import competitive from '../../../../assets/fh/feline_competitive.png'
 import affinity_map from '../../../../assets/fh/feline_health_affinity_mapcrop.png'
 import persona from '../../../../assets/fh/feline_health_persona.png'
-// import { ModalSsc } from '../Modals/ModalSsc'
-// import { ModalSscAffinity } from '../Modals/ModalSscAffinity'
+import { ModalFhCompetitive } from '../../Modals/ModalFhCompetitive'
+import { ModalFhAffinity } from '../../Modals/ModalFhAffinity'
 
 export const ResearchFh = () => {
-  // const [ismodalSscOpen, setIsmodalSscOpen] = useState(false)
-  // const [ismodalSscAffinityOpen, setIsmodalSscAffinityOpen] = useState(false)
+  const [ismodalFhCompetitiveOpen, setIsmodalFhCompetitiveOpen] = useState(false)
+  const [ismodalFhAffinityOpen, setIsmodalFhAffinityOpen] = useState(false)
   const [hover, setHover] = useState(false);
 
   const handleMouseIn = () => {
@@ -23,23 +23,22 @@ export const ResearchFh = () => {
     setHover(false);
   };
 
-
-  // const modalSscOpen = () => {
-  //   setIsmodalSscOpen(true)
-  //   document.body.style.overflow = 'hidden'
-  // }
-  // const modalSscClose = () => {
-  //   setIsmodalSscOpen(false)
-  //   document.body.style.overflow = 'auto'
-  // }
-  // const modalSscAffinityOpen = () => {
-  //   setIsmodalSscAffinityOpen(true)
-  //   document.body.style.overflow = 'hidden'
-  // }
-  // const modalSscAffinityClose = () => {
-  //   setIsmodalSscAffinityOpen(false)
-  //   document.body.style.overflow = 'auto'
-  // }
+  const modalFhCompetitiveOpen = () => {
+    setIsmodalFhCompetitiveOpen(true)
+    document.body.style.overflow = 'hidden'
+  }
+  const modalFhCompetitiveClose = () => {
+    setIsmodalFhCompetitiveOpen(false)
+    document.body.style.overflow = 'auto'
+  }
+  const modalFhAffinityOpen = () => {
+    setIsmodalFhAffinityOpen(true)
+    document.body.style.overflow = 'hidden'
+  }
+  const modalFhAffinityClose = () => {
+    setIsmodalFhAffinityOpen(false)
+    document.body.style.overflow = 'auto'
+  }
 
 
 
@@ -55,7 +54,7 @@ export const ResearchFh = () => {
           </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>competitve analysis swot</div>
-            <button onClick={''} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
+            <button onClick={modalFhCompetitiveOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
             {hover ? <img className='magnifier' src={magBlk1H} alt={magBlk1H}
               /> : <img className='magnifier' src={magBlk1} alt={magBlk1}
               />}
@@ -92,7 +91,7 @@ export const ResearchFh = () => {
 
           <div className='ButtonContainer'>
             <div className='Button enlarge'>affinity mapping</div>
-            <button onClick={''} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
+            <button onClick={modalFhAffinityOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
             {hover ? <img className='magnifier' src={magBlk1H} alt={magBlk1H}
               /> : <img className='magnifier' src={magBlk1} alt={magBlk1}
               />}
@@ -109,11 +108,10 @@ export const ResearchFh = () => {
           <img className='competitive persona' src={persona} alt={persona} />
         </div>
       </section>
-      {/* <ModalSsc isOpen={ismodalSscOpen} modalSscClose={modalSscClose} />
-      <ModalSscAffinity
-        isOpen={ismodalSscAffinityOpen}
-        modalSscClose={modalSscAffinityClose} */}
-      {/* /> */}
+      <ModalFhCompetitive isOpen={ismodalFhCompetitiveOpen} modalSscClose={modalFhCompetitiveClose} />
+      <ModalFhAffinity
+        isOpen={ismodalFhAffinityOpen}
+        modalSscClose={modalFhAffinityClose} />
     </>
   )
 }
