@@ -1,6 +1,6 @@
 import './CaseStudies.css'
 import { OpenerNyt } from '../../components/Ux/ReusableComponents/Nyt/OpenerNyt'
-// import { Research } from '../../components/Ux/ReusableComponents/Research'
+import { ResearchNyt } from '../../components/Ux/ReusableComponents/Nyt/ResearchNyt'
 // import { Define } from '../../components/Ux/ReusableComponents/Define'
 // import { Ideate } from '../../components/Ux/ReusableComponents/Ideate'
 // import { Design } from '../../components/Ux/ReusableComponents/Design'
@@ -12,8 +12,8 @@ export const Nyt = () => {
   return (
     <section className='Container studies'>
       <OpenerNyt />
-      {/* <Research />
-      <Define />
+      <ResearchNyt />
+      {/* <Define />
       <Ideate />
       <Design />
       <Testing />
