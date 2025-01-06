@@ -43,6 +43,9 @@
   padding-bottom: 6rem;
   border-radius: 20px 20px 0px 0px;
 }
+.WideContainer.Fh.Research {
+  padding-bottom: 8rem;
+}
 
 .Opener {
   display: flex;
@@ -122,6 +125,10 @@ h5,.leadin {
 
 .h5.dropCap, .h5.marginTop {
   margin-top:5rem;
+}
+
+.h5.research {
+  margin-top: 2rem
 }
 .h6.studies {
   font-size: 1.4rem;

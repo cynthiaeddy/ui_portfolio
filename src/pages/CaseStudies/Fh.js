@@ -1,6 +1,6 @@
 import './CaseStudies.css'
 import { OpenerFh } from '../../components/Ux/ReusableComponents/Fh/OpenerFh'
-// import { Research } from '../../components/Ux/ReusableComponents/Research'
+import { ResearchFh } from '../../components/Ux/ReusableComponents/Fh/ResearchFh'
 // import { Define } from '../../components/Ux/ReusableComponents/Define'
 // import { Ideate } from '../../components/Ux/ReusableComponents/Ideate'
 // import { Design } from '../../components/Ux/ReusableComponents/Design'
@@ -12,13 +12,13 @@ export const Fh = () => {
   return (
     <section className='Container studies'>
       <OpenerFh />
-      {/* <Research />
-      <Define />
+      <ResearchFh />
+      {/* <Define />
       <Ideate />
       <Design />
       <Testing />
       <Prototype />
-      <Reflection /> */}
+      <Reflection />  */}
     </section>
   )
 }
