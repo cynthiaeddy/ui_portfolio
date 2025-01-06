@@ -1,37 +1,52 @@
+import { useState } from 'react'
 import './../ReusableComponents.css'
 // import { useState } from 'react'
 /* eslint-disable prettier/prettier */
 // import './../ReusableComponents.css'
-// import magWh from '../../../../assets/ssc/magWh.png'
-// import magWhH from '../../../../assets/ssc/magWhH.png'
+import magWh from '../../../../assets/ssc/magWh.png'
+import magWhH from '../../../../assets/ssc/magWhH.png'
 import user_flow from '../../../../assets/fh/second iteration_final.png'
-// import { ModalSscFlow } from '../Modals/ModalSscFlow'
-// import { ModalSscLoFi } from '../Modals/ModalSscLoFi'
+import fh_lo_desktop from '../../../../assets/fh/fh_lo_desktop.png'
+import fh_lo_mobile from '../../../../assets/fh/fh_lo_mobile.png'
+import fh_hi_desktop_top from '../../../../assets/fh/fh_hi_desktop_top.png'
+import fh_hi_desktop_bottom from '../../../../assets/fh/fh_hi_desktop_bottom.png'
+import fh_hi_mobile from '../../../../assets/fh/fh_hi_mobile.png'
+import { ModalFhLoDesktop } from '../../Modals/ModalFhLoDesktop'
+import { ModalFhLoMobile } from '../../Modals/ModalFhLoMobile'
 // import { ModalSscHiFi } from '../Modals/ModalSscHiFi'
 
 
 export const DesignFh = () => {
-  // const [hover, setHover] = useState(false);
-  // const [ismodalSscFlowOpen, setIsmodalSscFlowOpen] = useState(false)
+  const [hover, setHover] = useState(false);
+  const [ismodalFhLoDesktopOpen, setIsmodalFhLoDesktopOpen] = useState(false)
+  const [ismodalFhLoMobileOpen, setIsmodalFhLoMobileOpen] = useState(false)
   // const [ismodalSscLoFiOpen, setIsmodalSscLoFiOpen] = useState(false)
   // const [ismodalSscHiFiOpen, setIsmodalSscHiFiOpen] = useState(false)
 
-    // const handleMouseIn = () => {
-    //   setHover(true);
-    // };
+    const handleMouseIn = () => {
+      setHover(true);
+    };
 
-    // const handleMouseOut = () => {
-    //   setHover(false);
-    // };
+    const handleMouseOut = () => {
+      setHover(false);
+    };
 
-    // const modalSscFlowOpen = () => {
-    //   setIsmodalSscFlowOpen(true)
-    //   document.body.style.overflow = 'hidden'
-    // }
-    // const modalSscFlowClose = () => {
-    //   setIsmodalSscFlowOpen(false)
-    //   document.body.style.overflow = 'auto'
-    // }
+    const modalFhLoDesktopOpen = () => {
+      setIsmodalFhLoDesktopOpen(true)
+      document.body.style.overflow = 'hidden'
+    }
+    const modalFhLoDesktopClose = () => {
+      setIsmodalFhLoDesktopOpen(false)
+      document.body.style.overflow = 'auto'
+    }
+    const modalFhLoMobileOpen = () => {
+      setIsmodalFhLoMobileOpen(true)
+      document.body.style.overflow = 'hidden'
+    }
+    const modalFhLoMobileClose = () => {
+      setIsmodalFhLoMobileOpen(false)
+      document.body.style.overflow = 'auto'
+    }
 
     // const modalSscLoFiOpen = () => {
     //   setIsmodalSscLoFiOpen(true)
@@ -81,26 +96,61 @@ export const DesignFh = () => {
         <div className='smallWrapper'><h6 className='h6 small'>Second step</h6><h5 className='h5 small'>Available time slots are displayed based on the selected date.</h5></div>
         </section>
         </ul>
-        {/* <div className='ButtonContainer'>
-                    <div className='Button enlarge white'>low fidelity wireframes</div>
-                    <button onClick={''} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
+        <div className='WireframesContainer'>
+        <div className='ButtonContainer'>
+                    <div className='Button enlarge white'>low fidelity desktop</div>
+                    <button onClick={modalFhLoDesktopOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
                     {hover ? <img className='magnifier wh' src={magWhH} alt={magWhH}
                       /> : <img className='magnifier wh' src={magWh} alt={magWh}
                       />}
                     </button>
-          <img className='competitive mid_fi' src={mid_fi} alt={mid_fi} />
-        </div> */}
+          <img className='competitive mid_fi desktop' src={fh_lo_desktop} alt={fh_lo_desktop} />
+        </div>
+        <div className='ButtonContainer'>
+                    <div className='Button enlarge white'>low fidelity mobile</div>
+                    <button onClick={modalFhLoMobileOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
+                    {hover ? <img className='magnifier wh' src={magWhH} alt={magWhH}
+                      /> : <img className='magnifier wh' src={magWh} alt={magWh}
+                      />}
+                    </button>
+          <img className='competitive mid_fi mobile' src={fh_lo_mobile} alt={fh_lo_mobile} />
+          </div>
+          </div>
         <div className='divider_curved top'></div>
         <h5 className='h5 dropCap black'>
-        In moderated testing of the low-fidelity wireframes, 5 participants completed their tasks of exploring the homepage, purchasing the vegan soap and accessing information about the company&apos;s sustainability practices and product usage. All five users succeeded without errors and found the navigation intuitive, though they suggested increasing the hamburger menu size and improving access to product reviews. <br /> <br /> Next steps for the high-fidelity wireframes:        </h5>
-        <ul className='h5 bullets'>
-            <li className='first_li_research black'>
-              <h5 className='h5 black'>Expanding the navigation bar and detailing sustainability practices via new pages of an ingredients glossary and reviews to enhance transparency and user satisfaction.</h5>
+          After testing both the mobile and desktop low-fidelity wireframes and incorporating user feedback, I developed high-fidelity wireframes for further testing on both platforms. The goal was to refine the design and enhance the user experience, particularly by addressing usability concerns on mobile and improving visual consistency on desktop.The following updates were made to improve the booking flow across both platforms:
+          <ul className='h5 bullets'>
+          <li className='first_li_research black'>
+              <h5 className='h5 black'>Added an extra CTA for booking appointments in the mobile version.</h5>
             </li>
             <li className='black'>
-              <h5 className='h5 black'> Art deco branding theme was already established. The new logo and branding echo and coexist with old in order for it to be updated seamlessly and cohesively, while making the brand more distinct and emphasizing sustainability again in the tagline.</h5>
+              <h5 className='h5 black'>Used the same background photo throughout the desktop booking screens to enhance user orientation.</h5>
             </li>
         </ul>
+        </h5>
+         <div className='ButtonContainer'>
+                            <div className='Button enlarge white'>high fidelity desktop</div>
+                            <button onClick={''} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
+                            {hover ? <img className='magnifier wh' src={magWhH} alt={magWhH}
+                              /> : <img className='magnifier wh' src={magWh} alt={magWh}
+                              />}
+                            </button>
+        </div>
+        <div className='Container_desktop'>
+        <img className='competitive fh_top' src={fh_hi_desktop_top} alt={fh_hi_desktop_top} />
+        <img className='competitive fh_bottom' src={fh_hi_desktop_bottom} alt={fh_hi_desktop_bottom} />
+        </div>
+        <div className='ButtonContainer'>
+                            <div className='Button enlarge white'>high fidelity mobile</div>
+                            <button onClick={''} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
+                            {hover ? <img className='magnifier wh' src={magWhH} alt={magWhH}
+                              /> : <img className='magnifier wh' src={magWh} alt={magWh}
+                              />}
+                            </button>
+        </div>
+        <img className='competitive fh_mobile' src={fh_hi_mobile} alt={fh_hi_mobile} />
+
+
         {/* <div className='ButtonContainer'>
                     <div className='Button enlarge white'>high fidelity wireframes</div>
                     <button onClick={modalSscHiFiOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
@@ -113,9 +163,10 @@ export const DesignFh = () => {
 
 
       </section>
-      {/* <ModalSscFlow isOpen={ismodalSscFlowOpen} modalSscClose={modalSscFlowClose} />
-      <ModalSscLoFi isOpen={ismodalSscLoFiOpen} modalSscClose={modalSscLoFiClose} />
-      <ModalSscHiFi isOpen={ismodalSscHiFiOpen} modalSscClose={modalSscHiFiClose} /> */}
+      {/* {/* <ModalSscFlow isOpen={ismodalSscFlowOpen} modalSscClose={modalSscFlowClose} /> */}
+      {/* <ModalSscLoFi isOpen={ismodalSscLoFiOpen} modalSscClose={modalSscLoFiClose} /> */}
+      <ModalFhLoDesktop isOpen={ismodalFhLoDesktopOpen} modalSscClose={modalFhLoDesktopClose} />
+      <ModalFhLoMobile isOpen={ismodalFhLoMobileOpen} modalSscClose={modalFhLoMobileClose} />
     </>
   )
 }

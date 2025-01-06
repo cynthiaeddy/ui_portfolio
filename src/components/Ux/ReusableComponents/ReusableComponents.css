@@ -269,6 +269,10 @@ margin-bottom: 2rem;}
 .magnifier.wh {
   background-color: #FAF9F8;
 }
+
+button {
+  background-color: #FAF9F8;
+}
 .competitive, .mood {
   width: 75rem;
   border-radius: 20px;
@@ -278,6 +282,15 @@ margin-bottom: 2rem;}
 .competitive.designFh{
   width: 90rem;
   margin-top: -3rem
+}
+.competitive.mid_fi.desktop{
+  width: 61rem;
+  margin-top: 0.5rem;
+}
+
+.competitive.mid_fi.mobile{
+  width: 34rem;
+  margin-top: 0.5rem;
 }
 .mood, .style {
   margin-top: -5rem;
@@ -300,6 +313,19 @@ margin-bottom: 2rem;}
 .competitive.persona {
   margin-top: -5rem;
   margin-bottom: 8rem
+}
+
+.competitive.fh_top {
+  width:87rem;
+  margin-top: 0
+}
+.competitive.fh_bottom {
+  width:82.5rem;
+  margin-top: 2rem
+}
+.competitive.fh_mobile {
+  width:76rem;
+  margin-top: 2rem
 }
 
 .h5.bullets {
@@ -351,4 +377,13 @@ ul {
 
 .prototype {
   width: 35rem
+}
+
+.WireframesContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.Container_desktop {
+  display:flex;
+  flex-direction: column;
 }
