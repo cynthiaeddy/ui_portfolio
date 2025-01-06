@@ -15,6 +15,7 @@ body {
 }
 body {
   overscroll-behavior: none;
+  cursor: none;
 }
 
 html {
@@ -107,4 +108,7 @@ h6 {
   box-shadow: 5px 5px 10px rgba(36, 36, 36, 0.5);
   color:bisque
 
+}
+button.magnifier {
+  cursor: pointer;
 }
