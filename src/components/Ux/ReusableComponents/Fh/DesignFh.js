@@ -13,15 +13,16 @@ import fh_hi_desktop_bottom from '../../../../assets/fh/fh_hi_desktop_bottom.png
 import fh_hi_mobile from '../../../../assets/fh/fh_hi_mobile.png'
 import { ModalFhLoDesktop } from '../../Modals/ModalFhLoDesktop'
 import { ModalFhLoMobile } from '../../Modals/ModalFhLoMobile'
-// import { ModalSscHiFi } from '../Modals/ModalSscHiFi'
+import { ModalFhHiDesktop } from '../../Modals/ModalFhHiDesktop'
+import { ModalFhHiMobile } from '../../Modals/ModalFhHiMobile'
 
 
 export const DesignFh = () => {
   const [hover, setHover] = useState(false);
   const [ismodalFhLoDesktopOpen, setIsmodalFhLoDesktopOpen] = useState(false)
   const [ismodalFhLoMobileOpen, setIsmodalFhLoMobileOpen] = useState(false)
-  // const [ismodalSscLoFiOpen, setIsmodalSscLoFiOpen] = useState(false)
-  // const [ismodalSscHiFiOpen, setIsmodalSscHiFiOpen] = useState(false)
+  const [ismodalFhHiDesktopOpen, setIsmodalFhHiDesktopOpen] = useState(false)
+  const [ismodalFhHiMobileOpen, setIsmodalFhHiMobileOpen] = useState(false)
 
     const handleMouseIn = () => {
       setHover(true);
@@ -47,23 +48,25 @@ export const DesignFh = () => {
       setIsmodalFhLoMobileOpen(false)
       document.body.style.overflow = 'auto'
     }
+    const modalFhHiDesktopOpen = () => {
+      setIsmodalFhHiDesktopOpen(true)
+      document.body.style.overflow = 'hidden'
+    }
+    const modalFhHiDesktopClose = () => {
+      setIsmodalFhHiDesktopOpen(false)
+      document.body.style.overflow = 'auto'
+    }
 
-    // const modalSscLoFiOpen = () => {
-    //   setIsmodalSscLoFiOpen(true)
-    //   document.body.style.overflow = 'hidden'
-    // }
-    // const modalSscLoFiClose = () => {
-    //   setIsmodalSscLoFiOpen(false)
-    //   document.body.style.overflow = 'auto'
-    // }
-    // const modalSscHiFiOpen = () => {
-    //   setIsmodalSscHiFiOpen(true)
-    //   document.body.style.overflow = 'hidden'
-    // }
-    // const modalSscHiFiClose = () => {
-    //   setIsmodalSscHiFiOpen(false)
-    //   document.body.style.overflow = 'auto'
-    // }
+    const modalFhHiMobileOpen = () => {
+      setIsmodalFhHiMobileOpen(true)
+      document.body.style.overflow = 'hidden'
+    }
+    const modalFhHiMobileClose = () => {
+      setIsmodalFhHiMobileOpen(false)
+      document.body.style.overflow = 'auto'
+    }
+
+
   return (
     <>
       <div className='BlackHeds white'>
@@ -130,7 +133,7 @@ export const DesignFh = () => {
         </h5>
          <div className='ButtonContainer'>
                             <div className='Button enlarge white'>high fidelity desktop</div>
-                            <button onClick={''} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
+                            <button onClick={modalFhHiDesktopOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
                             {hover ? <img className='magnifier wh' src={magWhH} alt={magWhH}
                               /> : <img className='magnifier wh' src={magWh} alt={magWh}
                               />}
@@ -142,7 +145,7 @@ export const DesignFh = () => {
         </div>
         <div className='ButtonContainer'>
                             <div className='Button enlarge white'>high fidelity mobile</div>
-                            <button onClick={''} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
+                            <button onClick={modalFhHiMobileOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
                             {hover ? <img className='magnifier wh' src={magWhH} alt={magWhH}
                               /> : <img className='magnifier wh' src={magWh} alt={magWh}
                               />}
@@ -150,23 +153,11 @@ export const DesignFh = () => {
         </div>
         <img className='competitive fh_mobile' src={fh_hi_mobile} alt={fh_hi_mobile} />
 
-
-        {/* <div className='ButtonContainer'>
-                    <div className='Button enlarge white'>high fidelity wireframes</div>
-                    <button onClick={modalSscHiFiOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
-                    {hover ? <img className='magnifier wh' src={magWhH} alt={magWhH}
-                      /> : <img className='magnifier wh' src={magWh} alt={magWh}
-                      />}
-                    </button>
-          <img className='competitive hi_fi' src={hiFi} alt={hiFi} />
-        </div> */}
-
-
       </section>
-      {/* {/* <ModalSscFlow isOpen={ismodalSscFlowOpen} modalSscClose={modalSscFlowClose} /> */}
-      {/* <ModalSscLoFi isOpen={ismodalSscLoFiOpen} modalSscClose={modalSscLoFiClose} /> */}
       <ModalFhLoDesktop isOpen={ismodalFhLoDesktopOpen} modalSscClose={modalFhLoDesktopClose} />
       <ModalFhLoMobile isOpen={ismodalFhLoMobileOpen} modalSscClose={modalFhLoMobileClose} />
+      <ModalFhHiDesktop isOpen={ismodalFhHiDesktopOpen} modalSscClose={modalFhHiDesktopClose} />
+      <ModalFhHiMobile isOpen={ismodalFhHiMobileOpen} modalSscClose={modalFhHiMobileClose} />
     </>
   )
 }
