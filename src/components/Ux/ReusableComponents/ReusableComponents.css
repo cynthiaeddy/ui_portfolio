@@ -29,6 +29,16 @@
   display:block;
   margin-bottom: 9rem
 }
+
+.InnerContainer.prototype.fh {
+display: flex
+;
+    margin-bottom: 9rem;
+    flex-direction: row;
+    width: 90rem;
+    justify-content: space-between;
+}
+
 .InnerContainer.reflection  {
   margin-top: 4rem
 }
@@ -384,6 +394,16 @@ ul {
 .prototype {
   width: 35rem
 }
+.prototype.fh_desktop {
+  width: 65rem
+}
+.prototype.fh_mobile {
+  width: 19.75rem
+}
+.prototype_container_mobile{
+  margin: 0 -4rem
+}
+
 
 .WireframesContainer {
   display: flex;
