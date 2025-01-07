@@ -1,6 +1,6 @@
 import './../ReusableComponents.css'
 import { Carousel_fh } from './../Carousel_fh/Carousel_fh.js'
-// import { Carousel_fh_mobile } from './../Carousel_fh/Carousel_fh_mobile.js'
+import { Carousel_fh_mobile } from './../Carousel_fh/Carousel_fh_mobile.js'
 
 // import mag_wh from '../../../assets/ssc/mag_white.png'
 // import mag_blk from '../../../../assets/ssc/mag_blk.png'
@@ -50,7 +50,7 @@ export const TestingFh = () => {
             <div className='Button enlarge'>iterations carousel</div>
           </div>
           <Carousel_fh />
-          <Carousel_fh />
+          <Carousel_fh_mobile />
         </div>
       </section>
     </>

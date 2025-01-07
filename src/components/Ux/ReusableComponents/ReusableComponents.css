@@ -281,7 +281,7 @@ button {
 }
 .competitive.designFh{
   width: 90rem;
-  margin-top: -3rem
+  margin-top: -11rem
 }
 .competitive.mid_fi.desktop{
   width: 61rem;
@@ -308,7 +308,9 @@ button {
   margin-top: -4.5rem;
 }
 .competitive_lg {
-  width: 100%
+  border-radius: 20px;
+  width: 100%;
+  height: fit-content;
 }
 .competitive.persona {
   margin-top: -5rem;

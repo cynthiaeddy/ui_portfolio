@@ -1,6 +1,6 @@
 import './Modals.css'
 import { IoCloseCircle } from 'react-icons/io5'
-import lo_fi from '../../../assets/fh/fh_lo_mobile.png'
+import lo_fi from '../../../assets/fh/fh_modal_lofi.png'
 
 export const ModalFhLoMobile = ({ isOpen = true, modalSscClose }) => {
   if (!isOpen) {
@@ -25,7 +25,7 @@ export const ModalFhLoMobile = ({ isOpen = true, modalSscClose }) => {
             />
           </button>
           <div className='ModalContainerScroll'>
-            <img className='competitive_lg' src={lo_fi} alt='competitive' />
+            <img className='fhMobileImg' src={lo_fi} alt='competitive' />
           </div>
         </div>
       </div>
