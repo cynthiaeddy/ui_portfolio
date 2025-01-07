@@ -16,11 +16,12 @@
   transform: translate(-50%);
   z-index: 175;
   width: 90%;
-  top: 9.75rem;
+  top: 10rem;
   background: #000;
   max-width: 170rem;
   padding: 1rem 4rem 4rem 4rem;
-  border-radius: 20px
+  border-radius: 20px;
+  max-width: 150rem
 
 }
 .ModalContainerScroll {
@@ -32,4 +33,13 @@
   height: 4rem;
   font-size: 2rem;
   background: none;
+}
+.fhMobileImg {
+  width: 75%;
+  border-radius:20px
+}
+.fhModal {
+  width: 100%;
+  border-radius: 20px;
+
 }

@@ -1,6 +1,4 @@
-// eslint-disable-next-line no-unused-vars
-import { useState, useEffect } from 'react'
-// eslint-disable-next-line no-unused-vars
+import ScrollToTop from './components/ScrollToTop'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css'
 import { Navbar } from './components/Navbars/Navbar'
@@ -11,6 +9,7 @@ import { About } from './pages/About/About'
 import { Contact } from './pages/Contact/Contact'
 import { Ux } from './pages/Ux/Ux'
 import { Ssc } from './pages/CaseStudies/Ssc'
+import { Fh } from './pages/CaseStudies/Fh'
 import { Nyt } from './pages/CaseStudies/Nyt'
 
 const App = () => {
@@ -24,11 +23,13 @@ const App = () => {
       <Route exact path='/ux_ui' element={<Ux />} />
       <Route exact path='/ux_ui/ssc' element={<Ssc />} />
       <Route exact path='/ux_ui/nyt' element={<Nyt />} />
+      <Route exact path='/ux_ui/fh' element={<Fh />} />
     </Routes>
   )
   return (
     <div className='AppContainer'>
       <Router>
+        <ScrollToTop />
         <Navbar />
         {routes}
       </Router>

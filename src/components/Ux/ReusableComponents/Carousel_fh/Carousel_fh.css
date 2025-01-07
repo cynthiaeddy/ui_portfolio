@@ -1,0 +1,55 @@
+/* General reset for the page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main container for the carousel */
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem
+}
+
+.carousel-container.fh{
+  margin-top: -4rem
+
+}
+
+.prev-button {
+background:  #231F20;
+margin-right: -3rem
+
+}
+.prev-button.mobile {
+  margin-right: -7rem
+
+  }
+  .next-button.mobile {
+    margin-left: -7.5rem
+
+    }
+ .next-button {
+  background:  #231F20;
+  margin-left: -3rem
+
+  }
+
+
+img.carousel-image {
+  width: 95rem
+}
+
+img.carousel-image.mobile {
+  width: 65rem
+}
+
+.arrow {
+  width: 4rem;
+  position: relative;
+  z-index: 50;
+  background-color:  #231F20;
+  margin-bottom:14rem
+}
