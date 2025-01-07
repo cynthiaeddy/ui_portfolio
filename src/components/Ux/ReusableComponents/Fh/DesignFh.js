@@ -3,11 +3,10 @@ import './../ReusableComponents.css'
 import magWh from '../../../../assets/ssc/magWh.png'
 import magWhH from '../../../../assets/ssc/magWhH.png'
 import user_flow from '../../../../assets/fh/second iteration_final.png'
-import fh_lo_desktop from '../../../../assets/fh/fh_lo_desktop.png'
-import fh_lo_mobile from '../../../../assets/fh/fh_lo_mobile.png'
-import fh_hi_desktop_top from '../../../../assets/fh/fh_hi_desktop_top.png'
-import fh_hi_desktop_bottom from '../../../../assets/fh/fh_hi_desktop_bottom.png'
-import fh_hi_mobile from '../../../../assets/fh/fh_hi_mobile.png'
+import fh_lo_desktop from '../../../../assets/fh/fh_lofi_desktop.png'
+import fh_lo_mobile from '../../../../assets/fh/fh_lofi_mobile.png'
+import fh_hi_desktop from '../../../../assets/fh/fh_hifi_desktopcrop.png'
+import fh_hi_mobile from '../../../../assets/fh/fh_hifi_mobile.png'
 import { ModalFhLoDesktop } from '../../Modals/ModalFhLoDesktop'
 import { ModalFhLoMobile } from '../../Modals/ModalFhLoMobile'
 import { ModalFhHiDesktop } from '../../Modals/ModalFhHiDesktop'
@@ -67,7 +66,7 @@ export const DesignFh = () => {
       <div className='BlackHeds white'>
         <h2 className='h2_white'>Design</h2>
       </div>
-      <section className='OpenerContainer define'>
+      <section className='OpenerContainer designFh'>
         <h5 className='h5 black center'>
           <span className='leadin black'>
             Next, I created a user task flow{' '}
@@ -194,18 +193,11 @@ export const DesignFh = () => {
             )}
           </button>
         </div>
-        <div className='Container_desktop'>
-          <img
-            className='competitive fh_top'
-            src={fh_hi_desktop_top}
-            alt={fh_hi_desktop_top}
-          />
-          <img
-            className='competitive fh_bottom'
-            src={fh_hi_desktop_bottom}
-            alt={fh_hi_desktop_bottom}
-          />
-        </div>
+        <img
+          className='competitive designFh four'
+          src={fh_hi_desktop}
+          alt={fh_hi_desktop}
+        />
         <div className='ButtonContainer'>
           <div className='Button enlarge white'>high fidelity mobile</div>
           <button

@@ -6,6 +6,11 @@
 .OpenerContainer.define {
   margin-top: 4rem
 }
+.OpenerContainer.designFh{
+  margin-top: 4rem;
+  margin-bottom: 3rem
+
+}
 .WideContainer {
   width: 100%;
   background: #231F20;
@@ -283,9 +288,15 @@ button {
   width: 90rem;
   margin-top: -11rem
 }
+
+.competitive.designFh.four{
+  width: 95rem;
+  margin-top: -6rem;
+  margin-bottom: -8rem
+}
 .competitive.mid_fi.desktop{
   width: 61rem;
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
 }
 
 .competitive.mid_fi.mobile{
@@ -317,17 +328,10 @@ button {
   margin-bottom: 8rem
 }
 
-.competitive.fh_top {
-  width:87rem;
-  margin-top: 0
-}
-.competitive.fh_bottom {
-  width:82.5rem;
-  margin-top: 2rem
-}
+
 .competitive.fh_mobile {
-  width:76rem;
-  margin-top: 2rem
+  width:95rem;
+  margin-top: -1rem
 }
 
 .h5.bullets {

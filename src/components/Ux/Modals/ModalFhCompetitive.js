@@ -1,6 +1,6 @@
 import './Modals.css'
 import { IoCloseCircle } from 'react-icons/io5'
-import competitive from '../../../assets/fh/feline_competitive.png'
+import competitive from '../../../assets/fh/feline_competitivecrop.png'
 
 export const ModalFhCompetitive = ({ isOpen = true, modalSscClose }) => {
   if (!isOpen) {

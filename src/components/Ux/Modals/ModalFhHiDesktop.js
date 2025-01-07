@@ -1,8 +1,7 @@
 import './Modals.css'
 import './../ReusableComponents/ReusableComponents.css'
 import { IoCloseCircle } from 'react-icons/io5'
-import hi_desktop from '../../../assets/fh/fh_hi_desktop_top.png'
-import hi_desktop_bottom from '../../../assets/fh/fh_hi_desktop_bottom.png'
+import hi_desktop from '../../../assets/fh/fh_hifi_desktop.png'
 
 export const ModalFhHiDesktop = ({ isOpen = true, modalSscClose }) => {
   if (!isOpen) {
@@ -27,18 +26,7 @@ export const ModalFhHiDesktop = ({ isOpen = true, modalSscClose }) => {
             />
           </button>
           <div className='ModalContainerScroll'>
-            <div className='Container_desktop'>
-              <img
-                className='competitive fh_top'
-                src={hi_desktop}
-                alt={hi_desktop}
-              />
-              <img
-                className='competitive fh_bottom'
-                src={hi_desktop_bottom}
-                alt={hi_desktop_bottom}
-              />
-            </div>
+            <img className='fhModal' src={hi_desktop} alt={hi_desktop} />
           </div>
         </div>
       </div>

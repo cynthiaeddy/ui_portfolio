@@ -1,6 +1,6 @@
 import './Modals.css'
 import { IoCloseCircle } from 'react-icons/io5'
-import hi_mobile from '../../../assets/fh/fh_hi_mobile.png'
+import hi_mobile from '../../../assets/fh/fh_hifi_mobile.png'
 
 export const ModalFhHiMobile = ({ isOpen = true, modalSscClose }) => {
   if (!isOpen) {
