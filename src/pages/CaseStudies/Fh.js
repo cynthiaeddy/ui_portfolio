@@ -6,6 +6,7 @@ import { IdeateFh } from '../../components/Ux/ReusableComponents/Fh/IdeateFh'
 import { DesignFh } from '../../components/Ux/ReusableComponents/Fh/DesignFh'
 import { TestingFh } from '../../components/Ux/ReusableComponents/Fh/TestingFh'
 import { PrototypeFh } from '../../components/Ux/ReusableComponents/Fh/PrototypeFh'
+import { ReflectionFh } from '../../components/Ux/ReusableComponents/Fh/ReflectionFh'
 
 export const Fh = () => {
   return (
@@ -17,7 +18,7 @@ export const Fh = () => {
       <DesignFh />
       <TestingFh />
       <PrototypeFh />
-      {/* <Reflection />  */}
+      <ReflectionFh />
     </section>
   )
 }
