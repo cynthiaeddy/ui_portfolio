@@ -11,6 +11,7 @@ import { About } from './pages/About/About'
 import { Contact } from './pages/Contact/Contact'
 import { Ux } from './pages/Ux/Ux'
 import { Ssc } from './pages/CaseStudies/Ssc'
+import { Fh } from './pages/CaseStudies/Fh'
 
 const App = () => {
   let routes = (
@@ -22,6 +23,7 @@ const App = () => {
       <Route exact path='/contact' element={<Contact />} />
       <Route exact path='/ux_ui' element={<Ux />} />
       <Route exact path='/ux_ui/ssc' element={<Ssc />} />
+      <Route exact path='/ux_ui/fh' element={<Fh />} />
     </Routes>
   )
   return (

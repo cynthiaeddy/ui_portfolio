@@ -6,6 +6,11 @@
 .OpenerContainer.define {
   margin-top: 4rem
 }
+.OpenerContainer.designFh{
+  margin-top: 4rem;
+  margin-bottom: 3rem
+
+}
 .WideContainer {
   width: 100%;
   background: #231F20;
@@ -24,6 +29,16 @@
   display:block;
   margin-bottom: 9rem
 }
+
+.InnerContainer.prototype.fh {
+display: flex
+;
+    margin-bottom: 9rem;
+    flex-direction: row;
+    width: 90rem;
+    justify-content: space-between;
+}
+
 .InnerContainer.reflection  {
   margin-top: 4rem
 }
@@ -43,6 +58,9 @@
   padding-bottom: 6rem;
   border-radius: 20px 20px 0px 0px;
 }
+.WideContainer.Fh.Research {
+  padding-bottom: 8rem;
+}
 
 .Opener {
   display: flex;
@@ -50,9 +68,23 @@
   width: 80rem;
   justify-content: space-between;
 }
-.OpenerFoto {
-  width: 31%
+.Opener.fh {
+  margin:0
 }
+.OpenerFoto {
+  width: 31%;
+  align-self: center;
+}
+
+.OpenerFoto.desktop {
+  width: 90%
+}
+.OpenerFoto.mobile {
+  width: 25%;
+  margin-left: -3rem;
+  margin-top: -4.5rem
+}
+
 .background {
     background: #231F20;
     margin-top: -25rem;
@@ -102,12 +134,16 @@ h5,.leadin {
 }
 .h5.small {
   color: black;
-  font-size: 1.9rem;
-  line-height: 1.6;
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
 
 .h5.dropCap, .h5.marginTop {
   margin-top:5rem;
+}
+
+.h5.research {
+  margin-top: 2rem
 }
 .h6.studies {
   font-size: 1.4rem;
@@ -248,13 +284,35 @@ margin-bottom: 2rem;}
 .magnifier.wh {
   background-color: #FAF9F8;
 }
+
+button {
+  background-color: #FAF9F8;
+}
 .competitive, .mood {
   width: 75rem;
   border-radius: 20px;
   margin: auto;
   margin-top: -11.5rem;
 }
+.competitive.designFh{
+  width: 90rem;
+  margin-top: -11rem
+}
 
+.competitive.designFh.four{
+  width: 95rem;
+  margin-top: -6rem;
+  margin-bottom: -8rem
+}
+.competitive.mid_fi.desktop{
+  width: 61rem;
+  margin-top: 0.75rem;
+}
+
+.competitive.mid_fi.mobile{
+  width: 34rem;
+  margin-top: 0.5rem;
+}
 .mood, .style {
   margin-top: -5rem;
 }
@@ -271,11 +329,19 @@ margin-bottom: 2rem;}
   margin-top: -4.5rem;
 }
 .competitive_lg {
-  width: 100%
+  border-radius: 20px;
+  width: 100%;
+  height: fit-content;
 }
 .competitive.persona {
   margin-top: -5rem;
   margin-bottom: 8rem
+}
+
+
+.competitive.fh_mobile {
+  width:95rem;
+  margin-top: -1rem
 }
 
 .h5.bullets {
@@ -327,4 +393,23 @@ ul {
 
 .prototype {
   width: 35rem
+}
+.prototype.fh_desktop {
+  width: 65rem
+}
+.prototype.fh_mobile {
+  width: 19.75rem
+}
+.prototype_container_mobile{
+  margin: 0 -4rem
+}
+
+
+.WireframesContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.Container_desktop {
+  display:flex;
+  flex-direction: column;
 }
