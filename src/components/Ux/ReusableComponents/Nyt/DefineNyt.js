@@ -24,7 +24,7 @@ export const DefineNyt = () => {
         </section>
         <h5 className='h5 black center venn'>
           <span className='leadin black'>
-          These insights helped define </span> the goals, which I represented visually using a Venn diagram.:
+          These insights helped define </span> the goals, which I represented visually using a Venn diagram.
         </h5>
         <div className='ButtonContainer'>
                     <div className='Button enlarge white'>venn diagram</div>
