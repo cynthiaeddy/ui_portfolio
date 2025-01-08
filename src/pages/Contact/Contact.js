@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-// import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser'
 import './Contact.css'
 
 export const Contact = () => {
@@ -7,37 +7,37 @@ export const Contact = () => {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault()
-  //   console.log(
-  //     'in form, testing keys',
-  //     process.env.REACT_APP_SERVICE_ID,
-  //     'template id',
-  //     process.env.REACT_APP_TEMPLATE_ID,
-  //     'template public',
-  //     e.target,
-  //     process.env.REACT_APP_PUBLIC_KEY,
-  //   )
-  //   emailjs
-  //     .sendForm(
-  //       process.env.REACT_APP_SERVICE_ID,
-  //       process.env.REACT_APP_TEMPLATE_ID,
-  //       e.target,
-  //       process.env.REACT_APP_PUBLIC_KEY,
-  //     )
-  //     .then(
-  //       (result) => {
-  //         console.log(result.text)
-  //         // Reset the form fields
-  //         setName('')
-  //         setEmail('')
-  //         setMessage('')
-  //       },
-  //       (error) => {
-  //         console.log(error.text)
-  //       },
-  //     )
-  // }
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    console.log(
+      'in form, testing keys',
+      process.env.REACT_APP_SERVICE_ID,
+      'template id',
+      process.env.REACT_APP_TEMPLATE_ID,
+      'template public',
+      e.target,
+      process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+    )
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        e.target,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+      )
+      .then(
+        (result) => {
+          console.log(result.text)
+          // Reset the form fields
+          setName('')
+          setEmail('')
+          setMessage('')
+        },
+        (error) => {
+          console.log(error.text)
+        },
+      )
+  }
   console.log('name', name, 'email', email)
 
   console.log(
@@ -46,15 +46,13 @@ export const Contact = () => {
     'template',
     process.env.REACT_APP_TEMPLATE_ID,
     'PUBLIC',
-    process.env.REACT_APP_PUBLIC_KEY,
-    'PUBLIC with emailjs',
     process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
   )
 
   return (
     <section className='Container contact'>
       <div className='AboutContact'>say hello</div>
-      <form className='ContactForm' onSubmit={''}>
+      <form className='ContactForm' onSubmit={handleSubmit}>
         <div className='ContactForm text'>
           <label htmlFor='name' className='Contact_text'>
             Name
