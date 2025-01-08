@@ -34,8 +34,6 @@ export const DefineNyt = () => {
                       alt={venn}
                     />
                   </div>
-
-
       </section>
     </>
   )

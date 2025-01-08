@@ -5,17 +5,17 @@ import './../ReusableComponents.css'
 import magWh from '../../../../assets/ssc/magWh.png'
 import magWhH from '../../../../assets/ssc/magWhH.png'
 import user_flow from '../../../../assets/nyt/nyt_user_flow2.png'
+import lofi from '../../../../assets/nyt/nyt_midfi_sm.png'
 // import hiFi from '../../../assets/ssc/hifi_crop.jpg'
 // import mid_fi from '../../../assets/ssc/ive_mid_fi.png'
 import { ModalNytFlow } from '../../Modals/ModalNytFlow'
-// import { ModalSscLoFi } from '../Modals/ModalSscLoFi'
-// import { ModalSscHiFi } from '../Modals/ModalSscHiFi'
+import { ModalNytLoFi } from '../../Modals/ModalNytLoFi'
 
 
 export const DesignNyt = () => {
   const [hover, setHover] = useState(false);
   const [ismodalNytFlowOpen, setIsmodalNytFlowOpen] = useState(false)
-  // const [ismodalSscLoFiOpen, setIsmodalSscLoFiOpen] = useState(false)
+  const [ismodalNytLoFiOpen, setIsmodalNytLoFiOpen] = useState(false)
   // const [ismodalSscHiFiOpen, setIsmodalSscHiFiOpen] = useState(false)
 
     const handleMouseIn = () => {
@@ -35,14 +35,14 @@ export const DesignNyt = () => {
       document.body.style.overflow = 'auto'
     }
 
-    // const modalSscLoFiOpen = () => {
-    //   setIsmodalSscLoFiOpen(true)
-    //   document.body.style.overflow = 'hidden'
-    // }
-    // const modalSscLoFiClose = () => {
-    //   setIsmodalSscLoFiOpen(false)
-    //   document.body.style.overflow = 'auto'
-    // }
+    const modalNytLoFiOpen = () => {
+      setIsmodalNytLoFiOpen(true)
+      document.body.style.overflow = 'hidden'
+    }
+    const modalNytLoFiClose = () => {
+      setIsmodalNytLoFiOpen(false)
+      document.body.style.overflow = 'auto'
+    }
     // const modalSscHiFiOpen = () => {
     //   setIsmodalSscHiFiOpen(true)
     //   document.body.style.overflow = 'hidden'
@@ -73,58 +73,41 @@ export const DesignNyt = () => {
         <div className='divider_curved top'></div>
         <div className='divider_curved_down'></div>
         <h5 className='h5 dropCap black'>
-        The low-fidelity wireframes helped shape the content structure and layout, ensuring key elements were organized effectively. By referring to the persona and affinity map, I focused on presenting crucial information that keeps users engaged, particularly on the landing and product pages.
-        </h5>
+        The user flow diagram helped me visualize how serving size adjustments would impact the recipe page&apos;s layout and functionality, guiding the creation of low-fidelity wireframes. The goal was to incorporate NYT&apos;s existing UI while ensuring that features like nutritional information and the grocery list would update dynamically when the serving size was changed. Following are the key points:
+
+</h5>
         <ul className='h5 bullets'>
-            <li className='first_li_research black'>
-              <h5 className='h5 black'>Wireframes provided insights into content structure and page organization.</h5>
-            </li>
+<li className='first_li_research black'>
+  <h5 className='h5 black'>Mapped key interaction points where serving size adjustments affect layout, ingredient quantities, and features like the grocery list and nutritional information.</h5>
+</li>
             <li className='black'>
-              <h5 className='h5 black'>Persona and affinity map guided the prioritization of user-friendly, engaging information.</h5>
-            </li>
-            <li className='smHed'>
-              <h6 className='h6 small space'>
-                landing page
-              </h6 >
+              <h5 className='h5 black'>Designed wireframes to visualize how changes in serving size would update ingredient amounts, nutritional data, and the grocery list in real-time.</h5>
             </li>
             <li className='black'>
               <h5 className='h5 black'>
-              Mission statement highlighting sustainability and handcrafted products.
+              Ensured seamless integration with NYT’s existing UI, maintaining consistency in design while adding dynamic updates for the new feature.
               </h5>
             </li>
-            <li className='black'>
-              <h5 className='h5 black'>
-              SSC&apos;s values presented with icons and brief text.
-              </h5>
-          </li>
-          <li className='smHed'>
-              <h6 className='h6 small space'>
-                product page
-              </h6>
-            </li>
-            <li className='black'>
-              <h5 className='h5 black'>
-              Features usage instructions, ingredients, and customer reviews.              </h5>
-            </li>
-        </ul>
+         </ul>
         <div className='ButtonContainer'>
                     <div className='Button enlarge white'>low fidelity wireframes</div>
-                    <button onClick={''} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
+                    <button onClick={modalNytLoFiOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
                     {hover ? <img className='magnifier wh' src={magWhH} alt={magWhH}
                       /> : <img className='magnifier wh' src={magWh} alt={magWh}
                       />}
                     </button>
-          <img className='competitive mid_fi' src={''} alt={''} />
+          <img className='competitive mid_fi' src={lofi} alt={lofi} />
         </div>
         <div className='divider_curved top'></div>
         <h5 className='h5 dropCap black'>
-        In moderated testing of the low-fidelity wireframes, 5 participants completed their tasks of exploring the homepage, purchasing the vegan soap and accessing information about the company&apos;s sustainability practices and product usage. All five users succeeded without errors and found the navigation intuitive, though they suggested increasing the hamburger menu size and improving access to product reviews. <br /> <br /> Next steps for the high-fidelity wireframes:        </h5>
+        In moderated testing of the low-fidelity wireframes, five participants rated the serving size feature 5/5 for ease of use. However, the overall satisfaction score was 88%, due to dissatisfaction with the existing NYT UI, particularly around the grocery list editing. Since their existing UI was out of my scope, I focused on the following leaving the rest of the NYT designed unchanged:
+        </h5>
         <ul className='h5 bullets'>
             <li className='first_li_research black'>
-              <h5 className='h5 black'>Expanding the navigation bar and detailing sustainability practices via new pages of an ingredients glossary and reviews to enhance transparency and user satisfaction.</h5>
+              <h5 className='h5 black'>Enlarged and moved the edit and done buttons from the top navigation bar to the right of the recipe name.</h5>
             </li>
             <li className='black'>
-              <h5 className='h5 black'> Art deco branding theme was already established. The new logo and branding echo and coexist with old in order for it to be updated seamlessly and cohesively, while making the brand more distinct and emphasizing sustainability again in the tagline.</h5>
+              <h5 className='h5 black'> Changed the edit grocery list page deletion UI to mirror the existing NYT’s UI.</h5>
             </li>
         </ul>
         <div className='ButtonContainer'>
@@ -140,8 +123,8 @@ export const DesignNyt = () => {
 
       </section>
       <ModalNytFlow isOpen={ismodalNytFlowOpen} modalSscClose={modalNytFlowClose} />
-      {/* <ModalSscLoFi isOpen={ismodalSscLoFiOpen} modalSscClose={modalSscLoFiClose} />
-      <ModalSscHiFi isOpen={ismodalSscHiFiOpen} modalSscClose={modalSscHiFiClose} />  */}
+      <ModalNytLoFi isOpen={ismodalNytLoFiOpen} modalSscClose={modalNytLoFiClose} />
+      {/* <ModalSscHiFi isOpen={ismodalSscHiFiOpen} modalSscClose={modalSscHiFiClose} />  */}
     </>
   )
 }
