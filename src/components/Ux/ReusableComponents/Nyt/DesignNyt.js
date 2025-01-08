@@ -63,7 +63,7 @@ export const DesignNyt = () => {
           After identifying key features </span> for serving size functionality, I created a user flow showing how users can adjust recipe portions while managing grocery lists and nutritional information.
         </h5>
         <div className='ButtonContainer'>
-                    <div className='Button enlarge white'>user task flow</div>
+                    <div className='Button enlarge white'>user flow</div>
                     <button onClick={modalNytFlowOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
                     {hover ? <img className='magnifier wh' src={magWhH} alt={magWhH}
                       /> : <img className='magnifier wh' src={magWh} alt={magWh}
