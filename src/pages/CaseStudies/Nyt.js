@@ -5,6 +5,7 @@ import { DefineNyt } from '../../components/Ux/ReusableComponents/Nyt/DefineNyt'
 import { IdeateNyt } from '../../components/Ux/ReusableComponents/Nyt/IdeateNyt'
 import { DesignNyt } from '../../components/Ux/ReusableComponents/Nyt/DesignNyt'
 import { TestingNyt } from '../../components/Ux/ReusableComponents/Nyt/TestingNyt'
+import { PrototypeNyt } from '../../components/Ux/ReusableComponents/Nyt/PrototypeNyt'
 
 export const Nyt = () => {
   return (
@@ -15,8 +16,8 @@ export const Nyt = () => {
       <IdeateNyt />
       <DesignNyt />
       <TestingNyt />
-      {/* <Prototype />
-      <Reflection />   */}
+      <PrototypeNyt />
+      {/* <Reflection />    */}
     </section>
   )
 }
