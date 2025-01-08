@@ -1,6 +1,6 @@
 import './Modals.css'
 import { IoCloseCircle } from 'react-icons/io5'
-import lo_fi from '../../../assets/nyt/nyt_midfi_big.png'
+import lo_fi from '../../../assets/nyt/nyt_midfi_bigheds.png'
 
 export const ModalNytLoFi = ({ isOpen = true, modalSscClose }) => {
   if (!isOpen) {

@@ -5,18 +5,19 @@ import './../ReusableComponents.css'
 import magWh from '../../../../assets/ssc/magWh.png'
 import magWhH from '../../../../assets/ssc/magWhH.png'
 import user_flow from '../../../../assets/nyt/nyt_user_flow2.png'
-import lofi from '../../../../assets/nyt/nyt_midfi_sm.png'
-// import hiFi from '../../../assets/ssc/hifi_crop.jpg'
-// import mid_fi from '../../../assets/ssc/ive_mid_fi.png'
+import lofi from '../../../../assets/nyt/nyt_midfi_big.png'
+import hifi from '../../../../assets/nyt/nyt_hificrop.png'
 import { ModalNytFlow } from '../../Modals/ModalNytFlow'
 import { ModalNytLoFi } from '../../Modals/ModalNytLoFi'
+import { ModalNytHiFi } from '../../Modals/ModalNytHiFi'
+
 
 
 export const DesignNyt = () => {
   const [hover, setHover] = useState(false);
   const [ismodalNytFlowOpen, setIsmodalNytFlowOpen] = useState(false)
   const [ismodalNytLoFiOpen, setIsmodalNytLoFiOpen] = useState(false)
-  // const [ismodalSscHiFiOpen, setIsmodalSscHiFiOpen] = useState(false)
+  const [ismodalNytHiFiOpen, setIsmodalNytHiFiOpen] = useState(false)
 
     const handleMouseIn = () => {
       setHover(true);
@@ -43,14 +44,14 @@ export const DesignNyt = () => {
       setIsmodalNytLoFiOpen(false)
       document.body.style.overflow = 'auto'
     }
-    // const modalSscHiFiOpen = () => {
-    //   setIsmodalSscHiFiOpen(true)
-    //   document.body.style.overflow = 'hidden'
-    // }
-    // const modalSscHiFiClose = () => {
-    //   setIsmodalSscHiFiOpen(false)
-    //   document.body.style.overflow = 'auto'
-    // }
+    const modalNytHiFiOpen = () => {
+      setIsmodalNytHiFiOpen(true)
+      document.body.style.overflow = 'hidden'
+    }
+    const modalNytHiFiClose = () => {
+      setIsmodalNytHiFiOpen(false)
+      document.body.style.overflow = 'auto'
+    }
   return (
     <>
       <div className='BlackHeds white'>
@@ -112,19 +113,19 @@ export const DesignNyt = () => {
         </ul>
         <div className='ButtonContainer'>
                     <div className='Button enlarge white'>high fidelity wireframes</div>
-                    <button onClick={''} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
+                    <button onClick={modalNytHiFiOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
                     {hover ? <img className='magnifier wh' src={magWhH} alt={magWhH}
                       /> : <img className='magnifier wh' src={magWh} alt={magWh}
                       />}
                     </button>
-          <img className='competitive hi_fi' src={''} alt={''} />
+          <img className='competitive hi_fi' src={hifi} alt={hifi} />
         </div>
 
 
       </section>
       <ModalNytFlow isOpen={ismodalNytFlowOpen} modalSscClose={modalNytFlowClose} />
       <ModalNytLoFi isOpen={ismodalNytLoFiOpen} modalSscClose={modalNytLoFiClose} />
-      {/* <ModalSscHiFi isOpen={ismodalSscHiFiOpen} modalSscClose={modalSscHiFiClose} />  */}
+      <ModalNytHiFi isOpen={ismodalNytHiFiOpen} modalSscClose={modalNytHiFiClose} />
     </>
   )
 }
