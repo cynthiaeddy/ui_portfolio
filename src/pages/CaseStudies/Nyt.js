@@ -4,6 +4,7 @@ import { ResearchNyt } from '../../components/Ux/ReusableComponents/Nyt/Research
 import { DefineNyt } from '../../components/Ux/ReusableComponents/Nyt/DefineNyt'
 import { IdeateNyt } from '../../components/Ux/ReusableComponents/Nyt/IdeateNyt'
 import { DesignNyt } from '../../components/Ux/ReusableComponents/Nyt/DesignNyt'
+import { TestingNyt } from '../../components/Ux/ReusableComponents/Nyt/TestingNyt'
 
 export const Nyt = () => {
   return (
@@ -13,9 +14,9 @@ export const Nyt = () => {
       <DefineNyt />
       <IdeateNyt />
       <DesignNyt />
-      {/* <Testing />
-      <Prototype />
-      <Reflection />  */}
+      <TestingNyt />
+      {/* <Prototype />
+      <Reflection />   */}
     </section>
   )
 }
