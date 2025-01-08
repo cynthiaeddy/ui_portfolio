@@ -9,7 +9,15 @@ margin-top: 30rem
 .Contact_text {
   font-weight: 600;
   align-self: start;
+  margin-top: 2rem
 
+}
+.Contact_text.name {
+    margin-top: 0rem
+}
+
+.Contact_text.message {
+  margin-bottom: 2rem
 }
 
 .ContactForm {
@@ -18,20 +26,27 @@ margin-top: 30rem
   flex-direction: column;
 }
 .ContactForm.text {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 4rem;
+  /* display: flex;
+  flex-direction: column; */
+  /* margin-bottom: 4rem; */
   width:100%;
   margin-left:4rem
 }
-input {
+input, textarea {
   background-color: initial;
   border-bottom: .5px solid black;
+  height: 5rem;
+  text-align: left;
+  text-transform: initial;
+  font-size: 1.5rem;
+  letter-spacing: .01rem;
+
 }
 textarea {
   background-color: initial;
   border: .5px solid black;
   min-height: 15rem;
+  padding: 2rem
 }
 
 .AboutContact {
