@@ -62,7 +62,7 @@ export const Design = () => {
           After determining the project&apos;s key objectives, </span> I created a user flow to purchase a product emphasizing on intuitive navigation and search functionality.
         </h5>
         <div className='ButtonContainer'>
-                    <div className='Button enlarge white'>affinity mapping</div>
+                    <div className='Button enlarge white'>user flow</div>
                     <button onClick={modalSscFlowOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
                     {hover ? <img className='magnifier wh' src={magWhH} alt={magWhH}
                       /> : <img className='magnifier wh' src={magWh} alt={magWh}

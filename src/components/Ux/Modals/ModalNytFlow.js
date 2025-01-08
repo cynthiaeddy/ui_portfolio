@@ -1,8 +1,8 @@
 import './Modals.css'
 import { IoCloseCircle } from 'react-icons/io5'
-import lo_fi from '../../../assets/ssc/ive_mid_fiheds.png'
+import flow from '../../../assets/nyt/nyt_user_flow2.png'
 
-export const ModalSscLoFi = ({ isOpen = true, modalSscClose }) => {
+export const ModalNytFlow = ({ isOpen = true, modalSscClose }) => {
   if (!isOpen) {
     return null
   }
@@ -25,7 +25,7 @@ export const ModalSscLoFi = ({ isOpen = true, modalSscClose }) => {
             />
           </button>
           <div className='ModalContainerScroll'>
-            <img className='competitive_lg' src={lo_fi} alt='competitive' />
+            <img className='competitive_lg' src={flow} alt='competitive' />
           </div>
         </div>
       </div>

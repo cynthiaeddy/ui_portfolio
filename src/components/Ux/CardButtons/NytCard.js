@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom'
 import opener from '../../../assets/nyt/home.png'
 import './CardButtons.css'
 export const NytCard = () => {
   return (
-    <div className='CardContainer'>
+    <Link to='nyt' className='CardContainer'>
       <section className='Card'>
         <div className='CardText'>
           <div className='CardOpener'>
@@ -22,6 +23,6 @@ export const NytCard = () => {
         </div>
       </section>
       <div className='footer nyt'>add a feature to an existing website</div>
-    </div>
+    </Link>
   )
 }

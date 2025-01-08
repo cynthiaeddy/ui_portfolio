@@ -10,6 +10,7 @@ import { Contact } from './pages/Contact/Contact'
 import { Ux } from './pages/Ux/Ux'
 import { Ssc } from './pages/CaseStudies/Ssc'
 import { Fh } from './pages/CaseStudies/Fh'
+import { Nyt } from './pages/CaseStudies/Nyt'
 
 const App = () => {
   let routes = (
@@ -21,6 +22,7 @@ const App = () => {
       <Route exact path='/contact' element={<Contact />} />
       <Route exact path='/ux_ui' element={<Ux />} />
       <Route exact path='/ux_ui/ssc' element={<Ssc />} />
+      <Route exact path='/ux_ui/nyt' element={<Nyt />} />
       <Route exact path='/ux_ui/fh' element={<Fh />} />
     </Routes>
   )

@@ -50,6 +50,9 @@ display: flex
   padding-bottom: 8rem;
   margin-bottom: 9rem
 }
+.WideContainer.nyt.research {
+  padding-bottom: 8rem;
+}
 .WideContainer.testing {
   padding-bottom: 3rem;
   margin-bottom: 9rem
@@ -96,10 +99,9 @@ display: flex
 .textWrapper {
   background: #231F20;
   width: 100%;
-  height: 20rem;
   border-radius: 20px;
   margin-top: .5px;
-  padding: 6rem 4rem;
+  padding: 3.5rem;
 }
 h2 {
   font-family: gelica, sans-serif;
@@ -132,6 +134,12 @@ h5,.leadin {
   text-align: center;
   margin-bottom: 3rem;
 }
+
+.h5.black.center.venn {
+  margin-top: 2rem;
+}
+
+
 .h5.small {
   color: black;
   font-size: 1.6rem;
@@ -222,6 +230,7 @@ margin-bottom: 2rem;}
   font-weight: 200;
 }
 
+
 .h5.dropcap.black {
   color: black
 }
@@ -294,9 +303,16 @@ button {
   margin: auto;
   margin-top: -11.5rem;
 }
+.competitive.venn {
+  margin-top: -5.5rem
+}
 .competitive.designFh{
   width: 90rem;
   margin-top: -11rem
+}
+.competitive.nyt_iteraction {
+  margin-top: 1.5rem;
+  width: 95rem
 }
 
 .competitive.designFh.four{
@@ -317,8 +333,11 @@ button {
   margin-top: -5rem;
 }
 .competitive.flow {
-  width: 85rem;
-  margin-top: -14.5rem;
+  width: 82rem;
+  margin-top: -13.5rem;
+}
+.competitive.flow.nyt {
+  margin-top: -10.5rem;
 }
 .competitive.mid_fi {
   width: 81.5rem;
@@ -361,7 +380,13 @@ li.black {
 li.first_li_research {
   padding-left: 1rem
 }
-
+li.first_li_testing {
+  padding-left: 1rem;
+  margin-left: 7rem
+}
+li.second_li_testing {
+  margin-left: -4rem
+}
 
 ul {
   padding-left: .75rem
@@ -381,6 +406,9 @@ ul {
 }
 .dropCap.hang.one {
   margin-left:1rem
+}
+.dropCap.nyt_test {
+  font-size: 5.4rem
 }
 
 
