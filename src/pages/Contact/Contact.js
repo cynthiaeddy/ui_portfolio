@@ -62,7 +62,7 @@ export const Contact = () => {
       <div className='Container_overlord'>
         {isSubmitted ? (
           // UI shown after successful submission
-          <section className='SecondContainer'>
+          <section className='SecondContainer sucess'>
             <div className='AboutContact'>thank you!</div>
             <h5 className='h5 contact'>
               I&apos;ll be sure to get back to you within 48 hours.

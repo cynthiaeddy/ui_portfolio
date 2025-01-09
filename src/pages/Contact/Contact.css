@@ -10,6 +10,9 @@ margin-top: 30rem
 }
 .SecondContainer {
   display: flex;
+  flex-direction: row;
+}
+.SecondContainer {
   flex-direction: column;
 }
 .ButtonContainer.contact {
