@@ -12,10 +12,10 @@ export const Ux = () => {
           <div className='UxButton '>
             a ux<span className='smallSlash default'>/</span>ui designer{' '}
           </div>
-          <NavLink to='design' className='HomeButton'>
+          <NavLink to='/design' className='HomeButton'>
             print & digital designer
           </NavLink>
-          <NavLink to='development' className='HomeButton'>
+          <NavLink to='/development' className='HomeButton'>
             software developer
           </NavLink>
         </div>
@@ -32,3 +32,4 @@ export const Ux = () => {
     </>
   )
 }
+export default Ux

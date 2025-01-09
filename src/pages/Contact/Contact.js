@@ -72,7 +72,7 @@ export const Contact = () => {
             </Link>
           </section>
         ) : (
-          <section className='SecondContainer'>
+          <section className='SecondContainer form'>
             <div className='AboutContact'>say hello</div>
             <form className='ContactForm' onSubmit={handleSubmit}>
               <div className='ContactForm text'>
