@@ -24,7 +24,7 @@ export const ModalNytHiFi = ({ isOpen = true, modalSscClose }) => {
               }}
             />
           </button>
-          <div className='ModalContainerScroll'>
+          <div className='ModalContainerScroll no'>
             <img className='competitive_lg' src={hi_fi} alt='competitive' />
           </div>
         </div>

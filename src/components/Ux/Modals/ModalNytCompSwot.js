@@ -8,7 +8,7 @@ export const ModalNytCompSwot = ({ isOpen = true, modalSscClose }) => {
   }
   return (
     <div className='ModalWrapper'>
-      <div className='ModalContainer'>
+      <div className='ModalContainer '>
         <div className='modalSsc'>
           <button
             type='button'

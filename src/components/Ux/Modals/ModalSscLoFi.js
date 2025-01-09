@@ -24,7 +24,7 @@ export const ModalSscLoFi = ({ isOpen = true, modalSscClose }) => {
               }}
             />
           </button>
-          <div className='ModalContainerScroll'>
+          <div className='ModalContainerScroll no'>
             <img className='competitive_lg' src={lo_fi} alt='competitive' />
           </div>
         </div>
