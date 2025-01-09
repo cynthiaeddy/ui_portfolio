@@ -58,7 +58,7 @@ export const Contact = () => {
 
   return (
     <section className='Container contact'>
-      <div>
+      <div className='Container_overlord'>
         {isSubmitted ? (
           // UI shown after successful submission
           <div>
@@ -66,7 +66,7 @@ export const Contact = () => {
             <p>Thank you for submitting the form.{statusMessage}</p>
           </div>
         ) : (
-          <>
+          <section className='SecondContainer'>
             <div className='AboutContact'>say hello</div>
             <form className='ContactForm' onSubmit={handleSubmit}>
               <div className='ContactForm text'>
@@ -108,7 +108,7 @@ export const Contact = () => {
                 Send
               </button>
             </form>
-          </>
+          </section>
         )}
       </div>
     </section>

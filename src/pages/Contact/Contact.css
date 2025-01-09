@@ -5,6 +5,12 @@ width: 95rem;
 margin: auto;
 margin-top: 30rem
 }
+.Container_overlord {
+  width: 100%
+}
+.SecondContainer {
+  display: flex;
+}
 
 .Contact_text {
   font-weight: 600;
@@ -26,8 +32,8 @@ margin-top: 30rem
   flex-direction: column;
 }
 .ContactForm.text {
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   /* margin-bottom: 4rem; */
   width:100%;
   margin-left:4rem
