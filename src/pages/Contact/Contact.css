@@ -5,11 +5,29 @@ width: 95rem;
 margin: auto;
 margin-top: 30rem
 }
-
+.Container_overlord {
+  width: 100%
+}
+.SecondContainer {
+  display: flex;
+  flex-direction: column;
+}
+.ButtonContainer.contact {
+  margin-left: 38rem;
+  flex-direction:unset
+}
 .Contact_text {
   font-weight: 600;
   align-self: start;
+  margin-top: 2rem
 
+}
+.Contact_text.name {
+    margin-top: 0rem
+}
+
+.Contact_text.message {
+  margin-bottom: 2rem
 }
 
 .ContactForm {
@@ -20,18 +38,25 @@ margin-top: 30rem
 .ContactForm.text {
   display: flex;
   flex-direction: column;
-  margin-bottom: 4rem;
+  /* margin-bottom: 4rem; */
   width:100%;
   margin-left:4rem
 }
-input {
+input, textarea {
   background-color: initial;
   border-bottom: .5px solid black;
+  height: 5rem;
+  text-align: left;
+  text-transform: initial;
+  font-size: 1.5rem;
+  letter-spacing: .01rem;
+
 }
 textarea {
   background-color: initial;
   border: .5px solid black;
   min-height: 15rem;
+  padding: 2rem
 }
 
 .AboutContact {
@@ -49,4 +74,17 @@ textarea {
 .Button_website.form {
   margin-left: 4rem;
   margin-top: 2rem;
+}
+
+h5.h5.contact {
+  font-size: 1.9rem;
+  color: black;
+  text-transform: initial;
+  letter-spacing: .1rem;
+  font-weight: 400;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  text-align: left;
+  line-height: 1.6;
+  margin-top: -3rem;
+  margin-left: 19.5rem;
 }
