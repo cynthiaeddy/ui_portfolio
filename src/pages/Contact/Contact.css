@@ -10,8 +10,12 @@ margin-top: 30rem
 }
 .SecondContainer {
   display: flex;
+  flex-direction: column;
 }
-
+.ButtonContainer.contact {
+  margin-left: 38rem;
+  flex-direction:unset
+}
 .Contact_text {
   font-weight: 600;
   align-self: start;
@@ -70,4 +74,17 @@ textarea {
 .Button_website.form {
   margin-left: 4rem;
   margin-top: 2rem;
+}
+
+h5.h5.contact {
+  font-size: 1.9rem;
+  color: black;
+  text-transform: initial;
+  letter-spacing: .1rem;
+  font-weight: 400;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  text-align: left;
+  line-height: 1.6;
+  margin-top: -3rem;
+  margin-left: 19.5rem;
 }

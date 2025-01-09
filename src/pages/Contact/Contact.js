@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import emailjs from '@emailjs/browser'
 import './Contact.css'
 
@@ -61,10 +62,15 @@ export const Contact = () => {
       <div className='Container_overlord'>
         {isSubmitted ? (
           // UI shown after successful submission
-          <div>
-            <h2>Form Submitted Successfully!</h2>
-            <p>Thank you for submitting the form.{statusMessage}</p>
-          </div>
+          <section className='SecondContainer'>
+            <div className='AboutContact'>thank you!</div>
+            <h5 className='h5 contact'>
+              I&apos;ll be sure to get back to you within 48 hours.
+            </h5>
+            <Link to='/' className='ButtonContainer contact'>
+              <div className='Button_website'>return home</div>
+            </Link>
+          </section>
         ) : (
           <section className='SecondContainer'>
             <div className='AboutContact'>say hello</div>
