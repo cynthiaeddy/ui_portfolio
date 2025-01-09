@@ -15,6 +15,10 @@ margin-top: 30rem
 .SecondContainer {
   flex-direction: column;
 }
+
+.SecondContainer.form {
+  flex-direction: row;
+}
 .ButtonContainer.contact {
   margin-left: 38rem;
   flex-direction:unset
