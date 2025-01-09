@@ -39,7 +39,7 @@ export const ModalFhAffinity = ({ isOpen = true, modalSscClose }) => {
                 }}
               />
             </button>
-            <div className='ModalContainerScroll'>
+            <div className='ModalContainerScroll no'>
               <img
                 className='competitive_lg'
                 src={affinity}

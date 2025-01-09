@@ -10,15 +10,12 @@ margin-top: 30rem
 }
 .SecondContainer {
   display: flex;
-  flex-direction: row;
-}
-.SecondContainer {
-  flex-direction: column;
 }
 
-.SecondContainer.form {
-  flex-direction: row;
+.SecondContainer.success {
+  display: block
 }
+
 .ButtonContainer.contact {
   margin-left: 38rem;
   flex-direction:unset
