@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import opener from '../../../../assets/nyt/home.png'
+import opener from '../../assets/nyt/home.png'
 export const PrototypeNyt = () => {
   return (
     <section className='InnerContainer prototype'>

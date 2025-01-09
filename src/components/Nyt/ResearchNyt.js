@@ -1,13 +1,13 @@
 /* eslint-disable prettier/prettier */
 import { useState } from 'react'
-import '../../../ReusableComponents.css'
-import magBlk1H from '../../../../assets/ssc/magBlk1H.png'
-import magBlk1 from '../../../../assets/ssc/magBlk1.png'
-import competitive_sm from '../../../../assets/nyt/nyt_swot.png'
-import affinity_map from '../../../../assets/nyt/nyt_affinity_crop.png'
-import persona from '../../../../assets/nyt/nyt_persona.png'
-import { ModalNytCompSwot } from '../../../Modals/ModalNytCompSwot'
-import { ModalNytAffinity } from '../../../Modals/ModalNytAffinity'
+import '../ReusableComponents.css'
+import magBlk1H from '../../assets/ssc/magBlk1H.png'
+import magBlk1 from '../../assets/ssc/magBlk1.png'
+import competitive_sm from '../../assets/nyt/nyt_swot.png'
+import affinity_map from '../../assets/nyt/nyt_affinity_crop.png'
+import persona from '../../assets/nyt/nyt_persona.png'
+import { ModalNytCompSwot } from '../Modals/ModalNytCompSwot'
+import { ModalNytAffinity } from '../Modals/ModalNytAffinity'
 
 export const ResearchNyt = () => {
   const [ismodalNytSwotOpen, setIsmodalNytSwotOpen] = useState(false)

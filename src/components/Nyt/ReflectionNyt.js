@@ -1,4 +1,4 @@
-import '../../../ReusableComponents.css'
+import '../ReusableComponents.css'
 
 export const ReflectionNyt = () => {
   return (

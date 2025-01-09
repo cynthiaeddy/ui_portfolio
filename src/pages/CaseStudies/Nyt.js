@@ -1,12 +1,12 @@
 import './CaseStudies.css'
-import { OpenerNyt } from '../../components/Ux/ReusableComponents/Nyt/OpenerNyt'
-import { ResearchNyt } from '../../components/Ux/ReusableComponents/Nyt/ResearchNyt'
-import { DefineNyt } from '../../components/Ux/ReusableComponents/Nyt/DefineNyt'
-import { IdeateNyt } from '../../components/Ux/ReusableComponents/Nyt/IdeateNyt'
-import { DesignNyt } from '../../components/Ux/ReusableComponents/Nyt/DesignNyt'
-import { TestingNyt } from '../../components/Ux/ReusableComponents/Nyt/TestingNyt'
-import { PrototypeNyt } from '../../components/Ux/ReusableComponents/Nyt/PrototypeNyt'
-import { ReflectionNyt } from '../../components/Ux/ReusableComponents/Nyt/ReflectionNyt'
+import { OpenerNyt } from '../../components/Nyt/OpenerNyt'
+import { ResearchNyt } from '../../components/Nyt/ResearchNyt'
+import { DefineNyt } from '../../components/Nyt/DefineNyt'
+import { IdeateNyt } from '../../components/Nyt/IdeateNyt'
+import { DesignNyt } from '../../components/Nyt/DesignNyt'
+import { TestingNyt } from '../../components/Nyt/TestingNyt'
+import { PrototypeNyt } from '../../components/Nyt/PrototypeNyt'
+import { ReflectionNyt } from '../../components/Nyt/ReflectionNyt'
 
 export const Nyt = () => {
   return (
