@@ -1,3 +1,5 @@
+/* *** containers *** */
+
 .OpenerContainer {
   width: 95rem;
   margin: auto;
@@ -9,16 +11,8 @@
 .OpenerContainer.designFh{
   margin-top: 4rem;
   margin-bottom: 3rem
+}
 
-}
-.WideContainer {
-  width: 100%;
-  background: #231F20;
-  border-radius: 20px;
-  display: flex
-  ;
-      flex-direction: column;
-}
 .InnerContainer {
   display: flex;
   margin: auto;
@@ -31,8 +25,7 @@
 }
 
 .InnerContainer.prototype.fh {
-display: flex
-;
+display: flex;
     margin-bottom: 9rem;
     flex-direction: row;
     width: 90rem;
@@ -41,6 +34,13 @@ display: flex
 
 .InnerContainer.reflection  {
   margin-top: 4rem
+}
+.WideContainer {
+  width: 100%;
+  background: #231F20;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .WideContainer.bottom {
   margin-top: .5px;
@@ -411,7 +411,6 @@ ul {
   font-size: 5.4rem
 }
 
-
 .smallWrapper {
   display: flex;
   flex-direction: column;
@@ -431,7 +430,6 @@ ul {
 .prototype_container_mobile{
   margin: 0 -4rem
 }
-
 
 .WireframesContainer {
   display: flex;
