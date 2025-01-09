@@ -1,15 +1,15 @@
 /* eslint-disable no-unused-vars */
 import { useState } from 'react'
 /* eslint-disable prettier/prettier */
-import './../ReusableComponents.css'
+import '../../../ReusableComponents.css'
 import magWh from '../../../../assets/ssc/magWh.png'
 import magWhH from '../../../../assets/ssc/magWhH.png'
 import user_flow from '../../../../assets/nyt/nyt_user_flow2.png'
 import lofi from '../../../../assets/nyt/nyt_midfi_big.png'
 import hifi from '../../../../assets/nyt/nyt_hificrop.png'
-import { ModalNytFlow } from '../../Modals/ModalNytFlow'
-import { ModalNytLoFi } from '../../Modals/ModalNytLoFi'
-import { ModalNytHiFi } from '../../Modals/ModalNytHiFi'
+import { ModalNytFlow } from '../../../Modals/ModalNytFlow'
+import { ModalNytLoFi } from '../../../Modals/ModalNytLoFi'
+import { ModalNytHiFi } from '../../../Modals/ModalNytHiFi'
 
 
 

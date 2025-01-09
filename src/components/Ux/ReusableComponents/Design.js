@@ -1,15 +1,15 @@
 /* eslint-disable no-unused-vars */
 import { useState } from 'react'
 /* eslint-disable prettier/prettier */
-import './ReusableComponents.css'
+import '../../ReusableComponents.css'
 import magWh from '../../../assets/ssc/magWh.png'
 import magWhH from '../../../assets/ssc/magWhH.png'
 import user_flow from '../../../assets/ssc/ssc_user_flow.png'
 import hiFi from '../../../assets/ssc/hifi_crop.jpg'
 import mid_fi from '../../../assets/ssc/ive_mid_fi.png'
-import { ModalSscFlow } from '../Modals/ModalSscFlow'
-import { ModalSscLoFi } from '../Modals/ModalSscLoFi'
-import { ModalSscHiFi } from '../Modals/ModalSscHiFi'
+import { ModalSscFlow } from '../../Modals/ModalSscFlow'
+import { ModalSscLoFi } from '../../Modals/ModalSscLoFi'
+import { ModalSscHiFi } from '../../Modals/ModalSscHiFi'
 
 
 export const Design = () => {

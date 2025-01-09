@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-import './../ReusableComponents.css'
+import '../../../ReusableComponents.css'
 import venn from '../../../../assets/nyt/nyt_venn.png'
 
 export const DefineNyt = () => {

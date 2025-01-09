@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable no-unused-vars */
-import './../ReusableComponents.css'
+import '../../../ReusableComponents.css'
 // import mag_wh from '../../../assets/ssc/mag_white.png'
 // import ive_mood_resize from '../../../assets/ssc/ive_mood.png'
 // import ive_style from '../../../assets/ssc/ive_style_resize.png'

@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-import './ReusableComponents.css'
+import '../../ReusableComponents.css'
 
 export const Define = () => {
   return (

@@ -1,14 +1,14 @@
 /* eslint-disable prettier/prettier */
 import { useState } from 'react'
-import './ReusableComponents.css'
+import '../../ReusableComponents.css'
 // eslint-disable-next-line no-unused-vars
 import magBlk1H from '../../../assets/ssc/magBlk1H.png'
 import magBlk1 from '../../../assets/ssc/magBlk1.png'
 import competitive_sm from '../../../assets/ssc/competitive_sm.png'
 import affinity_map from '../../../assets/ssc/ive_affinity_mapsm.png'
 import persona from '../../../assets/ssc/ive_persona.png'
-import { ModalSsc } from '../Modals/ModalSsc'
-import { ModalSscAffinity } from '../Modals/ModalSscAffinity'
+import { ModalSsc } from '../../Modals/ModalSsc'
+import { ModalSscAffinity } from '../../Modals/ModalSscAffinity'
 
 export const Research = () => {
   const [ismodalSscOpen, setIsmodalSscOpen] = useState(false)

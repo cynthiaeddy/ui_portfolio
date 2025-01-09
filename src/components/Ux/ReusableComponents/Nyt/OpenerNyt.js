@@ -1,4 +1,4 @@
-import '.././ReusableComponents.css'
+import '../../../ReusableComponents.css'
 import opener from '../../../../assets/nyt/home.png'
 import recipe from '../../../../assets/nyt/recipe_serve.png'
 import grocery from '../../../../assets/nyt/grocery_edit.png'

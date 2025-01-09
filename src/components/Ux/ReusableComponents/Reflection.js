@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable no-unused-vars */
-import './ReusableComponents.css'
+import '../../ReusableComponents.css'
 import { Carousel } from './Carousel/Carousel.js'
 
 

@@ -1,4 +1,4 @@
-import './../ReusableComponents.css'
+import '../../../ReusableComponents.css'
 import iteration from '../../../../assets/nyt/nyt_iterationTypecrop.png'
 
 export const TestingNyt = () => {
