@@ -12,7 +12,7 @@ export const FhCard = () => {
           <img className='IndiCard fh' src={desktop} alt={desktop} />
           <button className='Button_website'>view project</button>
         </div>
-        <img className='IndiCard_two' src={mobile} alt={mobile} />=
+        <img className='IndiCard_two' src={mobile} alt={mobile} />
         <div className='CardText fh '>
           <div className='CardOpener'>
             Feline Health Veterinary needed a redesigned, responsive website
