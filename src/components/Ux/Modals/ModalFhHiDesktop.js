@@ -9,7 +9,7 @@ export const ModalFhHiDesktop = ({ isOpen = true, modalSscClose }) => {
   }
   return (
     <div className='ModalWrapper'>
-      <div className='ModalContainer'>
+      <div className='ModalContainer overflow'>
         <div className='modalSsc'>
           <button
             type='button'

@@ -21,13 +21,21 @@
   max-width: 170rem;
   padding: 1rem 4rem 4rem 4rem;
   border-radius: 20px;
-  max-width: 150rem
+  max-width: 150rem;
+  /* height: 90rem;
+  overflow: scroll; */
 
 }
+
 .ModalContainerScroll {
   overflow: scroll;
-  height: 80rem;
+  height: 75vh;
   border-radius: 10px;
+}
+.ModalContainerScroll.no {
+  overflow: auto;
+  height: inherit;
+
 }
 .ModalContainer-button {
   height: 4rem;
@@ -42,4 +50,10 @@
   width: 100%;
   border-radius: 20px;
 
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }

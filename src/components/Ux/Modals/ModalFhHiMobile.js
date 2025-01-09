@@ -24,7 +24,7 @@ export const ModalFhHiMobile = ({ isOpen = true, modalSscClose }) => {
               }}
             />
           </button>
-          <div className='ModalContainerScroll'>
+          <div className='ModalContainerScroll no'>
             <img className='competitive_lg' src={hi_mobile} alt='competitive' />
           </div>
         </div>

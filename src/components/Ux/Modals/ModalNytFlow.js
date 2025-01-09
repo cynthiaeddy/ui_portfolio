@@ -24,7 +24,7 @@ export const ModalNytFlow = ({ isOpen = true, modalSscClose }) => {
               }}
             />
           </button>
-          <div className='ModalContainerScroll'>
+          <div className='ModalContainerScroll no'>
             <img className='competitive_lg' src={flow} alt='competitive' />
           </div>
         </div>

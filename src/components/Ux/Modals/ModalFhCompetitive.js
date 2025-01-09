@@ -6,6 +6,7 @@ export const ModalFhCompetitive = ({ isOpen = true, modalSscClose }) => {
   if (!isOpen) {
     return null
   }
+
   return (
     <div className='ModalWrapper'>
       <div className='ModalContainer'>
