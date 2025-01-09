@@ -11,10 +11,12 @@ import { Ux } from './pages/Ux/Ux'
 import { Ssc } from './pages/CaseStudies/Ssc'
 import { Fh } from './pages/CaseStudies/Fh'
 import { Nyt } from './pages/CaseStudies/Nyt'
+import { SplashScreen } from './components/SplashScreen'
 
 const App = () => {
   let routes = (
     <Routes>
+      <Route exact path='/' element={<SplashScreen />} />
       <Route exact path='/' element={<Home />} />
       <Route exact path='/design' element={<Print />} />
       <Route exact path='/development' element={<Development />} />
