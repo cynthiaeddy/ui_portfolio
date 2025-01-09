@@ -6,6 +6,8 @@ export const Contact = () => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
+  const [statusMessage, setStatusMessage] = useState('')
+  const [isSubmitted, setIsSubmitted] = useState(false)
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -18,6 +20,9 @@ export const Contact = () => {
       e.target,
       process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
     )
+    setTimeout(() => {
+      setIsSubmitted(true) // Set to true when submission is successful
+    }, 1000) // Simulating a delay
     emailjs
       .sendForm(
         process.env.REACT_APP_SERVICE_ID,
@@ -32,13 +37,15 @@ export const Contact = () => {
           setName('')
           setEmail('')
           setMessage('')
+          setStatusMessage('Email sent success')
         },
         (error) => {
           console.log(error.text)
+          setStatusMessage(`${error.text} happened`)
         },
       )
   }
-  console.log('name', name, 'email', email)
+  console.log('name', name, 'email', email, 'statusMessage', statusMessage)
 
   console.log(
     'keys, service',
@@ -51,47 +58,59 @@ export const Contact = () => {
 
   return (
     <section className='Container contact'>
-      <div className='AboutContact'>say hello</div>
-      <form className='ContactForm' onSubmit={handleSubmit}>
-        <div className='ContactForm text'>
-          <label htmlFor='name' className='Contact_text'>
-            Name
-          </label>
-          <input
-            type='text'
-            id='name'
-            name='name'
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-        </div>
-        <div className='ContactForm text'>
-          <label htmlFor='email' className='Contact_text email'>
-            Email
-          </label>
-          <input
-            type='email'
-            id='email'
-            name='email'
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-        </div>
-        <div className='ContactForm text'>
-          <label htmlFor='message' className='Contact_text email message'>
-            Message
-          </label>
-          <textarea
-            id='message'
-            name='message'
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-          />
-        </div>
-        <button type='submit' className='Button_website form'>
-          Send
-        </button>
-      </form>
+      <div>
+        {isSubmitted ? (
+          // UI shown after successful submission
+          <div>
+            <h2>Form Submitted Successfully!</h2>
+            <p>Thank you for submitting the form.{statusMessage}</p>
+          </div>
+        ) : (
+          <>
+            <div className='AboutContact'>say hello</div>
+            <form className='ContactForm' onSubmit={handleSubmit}>
+              <div className='ContactForm text'>
+                <label htmlFor='name' className='Contact_text'>
+                  Name
+                </label>
+                <input
+                  type='text'
+                  id='name'
+                  name='name'
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                />
+              </div>
+              <div className='ContactForm text'>
+                <label htmlFor='email' className='Contact_text email'>
+                  Email
+                </label>
+                <input
+                  type='email'
+                  id='email'
+                  name='email'
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+              </div>
+              <div className='ContactForm text'>
+                <label htmlFor='message' className='Contact_text email message'>
+                  Message
+                </label>
+                <textarea
+                  id='message'
+                  name='message'
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                />
+              </div>
+              <button type='submit' className='Button_website form'>
+                Send
+              </button>
+            </form>
+          </>
+        )}
+      </div>
     </section>
   )
 }
