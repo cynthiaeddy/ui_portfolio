@@ -1,12 +1,12 @@
 import './CaseStudies.css'
-import { Opener } from '../../components/Ux/ReusableComponents/Opener'
-import { Research } from '../../components/Ux/ReusableComponents/Research'
-import { Define } from '../../components/Ux/ReusableComponents/Define'
-import { Ideate } from '../../components/Ux/ReusableComponents/Ideate'
-import { Design } from '../../components/Ux/ReusableComponents/Design'
-import { Testing } from '../../components/Ux/ReusableComponents/Testing'
-import { Prototype } from '../../components/Ux/ReusableComponents/Prototype'
-import { Reflection } from '../../components/Ux/ReusableComponents/Reflection'
+import { Opener } from '../../components/Ssc/Opener'
+import { Research } from '../../components/Ssc/Research'
+import { Define } from '../../components/Ssc/Define'
+import { Ideate } from '../../components/Ssc/Ideate'
+import { Design } from '../../components/Ssc/Design'
+import { Testing } from '../../components/Ssc/Testing'
+import { Prototype } from '../../components/Ssc/Prototype'
+import { Reflection } from '../../components/Ssc/Reflection'
 
 export const Ssc = () => {
   return (

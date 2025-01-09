@@ -1,8 +1,8 @@
 import { NavLink } from 'react-router'
 import './Ux.css'
-import { SscCard } from '../../components/Ux/CardButtons/SscCard'
-import { NytCard } from '../../components/Ux/CardButtons/NytCard'
-import { FhCard } from '../../components/Ux/CardButtons/FhCard'
+import { SscCard } from '../../components/CardButtons/SscCard'
+import { NytCard } from '../../components/CardButtons/NytCard'
+import { FhCard } from '../../components/CardButtons/FhCard'
 export const Ux = () => {
   return (
     <>

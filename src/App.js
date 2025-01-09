@@ -23,9 +23,9 @@ const App = () => {
       <Route exact path='/about' element={<About />} />
       <Route exact path='/contact' element={<Contact />} />
       <Route exact path='/ux_ui' element={<Ux />} />
-      <Route exact path='/ux_ui/ssc' element={<Ssc />} />
-      <Route exact path='/ux_ui/nyt' element={<Nyt />} />
-      <Route exact path='/ux_ui/fh' element={<Fh />} />
+      <Route exact path='/ux_ui/ssc_case_study' element={<Ssc />} />
+      <Route exact path='/ux_ui/nyt_cooking_case_study' element={<Nyt />} />
+      <Route exact path='/ux_ui/fh_case_study' element={<Fh />} />
     </Routes>
   )
   return (

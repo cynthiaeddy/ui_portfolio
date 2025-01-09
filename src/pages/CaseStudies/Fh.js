@@ -1,12 +1,12 @@
 import './CaseStudies.css'
-import { OpenerFh } from '../../components/Ux/ReusableComponents/Fh/OpenerFh'
-import { ResearchFh } from '../../components/Ux/ReusableComponents/Fh/ResearchFh'
-import { DefineFh } from '../../components/Ux/ReusableComponents/Fh/DefineFh'
-import { IdeateFh } from '../../components/Ux/ReusableComponents/Fh/IdeateFh'
-import { DesignFh } from '../../components/Ux/ReusableComponents/Fh/DesignFh'
-import { TestingFh } from '../../components/Ux/ReusableComponents/Fh/TestingFh'
-import { PrototypeFh } from '../../components/Ux/ReusableComponents/Fh/PrototypeFh'
-import { ReflectionFh } from '../../components/Ux/ReusableComponents/Fh/ReflectionFh'
+import { OpenerFh } from '../../components/Fh/OpenerFh'
+import { ResearchFh } from '../../components/Fh/ResearchFh'
+import { DefineFh } from '../../components/Fh/DefineFh'
+import { IdeateFh } from '../../components/Fh/IdeateFh'
+import { DesignFh } from '../../components/Fh/DesignFh'
+import { TestingFh } from '../../components/Fh/TestingFh'
+import { PrototypeFh } from '../../components/Fh/PrototypeFh'
+import { ReflectionFh } from '../../components/Fh/ReflectionFh'
 
 export const Fh = () => {
   return (
