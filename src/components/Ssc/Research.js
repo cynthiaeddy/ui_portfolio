@@ -1,28 +1,25 @@
-/* eslint-disable prettier/prettier */
 import { useState } from 'react'
-import '../../ReusableComponents.css'
-// eslint-disable-next-line no-unused-vars
-import magBlk1H from '../../../assets/ssc/magBlk1H.png'
-import magBlk1 from '../../../assets/ssc/magBlk1.png'
-import competitive_sm from '../../../assets/ssc/competitive_sm.png'
-import affinity_map from '../../../assets/ssc/ive_affinity_mapsm.png'
-import persona from '../../../assets/ssc/ive_persona.png'
-import { ModalSsc } from '../../Modals/ModalSsc'
-import { ModalSscAffinity } from '../../Modals/ModalSscAffinity'
+import '../ReusableComponents.css'
+import magBlk1H from '../../assets/ssc/magBlk1H.png'
+import magBlk1 from '../../assets/ssc/magBlk1.png'
+import competitive_sm from '../../assets/ssc/competitive_sm.png'
+import affinity_map from '../../assets/ssc/ive_affinity_mapsm.png'
+import persona from '../../assets/ssc/ive_persona.png'
+import { ModalSsc } from '../Modals/ModalSsc'
+import { ModalSscAffinity } from '../Modals/ModalSscAffinity'
 
 export const Research = () => {
   const [ismodalSscOpen, setIsmodalSscOpen] = useState(false)
   const [ismodalSscAffinityOpen, setIsmodalSscAffinityOpen] = useState(false)
-  const [hover, setHover] = useState(false);
+  const [hover, setHover] = useState(false)
 
   const handleMouseIn = () => {
-    setHover(true);
-  };
+    setHover(true)
+  }
 
   const handleMouseOut = () => {
-    setHover(false);
-  };
-
+    setHover(false)
+  }
 
   const modalSscOpen = () => {
     setIsmodalSscOpen(true)
@@ -41,8 +38,6 @@ export const Research = () => {
     document.body.style.overflow = 'auto'
   }
 
-
-
   return (
     <>
       <div className='BlackHeds'>
@@ -59,10 +54,16 @@ export const Research = () => {
           </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>competitve analysis swot</div>
-            <button onClick={modalSscOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
-            {hover ? <img className='magnifier' src={magBlk1H} alt={magBlk1H}
-              /> : <img className='magnifier' src={magBlk1} alt={magBlk1}
-              />}
+            <button
+              onClick={modalSscOpen}
+              onMouseOver={handleMouseIn}
+              onMouseOut={handleMouseOut}
+            >
+              {hover ? (
+                <img className='magnifier' src={magBlk1H} alt={magBlk1H} />
+              ) : (
+                <img className='magnifier' src={magBlk1} alt={magBlk1} />
+              )}
             </button>
             <img
               className='competitive'
@@ -132,19 +133,29 @@ export const Research = () => {
 
           <div className='ButtonContainer'>
             <div className='Button enlarge'>affinity mapping</div>
-            <button onClick={modalSscAffinityOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
-            {hover ? <img className='magnifier' src={magBlk1H} alt={magBlk1H}
-              /> : <img className='magnifier' src={magBlk1} alt={magBlk1}
-              />}
+            <button
+              onClick={modalSscAffinityOpen}
+              onMouseOver={handleMouseIn}
+              onMouseOut={handleMouseOut}
+            >
+              {hover ? (
+                <img className='magnifier' src={magBlk1H} alt={magBlk1H} />
+              ) : (
+                <img className='magnifier' src={magBlk1} alt={magBlk1} />
+              )}
             </button>
-          <img className='competitive' src={affinity_map} alt={affinity_map} />
-          <h5 className='h5 marginTop'>
-            <span className='leadin'>Emma represents a growing segment </span>
-            of eco-conscious consumers who want to make sustainable choices
-            while maintaining quality and convenience, highlighting the need for
-            better transparency in sustainable shopping.
+            <img
+              className='competitive'
+              src={affinity_map}
+              alt={affinity_map}
+            />
+            <h5 className='h5 marginTop'>
+              <span className='leadin'>Emma represents a growing segment </span>
+              of eco-conscious consumers who want to make sustainable choices
+              while maintaining quality and convenience, highlighting the need
+              for better transparency in sustainable shopping.
             </h5>
-            </div>
+          </div>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>persona</div>
           </div>

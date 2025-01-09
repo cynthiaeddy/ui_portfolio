@@ -1,8 +1,7 @@
-/* eslint-disable no-unused-vars */
-import '../../ReusableComponents.css'
-import opener_down from '../../../assets/ssc/opener_down.png'
-import soap_ive from '../../../assets/ssc/soap_ive.png'
-import soap_opener from '../../../assets/ssc/soap_opener.png'
+import '../ReusableComponents.css'
+import opener_down from '../../assets/ssc/opener_down.png'
+import soap_ive from '../../assets/ssc/soap_ive.png'
+import soap_opener from '../../assets/ssc/soap_opener.png'
 
 export const Opener = () => {
   return (

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import opener from '../../../assets/ssc/soap_opener.png'
+import opener from '../../assets/ssc/soap_opener.png'
 export const Prototype = () => {
   return (
     <section className='InnerContainer prototype'>

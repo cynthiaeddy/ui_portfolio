@@ -1,9 +1,6 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable no-unused-vars */
-import '../../ReusableComponents.css'// import mag_wh from '../../../assets/ssc/mag_white.png'
-import mag_blk from '../../../assets/ssc/mag_blk.png'
-import ive_mood_resize from '../../../assets/ssc/ive_mood.png'
-import ive_style from '../../../assets/ssc/ive_style_resize.png'
+import '../ReusableComponents.css'
+import ive_mood_resize from '../../assets/ssc/ive_mood.png'
+import ive_style from '../../assets/ssc/ive_style_resize.png'
 
 export const Ideate = () => {
   return (
@@ -14,7 +11,7 @@ export const Ideate = () => {
       <section className='WideContainer ideate'>
         <div className='InnerContainer'>
           <h5 className='h5 marginTop'>
-            <span className='leadin'>Based on my research, </span>  I determined
+            <span className='leadin'>Based on my research, </span> I determined
             the essential sections and features the website should incorporate:
           </h5>
           <ul className='h5 bullets'>
@@ -22,31 +19,23 @@ export const Ideate = () => {
               <h5>Intuitive navigation with search functionality</h5>
             </li>
             <li>
-              <h5>Comprehensive product pages and user-friendly checkout process</h5>
-            </li>
-            <li>
               <h5>
-              Company story and ingredient sourcing information
+                Comprehensive product pages and user-friendly checkout process
               </h5>
             </li>
             <li>
-              <h5>
-              User engagement elements: reviews, social media links
-              </h5>
+              <h5>Company story and ingredient sourcing information</h5>
             </li>
             <li>
-            <h5 className='leadin'>
-              Updated branding and design elements
-              </h5>
+              <h5>User engagement elements: reviews, social media links</h5>
+            </li>
+            <li>
+              <h5 className='leadin'>Updated branding and design elements</h5>
             </li>
           </ul>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>mood board</div>
-            <img
-              className='mood'
-              src={ive_mood_resize}
-              alt={ive_mood_resize}
-            />
+            <img className='mood' src={ive_mood_resize} alt={ive_mood_resize} />
             <div className='ButtonContainer'>
               <div className='Button enlarge'>style tile</div>
               <img

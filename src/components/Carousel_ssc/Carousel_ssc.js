@@ -1,12 +1,11 @@
-// ItemCarousel.js
 import React, { useState } from 'react'
 import './Carousel.css' // Custom CSS for your carousel
 import { items } from './items' // Import items from the data folder
-import arrowL from '../../../../assets/ssc/arrowL.png'
-import arrowLhover from '../../../../assets/ssc/arrowLhover.png'
-import arrowR from '../../../../assets/ssc/arrowR.png'
-import arrowRhover from '../../../../assets/ssc/arrowRhover.png'
-export const Carousel = () => {
+import arrowL from '../../assets/ssc/arrowL.png'
+import arrowLhover from '../../assets/ssc/arrowLhover.png'
+import arrowR from '../../assets/ssc/arrowR.png'
+import arrowRhover from '../../assets/ssc/arrowRhover.png'
+export const Carousel_ssc = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
   // eslint-disable-next-line no-unused-vars
   const [hover, setHover] = useState(false)
