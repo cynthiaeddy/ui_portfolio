@@ -8,6 +8,7 @@ export const SplashScreen = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setTimePassed(true)
+      window.location.replace('/ux_ui')
     }, 2000)
     return () => {
       clearTimeout(timer)
