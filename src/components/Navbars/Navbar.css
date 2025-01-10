@@ -24,6 +24,7 @@
 
 .Navbar-items {
   display: flex;
+  padding-left: 0
 }
 
 * {
@@ -44,6 +45,7 @@ text-decoration-style: none;
 .Navbar-logo {
   margin-top: 1.5rem
 }
+
 
 .nav-links {
   display: flex;
@@ -100,4 +102,22 @@ padding-left: 0;
 }
 
 
-
+/* ///// Media Queries ///// */
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+  .nav-links {
+    line-height: 1.7;
+  }
+#NavbarContainer {
+  padding-left: 5rem;
+  padding-right: 5rem
+}
+.nav-item {
+  padding: 1.5rem
+}
+.logo {
+  margin-left: 2rem
+}
+.NavbarSection {
+  align-items: center;
+}
+}
