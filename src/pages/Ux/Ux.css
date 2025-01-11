@@ -12,7 +12,8 @@
   margin: auto;
   margin-top: 6rem;
   margin-bottom: 6rem;
-  width: 95rem
+  width: 100%;
+  max-width: 95rem
 
 }
 .UxTopContainer {
@@ -26,7 +27,11 @@
 /* ///// Media Queries ///// */
 @media screen and (min-width: 768px) and (max-width: 1030px) {
   .BottomContainer {
-    width: 75rem
+    margin: 6rem 4rem;
+    width: 90%;
+  }
+  .UxButton {
+    font-size: 4.75rem
   }
   }
 

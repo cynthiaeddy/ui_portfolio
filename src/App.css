@@ -111,3 +111,17 @@ h6 {
 button.magnifier {
   cursor: pointer;
 }
+
+
+/* ///// Media Queries ///// */
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+  .main_type {
+    font-size: 20rem;
+  }
+
+.Button_website {
+  font-size: 1rem;
+    line-height: 1.5;
+}
+}
+
