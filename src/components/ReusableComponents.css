@@ -16,7 +16,7 @@
 .InnerContainer {
   display: flex;
   margin: auto;
-  width: 95rem;
+  /* width: 95rem; */
   flex-direction: column;
 }
 .InnerContainer.prototype {

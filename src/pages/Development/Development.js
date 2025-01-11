@@ -21,7 +21,7 @@ export const Development = () => {
       </section>
       <div className='BottomContainer'>
         <div className='InnerContainer'>{<DevImages />}</div>
-        <div>
+        <div className='Footer'>
           <a
             href='https://www.cynthiaeddy.com'
             target='_blank'
