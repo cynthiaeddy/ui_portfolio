@@ -99,7 +99,11 @@ h6 {
   width: fit-content;
   border-radius: 10rem;
   font-weight: 600;
-  height: 4.25rem
+  height: 4.25rem;
+  justify-content: center;
+  display: flex;
+  align-items: center
+;
 }
 
 .Button_website:hover {
