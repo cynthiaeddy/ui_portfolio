@@ -452,7 +452,7 @@ ul {
   .Opener {
     width: 88%
   }
-  h2 {
+  h2.h2_tablet {
     font-size: 3.9rem
   }
   h5 {
