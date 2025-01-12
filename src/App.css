@@ -36,11 +36,17 @@ html {
 
 /* font-family: neue-haas-grotesk-display, sans-serif; */
 
+/* font-family: neue-haas-grotesk-text, sans-serif; */
+
+
+
+
 
 .AppContainer {
   width: 100vw;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-style: normal;
+  /* font-weight: 100; */
   text-align: center;
   background: #FAF9F8;
   overflow-y: scroll;
@@ -70,6 +76,7 @@ ul {
 }
 .main_type {
   font-size: 23rem;
+  font-family: neue-haas-grotesk-text, sans-serif;
   text-transform: lowercase;
   font-weight:600;
   letter-spacing: -.05em;
@@ -79,6 +86,7 @@ ul {
 }
 
 h6 {
+  font-family: neue-haas-grotesk-text, sans-serif;
   font-weight: 600;
   font-size: 1.2rem;
   text-align: left;
@@ -94,6 +102,7 @@ h6 {
 }
 
 .Button_website {
+  font-family: neue-haas-grotesk-text, sans-serif;
   background-color: black;
   color: white;
   padding: .5rem 2rem;
