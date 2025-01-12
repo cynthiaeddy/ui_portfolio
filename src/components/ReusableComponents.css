@@ -3,7 +3,8 @@
 .OpenerContainer {
   width: 95rem;
   margin: auto;
-  margin-bottom: 9rem
+  margin-bottom: 9rem;
+  width: 75%
 }
 .OpenerContainer.define {
   margin-top: 4rem
@@ -41,6 +42,8 @@ display: flex;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
+  width: 80%;
+  margin: auto;
 }
 .WideContainer.bottom {
   margin-top: .5px;
@@ -449,6 +452,14 @@ ul {
     width: 90%;
     margin-bottom:7rem
   }
+
+  /* width: 95rem;
+  margin: auto;
+  margin-bottom: 9rem;
+  width: 75%
+} */
+
+
   .Opener {
     width: 88%
   }
@@ -466,7 +477,7 @@ ul {
     font-size: 1.2rem;
   }
   .InnerContainer.cases {
-    width: 90%
+    width: 100%
   }
 
   .h5.dropCap::first-letter {
@@ -476,6 +487,11 @@ ul {
     width: 80%
   }
   .WideContainer.bottom {
-    margin-bottom: 7rem
+    margin-bottom: 7rem;
+    width: 100%
+  }
+
+  .mood {
+    width: 80%
   }
 }
