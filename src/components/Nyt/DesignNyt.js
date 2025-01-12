@@ -55,7 +55,7 @@ export const DesignNyt = () => {
   return (
     <>
       <div className='BlackHeds white'>
-        <h2 className='h2_white'>Design</h2>
+        <h2 className='h2_white cases_openerText'>Design</h2>
       </div>
       <section className='OpenerContainer define'>
         <h5 className='h5 black center'>
@@ -118,7 +118,7 @@ export const DesignNyt = () => {
                       /> : <img className='magnifier wh' src={magWh} alt={magWh}
                       />}
                     </button>
-          <img className='competitive hi_fi' src={hifi} alt={hifi} />
+          <img className='competitive hi_fi nyt' src={hifi} alt={hifi} />
         </div>
 
 

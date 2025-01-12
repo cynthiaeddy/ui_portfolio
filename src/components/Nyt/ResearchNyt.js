@@ -45,7 +45,7 @@ export const ResearchNyt = () => {
   return (
     <>
       <div className='BlackHeds'>
-        <h2 className='h2_tablet'>Research</h2>
+        <h2 className='cases_openerText'>Research</h2>
       </div>
       <section className='WideContainer nyt research'>
         <div className='InnerContainer cases'>

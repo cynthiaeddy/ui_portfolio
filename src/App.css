@@ -6,6 +6,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  overscroll-behavior: none;
 }
 
 * {
@@ -13,9 +14,7 @@ body {
   margin: 0;
   padding: 0;
 }
-body {
-  overscroll-behavior: none;
-}
+
 
 html {
   scroll-behavior: smooth;

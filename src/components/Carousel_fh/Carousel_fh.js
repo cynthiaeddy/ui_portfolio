@@ -55,7 +55,7 @@ export const Carousel_fh = () => {
       </button>
       <div className='carousel-content'>
         <img
-          className='carousel-image'
+          className='carousel-image fh'
           src={items[currentIndex].image}
           alt={items[currentIndex].title}
         />

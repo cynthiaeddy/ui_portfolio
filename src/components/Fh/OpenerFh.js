@@ -12,7 +12,7 @@ export const OpenerFh = () => {
       </div>
       <div className='background'></div>
       <div className='textWrapper'>
-        <h2>Feline Health</h2>
+        <h2 className='cases_openerText'>Feline Health</h2>
         <h5 className='h5 openerType'>
           is a woman owned and run veterinary clinic. It&apos;s a cats only
           practice and has one doctor, whom I adore.

@@ -13,7 +13,7 @@ export const OpenerNyt = () => {
       </div>
       <div className='background'></div>
       <div className='textWrapper'>
-        <h2>The New York Times Cooking App</h2>
+        <h2 className='cases_openerText'>The New York Times Cooking App</h2>
         <h5 className='h5 openerType'>
           is a subscription-based platform with over 110 million users accessing
           22,000+ recipes with personalized features and shopping lists.
@@ -57,4 +57,3 @@ export const OpenerNyt = () => {
     </section>
   )
 }
-// export default Opener

@@ -64,7 +64,7 @@ export const DesignFh = () => {
   return (
     <>
       <div className='BlackHeds white'>
-        <h2 className='h2_white'>Design</h2>
+        <h2 className='h2_white cases_openerText'>Design</h2>
       </div>
       <section className='OpenerContainer designFh'>
         <h5 className='h5 black center'>

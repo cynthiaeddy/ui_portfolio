@@ -37,3 +37,21 @@ img.carousel-image {
   background-color:  #231F20;
   margin-bottom:14rem
 }
+
+
+/* ///// Media Queries ///// */
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+  img.carousel-image.ssc {
+    width: 75rem
+  }
+
+  /* .prev-button.ssc {
+    margin-right: -11rem
+
+    }
+
+     .next-button.ssc{
+      margin-left: -11rem
+
+      } */
+  }

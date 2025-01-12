@@ -4,7 +4,6 @@
   width: 95rem;
   margin: auto;
   margin-bottom: 9rem;
-  width: 75%
 }
 .OpenerContainer.define {
   margin-top: 4rem
@@ -42,8 +41,7 @@ display: flex;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  width: 80%;
-  margin: auto;
+
 }
 .WideContainer.bottom {
   margin-top: .5px;
@@ -52,6 +50,9 @@ display: flex;
 .WideContainer.ideate {
   padding-bottom: 8rem;
   margin-bottom: 9rem
+}
+.WideContainer.ideate.nyt {
+  padding-bottom: 5rem
 }
 .WideContainer.nyt.research {
   padding-bottom: 8rem;
@@ -444,26 +445,24 @@ ul {
 
 
 
-/* ///// Media Queries ///// */
 @media screen and (min-width: 768px) and (max-width: 1030px) {
 
 
-  .OpenerContainer{
+  .OpenerContainer, .InnerContainer{
     width: 90%;
     margin-bottom:7rem
   }
-
-  /* width: 95rem;
-  margin: auto;
-  margin-bottom: 9rem;
-  width: 75%
-} */
-
+  .InnerContainer {
+    margin-bottom: 0;
+  }
 
   .Opener {
     width: 88%
   }
-  h2.h2_tablet {
+  .Button.enlarge, .Button.enlarge.white {
+    font-size: 1.15rem;
+  }
+  h2.cases_openerText {
     font-size: 3.9rem
   }
   h5 {
@@ -476,16 +475,30 @@ ul {
   .h6.studies {
     font-size: 1.2rem;
   }
-  .InnerContainer.cases {
-    width: 100%
-  }
 
   .h5.dropCap::first-letter {
     font-size: 9.25rem;
   }
-  .competitive {
+  .competitive, .competitive.hi_fi, .competitive.nyt_iteraction, .competitive.designFh {
     width: 80%
   }
+  .competitive.flow, .competitive.mid_fi{
+    width: 86%
+  }
+  .competitive.hi_fi,.competitive.designFh {
+    margin-top: -2.5rem;
+  }
+  .competitive.hi_fi {
+     margin-bottom: -2rem}
+
+.competitive.mid_fi.mobile, .competitive.mid_fi.desktop {
+  width: 100%
+}
+.competitive.designFh.four, .competitive.fh_mobile  {
+  width: 86%
+}
+
+
   .WideContainer.bottom {
     margin-bottom: 7rem;
     width: 100%
@@ -494,4 +507,18 @@ ul {
   .mood {
     width: 80%
   }
+  .prototype {
+    width: 25rem
+  }
+  .InnerContainer.prototype.fh {
+        width: 68rem;
+        margin-bottom:6rem
+    }
+
+    .prototype.fh_desktop {
+      width: 50rem
+    }
+    .prototype.fh_mobile {
+      width: 18rem
+    }
 }
