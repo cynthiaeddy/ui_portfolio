@@ -115,7 +115,11 @@ padding-left: 0;
   padding: 1.5rem
 }
 .logo {
-  margin-left: 2rem
+  margin-left: 2rem;
+  margin-top: -2rem;
+
+
+
 }
 .NavbarSection {
   align-items: center;
