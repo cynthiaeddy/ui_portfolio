@@ -16,7 +16,7 @@
 .InnerContainer {
   display: flex;
   margin: auto;
-  /* width: 95rem; */
+  width: 95rem;
   flex-direction: column;
 }
 .InnerContainer.prototype {
@@ -216,7 +216,6 @@ margin-bottom: 2rem;}
 .BlackHeds.white {
   background: white;
   border: 1.5px solid black;
-  /* margin-top: 4rem */
 }
 
 
@@ -438,4 +437,45 @@ ul {
 .Container_desktop {
   display:flex;
   flex-direction: column;
+}
+
+
+
+/* ///// Media Queries ///// */
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+
+
+  .OpenerContainer{
+    width: 90%;
+    margin-bottom:7rem
+  }
+  .Opener {
+    width: 88%
+  }
+  h2 {
+    font-size: 3.9rem
+  }
+  h5 {
+    font-size: 1.7rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+  .h6.studies {
+    font-size: 1.2rem;
+  }
+  .InnerContainer.cases {
+    width: 90%
+  }
+
+  .h5.dropCap::first-letter {
+    font-size: 9.25rem;
+  }
+  .competitive {
+    width: 80%
+  }
+  .WideContainer.bottom {
+    margin-bottom: 7rem
+  }
 }

@@ -44,7 +44,7 @@ export const Research = () => {
         <h2>Research</h2>
       </div>
       <section className='WideContainer '>
-        <div className='InnerContainer'>
+        <div className='InnerContainer cases'>
           <h5 className='h5 dropCap'>
             To kick off the research phase, I conducted an in-depth analysis of
             competing sustainable soap brands. The focus was to uncover what
@@ -94,7 +94,7 @@ export const Research = () => {
         </div>
       </section>
       <section className='WideContainer bottom'>
-        <div className='InnerContainer'>
+        <div className='InnerContainer cases'>
           <h5 className='h5 dropCap'>
             I conducted five moderated research sessions via Zoom to explore how
             users approach sustainable shopping decisions. Using affinity
