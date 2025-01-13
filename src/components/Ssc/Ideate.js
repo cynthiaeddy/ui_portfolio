@@ -6,10 +6,10 @@ export const Ideate = () => {
   return (
     <>
       <div className='BlackHeds'>
-        <h2>Ideate</h2>
+        <h2 className='cases_openerText'>Ideate</h2>
       </div>
       <section className='WideContainer ideate'>
-        <div className='InnerContainer'>
+        <div className='InnerContainer cases'>
           <h5 className='h5 marginTop'>
             <span className='leadin'>Based on my research, </span> I determined
             the essential sections and features the website should incorporate:

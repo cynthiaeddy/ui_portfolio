@@ -45,7 +45,7 @@ export const ResearchFh = () => {
   return (
     <>
       <div className='BlackHeds'>
-        <h2>Research</h2>
+        <h2 className='cases_openerText'>Research</h2>
       </div>
       <section className='WideContainer Fh Research'>
         <div className='InnerContainer'>

@@ -107,3 +107,21 @@ box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
   letter-spacing: .3rem;
 }
 
+
+
+
+/* ///// Media Queries ///// */
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+
+.CardOpener {
+  font-size: 2rem;
+}
+
+.CardImageMobile {
+  width: 58%
+}
+.footer.nyt {
+  letter-spacing: .25rem;
+  font-size: 1.05rem;
+}
+}

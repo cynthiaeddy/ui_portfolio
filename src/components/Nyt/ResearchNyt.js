@@ -45,10 +45,10 @@ export const ResearchNyt = () => {
   return (
     <>
       <div className='BlackHeds'>
-        <h2>Research</h2>
+        <h2 className='cases_openerText'>Research</h2>
       </div>
       <section className='WideContainer nyt research'>
-        <div className='InnerContainer'>
+        <div className='InnerContainer cases'>
           <h5 className='h5 dropCap'>
           Through competitive research of recipe platforms, I identified an opportunity to enhance the NYT Cooking app with dynamic serving size adjustment that would automatically recalculate ingredients, grocery lists, and nutritional information proportionally.
           </h5>
@@ -68,7 +68,7 @@ export const ResearchNyt = () => {
         </div>
       </section>
       <section className='WideContainer bottom'>
-        <div className='InnerContainer'>
+        <div className='InnerContainer cases'>
           <h5 className='h5 dropCap'>
           In moderated research sessions with five participants, I explored how home cooks interact with recipe scaling features. Through affinity mapping, I found that users highly value accurate recipe scaling and want seamless integration with the NYT Cooking app&apos;s grocery list and nutritional information tools. Smart scaling capabilities that automatically adjust all recipe components would greatly enhance usability and improve the cooking experience. The following patterns highlight key user needs and expectations:
           </h5>

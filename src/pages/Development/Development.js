@@ -20,8 +20,8 @@ export const Development = () => {
         </div>
       </section>
       <div className='BottomContainer'>
-        <div className='InnerContainer'>{<DevImages />}</div>
-        <div>
+        <div className='InnerContainer cases'>{<DevImages />}</div>
+        <div className='Footer'>
           <a
             href='https://www.cynthiaeddy.com'
             target='_blank'

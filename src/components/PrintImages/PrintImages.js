@@ -8,23 +8,24 @@ import './PrintImages.css'
 export const PrintImages = () => {
   return (
     <section className='PrintImagesContainer'>
-      <div className='Print'>
-        <figure className='PrintImages fit'>
-          <img className='PrintImage fit' src={fit} alt={fit} />
+      <div className='PrintChildContainer'>
+        <figure className='PrintImages fitness'>
+          <img className='PrintImage responsive fitness' src={fit} alt={fit} />
           <figcaption className='Print_captions'>shape magazine</figcaption>
         </figure>
-        <figure className='PrintImages lunch'>
-          <img className='PrintImage' src={lunch} alt={lunch} />
+        <figure className='PrintImages'>
+          <img className='PrintImage responsive' src={lunch} alt={lunch} />
           <figcaption className='Print_captions no_margin'>
             shape magazine
           </figcaption>
         </figure>
       </div>
-      <div className='Web'>
+      <div className='WebChildContainer'>
         <figure className='WebImages'>
           <img className='WebImage' src={phone} alt={phone} />
           <figcaption className='Print_captions'>
-            women&apos;s health magazine
+            women&apos;s health <br />
+            magazine
           </figcaption>
         </figure>
         <figure className='WebImages'>
@@ -35,7 +36,7 @@ export const PrintImages = () => {
             magazine
           </figcaption>
         </figure>
-        <figure className='WebImages'>
+        <figure className='WebImages hb'>
           <img className='WebImage hb' src={ipad_hb} alt={ipad_hb} />
           <figcaption className='Print_captions no_margin'>
             house beautiful

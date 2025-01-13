@@ -41,7 +41,7 @@ export const Carousel_ssc = () => {
   return (
     <div className='carousel-container'>
       <button
-        className='prev-button'
+        className='prev-button ssc'
         onClick={goToPrevious}
         onMouseOver={handleMouseIn}
         onMouseOut={handleMouseOut}
@@ -54,14 +54,14 @@ export const Carousel_ssc = () => {
       </button>
       <div className='carousel-content'>
         <img
-          className='carousel-image'
+          className='carousel-image ssc'
           src={items[currentIndex].image}
           alt={items[currentIndex].title}
         />
         <h1 className='carousel-title'>{items[currentIndex].title}</h1>
       </div>
       <button
-        className='next-button'
+        className='next-button ssc'
         onClick={goToNext}
         onMouseOver={handleMouseInR}
         onMouseOut={handleMouseOutR}

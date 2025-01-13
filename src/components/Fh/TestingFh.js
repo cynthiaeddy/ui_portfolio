@@ -6,7 +6,7 @@ export const TestingFh = () => {
   return (
     <>
       <div className='BlackHeds'>
-        <h2>Testing</h2>
+        <h2 className='cases_openerText'>Testing</h2>
       </div>
       <section className='WideContainer testing'>
         <div className='InnerContainer'>

@@ -4,9 +4,9 @@ export const IdeateNyt = () => {
   return (
     <>
       <div className='BlackHeds'>
-        <h2>Ideate</h2>
+        <h2 className='cases_openerText'>Ideate</h2>
       </div>
-      <section className='WideContainer ideate'>
+      <section className='WideContainer ideate nyt'>
         <div className='InnerContainer'>
           <h5 className='h5 marginTop'>
             <span className='leadin'>Drawing from my research </span> I

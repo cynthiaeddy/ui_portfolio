@@ -5,7 +5,7 @@ export const DefineFh = () => {
   return (
     <>
       <div className='BlackHeds white'>
-        <h2 className='h2_white'>Define</h2>
+        <h2 className='h2_white cases_openerText'>Define</h2>
       </div>
       <section className='OpenerContainer define'>
         <h5 className='h5 black center'>

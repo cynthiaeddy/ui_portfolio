@@ -4,7 +4,7 @@ export const Reflection = () => {
   return (
     <>
       <div className='BlackHeds'>
-        <h2>Reflection</h2>
+        <h2 className='cases_openerText'>Reflection</h2>
       </div>
       <section className='WideContainer reflection'>
         <div className='InnerContainer reflection'>

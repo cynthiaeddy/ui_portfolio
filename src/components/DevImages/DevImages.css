@@ -3,17 +3,22 @@
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(2, 1fr);
-  gap: 72px;
-  margin-bottom: 6rem;
+  gap: 7rem;
+  /* margin-bottom: 6rem; */
 
 }
 
 .DevImage {
   width: 100%;
-  max-width: 440px;
+  /* max-width: 440px; */
 }
 
 .DevImage.wd {
   border: .5px solid black
 
 }
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+  .DevImagesContainer {
+    gap:5rem
+  }
+  }

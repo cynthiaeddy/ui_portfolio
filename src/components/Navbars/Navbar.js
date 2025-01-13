@@ -42,7 +42,7 @@ export const Navbar = () => {
               className='nav-links'
               activeClassName='active'
             >
-              editorial design
+              editoral design
               <img
                 src={navActive}
                 className='navActive'

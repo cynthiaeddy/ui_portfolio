@@ -12,7 +12,8 @@
   margin: auto;
   margin-top: 6rem;
   margin-bottom: 6rem;
-  width: 95rem
+  /* width: 100%;
+  max-width: 95rem */
 
 }
 .UxTopContainer {
@@ -23,3 +24,24 @@
 .UxBottomContainer {
   margin-top: 6rem
 }
+/* ///// Media Queries ///// */
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+  .BottomContainer {
+    width: 90%;
+    border: 1px solid black;
+}
+    /* display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Allows scrolling if content overflows */
+  }
+  .UxButton {
+    font-size: 4.75rem
+  }
+
+
+/* ///// Media Queries ///// */
+/* @media screen and (min-width: 768px) and (max-width: 1030px) {
+  .BottomContainer {
+    width: 75rem
+  }
+  } */

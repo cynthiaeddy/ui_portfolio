@@ -21,9 +21,8 @@ export const Print = () => {
         </div>
       </section>
     <div className='BottomContainer'>
-        <div className='InnerContainer'>
-          {<PrintImages />}</div>
-          <div>
+          {<PrintImages />}
+          <div className='Footer'>
       <a
                 href='https://www.cynthiaeddy.me'
                 target='_blank'

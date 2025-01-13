@@ -6,6 +6,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  overscroll-behavior: none;
 }
 
 * {
@@ -13,9 +14,7 @@ body {
   margin: 0;
   padding: 0;
 }
-body {
-  overscroll-behavior: none;
-}
+
 
 html {
   scroll-behavior: smooth;
@@ -109,7 +108,11 @@ h6 {
   width: fit-content;
   border-radius: 10rem;
   font-weight: 600;
-  height: 4.25rem
+  height: 4.25rem;
+  justify-content: center;
+  display: flex;
+  align-items: center
+;
 }
 
 .Button_website:hover {
@@ -120,3 +123,17 @@ h6 {
 button.magnifier {
   cursor: pointer;
 }
+
+
+/* ///// Media Queries ///// */
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+  .main_type {
+    font-size: 20rem;
+  }
+
+.Button_website {
+  font-size: 1rem;
+    line-height: 1.5;
+}
+}
+
