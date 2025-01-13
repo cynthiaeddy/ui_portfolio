@@ -66,10 +66,19 @@ p.CardDescription.nyt {
 }
 .CardImage {
   width: 50%;
-  margin-bottom:3rem
-}
+  margin-bottom:3rem;
+  display: flex
+  ;
+      flex-direction: column;
+      align-items: center;
+  }
+
 .CardImage.fh {
   width: 65%;
+  display: flex
+  ;
+      flex-direction: column;
+      align-items: center;
 }
 .IndiCard {
   width: 100%;

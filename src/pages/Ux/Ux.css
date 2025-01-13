@@ -12,6 +12,11 @@
   margin: auto;
   margin-top: 6rem;
   margin-bottom: 6rem;
+  display: flex
+  ;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
   /* width: 100%;
   max-width: 95rem */
 
