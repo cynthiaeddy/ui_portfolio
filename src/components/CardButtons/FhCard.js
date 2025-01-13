@@ -6,7 +6,7 @@ import mobile from '../../assets/fh/mobile_home.png'
 import './CardButtons.css'
 export const FhCard = () => {
   return (
-    <Link to='fh_case_study' className='CardContainer fh'>
+    <Link to='/ux_ui/fh_case_study' className='CardContainer fh'>
       <section className='Card fh'>
         <div className='CardImage fh'>
           <img className='IndiCard fh' src={desktop} alt={desktop} />

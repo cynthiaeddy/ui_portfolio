@@ -3,7 +3,7 @@ import opener from '../../assets/ssc/soap_opener.png'
 import './CardButtons.css'
 export const SscCard = () => {
   return (
-    <Link to='ssc_case_study' className='CardContainer'>
+    <Link to='/ux_ui/ssc_case_study' className='CardContainer'>
       <section className='Card'>
         <div className='CardText'>
           <div className='CardOpener'>
