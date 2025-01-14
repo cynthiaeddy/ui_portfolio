@@ -139,7 +139,7 @@ button.magnifier {
 }
 
 
-@media screen and (min-width: 450px) and (max-width: 767px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .main_type {
     font-size: 17rem;
   }
@@ -149,9 +149,9 @@ button.Button_website {
 }
 }
 
-@media screen and (max-width: 449px) {
+@media screen and (max-width: 479px) {
   .main_type {
-    font-size: 14rem;
+    font-size: 12.75rem;
   }
   .TopContainer {
     margin-top:20rem

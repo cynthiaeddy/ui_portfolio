@@ -20,7 +20,6 @@ export const UxMobile = () => {
           </NavLink>
         </div>
       </section>
-      you are in mobile
       <div className='BottomContainer ux'>
         <div className='UxTopContainer'>
           <SscCardMobile />

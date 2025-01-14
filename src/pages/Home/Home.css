@@ -77,13 +77,19 @@ hr {
     font-size: 4.75rem
   }
   }
-  @media screen and (min-width: 550px) and (max-width: 767px) {
+  @media screen and (min-width: 480px) and (max-width: 767px) {
 
     .HomeButton {
-      font-size: 4rem
+      font-size: 4rem;
+      margin-left: 4.3rem;
     }
+    .smallSlash {
+      font-size: 3.5rem
+      }
     }
-    @media screen and (max-width: 549px) {
+
+
+    @media screen and (max-width: 479px) {
 
       .HomeButton {
         font-size: 3rem;

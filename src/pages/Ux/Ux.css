@@ -58,13 +58,14 @@
       width: 43.5rem;
   }
   .UxButton {
-    font-size: 4rem;
+    font-size: 4.1rem;
 }
 }
 
 @media screen and (max-width:479px) {
   .BottomContainer.ux {
     width: 30rem;
+    margin-top: 5rem;
 }
 .UxButton {
   font-size: 3rem;
