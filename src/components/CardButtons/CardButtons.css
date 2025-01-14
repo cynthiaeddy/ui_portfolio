@@ -60,6 +60,7 @@ p.CardDescription.nyt {
   flex-direction: column;
   width: 50%;
   margin-right: 1.5rem;
+  height:fit-content
 }
 .CardText.fh {
   padding-left: 1.5rem
@@ -126,11 +127,34 @@ box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
   font-size: 2rem;
 }
 
-.CardImageMobile {
-  width: 58%
-}
 .footer.nyt {
   letter-spacing: .25rem;
   font-size: 1.05rem;
+}
+.CardContainer {
+  width: 100%;
+  margin-bottom: 5rem;
+  padding: 2rem 2rem 0 2rem;
+  height: fit-content
+
+}
+.CardContainer.mobile {
+  height: fit-content;
+}
+
+.IndiCard.desktop {
+  width: 115%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+
+}
+.CardImage.mobile {
+  margin-bottom: 0;
+}
+.CardImage.mobile, .Card {
+  height: fit-content
+}
+.CardText.mobile {
+  margin-right: 3rem
 }
 }
