@@ -15,7 +15,7 @@ export const FhCardMobile = () => {
             seamless experience for its clients.
           </div>
           <h6>case study</h6>
-          <p className='CardDescription nyt'>
+          <p className='CardDescription'>
             In this case study, I&apos;ll show how I redesigned and made the
             site responsive, turning it into an engaging digital experience that
             reflects the clinic&apos;s personality and serves its clients.

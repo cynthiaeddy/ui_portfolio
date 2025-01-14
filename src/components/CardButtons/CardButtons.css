@@ -102,6 +102,7 @@ p.CardDescription.nyt {
 border: 1.5px solid rgba(0, 0, 0, 0.30);
 background: #FFF;
 box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
+padding: 1.9rem 1.9rem 0 1.9rem;
 
 }
 .footer {
@@ -158,5 +159,14 @@ box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
 }
 .CardText.mobile {
   margin-right: 3rem
+}
+.CardDescription.nyt{
+  /* letter-spacing: .1rem; */
+
+}
+.CardContainer:hover {
+  /* padding: 2rem 2rem 0 2rem; */
+
+
 }
 }
