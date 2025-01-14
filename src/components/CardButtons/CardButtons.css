@@ -120,7 +120,6 @@ padding: 1.9rem 1.9rem 0 1.9rem;
 
 
 
-
 /* ///// Media Queries ///// */
 @media screen and (max-width: 1030px) {
   /* @media screen and (min-width: 768px) and (max-width: 1030px) { */
@@ -171,4 +170,24 @@ padding: 1.9rem 1.9rem 0 1.9rem;
 
 
 }
+
+
 }
+@media screen and (max-width: 479px) {
+
+  .footer {
+    margin-top: 2rem;
+  }
+
+  .CardOpener{
+    font-size: 1.9rem;
+  }
+  .CardOpener.fh {
+    letter-spacing: -0.02rem;
+  }
+  .CardImage {
+    margin-bottom: 0
+  }
+
+}
+

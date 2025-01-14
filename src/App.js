@@ -35,7 +35,7 @@ const App = () => {
 
   // Define breakpoints for screen sizes
   // const isMobile = windowWidth <= 767
-  const isTablet = windowWidth >= 768 && windowWidth <= 1030
+  const isTablet = windowWidth >= 479 && windowWidth <= 1030
   const isDesktop = windowWidth >= 1031
 
   let routes = (

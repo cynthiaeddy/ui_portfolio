@@ -2,7 +2,7 @@ import { NavLink } from 'react-router'
 import './Ux.css'
 import { SscCard } from '../../components/CardButtons/SscCard'
 import { NytCard } from '../../components/CardButtons/NytCard'
-import { FhCardMobile } from '../../components/CardButtons/FhCardMobile'
+import { FhCardTablet } from '../../components/CardButtons/FhCardTablet'
 export const UxTablet = () => {
   return (
     <>
@@ -26,7 +26,7 @@ export const UxTablet = () => {
           <NytCard />
         </div>
         <div className='UxBottomContainer'>
-          <FhCardMobile />
+          <FhCardTablet />
         </div>
       </div>
     </>
