@@ -42,7 +42,7 @@ export const Navbar = () => {
               className='nav-links'
               activeClassName='active'
             >
-              editoral design
+              design
               <img
                 src={navActive}
                 className='navActive'
@@ -60,7 +60,7 @@ export const Navbar = () => {
               className='nav-links'
               activeClassName='active'
             >
-              web development
+              development
               <img
                 src={navActive}
                 className='navActive'
