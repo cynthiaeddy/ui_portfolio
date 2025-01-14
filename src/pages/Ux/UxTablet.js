@@ -20,8 +20,7 @@ export const UxTablet = () => {
           </NavLink>
         </div>
       </section>
-      you are in tablet
-      <div className='BottomContainer'>
+      <div className='BottomContainer ux'>
         <div className='UxTopContainer'>
           <SscCard />
           <NytCard />
@@ -33,4 +32,3 @@ export const UxTablet = () => {
     </>
   )
 }
-// export default Ux

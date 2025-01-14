@@ -29,9 +29,14 @@
 }
 /* ///// Media Queries ///// */
 @media screen and (min-width: 768px) and (max-width: 1030px) {
-  .BottomContainer {
+  .BottomContainer.ux {
     width: 43.5rem;
-    border: 1px solid black;
+}
+.BottomContainer{
+  width: 90%;
+}
+.BottomContainer.dev{
+  width: 100%;
 }
 .UxBottomContainer {
   margin-top: 0
@@ -46,11 +51,3 @@
       align-items: center;
     }
   }
-
-
-/* ///// Media Queries ///// */
-/* @media screen and (min-width: 768px) and (max-width: 1030px) {
-  .BottomContainer {
-    width: 75rem
-  }
-  } */

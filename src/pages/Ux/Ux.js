@@ -20,7 +20,7 @@ export const Ux = () => {
           </NavLink>
         </div>
       </section>
-      <div className='BottomContainer'>
+      <div className='BottomContainer ux'>
         <div className='UxTopContainer'>
           <SscCard />
           <NytCard />

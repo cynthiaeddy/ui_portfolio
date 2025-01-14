@@ -19,7 +19,7 @@ export const Development = () => {
           <div className='HomeButton print'>software developer</div>
         </div>
       </section>
-      <div className='BottomContainer'>
+      <div className='BottomContainer dev'>
         <div className='InnerContainer cases'>{<DevImages />}</div>
         <div className='Footer'>
           <a
