@@ -1,7 +1,4 @@
-/* eslint-disable prettier/prettier */
-// eslint-disable-next-line no-unused-vars
 import { NavLink } from 'react-router'
-// import fit from '../../assets/print/print_fit.png'
 import '../Home/Home.css'
 import './Print.css'
 import { PrintImages } from '../../components/PrintImages/PrintImages.js'
@@ -20,19 +17,21 @@ export const Print = () => {
           </NavLink>
         </div>
       </section>
-    <div className='BottomContainer'>
-          {<PrintImages />}
-          <div className='Footer'>
-      <a
-                href='https://www.cynthiaeddy.me'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='Footer_text'
-              >
-      <button className='Button_website'>click to view print & digital website</button>
-              </a>
+      <div className='BottomContainer'>
+        {<PrintImages />}
+        <div className='Footer editorial'>
+          <a
+            href='https://www.cynthiaeddy.me'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='Footer_text'
+          >
+            <button className='Button_website'>
+              click to view print & digital website
+            </button>
+          </a>
+        </div>
       </div>
-    </div>
     </>
   )
 }
