@@ -22,12 +22,14 @@
   padding: 1rem 4rem 3rem 4rem;
   border-radius: 20px;
   max-width: 150rem;
+  height:auto
 }
 
 .ModalContainerScroll {
   overflow: scroll;
   height: 75vh;
   border-radius: 10px;
+  width: 100%;
 }
 .ModalContainerScroll.no {
   overflow: auto;
@@ -55,8 +57,9 @@
   align-items: flex-start;
 }
 .competitive_lg {
-  display:block;
-  /* object-fit: cover; */
+  /* display:block; */
+  object-fit: cover;
+height: auto
 }
 
 
@@ -83,7 +86,7 @@
     margin-bottom: -2rem
   }
   .competitive_lg {
-    display:block;
-    /* object-fit: cover; */
+    /* display:block; */
+    object-fit: cover;
   }
 }
