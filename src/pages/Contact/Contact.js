@@ -59,62 +59,64 @@ export const Contact = () => {
 
   return (
     <section className='Container contact'>
-      {isSubmitted ? (
-        // UI shown after successful submission
-        <section className='SecondContainer success'>
-          <div className='AboutContact'>thank you!</div>
-          <h5 className='h5 contact'>
-            I&apos;ll be sure to get back to you within 48 hours.
-          </h5>
-          <Link to='/' className='ButtonContainer contact'>
-            <div className='Button_website'>return home</div>
-          </Link>
-        </section>
-      ) : (
-        <section className='SecondContainer form'>
-          <div className='AboutContact'>say hello</div>
-          <form className='ContactForm' onSubmit={handleSubmit}>
-            <div className='ContactForm text'>
-              <label htmlFor='name' className='Contact_text'>
-                Name
-              </label>
-              <input
-                type='text'
-                id='name'
-                name='name'
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-              />
-            </div>
-            <div className='ContactForm text'>
-              <label htmlFor='email' className='Contact_text email'>
-                Email
-              </label>
-              <input
-                type='email'
-                id='email'
-                name='email'
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
-            </div>
-            <div className='ContactForm text'>
-              <label htmlFor='message' className='Contact_text email message'>
-                Message
-              </label>
-              <textarea
-                id='message'
-                name='message'
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-              />
-            </div>
-            <button type='submit' className='Button_website form'>
-              Send
-            </button>
-          </form>
-        </section>
-      )}
+      <div className='Container_overlord'>
+        {isSubmitted ? (
+          // UI shown after successful submission
+          <section className='SecondContainer success'>
+            <div className='AboutContact'>thank you!</div>
+            <h5 className='h5 contact'>
+              I&apos;ll be sure to get back to you within 48 hours.
+            </h5>
+            <Link to='/' className='ButtonContainer contact'>
+              <div className='Button_website'>return home</div>
+            </Link>
+          </section>
+        ) : (
+          <section className='SecondContainer form'>
+            <div className='AboutContact'>say hello</div>
+            <form className='ContactForm' onSubmit={handleSubmit}>
+              <div className='ContactForm text'>
+                <label htmlFor='name' className='Contact_text'>
+                  Name
+                </label>
+                <input
+                  type='text'
+                  id='name'
+                  name='name'
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                />
+              </div>
+              <div className='ContactForm text'>
+                <label htmlFor='email' className='Contact_text email'>
+                  Email
+                </label>
+                <input
+                  type='email'
+                  id='email'
+                  name='email'
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+              </div>
+              <div className='ContactForm text'>
+                <label htmlFor='message' className='Contact_text email message'>
+                  Message
+                </label>
+                <textarea
+                  id='message'
+                  name='message'
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                />
+              </div>
+              <button type='submit' className='Button_website form'>
+                Send
+              </button>
+            </form>
+          </section>
+        )}
+      </div>
     </section>
   )
 }
