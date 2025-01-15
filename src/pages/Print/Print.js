@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router'
 import '../Home/Home.css'
 import './Print.css'
+import '../Ux/Ux.css'
 import { PrintImages } from '../../components/PrintImages/PrintImages.js'
 export const Print = () => {
   return (
@@ -17,7 +18,7 @@ export const Print = () => {
           </NavLink>
         </div>
       </section>
-      <div className='BottomContainer'>
+      <div className='BottomContainer print'>
         {<PrintImages />}
         <div className='Footer editorial'>
           <a

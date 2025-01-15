@@ -28,7 +28,7 @@
   margin-top: 6rem
 }
 /* ///// Media Queries ///// */
-/* @media screen and (min-width: 768px) and (max-width: 1030px) { */
+
   @media screen and (max-width: 1030px) {
 
   .BottomContainer.ux {
@@ -36,9 +36,11 @@
 }
 .BottomContainer{
   width: 90%;
+  margin-top:4rem
 }
-.BottomContainer.dev{
-  width: 100%;
+.BottomContainer.dev, .BottomContainer.print{
+  width: 90%;
+  margin-top:4rem
 }
 .UxBottomContainer {
   margin-top: 0
@@ -53,6 +55,7 @@
       align-items: center;
     }
   }
+
   @media screen and (min-width: 480px) and (max-width: 767px) {
     .BottomContainer.ux {
       width: 43.5rem;

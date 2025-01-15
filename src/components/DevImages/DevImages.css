@@ -4,21 +4,41 @@
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(2, 1fr);
   gap: 6rem;
-  /* margin-bottom: 6rem; */
 
 }
 
 .DevImage {
   width: 100%;
-  /* max-width: 440px; */
 }
 
 .DevImage.wd {
   border: .5px solid black
 
 }
+
+/* ///// Media Queries ///// */
+
 @media screen and (min-width: 768px) and (max-width: 1030px) {
   .DevImagesContainer {
     gap:5rem
   }
   }
+
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    .DevImagesContainer {
+      gap:3.5rem
+    }
+    }
+
+    @media screen and (max-width:479px) {
+      .DevImagesContainer {
+        display: flex;
+        flex-direction: column;
+        gap:4rem;
+        width: 85%
+      }
+      .BottomContainer.dev {
+        margin-top:4rem;
+      }
+
+    }

@@ -1,3 +1,12 @@
 .Footer {
   margin-top:6rem
 }
+
+/* ///// Media Queries ///// */
+
+
+@media screen and (max-width: 767px) {
+  .Footer {
+    margin-top:4rem
+  }
+}

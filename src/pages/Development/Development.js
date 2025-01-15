@@ -20,7 +20,7 @@ export const Development = () => {
         </div>
       </section>
       <div className='BottomContainer dev'>
-        <div className='InnerContainer cases'>{<DevImages />}</div>
+        {<DevImages />}
         <div className='Footer'>
           <a
             href='https://www.cynthiaeddy.com'

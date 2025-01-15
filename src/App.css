@@ -146,6 +146,7 @@ button.magnifier {
 
 button.Button_website {
   font-size: 1rem;
+  height: 3.75rem
 }
 }
 
@@ -154,10 +155,11 @@ button.Button_website {
     font-size: 12.75rem;
   }
   .TopContainer {
-    margin-top:20rem
+    margin-top:15rem
   }
   button.Button_website {
     font-size: 1rem;
+    height: 3.75rem
   }
 
 

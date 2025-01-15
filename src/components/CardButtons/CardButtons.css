@@ -161,6 +161,9 @@ padding: 1.9rem 1.9rem 0 1.9rem;
 .CardText.mobile {
   margin-right: 3rem
 }
+p.CardDescription.nyt {
+  letter-spacing: .1rem;
+}
 }
 
 
