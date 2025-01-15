@@ -1,16 +1,16 @@
 
 .Container.contact {
-display: flex;
 width: 95rem;
 margin: auto;
 margin-top: 26rem
 }
-.Container_overlord {
-  width: 100%
-}
+
 .SecondContainer {
   display: flex;
+  width: 80%;
+  margin: auto;
 }
+
 
 .SecondContainer.success {
   display: block
@@ -42,7 +42,6 @@ margin-top: 26rem
 .ContactForm.text {
   display: flex;
   flex-direction: column;
-  /* margin-bottom: 4rem; */
   width:100%;
   margin-left:4rem
 }
@@ -71,9 +70,9 @@ textarea {
   line-height: 1.1;
   color: #000;
   margin-top: 17.5rem;
-  text-align: left;
-  /* margin-left: 18%; */
-  margin-bottom: 3rem
+  text-align: right;
+  margin-bottom: 3rem;
+  width: 37%
 }
 .Button_website.form {
   margin-left: 4rem;
@@ -100,7 +99,53 @@ h5.h5.contact {
     width: 90%
   }
   .AboutContact {
-    margin-top: 14.25rem
+    margin-top: 15rem;
+    width: 40%;
+    font-size: 4.75rem
   }
 
+}
+
+@media screen and (max-width: 767px) {
+    .Container.contact {
+      width: 90%
+    }
+    .SecondContainer {
+      width: 90%
+    }
+    .AboutContact {
+      width: 30%;
+      font-size: 4rem;
+      margin-top: 12.25rem
+    }
+
+    .SecondContainer.form {
+      width: 100%
+    }
+    .ContactForm {
+      width: 60%
+    }
+
   }
+
+  @media screen and (max-width:479px) {
+    .SecondContainer.form {
+      flex-direction: column;
+    }
+    .AboutContact {
+      width: 100%;
+      text-align: left;
+      margin-top: -7.75rem;
+    }
+    .ContactForm {
+      width: 100%
+    }
+    .ContactForm.text {
+      margin-left: 0;
+    }
+    .Button_website.form {
+      margin-left: 0;
+      margin-top:3rem
+    }
+  }
+

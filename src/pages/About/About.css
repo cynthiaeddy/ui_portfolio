@@ -86,4 +86,19 @@ margin-bottom: 4rem
     font-size:4.75rem;
     margin-top:13.5rem
   }
+  .AboutImages {
+    min-width: 400px
+  }
+
 }
+
+@media screen and (min-width: 480px) and (max-width: 767px)  {
+.Container.about {
+  width: 90%
+}
+.AboutHi{
+  font-size: 4rem }
+}
+
+
+@media screen and (max-width: 479px) {}

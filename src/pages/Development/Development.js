@@ -4,7 +4,6 @@ import '../Print/Print.css'
 import './Development.css'
 import { DevImages } from '../../components/DevImages/DevImages.js'
 export const Development = () => {
-  // eslint-disable-next-line prettier/prettier
   return (
     <>
       <section className='TopContainer'>
