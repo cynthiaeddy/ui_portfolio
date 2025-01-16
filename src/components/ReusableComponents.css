@@ -573,6 +573,7 @@ ul {
   }
   .Button.enlarge {
     font-size: 1.1rem;
+    line-height: 1.5
   }
   .OpenerFoto.mobile {
     width: 22%;
@@ -581,7 +582,7 @@ ul {
 
 
   .competitive, .mood, .competitive.flow, .competitive.mid_fi, .competitive.hi_fi,
-  .competitive.nyt_iteraction, .competitive.designFh, .competitive.mid_fi.desktop, .competitive.mid_fi.desktop, .competitive.designFh.four, .competitive.fh_mobile , .InnerContainer.prototype.fh {
+  .competitive.nyt_iteraction, .competitive.designFh, .competitive.mid_fi.desktop, .competitive.mid_fi.desktop, .competitive.designFh.four, .competitive.fh_mobile , .InnerContainer.prototype.fh, .competitive.mid_fi.mobile  {
     width: 100%
   }
   .competitive.persona {
@@ -610,7 +611,22 @@ ul {
   margin-top: -2.5rem;
 }
 .prototype.fh_desktop {
-  width:70%
+  width:100%
+}
+.prototype.fh_mobile {
+  width:100%
+}
+.style, .competitive.persona {
+  margin-top: -4rem;
+}
+.WireframesContainer {
+  width: 100%
+}
+.ButtonContainer.design_fh {
+  width: 65%
+}
+.ButtonContainer.design_fh.first {
+  width: 35%
 }
 
  }
