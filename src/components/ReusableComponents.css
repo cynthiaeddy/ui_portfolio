@@ -578,7 +578,10 @@ ul {
     width: 22%;
     margin-left: -2rem;
   }
-  .competitive, .mood, .competitive.flow, .competitive.mid_fi, .competitive.hi_fi {
+
+
+  .competitive, .mood, .competitive.flow, .competitive.mid_fi, .competitive.hi_fi,
+  .competitive.nyt_iteraction, .competitive.designFh, .competitive.mid_fi.desktop, .competitive.mid_fi.desktop, .competitive.designFh.four, .competitive.fh_mobile , .InnerContainer.prototype.fh {
     width: 100%
   }
   .competitive.persona {
@@ -589,6 +592,10 @@ ul {
     margin-top: -9.5rem
   }
 
+  .competitive.designFh {
+    margin-top: -3rem;
+}
+
 .prototype {
   width: 25rem;
 }
@@ -598,6 +605,12 @@ ul {
 .WideContainer.ideate {
   padding-bottom: 4rem;
   margin-bottom: 6.5rem;
+}
+.competitive.hi_fi {
+  margin-top: -2.5rem;
+}
+.prototype.fh_desktop {
+  width:70%
 }
 
  }
