@@ -300,6 +300,7 @@ margin-bottom: 2rem;}
 
 button {
   background-color: #FAF9F8;
+  background: none;
 }
 .competitive, .mood {
   width: 75rem;
@@ -531,7 +532,8 @@ ul {
 /* ///// Media Queries ///// */
 @media screen and (min-width: 480px) and (max-width: 767px)  {
   .OpenerContainer {
-    width: 90%
+    width: 90%;
+    margin-bottom:6.5rem
   }
   .Opener {
     width: 90%
@@ -576,5 +578,26 @@ ul {
     width: 22%;
     margin-left: -2rem;
   }
+  .competitive, .mood, .competitive.flow, .competitive.mid_fi, .competitive.hi_fi {
+    width: 100%
+  }
+  .competitive.persona {
+    margin-bottom: 4rem;
+  }
+
+  .competitive.flow {
+    margin-top: -9.5rem
+  }
+
+.prototype {
+  width: 25rem;
+}
+.WideContainer.bottom {
+  margin-bottom: 6.5rem;
+}
+.WideContainer.ideate {
+  padding-bottom: 4rem;
+  margin-bottom: 6.5rem;
+}
 
  }

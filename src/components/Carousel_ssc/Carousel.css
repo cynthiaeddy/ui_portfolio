@@ -55,3 +55,9 @@ img.carousel-image {
 
       } */
   }
+
+  @media screen and (max-width:767px) {
+    img.carousel-image.ssc {
+      width: 100%
+    }
+  }
