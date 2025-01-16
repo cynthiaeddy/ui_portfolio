@@ -10,3 +10,9 @@ overflow-x: hidden
   background: #FAF9F8;
 }
 
+ /* ///// Media Queries ///// */
+ @media screen and (max-width: 767px)  {
+  .Container.studies {
+    width: 100%
+  }
+ }

@@ -89,7 +89,7 @@ display: flex;
 .OpenerFoto.mobile {
   width: 25%;
   margin-left: -3rem;
-  margin-top: -4.5rem
+  margin-top: -4rem
 }
 
 .background {
@@ -114,6 +114,7 @@ h2 {
   text-transform: initial;
   letter-spacing: .01rem;
   line-height: 1.5;
+
 }
 .h2_white {
   color: black
@@ -521,4 +522,59 @@ ul {
     .prototype.fh_mobile {
       width: 18rem
     }
+    .OpenerFoto.mobile {
+      margin-top: -3.25rem
+    }
 }
+
+
+/* ///// Media Queries ///// */
+@media screen and (min-width: 480px) and (max-width: 767px)  {
+  .OpenerContainer {
+    width: 90%
+  }
+  .Opener {
+    width: 90%
+  }
+  .background {
+    margin-top: -20rem;
+    height:24rem
+  }
+  .textWrapper {
+    padding: 2.5rem
+  }
+  h2 {
+    font-size: 3.6rem;
+  }
+  h5 {
+    font-size: 1.6rem;
+  }
+  .h5.small {
+    font-size: 1.4rem;
+  }
+  .h6.studies {
+    font-size: 1.2rem;
+  }
+  h6.h6.small {
+    font-size: 1rem;
+  }
+  .InnerContainer {
+    width: 90%
+  }
+
+  .h5.dropCap::first-letter {
+    font-size: 8.5rem;
+    float: left;
+    line-height: .9; /* from 1 */
+    margin-right: 0.05em;
+    font-weight: 200;
+  }
+  .Button.enlarge {
+    font-size: 1.1rem;
+  }
+  .OpenerFoto.mobile {
+    width: 22%;
+    margin-left: -2rem;
+  }
+
+ }
