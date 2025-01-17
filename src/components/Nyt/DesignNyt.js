@@ -100,7 +100,7 @@ export const DesignNyt = () => {
           <img className='competitive mid_fi' src={lofi} alt={lofi} />
         </div>
         <div className='divider_curved top'></div>
-        <h5 className='h5 dropCap black'>
+        <h5 className='h5 dropCap black too'>
         In moderated testing of the low-fidelity wireframes, five participants rated the serving size feature 5/5 for ease of use. However, the overall satisfaction score was 88%, due to dissatisfaction with the existing NYT UI, particularly around the grocery list editing. Since their existing UI was out of my scope, I focused on the following leaving the rest of the NYT designed unchanged:
         </h5>
         <ul className='h5 bullets'>
