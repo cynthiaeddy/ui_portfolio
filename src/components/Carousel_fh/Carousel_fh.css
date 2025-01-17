@@ -73,4 +73,9 @@ img.carousel-image.fh {
         width: 100%
       }
 }
+@media screen and  (max-width: 479px) {
 
+img.carousel-image.mobile {
+  width:80%
+}
+}
