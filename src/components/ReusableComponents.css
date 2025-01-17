@@ -640,3 +640,78 @@ ul {
   width: 70%
 }
  }
+
+ @media screen and (max-width: 479px) {
+  .OpenerContainer {
+    width: 100%
+  }
+  .Opener.fh {
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+  }
+  .OpenerFoto.mobile {
+    margin-left: 0rem;
+    margin-top: 2rem;
+    width: 50%;
+ }
+ .OpenerFoto.desktop {
+  width: 100%
+ }
+ .Container.studies {
+  margin-top: 15rem
+ }
+ .background {
+  margin: AUTO;
+  margin-top: -30rem;
+  width: 75%;
+  height: 35rem;
+  border-radius: 20px;
+ }
+ h2 {
+  font-size: 3.75rem;
+  line-height: 1.2;
+ }
+ h5 {
+  font-size: 1.5rem;
+ }
+ .textWrapper {
+  padding: 2rem;
+  width: 75%;
+  margin: auto;
+  margin-top: .1rem;
+}
+.OpenerInfo {
+  width: 90%;
+  margin: auto;
+  flex-direction: column
+}
+.h6.studies {
+  font-size: 1.1rem;
+  margin-top: -2rem
+}
+.Info {
+  width: 100%;
+  margin-top: 5rem
+}
+.InfoSmall {
+  width: 100%;
+  display: flex;
+  margin-top: 2rem
+}
+.MobileSm {
+  margin-right: 1rem;
+  width: 33%
+}
+.MobileSm:last-child {
+  margin-right: 0
+
+}
+.h6.small {
+  font-size: 1REM;;
+}
+.h5.small {
+  font-size: 1.3rem;
+}
+
+ }
