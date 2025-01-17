@@ -743,6 +743,7 @@ ul {
   }
   .competitive.persona {
     margin-bottom: 4rem;
+    margin-top: -4rem
   }
   .WideContainer.bottom, .WideContainer.ideate {
     margin-bottom: 6rem;
