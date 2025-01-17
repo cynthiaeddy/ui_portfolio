@@ -652,7 +652,9 @@ ul {
   }
   .Opener {
     width: 75%;
-    justify-content: center
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .Opener.fh {
     flex-direction: column;
@@ -802,6 +804,13 @@ ul {
 }
 .prototype {
   width: 75%
+}
+.background.nyt{
+  margin: auto;
+  margin-top: -9rem;
+  width: 75%;
+  height: 11rem;
+  border-radius: 20px;
 }
 }
 

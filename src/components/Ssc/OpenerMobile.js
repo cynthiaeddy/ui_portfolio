@@ -1,13 +1,18 @@
 import '../ReusableComponents.css'
 import soap_opener from '../../assets/ssc/soap_opener.png'
+import soap_ive from '../../assets/ssc/soap_ive.png'
+import opener_down from '../../assets/ssc/opener_down.png'
 
 export const OpenerMobile = () => {
   return (
     <section className='OpenerContainer'>
       <div className='Opener'>
-        <img className='OpenerFoto ssc' src={soap_opener} alt={soap_opener} />
+        {/* <img className='OpenerFoto ssc' src={soap_opener} alt={soap_opener} /> */}
+        <img className='OpenerFoto' src={soap_opener} alt={soap_opener} />
+        <img className='OpenerFoto' src={opener_down} alt={opener_down} />
+        <img className='OpenerFoto' src={soap_ive} alt={soap_ive} />
       </div>
-      <div className='background ssc'></div>
+      <div className='background nyt'></div>
       <div className='textWrapper'>
         <h2 className='cases_openerText'> Sustainable Soap Co.</h2>
         <h5 className='h5 openerType'>
@@ -36,15 +41,20 @@ export const OpenerMobile = () => {
         <div className='InfoSmall'>
           <div className='MobileSm'>
             <h6 className='h6 small'>role</h6>
-            <h5 className='h5 small'>UX Researcher UI Designer</h5>
+            <h5 className='h5 small'>
+              UX Researcher <br />
+              UI Designer
+            </h5>
           </div>
           <div className='MobileSm'>
             <h6 className='h6 small'>duration</h6>
             <h5 className='h5 small'>12 Weeks</h5>
-          </div>
-          <div className='MobileSm'>
+            <br />
             <h6 className='h6 small'>tools</h6>
-            <h5 className='h5 small'>Figma Photoshop</h5>
+            <h5 className='h5 small'>
+              Figma <br />
+              Photoshop
+            </h5>
           </div>
         </div>
       </div>
