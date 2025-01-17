@@ -582,7 +582,7 @@ ul {
 
 
   .competitive, .mood, .competitive.flow, .competitive.mid_fi, .competitive.hi_fi,
-  .competitive.nyt_iteraction, .competitive.designFh, .competitive.mid_fi.desktop, .competitive.mid_fi.desktop, .competitive.designFh.four, .competitive.fh_mobile , .InnerContainer.prototype.fh, .competitive.mid_fi.mobile  {
+  .competitive.nyt_iteraction, .competitive.designFh, .competitive.mid_fi.desktop, .competitive.mid_fi.desktop, .competitive.designFh.four, .competitive.fh_mobile ,  .competitive.mid_fi.mobile  {
     width: 100%
   }
   .competitive.persona {
@@ -595,6 +595,10 @@ ul {
 
   .competitive.designFh {
     margin-top: -3rem;
+}
+.InnerContainer.prototype.fh {
+  width: 90%;
+  margin-bottom: 6rem
 }
 
 .prototype {
@@ -628,5 +632,11 @@ ul {
 .ButtonContainer.design_fh.first {
   width: 35%
 }
-
+.prototype_container_mobile {
+  width: 30%;
+  margin: 0
+}
+.prototype_container_desktop {
+  width: 70%
+}
  }

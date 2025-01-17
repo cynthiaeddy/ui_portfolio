@@ -4,7 +4,7 @@ import openerMobile from '../../assets/fh/mobile_home.png'
 export const PrototypeFh = () => {
   return (
     <section className='InnerContainer prototype fh'>
-      <div>
+      <div className='prototype_container_desktop'>
         <img className='prototype fh_desktop' src={opener} />
         <Link
           to='https://www.figma.com/proto/a6XJCrlXeIL4GX3rwHzDtU/feline-health?page-id=904%3A13501&node-id=1365-2532&node-type=frame&viewport=444%2C324%2C0.25&t=p055KIT4rfUmUI41-1&scaling=scale-down&content-scaling=fixed'
