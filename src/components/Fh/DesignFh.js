@@ -116,7 +116,7 @@ export const DesignFh = () => {
           </section>
         </ul>
         <div className='WireframesContainer'>
-          <div className='ButtonContainer'>
+          <div className='ButtonContainer design_fh'>
             <div className='Button enlarge white'>low fidelity desktop</div>
             <button
               onClick={modalFhLoDesktopOpen}
@@ -135,7 +135,7 @@ export const DesignFh = () => {
               alt={fh_lo_desktop}
             />
           </div>
-          <div className='ButtonContainer'>
+          <div className='ButtonContainer design_fh first'>
             <div className='Button enlarge white'>low fidelity mobile</div>
             <button
               onClick={modalFhLoMobileOpen}

@@ -5,11 +5,8 @@ import quilt from '../../assets/about/quilt.png'
 import './About.css'
 export const About = () => {
   return (
-    <section className='Container about'>
-      <div className='AboutHi'>
-        hiya, i&apos;m <br />
-        cynthia
-      </div>
+    <section className='Container about mobile'>
+      <div className='AboutHi'>hiya, i&apos;m cynthia</div>
       <div className='AboutContainerNew'>
         <div className='AboutImages'>
           <img src={me} className='AboutImage me' alt={me} />

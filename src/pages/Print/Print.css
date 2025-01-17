@@ -16,3 +16,24 @@
 .Footer.editorial {
   margin-top: 4.5rem
 }
+
+
+
+ /* ///// Media Queries ///// */
+
+
+ @media screen and (max-width: 767px) {
+  .Footer.editorial {
+    margin-top: 3.5rem
+  }
+
+}
+
+@media screen and (max-width: 479px) {
+  .BottomContainer.print {
+    margin-top: 3.5rem;
+    margin-bottom:6rem
+  }
+
+}
+

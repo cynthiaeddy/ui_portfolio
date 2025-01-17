@@ -58,12 +58,12 @@ export const Contact = () => {
   )
 
   return (
-    <section className='Container contact'>
+    <section className={`Container contact ${isSubmitted ? 'submitted' : ''}`}>
       <div className='Container_overlord'>
         {isSubmitted ? (
           // UI shown after successful submission
           <section className='SecondContainer success'>
-            <div className='AboutContact'>thank you!</div>
+            <div className='AboutContact success'>thank you!</div>
             <h5 className='h5 contact'>
               I&apos;ll be sure to get back to you within 48 hours.
             </h5>
@@ -120,5 +120,3 @@ export const Contact = () => {
     </section>
   )
 }
-
-// export default Contact

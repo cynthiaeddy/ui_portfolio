@@ -89,7 +89,7 @@ display: flex;
 .OpenerFoto.mobile {
   width: 25%;
   margin-left: -3rem;
-  margin-top: -4.5rem
+  margin-top: -4rem
 }
 
 .background {
@@ -114,6 +114,7 @@ h2 {
   text-transform: initial;
   letter-spacing: .01rem;
   line-height: 1.5;
+
 }
 .h2_white {
   color: black
@@ -287,6 +288,10 @@ margin-bottom: 2rem;}
   border: 1.25px solid black
 
 }
+
+.Button_mobile {
+  visibility: hidden;
+}
 .magnifier {
   width: 6rem;
   position: relative;
@@ -299,6 +304,7 @@ margin-bottom: 2rem;}
 
 button {
   background-color: #FAF9F8;
+  background: none;
 }
 .competitive, .mood {
   width: 75rem;
@@ -521,4 +527,258 @@ ul {
     .prototype.fh_mobile {
       width: 18rem
     }
+    .OpenerFoto.mobile {
+      margin-top: -3.25rem
+    }
 }
+
+
+/* ///// Media Queries ///// */
+@media screen and (min-width: 480px) and (max-width: 767px)  {
+  .OpenerContainer {
+    width: 90%;
+    margin-bottom:6.5rem
+  }
+  .Opener {
+    width: 90%
+  }
+  .background {
+    margin-top: -20rem;
+    height:24rem
+  }
+  .textWrapper {
+    padding: 2.5rem
+  }
+  h2 {
+    font-size: 3.6rem;
+  }
+  h5 {
+    font-size: 1.6rem;
+  }
+  .h5.small {
+    font-size: 1.4rem;
+  }
+  .h6.studies {
+    font-size: 1.2rem;
+  }
+  h6.h6.small {
+    font-size: 1rem;
+  }
+  .InnerContainer {
+    width: 90%
+  }
+
+  .h5.dropCap::first-letter {
+    font-size: 8.5rem;
+    float: left;
+    line-height: .9; /* from 1 */
+    margin-right: 0.05em;
+    font-weight: 200;
+  }
+  .Button.enlarge {
+    font-size: 1.1rem;
+    line-height: 1.5
+  }
+  .OpenerFoto.mobile {
+    width: 22%;
+    margin-left: -2rem;
+  }
+
+
+  .competitive, .mood, .competitive.flow, .competitive.mid_fi, .competitive.hi_fi,
+  .competitive.nyt_iteraction, .competitive.designFh, .competitive.mid_fi.desktop, .competitive.mid_fi.desktop, .competitive.designFh.four, .competitive.fh_mobile ,  .competitive.mid_fi.mobile  {
+    width: 100%
+  }
+  .competitive.persona {
+    margin-bottom: 4rem;
+  }
+
+  .competitive.flow {
+    margin-top: -9.5rem
+  }
+
+  .competitive.designFh {
+    margin-top: -3rem;
+}
+.InnerContainer.prototype.fh {
+  width: 90%;
+  margin-bottom: 6rem
+}
+
+.prototype {
+  width: 25rem;
+}
+.WideContainer.bottom {
+  margin-bottom: 6.5rem;
+}
+.WideContainer.ideate {
+  padding-bottom: 4rem;
+  margin-bottom: 6.5rem;
+}
+.competitive.hi_fi {
+  margin-top: -2.5rem;
+}
+.prototype.fh_desktop {
+  width:100%
+}
+.prototype.fh_mobile {
+  width:100%
+}
+.style, .competitive.persona {
+  margin-top: -4rem;
+}
+.WireframesContainer {
+  width: 100%
+}
+.ButtonContainer.design_fh {
+  width: 65%
+}
+.ButtonContainer.design_fh.first {
+  width: 35%
+}
+.prototype_container_mobile {
+  width: 30%;
+  margin: 0
+}
+.prototype_container_desktop {
+  width: 70%
+}
+ }
+
+ @media screen and (max-width: 479px) {
+  .OpenerContainer {
+    width: 100%;
+    margin-bottom: 6rem
+  }
+  .Opener.fh {
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+  }
+  .OpenerFoto.mobile {
+    margin-left: 0rem;
+    margin-top: 2rem;
+    width: 50%;
+ }
+ .OpenerFoto.desktop {
+  width: 100%
+ }
+ .Container.studies {
+  margin-top: 15rem
+ }
+ .background {
+  margin: auto;
+  margin-top: -36rem;
+  width: 75%;
+  height: 38rem;
+  border-radius: 20px;
+ }
+ h2 {
+  font-size: 3.75rem;
+  line-height: 1.2;
+ }
+ h5, .leadin {
+  font-size: 1.5rem;
+ }
+ .textWrapper {
+  padding: 2rem;
+  width: 75%;
+  margin: auto;
+  margin-top: .1rem;
+}
+.OpenerInfo {
+  width: 85%;
+  margin: auto;
+  flex-direction: column
+}
+.h6.studies {
+  font-size: 1.1rem;
+  margin-top: -2rem
+}
+.Info {
+  width: 100%;
+  margin-top: 5rem
+}
+.InfoSmall {
+  width: 100%;
+  display: flex;
+  margin-top: 2rem
+}
+.MobileSm {
+  margin-right: 1rem;
+  width: 33%
+}
+.MobileSm:last-child {
+  margin-right: 0
+
+}
+.h6.small {
+  font-size: 1rem;;
+}
+.h5.small {
+  font-size: 1.3rem;
+}
+.InnerContainer {
+  width: 85%
+}
+.h5.dropCap::first-letter {
+  font-size: 8rem
+}
+.Button.enlarge {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.Button_mobile {
+  visibility: visible;
+}
+.competitive, .mood, .competitive.flow, .competitive.mid_fi, .competitive.hi_fi,
+  .competitive.nyt_iteraction, .competitive.designFh, .competitive.mid_fi.desktop, .competitive.mid_fi.desktop, .competitive.designFh.four, .competitive.fh_mobile ,  .competitive.mid_fi.mobile  {
+    width: 100%
+  }
+  .competitive.persona {
+    margin-bottom: 4rem;
+  }
+  .WideContainer.bottom, .WideContainer.ideate {
+    margin-bottom: 6rem;
+  }
+  .WideContainer.ideate {
+    padding-bottom: 4rem ;
+  }
+  .OpenerContainer.define, .OpenerContainer.designFh {
+    width: 85%
+  }
+  .WideContainer.Fh.Research {
+    padding-bottom: 4rem;
+  }
+  .h5.dropCap {
+    margin-top: 3rem;
+  }
+  .WireframesContainer {
+    width: 100%;
+    flex-direction: column;
+  }
+  .InnerContainer.prototype.fh {
+    flex-direction: column;
+    width:90%
+  }
+  .prototype.fh_desktop, .prototype.fh_mobile {
+    width: 100%
+  }
+  .prototype_container_mobile {
+    width: 60%;
+    margin: 0;
+    margin: auto
+  }
+  .ButtonContainer {
+    margin-top:1rem;
+    margin-bottom: 2rem;
+  }
+  .InnerContainer.prototype.fh {
+    margin-bottom: 4rem
+  }
+  .competitive.designFh {
+    margin: auto;
+    margin-top: 0;
+  }
+}
+

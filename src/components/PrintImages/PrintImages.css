@@ -79,3 +79,46 @@ padding-right: 4rem
 }
 
   }
+
+
+  /* ///// Media Queries ///// */
+
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+  .PrintImages.fitness, .WebImages {
+    padding-right: 3.25rem
+  }
+
+  .WebChildContainer {
+    margin-top: 2.5rem
+  }
+}
+
+
+@media screen and (max-width: 479px) {
+  .PrintChildContainer, .WebChildContainer {
+    flex-direction: column;
+  }
+  .PrintImages.fitness, .WebImages {
+    padding-right: 0;
+    margin-bottom: 2rem
+  }
+  .PrintImagesContainer {
+    width: 90%
+  }
+  .Print_captions {
+    margin-top: 1rem;
+
+  }
+  .WebChildContainer {
+    margin-top: 2rem;
+    width: 70%
+  }
+
+
+  .WebImages.hb {
+    margin-bottom: 0
+  }
+
+
+}

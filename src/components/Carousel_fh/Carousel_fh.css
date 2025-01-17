@@ -61,3 +61,21 @@ img.carousel-image.fh {
 }
 }
 
+@media screen and (max-width:767px) {
+  .next-button {
+    margin-left: -1rem
+    }
+
+    .prev-button {
+      margin-right: -1rem
+      }
+      img.carousel-image, img.carousel-image.mobile {
+        width: 100%
+      }
+}
+@media screen and  (max-width: 479px) {
+
+img.carousel-image.mobile {
+  width:80%
+}
+}

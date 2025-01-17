@@ -4,7 +4,6 @@ import '../Print/Print.css'
 import './Development.css'
 import { DevImages } from '../../components/DevImages/DevImages.js'
 export const Development = () => {
-  // eslint-disable-next-line prettier/prettier
   return (
     <>
       <section className='TopContainer'>
@@ -20,7 +19,7 @@ export const Development = () => {
         </div>
       </section>
       <div className='BottomContainer dev'>
-        <div className='InnerContainer cases'>{<DevImages />}</div>
+        {<DevImages />}
         <div className='Footer'>
           <a
             href='https://www.cynthiaeddy.com'

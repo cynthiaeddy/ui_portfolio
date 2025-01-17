@@ -105,6 +105,11 @@ export const ResearchFh = () => {
           <div className='ButtonContainer'>
             <div className='Button enlarge'>persona</div>
           </div>
+          <button className='Button_mobile' onClick={modalFhCompetitiveOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
+            {hover ? <img className='magnifier' src={magBlk1H} alt={magBlk1H}
+              /> : <img className='magnifier' src={magBlk1} alt={magBlk1}
+              />}
+            </button>
           <img className='competitive persona' src={persona} alt={persona} />
         </div>
       </section>

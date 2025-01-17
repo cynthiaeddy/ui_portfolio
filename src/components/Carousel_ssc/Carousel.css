@@ -44,14 +44,10 @@ img.carousel-image {
   img.carousel-image.ssc {
     width: 75rem
   }
+  }
 
-  /* .prev-button.ssc {
-    margin-right: -11rem
-
+  @media screen and (max-width:767px) {
+    img.carousel-image.ssc {
+      width: 100%
     }
-
-     .next-button.ssc{
-      margin-left: -11rem
-
-      } */
   }

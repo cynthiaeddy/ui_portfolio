@@ -1,8 +1,8 @@
 import { NavLink } from 'react-router'
 import './Ux.css'
-import { SscCard } from '../../components/CardButtons/SscCard'
-import { NytCard } from '../../components/CardButtons/NytCard'
-import { FhCard } from '../../components/CardButtons/FhCard'
+import { SscCardMobile } from '../../components/CardButtons/SscCardMobile'
+import { NytCardMobile } from '../../components/CardButtons/NytCardMobile'
+import { FhCardMobile } from '../../components/CardButtons/FhCardMobile'
 export const UxMobile = () => {
   return (
     <>
@@ -20,17 +20,15 @@ export const UxMobile = () => {
           </NavLink>
         </div>
       </section>
-      you are in mobile
-      <div className='BottomContainer'>
+      <div className='BottomContainer ux'>
         <div className='UxTopContainer'>
-          <SscCard />
-          <NytCard />
+          <SscCardMobile />
+          <NytCardMobile />
         </div>
         <div className='UxBottomContainer'>
-          <FhCard />
+          <FhCardMobile />
         </div>
       </div>
     </>
   )
 }
-// export default Ux
