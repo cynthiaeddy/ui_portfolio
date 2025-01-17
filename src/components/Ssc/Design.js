@@ -137,7 +137,7 @@ export const Design = () => {
           <img className='competitive mid_fi' src={mid_fi} alt={mid_fi} />
         </div>
         <div className='divider_curved top'></div>
-        <h5 className='h5 dropCap black'>
+        <h5 className='h5 dropCap black too'>
           In moderated testing of the low-fidelity wireframes, 5 participants
           completed their tasks of exploring the homepage, purchasing the vegan
           soap and accessing information about the company&apos;s sustainability

@@ -49,7 +49,8 @@ export const OpenerMobile = () => {
           <div className='MobileSm'>
             <h6 className='h6 small'>duration</h6>
             <h5 className='h5 small'>12 Weeks</h5>
-            <br />
+          </div>
+          <div className='MobileSm'>
             <h6 className='h6 small'>tools</h6>
             <h5 className='h5 small'>
               Figma <br />

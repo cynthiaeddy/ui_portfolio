@@ -780,7 +780,7 @@ ul {
     margin-bottom: 2rem;
   }
   .InnerContainer.prototype.fh {
-    margin-bottom: 4rem
+    margin-bottom: 6rem
   }
   .competitive.designFh {
     margin: auto;
@@ -812,6 +812,48 @@ ul {
   height: 11rem;
   border-radius: 20px;
 }
+.WideContainer.nyt.research {
+  padding-bottom: 2rem;
+}
+.h5.marginTop {
+  margin-top:4rem
+}
+.WideContainer.ideate.nyt, .WideContainer.ideate.ssc, .WideContainer.ideate.fh {
+  padding-bottom: 3rem;
+}
+.competitive.flow.nyt {
+  margin-top: -4.5rem;
+}
+.h5.dropCap.black {
+  margin-top:1.5rem
+}
+.h5.dropCap.black.too {
+  margin-top: 3.5rem
+}
+.competitive.hi_fi.nyt, .competitive.mid_fi,.competitive.hi_fi  {
+margin-top: -1.5rem
+}
+.WideContainer.testing {
+  padding-bottom: 2rem
+}
+.InnerContainer.prototype {
+  margin-bottom: 6rem;
+}
+.ButtonContainer {
+  margin-bottom: 0
+}
+.competitive.flow {
+  margin-top: -3.5rem;
+}
+.prototype_container_desktop {
+  margin-bottom: 3rem;
+}
+.competitive.designFh.four {
+  margin-top: -2rem;
+  margin-bottom: -3rem;
+ }
+ .InnerContainer.cases.nyt {
+  padding-bottom: 2rem;
 }
 
-
+ }

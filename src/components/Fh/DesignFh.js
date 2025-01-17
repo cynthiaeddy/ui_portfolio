@@ -156,7 +156,7 @@ export const DesignFh = () => {
           </div>
         </div>
         <div className='divider_curved top'></div>
-        <h5 className='h5 dropCap black'>
+        <h5 className='h5 dropCap black too'>
           After testing both the mobile and desktop low-fidelity wireframes and
           incorporating user feedback, I developed high-fidelity wireframes for
           further testing on both platforms. The goal was to refine the design

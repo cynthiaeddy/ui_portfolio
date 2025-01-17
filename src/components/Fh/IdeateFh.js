@@ -7,7 +7,7 @@ export const IdeateFh = () => {
       <div className='BlackHeds'>
         <h2 className='cases_openerText'>Ideate</h2>
       </div>
-      <section className='WideContainer ideate'>
+      <section className='WideContainer ideate fh'>
         <div className='InnerContainer'>
           <h5 className='h5 marginTop'>
             <span className='leadin'>I then moved on to ideation, </span>{' '}

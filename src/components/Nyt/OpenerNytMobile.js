@@ -50,7 +50,10 @@ export const OpenerNytMobile = () => {
           </div>
           <div className='MobileSm'>
             <h6 className='h6 small'>tools</h6>
-            <h5 className='h5 small'>Figma Photoshop</h5>
+            <h5 className='h5 small'>
+              Figma <br />
+              Photoshop
+            </h5>
           </div>
         </div>
       </div>
