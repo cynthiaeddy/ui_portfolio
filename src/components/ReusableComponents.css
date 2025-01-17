@@ -650,6 +650,10 @@ ul {
     width: 100%;
     margin-bottom: 6rem
   }
+  .Opener {
+    width: 75%;
+    justify-content: center
+  }
   .Opener.fh {
     flex-direction: column;
     width: 75%;
@@ -780,5 +784,25 @@ ul {
     margin: auto;
     margin-top: 0;
   }
+  .background.ssc {
+    height: 30rem;
+    margin-top: -11rem;
+    height: 24rem;
+        margin-top: -21rem;
+  }
+  .OpenerFoto.ssc {
+    width: 60%
+
+  }
+  .mood {
+    margin-bottom: 2rem
+  }
+  .WideContainer.ideate {
+    padding-bottom: 1rem;
 }
+.prototype {
+  width: 75%
+}
+}
+
 
