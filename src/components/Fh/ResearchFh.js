@@ -57,7 +57,7 @@ export const ResearchFh = () => {
             offer.
           </h5>
           <div className='ButtonContainer'>
-            <div className='Button enlarge'>competitve analysis swot</div>
+            <div className='Button enlarge'>competitive analysis swot</div>
             <button
               onClick={modalFhCompetitiveOpen}
               onMouseOver={handleMouseIn}

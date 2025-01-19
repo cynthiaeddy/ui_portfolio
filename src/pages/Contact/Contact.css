@@ -169,5 +169,8 @@
         h5.h5.contact {
           margin-left:2rem
         }
+        .Container.contact {
+          margin-bottom: 4rem
+        }
 
       }
