@@ -198,7 +198,7 @@ export const DesignFh = () => {
           src={fh_hi_desktop}
           alt={fh_hi_desktop}
         />
-        <div className='ButtonContainer'>
+        <div className='ButtonContainer fh_mobile'>
           <div className='Button enlarge white'>high fidelity mobile</div>
           <button
             onClick={modalFhHiMobileOpen}

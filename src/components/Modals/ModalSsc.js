@@ -2,7 +2,7 @@ import './Modals.css'
 // import { GrClose } from 'react-icons/gr'
 import { IoCloseCircle } from 'react-icons/io5'
 // import closeButton from
-import competitive_lg from '../../assets/ssc/competitive_two.png'
+import competitive_lg from '../../assets/ssc/competitive_two_large.png'
 
 export const ModalSsc = ({ isOpen = true, modalSscClose }) => {
   if (!isOpen) {

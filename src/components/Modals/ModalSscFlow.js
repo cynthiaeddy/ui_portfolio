@@ -1,6 +1,6 @@
 import './Modals.css'
 import { IoCloseCircle } from 'react-icons/io5'
-import flow from '../../assets/ssc/ssc_user_flow.png'
+import flow from '../../assets/ssc/ssc_user_flowcrop.png'
 
 export const ModalSscFlow = ({ isOpen = true, modalSscClose }) => {
   if (!isOpen) {

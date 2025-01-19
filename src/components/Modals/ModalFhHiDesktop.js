@@ -1,7 +1,7 @@
 import './Modals.css'
 import '../ReusableComponents.css'
 import { IoCloseCircle } from 'react-icons/io5'
-import hi_desktop from '../../assets/fh/fh_hifi_desktop.png'
+import hi_desktop from '../../assets/fh/fh_hifi_desktopcrop.png'
 
 export const ModalFhHiDesktop = ({ isOpen = true, modalSscClose }) => {
   if (!isOpen) {

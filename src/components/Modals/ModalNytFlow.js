@@ -1,6 +1,6 @@
 import './Modals.css'
 import { IoCloseCircle } from 'react-icons/io5'
-import flow from '../../assets/nyt/nyt_user_flow2.png'
+import flow from '../../assets/nyt/nyt_user_flow2crop.png'
 
 export const ModalNytFlow = ({ isOpen = true, modalSscClose }) => {
   if (!isOpen) {

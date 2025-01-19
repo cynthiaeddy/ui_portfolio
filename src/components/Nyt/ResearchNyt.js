@@ -53,7 +53,7 @@ export const ResearchNyt = () => {
           Through competitive research of recipe platforms, I identified an opportunity to enhance the NYT Cooking app with dynamic serving size adjustment that would automatically recalculate ingredients, grocery lists, and nutritional information proportionally.
           </h5>
           <div className='ButtonContainer'>
-            <div className='Button enlarge'>competitve analysis swot</div>
+            <div className='Button enlarge'>competitive analysis swot</div>
             <button onClick={modalNytSwotOpen} onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
             {hover ? <img className='magnifier' src={magBlk1H} alt={magBlk1H}
               /> : <img className='magnifier' src={magBlk1} alt={magBlk1}
