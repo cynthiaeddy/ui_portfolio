@@ -1,17 +1,22 @@
 /* *** containers *** */
 
-.OpenerContainer {
+/* .OpenerContainer {
   width: 95rem;
   margin: auto;
   margin-bottom: 9rem;
-}
+} */
 .OpenerContainer.define {
-  margin-top: 4rem
+  margin-top: 4rem;
+  margin-bottom: 9rem
 }
-.OpenerContainer.designFh{
+.OpenerContainer.design.ssc {
+  margin-bottom: 6rem
+}
+.OpenerContainer.design, .OpenerContainer.designFh{
   margin-top: 4rem;
   margin-bottom: 3rem
 }
+
 
 .InnerContainer {
   display: flex;
@@ -19,9 +24,14 @@
   width: 95rem;
   flex-direction: column;
 }
+
+.h5.dropCap {
+  margin-top:5rem;
+}
+
 .InnerContainer.prototype {
   display:block;
-  margin-bottom: 9rem
+  margin-bottom:10rem
 }
 
 .InnerContainer.prototype.fh {
@@ -43,13 +53,13 @@ display: flex;
   flex-direction: column;
 
 }
-.WideContainer.bottom {
+/* .WideContainer.bottom {
   margin-top: .5px;
-  margin-bottom: 9rem
-}
+  margin-bottom: 10rem
+} */
 .WideContainer.ideate {
   padding-bottom: 8rem;
-  margin-bottom: 9rem
+  margin-bottom: 10rem
 }
 .WideContainer.ideate.nyt {
   padding-bottom: 5rem
@@ -69,30 +79,30 @@ display: flex;
   padding-bottom: 8rem;
 }
 
-.Opener {
+/* .Opener {
   display: flex;
   margin: auto;
   width: 80rem;
   justify-content: space-between;
-}
-.Opener.fh {
+} */
+/* .Opener.fh {
   margin:0
-}
-.OpenerFoto {
+} */
+/* .OpenerFoto {
   width: 31%;
   align-self: center;
-}
+} */
 
-.OpenerFoto.desktop {
+/* .OpenerFoto.desktop {
   width: 90%
 }
 .OpenerFoto.mobile {
   width: 25%;
   margin-left: -3rem;
   margin-top: -4rem
-}
+} */
 
-.background {
+/* .background {
     background: #231F20;
     margin-top: -25rem;
     width: 100%;
@@ -106,8 +116,8 @@ display: flex;
   border-radius: 20px;
   margin-top: .5px;
   padding: 3.5rem;
-}
-h2 {
+} */
+/* h2 {
   font-family: gelica, sans-serif;
   color: white;
   font-size: 4.5rem;
@@ -115,11 +125,11 @@ h2 {
   letter-spacing: .01rem;
   line-height: 1.5;
 
-}
+} */
 .h2_white {
   color: black
 }
-h5,.leadin {
+/* h5,.leadin {
   font-size: 1.9rem;
   color:white;
   text-transform: initial;
@@ -128,13 +138,13 @@ h5,.leadin {
    font-family: "neue-haas-grotesk-display", sans-serif;;
    text-align: left;
    line-height: 1.6;
-}
-.h5.openerType {
+} */
+/* .h5.openerType {
   text-align: center;
-}
-.h5.black {
+} */
+/* .h5.black {
   color: black;
-}
+} */
 .h5.black.center {
   text-align: center;
   margin-bottom: 3rem;
@@ -145,11 +155,11 @@ h5,.leadin {
 }
 
 
-.h5.small {
+/* .h5.small {
   color: black;
   font-size: 1.6rem;
   line-height: 1.5;
-}
+} */
 
 .h5.dropCap, .h5.marginTop {
   margin-top:5rem;
@@ -158,12 +168,12 @@ h5,.leadin {
 .h5.research {
   margin-top: 2rem
 }
-.h6.studies {
+/* .h6.studies {
   font-size: 1.4rem;
-}
-.h6.small {
+} */
+/* .h6.small {
   margin-bottom: .5rem
-}
+} */
 .h6.small.space {
   margin-top: 1rem
 }
@@ -172,7 +182,7 @@ li.smHed {
 }
 
 
-
+/*
 .OpenerInfo {
   display: flex;
   margin: 4rem;
@@ -184,7 +194,7 @@ li.smHed {
 }
 .InfoSmall {
   width: 15%
-}
+} */
 
 .divider_curved {
   width: 100%;
@@ -243,7 +253,7 @@ margin-bottom: 2rem;}
 }
 .h5.leadins {
   margin-top: 6rem;
-  margin-bottom: 5rem
+  /* margin-bottom: 5rem */
 }
 .leadin {
   font-weight: 600;
@@ -280,7 +290,7 @@ margin-bottom: 2rem;}
   margin-top: 2rem;
   margin-bottom: 2.5rem;
   border: 1.25px solid rgb(160, 157, 157);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
   position: relative;
   z-index: 50;
@@ -305,10 +315,10 @@ margin-bottom: 2rem;}
   background-color: #FAF9F8;
 }
 
-button {
+/* button {
   background-color: #FAF9F8;
   background: none;
-}
+} */
 .competitive, .mood {
   width: 75rem;
   border-radius: 20px;
@@ -379,12 +389,12 @@ button {
   margin-top: 2rem
 }
 
-li {
+/* li {
   list-style: '•';
   color: white;
   font-size: 2rem;
   padding-left: 1rem
-}
+} */
 li.black {
   color: black
 }
@@ -457,33 +467,37 @@ ul {
 @media screen and (min-width: 768px) and (max-width: 1030px) {
 
 
-  .OpenerContainer, .InnerContainer{
+   .InnerContainer{
     width: 90%;
-    margin-bottom:7rem
-  }
-  .InnerContainer {
+    margin-bottom:7rem;
     margin-bottom: 0;
   }
-
-  .Opener {
-    width: 88%
+  .OpenerContainer.design.ssc {
+    margin-bottom: 9rem
   }
+  /* .InnerContainer {
+    margin-bottom: 0;
+  } */
+
+  /* .Opener {
+    width: 88%
+  } */
   .Button.enlarge, .Button.enlarge.white {
     font-size: 1.15rem;
   }
   h2.cases_openerText {
     font-size: 3.9rem
   }
-  h5 {
+  /* h5 {
     font-size: 1.7rem;
   }
 
   h6 {
     font-size: 1rem;
-  }
-  .h6.studies {
+  } */
+  /* .h6.studies {
     font-size: 1.2rem;
-  }
+  } */
 
   .h5.dropCap::first-letter {
     font-size: 9.25rem;
@@ -538,26 +552,26 @@ ul {
 
 /* ///// Media Queries ///// */
 @media screen and (min-width: 480px) and (max-width: 767px)  {
-  .OpenerContainer {
+  /* .OpenerContainer {
     width: 90%;
     margin-bottom:6.5rem
   }
   .Opener {
     width: 90%
-  }
-  .background {
+  } */
+  /* .background {
     margin-top: -20rem;
     height:24rem
   }
   .textWrapper {
     padding: 2.5rem
-  }
-  h2 {
+  } */
+  /* h2 {
     font-size: 3.6rem;
   }
   h5 {
     font-size: 1.6rem;
-  }
+  } */
   .h5.small {
     font-size: 1.4rem;
   }
@@ -649,7 +663,7 @@ ul {
  }
 
  @media screen and (max-width: 479px) {
-  .OpenerContainer {
+  /* .OpenerContainer {
     width: 100%;
     margin-bottom: 6rem
   }
@@ -671,25 +685,25 @@ ul {
  }
  .OpenerFoto.desktop {
   width: 100%
- }
+ } */
  .Container.studies {
   margin-top: 15rem
  }
- .background {
+ /* .background {
   margin: auto;
   margin-top: -36rem;
   width: 75%;
   height: 38rem;
   border-radius: 20px;
- }
- h2 {
+ } */
+ /* h2 {
   font-size: 3.75rem;
   line-height: 1.2;
  }
  h5, .leadin {
   font-size: 1.5rem;
- }
- .textWrapper {
+ } */
+ /* .textWrapper {
   padding: 2rem;
   width: 75%;
   margin: auto;
@@ -699,7 +713,7 @@ ul {
   width: 85%;
   margin: auto;
   flex-direction: column
-}
+} */
 .h6.studies {
   font-size: 1.1rem;
   margin-top: -2rem
@@ -708,11 +722,11 @@ ul {
   width: 100%;
   margin-top: 5rem
 }
-.InfoSmall {
+/* .InfoSmall {
   width: 100%;
   display: flex;
   margin-top: 2rem
-}
+} */
 .MobileSm {
   margin-right: 1rem;
   width: 33%
@@ -809,13 +823,13 @@ ul {
 .prototype {
   width: 75%
 }
-.background.nyt{
+/* .background.nyt{
   margin: auto;
   margin-top: -9rem;
   width: 75%;
   height: 11rem;
   border-radius: 20px;
-}
+} */
 .WideContainer.nyt.research {
   padding-bottom: 2rem;
 }
@@ -856,8 +870,8 @@ margin-top: -1.5rem
   margin-top: -2rem;
   margin-bottom: -3rem;
  }
- .InnerContainer.cases.nyt {
+ /* .InnerContainer.cases.nyt {
   padding-bottom: 2rem;
-}
+} */
 
  }

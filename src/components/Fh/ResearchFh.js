@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import '../ReusableComponents.css'
+import '../ReusableResearch.css'
 import magBlk1H from '../../assets/ssc/magBlk1H.png'
 import magBlk1 from '../../assets/ssc/magBlk1.png'
 import competitive from '../../assets/fh/feline_competitive.png'
@@ -44,7 +45,7 @@ export const ResearchFh = () => {
       <div className='BlackHeds'>
         <h2 className='cases_openerText'>Research</h2>
       </div>
-      <section className='WideContainer Fh Research'>
+      <section className='ResearchContainer'>
         <div className='InnerContainer'>
           <h5 className='h5 dropCap'>
             To elevate Feline Health&apos;s website, I first analyzed competing
@@ -73,7 +74,7 @@ export const ResearchFh = () => {
           </div>
         </div>
       </section>
-      <section className='WideContainer bottom'>
+      <section className='ResearchContainer bottom'>
         <div className='InnerContainer'>
           <h5 className='h5 dropCap'>
             In addition to competitor research, I conducted five moderated Zoom

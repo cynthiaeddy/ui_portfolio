@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import '../ReusableComponents.css'
+import '../ReusableResearch.css'
 import magBlk1H from '../../assets/ssc/magBlk1H.png'
 import magBlk1 from '../../assets/ssc/magBlk1.png'
 import competitive_sm from '../../assets/ssc/competitive_sm.png'
@@ -43,8 +44,8 @@ export const Research = () => {
       <div className='BlackHeds'>
         <h2 className='cases_openerText'>Research</h2>
       </div>
-      <section className='WideContainer '>
-        <div className='InnerContainer cases'>
+      <section className='ResearchContainer ssc'>
+        <div className='InnerContainer'>
           <h5 className='h5 dropCap'>
             To kick off the research phase, I conducted an in-depth analysis of
             competing sustainable soap brands. The focus was to uncover what
@@ -93,8 +94,8 @@ export const Research = () => {
           </div>
         </div>
       </section>
-      <section className='WideContainer bottom'>
-        <div className='InnerContainer cases'>
+      <section className='ResearchContainer bottom'>
+        <div className='InnerContainer'>
           <h5 className='h5 dropCap'>
             I conducted five moderated research sessions via Zoom to explore how
             users approach sustainable shopping decisions. Using affinity

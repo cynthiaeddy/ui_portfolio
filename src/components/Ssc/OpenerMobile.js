@@ -12,7 +12,7 @@ export const OpenerMobile = () => {
         <img className='OpenerFoto' src={opener_down} alt={opener_down} />
         <img className='OpenerFoto' src={soap_ive} alt={soap_ive} />
       </div>
-      <div className='background nyt'></div>
+      <div className='background'></div>
       <div className='textWrapper'>
         <h2 className='cases_openerText'> Sustainable Soap Co.</h2>
         <h5 className='h5 openerType'>
