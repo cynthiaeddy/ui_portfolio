@@ -1,10 +1,8 @@
-.DesignContainer.design.ssc {
-  margin-bottom: 6rem
-}
-.DesignContainer.design{
+.DesignContainer {
+  margin: auto;
   margin-top: 4rem;
-  margin-bottom: 3rem
+  margin-bottom: 3rem;
+  margin-bottom: 6rem;
+  width: 90%
 }
 
-
-/* padding-bottom: 3rem; */

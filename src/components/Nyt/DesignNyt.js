@@ -54,7 +54,7 @@ export const DesignNyt = () => {
       <div className='BlackHeds white'>
         <h2 className='h2_white cases_openerText'>Design</h2>
       </div>
-      <section className='OpenerContainer define'>
+      <section className='DesignContainer'>
         <h5 className='h5 black center'>
           <span className='leadin black'>After identifying key features </span>{' '}
           for serving size functionality, I created a user flow showing how

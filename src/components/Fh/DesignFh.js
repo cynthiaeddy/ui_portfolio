@@ -67,7 +67,7 @@ export const DesignFh = () => {
       <div className='BlackHeds white'>
         <h2 className='h2_white cases_openerText'>Design</h2>
       </div>
-      <section className='OpenerContainer designFh'>
+      <section className='DesignContainer'>
         <h5 className='h5 black center'>
           <span className='leadin black'>
             Next, I created a user task flow{' '}
