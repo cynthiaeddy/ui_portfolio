@@ -865,5 +865,7 @@ margin-top: -1.5rem
  /* .InnerContainer.cases.nyt {
   padding-bottom: 2rem;
 } */
-
+.leadin {
+  font-size: 1.5rem
+}
  }
