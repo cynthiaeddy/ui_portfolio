@@ -82,7 +82,7 @@ export const DesignNyt = () => {
         </div>
         <div className='divider_curved top'></div>
         <div className='divider_curved_down'></div>
-        <h5 className='h5 dropCap black'>
+        <h5 className='h5 dropCap black fh'>
           The user flow diagram helped me visualize how serving size adjustments
           would impact the recipe page&apos;s layout and functionality, guiding
           the creation of low-fidelity wireframes. The goal was to incorporate

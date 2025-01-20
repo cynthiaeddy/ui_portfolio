@@ -41,8 +41,11 @@
     margin-top: -5.5rem;
 }
 .h5.dropCap, .h5.marginTop {
-  margin-top: 1rem;
+  margin-top: 4rem
 }
+.IdeateContainer.ssc {
+  padding-bottom: 4.5rem
+ }
  }
 
  @media screen and (max-width: 479px)  {

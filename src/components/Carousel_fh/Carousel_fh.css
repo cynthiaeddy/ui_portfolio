@@ -57,7 +57,10 @@ img.carousel-image.mobile {
 /* ///// Media Queries ///// */
 @media screen and (min-width: 768px) and (max-width: 1030px) {
 img.carousel-image.fh {
-  width: 86%
+  width: 100%
+}
+img.carousel-image.mobile {
+  width: 60%
 }
 }
 
@@ -69,8 +72,11 @@ img.carousel-image.fh {
     .prev-button {
       margin-right: -1rem
       }
-      img.carousel-image, img.carousel-image.mobile {
+      img.carousel-image {
         width: 100%
+      }
+      img.carousel-image.mobile {
+        width: 70%
       }
 }
 @media screen and  (max-width: 479px) {

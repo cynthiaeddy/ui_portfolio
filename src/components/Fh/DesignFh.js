@@ -67,7 +67,7 @@ export const DesignFh = () => {
       <div className='BlackHeds white'>
         <h2 className='h2_white cases_openerText'>Design</h2>
       </div>
-      <section className='DesignContainer'>
+      <section className='DesignContainer fh'>
         <h5 className='h5 black center'>
           <span className='leadin black'>
             Next, I created a user task flow{' '}
@@ -181,7 +181,7 @@ export const DesignFh = () => {
           </ul>
         </h5>
         <div className='ButtonContainer'>
-          <div className='Button enlarge white'>high fidelity desktop</div>
+          <div className='Button enlarge white fh'>high fidelity desktop</div>
           <button
             onClick={modalFhHiDesktopOpen}
             onMouseOver={handleMouseIn}

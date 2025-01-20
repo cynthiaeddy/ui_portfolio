@@ -53,6 +53,10 @@
 li.smHed {
   margin-left:-3rem
 }
+  .ButtonContainer.fh_mobile {
+    margin-top: 5rem
+  }
+
 
 
 @media screen and (min-width: 768px) and (max-width: 1030px) {
@@ -96,13 +100,43 @@ ul.h5.bullets.ssc {
   .DesignContainer {
     width: 90%
   }
-  .competitive.designFh {
+  .WireframesContainer {
+    width: 100%;
+    flex-direction: column;
+  }
+  .ButtonContainer.design_fh,  .ButtonContainer.design_fh.first
+  {
+    width: 100%;
+    margin-top: 1rem
+  }
+
+  .competitive.designFh, .competitive.flow, .competitive.mid_fi, .competitive.hi_fi, .competitive.mid_fi.desktop, .competitive.designFh.four, .competitive.fh_mobile {
     width: 100%;
     margin-top: -3rem;
   }
-  ul.h5.bullets.ssc {
-    padding-left: -1.75rem
+
+  .competitive.mid_fi.desktop, .competitive.mid_fi.mobile,  .competitive.fh_mobile {
+    margin-top: -1rem;
   }
+
+  ul.h5.bullets.ssc {
+    padding-left: 2rem
+  }
+  .h5.dropCap.black.fh {
+    margin-top: 1rem
+  }
+  .ButtonContainer.fh_mobile{
+    margin-top: 5rem
+  }
+  .Button.enlarge.white.fh {
+margin-top: 1rem
+  }
+  .competitive.mid_fi.mobile {
+    width: 60%;
+}
+.DesignContainer.fh {
+  margin-bottom: 3rem
+}
 }
 
 
