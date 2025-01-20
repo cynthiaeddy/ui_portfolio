@@ -74,7 +74,7 @@ export const ResearchNyt = () => {
         </div>
       </section>
       <section className='ResearchContainer bottom'>
-        <div className='InnerContainer cases'>
+        <div className='InnerContainer'>
           <h5 className='h5 dropCap'>
             In moderated research sessions with five participants, I explored
             how home cooks interact with recipe scaling features. Through

@@ -151,7 +151,7 @@ export const ResearchFh = () => {
               <img className='magnifier' src={magBlk1} alt={magBlk1} />
             )}
           </button>
-          <img className='competitive persona' src={persona} alt={persona} />
+          <img className='competitive persona_fh' src={persona} alt={persona} />
         </div>
       </section>
       <ModalFhCompetitive
