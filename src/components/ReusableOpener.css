@@ -180,6 +180,12 @@ margin-bottom: 2rem;}
   margin-top: -36rem;
   height: 38rem;
  }
+
+ h2.cases_openerText {
+  font-size: 3.75rem;
+  line-height: 1.2;
+}
+
 }
 
 

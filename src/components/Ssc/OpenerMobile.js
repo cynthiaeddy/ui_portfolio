@@ -7,7 +7,6 @@ export const OpenerMobile = () => {
   return (
     <section className='OpenerContainer'>
       <div className='Opener'>
-        {/* <img className='OpenerFoto ssc' src={soap_opener} alt={soap_opener} /> */}
         <img className='OpenerFoto' src={soap_opener} alt={soap_opener} />
         <img className='OpenerFoto' src={opener_down} alt={opener_down} />
         <img className='OpenerFoto' src={soap_ive} alt={soap_ive} />

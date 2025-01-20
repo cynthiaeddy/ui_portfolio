@@ -11,3 +11,34 @@
 .competitive.venn {
   margin-top: -6.5rem;
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+  .IdeateContainer {
+   margin-bottom: 8rem
+  }
+  .competitive.venn {
+    margin-top: -5.5rem;
+}
+ }
+
+ @media screen and (min-width: 480px) and (max-width: 767px) {
+  .IdeateContainer {
+    margin-bottom: 8rem
+   }
+   .competitive.venn {
+    margin-top: -5.5rem;
+}
+
+ }
+
+ @media screen and (max-width: 479px)  {
+  .IdeateContainer {
+    margin-bottom: 7rem
+   }
+   .competitive.mood {
+    margin-top: -4rem;
+}
+
+
+ }

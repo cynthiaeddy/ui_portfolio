@@ -52,7 +52,7 @@
 
     @media screen and (max-width: 479px) {
       .ResearchContainer, .ResearchContainer.ssc  {
-padding-bottom: 4.5rem
+padding-bottom: 3.5rem
       }
       .ResearchContainer.bottom {
         margin-bottom: 7.5rem
