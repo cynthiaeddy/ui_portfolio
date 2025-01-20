@@ -1,0 +1,47 @@
+.DefineContainer {
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 9rem;
+  width: 95rem;
+}
+
+.h5.black.center {
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+}
+
+.h5.black.center.venn {
+  margin-top: 2rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+  .DefineContainer {
+    width: 90%;
+    margin-bottom: 8rem;
+}
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .DefineContainer {
+    width: 90%;
+    margin-bottom: 7rem
+}
+.competitive.persona {
+  margin-bottom: -4rem
+}
+.competitive.venn {
+  margin-top: -4.5rem
+}
+}
+
+@media screen and (max-width: 479px) {
+  .DefineContainer {
+    width: 85%;
+    margin-bottom: 6rem
+  }
+  .competitive.venn {
+    margin-top: -3.5rem;
+}
+.h5.black.center.venn {
+  margin-bottom: 0rem;
+}
+}

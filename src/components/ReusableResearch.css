@@ -26,8 +26,11 @@
   .ResearchContainer.bottom {
     margin-bottom: 8rem
   }
+  .competitive.persona {
+    margin-top: -4rem;
+}
   }
-  @media screen and (max-width: 480px) and (max-width: 767px) {
+  @media screen and (min-width: 480px) and (max-width: 767px) {
     .competitive.persona {
       margin-top: -4rem;
   }
@@ -38,8 +41,21 @@
     padding-bottom: 4.5rem;
 }
 .ResearchContainer.bottom {
+  padding-bottom: 8.5rem;
+  margin-bottom: 7rem
+}
+.ResearchContainer.bottom.fh {
   padding-bottom: 4.5rem;
   margin-bottom: 7rem
 }
+    }
+
+    @media screen and (max-width: 479px) {
+      .ResearchContainer, .ResearchContainer.ssc  {
+padding-bottom: 4.5rem
+      }
+      .ResearchContainer.bottom {
+        margin-bottom: 7.5rem
+      }
     }
 

@@ -74,7 +74,7 @@ export const ResearchFh = () => {
           </div>
         </div>
       </section>
-      <section className='ResearchContainer bottom'>
+      <section className='ResearchContainer bottom fh'>
         <div className='InnerContainer'>
           <h5 className='h5 dropCap'>
             In addition to competitor research, I conducted five moderated Zoom
