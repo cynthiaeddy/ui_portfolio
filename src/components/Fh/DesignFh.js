@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import '../ReusableComponents.css'
+import '../ReusableDesign.css'
 import magWh from '../../assets/ssc/magWh.png'
 import magWhH from '../../assets/ssc/magWhH.png'
 import user_flow from '../../assets/fh/second iteration_final.png'

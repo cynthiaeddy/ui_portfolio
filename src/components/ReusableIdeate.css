@@ -1,0 +1,13 @@
+.IdeateContainer {
+  width: 100%;
+  background: #231F20;
+  border-radius: 20px;
+  display: flex;
+  padding-bottom: 5rem;
+  margin-bottom: 10rem;
+;
+  flex-direction: column;
+}
+.competitive.venn {
+  margin-top: -6.5rem;
+}

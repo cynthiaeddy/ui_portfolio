@@ -1,4 +1,5 @@
 import '../ReusableComponents.css'
+import '../ReusableIdeate.css'
 import style_tile from '../../assets/fh/feline_health_style.png'
 
 export const IdeateFh = () => {
@@ -7,7 +8,7 @@ export const IdeateFh = () => {
       <div className='BlackHeds'>
         <h2 className='cases_openerText'>Ideate</h2>
       </div>
-      <section className='WideContainer ideate fh'>
+      <section className='IdeateContainer'>
         <div className='InnerContainer'>
           <h5 className='h5 marginTop'>
             <span className='leadin'>I then moved on to ideation, </span>{' '}

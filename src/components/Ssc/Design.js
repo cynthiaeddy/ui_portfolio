@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import '../ReusableComponents.css'
+import '../ReusableDesign.css'
 import magWh from '../../assets/ssc/magWh.png'
 import magWhH from '../../assets/ssc/magWhH.png'
 import user_flow from '../../assets/ssc/ssc_user_flow.png'
@@ -53,7 +54,7 @@ export const Design = () => {
       <div className='BlackHeds white'>
         <h2 className='h2_white cases_openerText'>Design</h2>
       </div>
-      <section className='OpenerContainer design ssc'>
+      <section className='DesignContainer design ssc'>
         <h5 className='h5 black center'>
           <span className='leadin black'>
             After determining the project&apos;s key objectives,{' '}
