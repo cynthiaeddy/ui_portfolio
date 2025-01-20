@@ -13,21 +13,25 @@
 .ResearchContainer.bottom {
   margin-top: .5px;
   margin-bottom: 10rem;
-  /* padding-bottom: 0 */
+  padding-bottom: 7.5rem
 }
 .competitive.persona {
-  margin-top: -5rem;
+  margin-top: -4rem;
 }
 .competitive.persona_fh {
-  margin-top: -12rem;
+  margin-top: -5rem;
+}
+.h5.research {
+  margin-top: 2rem
 }
 
 @media screen and (min-width: 768px) and (max-width: 1030px) {
   .ResearchContainer.bottom {
-    margin-bottom: 8rem
+    margin-bottom: 8rem;
+    padding-bottom: 6.5rem;
   }
   .competitive.persona {
-    margin-top: -4rem;
+    margin-top: -5rem;
 }
   }
   @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -35,7 +39,7 @@
       margin-top: -4rem;
   }
   .competitive.persona_fh {
-    margin-top: -11rem;
+    margin-top: -4.5rem;
   }
   .ResearchContainer {
     padding-bottom: 4.5rem;
@@ -45,7 +49,7 @@
   margin-bottom: 7rem
 }
 .ResearchContainer.bottom.fh {
-  padding-bottom: 4.5rem;
+  padding-bottom: 5.5rem;
   margin-bottom: 7rem
 }
     }
@@ -56,6 +60,9 @@ padding-bottom: 3.5rem
       }
       .ResearchContainer.bottom {
         margin-bottom: 6.5rem
+      }
+      .competitive.persona_fh {
+        margin-top: -4rem
       }
     }
 

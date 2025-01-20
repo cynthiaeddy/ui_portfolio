@@ -1,0 +1,27 @@
+.TestingContainer {
+  width: 100%;
+  background: #231F20;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 6rem;
+  margin-bottom: 9rem
+
+}
+.competitive.nyt_iteraction {
+  margin-top: 1.5rem;
+  width: 95rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+  .TestingContainer.ssc {
+    padding-bottom: 3rem
+  }
+
+  .TestingContainer {
+    padding-bottom: 4rem;
+    width: 100%
+  }
+  .competitive.nyt_iteraction {
+    width: 100%
+  }
+}

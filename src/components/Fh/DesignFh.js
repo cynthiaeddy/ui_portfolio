@@ -76,7 +76,7 @@ export const DesignFh = () => {
           the user journey as intuitive as possible.
         </h5>
         <div className='ButtonContainer'>
-          <div className='Button enlarge white'>user task flow</div>
+          <div className='Button enlarge white no_margin'>user task flow</div>
           <img
             className='competitive designFh'
             src={user_flow}
@@ -85,14 +85,14 @@ export const DesignFh = () => {
         </div>
         <div className='divider_curved top'></div>
         <div className='divider_curved_down'></div>
-        <h5 className='h5 dropCap black'>
+        <h5 className='h5 dropCap black fh'>
           The low-fidelity wireframes were essential in streamlining the design
           of the appointment booking feature. By simplifying the user flow and
           organizing the content structure, I aimed to create a more intuitive
           and efficient booking process. Below are the key elements of the
           design:
         </h5>
-        <ul className='h5 bullets'>
+        <ul className='h5 bullets fh'>
           <li className=''>
             <h5 className='h5 black'>
               Designed a two-step process for booking online appointments to

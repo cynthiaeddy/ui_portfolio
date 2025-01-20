@@ -58,7 +58,10 @@
 .competitive_lg {
   /* display:block; */
   object-fit: cover;
-height: auto
+height: auto;
+/* border-radius: 20px;
+  width: 100%;
+  height: fit-content; */
 }
 
 
@@ -86,6 +89,12 @@ height: auto
   }
   .competitive_lg {
     /* display:block; */
-    object-fit: cover;
-  }
+    /* object-fit: cover; */
+    border-radius: 10px;
+    /* display: block;
+    object-fit: cover; */
+    height: auto;
+    width: 100%;
 }
+  }
+

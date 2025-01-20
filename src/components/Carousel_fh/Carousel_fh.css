@@ -78,4 +78,14 @@ img.carousel-image.fh {
 img.carousel-image.mobile {
   width:80%
 }
+.prev-button, .next-button {
+margin-bottom: -10rem;
+}
+.prev-button {
+  margin-left: -2rem
+}
+.next-button {
+  margin-right: -2rem
+}
+
 }

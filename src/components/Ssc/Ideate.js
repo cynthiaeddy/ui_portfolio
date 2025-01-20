@@ -9,7 +9,7 @@ export const Ideate = () => {
       <div className='BlackHeds'>
         <h2 className='cases_openerText'>Ideate</h2>
       </div>
-      <section className='IdeateContainer'>
+      <section className='IdeateContainer ssc'>
         <div className='InnerContainer'>
           <h5 className='h5 marginTop'>
             <span className='leadin'>Based on my research, </span> I determined
@@ -36,7 +36,11 @@ export const Ideate = () => {
           </ul>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>mood board</div>
-            <img className='mood' src={ive_mood_resize} alt={ive_mood_resize} />
+            <img
+              className='competitive mood'
+              src={ive_mood_resize}
+              alt={ive_mood_resize}
+            />
             <div className='ButtonContainer'>
               <div className='Button enlarge'>style tile</div>
               <img

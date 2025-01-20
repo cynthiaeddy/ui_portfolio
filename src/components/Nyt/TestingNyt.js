@@ -1,4 +1,6 @@
 import '../ReusableComponents.css'
+import '../ReusableTesting.css'
+
 import iteration from '../../assets/nyt/nyt_iterationTypecrop.png'
 
 export const TestingNyt = () => {
@@ -7,7 +9,7 @@ export const TestingNyt = () => {
       <div className='BlackHeds'>
         <h2 className='cases_openerText'>Testing</h2>
       </div>
-      <section className='WideContainer testing'>
+      <section className='TestingContainer'>
         <div className='InnerContainer'>
           <h5 className='h5 dropCap nyt'>
             The high-fidelity wireframe testing with 6 participants revealed
