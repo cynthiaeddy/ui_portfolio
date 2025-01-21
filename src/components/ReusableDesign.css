@@ -1,0 +1,212 @@
+.DesignContainer {
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  margin-bottom: 6rem;
+  width: 95rem
+}
+.WireframesContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.competitive.designFh{
+  width: 90rem;
+  margin-top: -11rem
+}
+
+.competitive.designFh.four{
+  width: 95rem;
+  margin-top: -6rem;
+  margin-bottom: -8rem
+}
+.competitive.mid_fi {
+  width: 81.5rem;
+  margin-top: -2.5rem;
+}
+.competitive.mid_fi.desktop{
+  width: 61rem;
+  margin-top: 0.75rem;
+}
+
+.competitive.mid_fi.mobile{
+  width: 34rem;
+  margin-top: 0.5rem;
+}
+.competitive.hi_fi {
+  width:95rem;
+  margin-top: -4.5rem;
+}
+.competitive.flow {
+  width: 82rem;
+  margin-top: -13.5rem;
+}
+.competitive.flow.nyt {
+  margin-top: -10.5rem;
+}
+.competitive.fh_mobile {
+  width:95rem;
+  margin-top: -1rem
+}
+.h6.small.space {
+  margin-top: 1rem
+}
+li.smHed {
+  margin-left:-3rem
+}
+  .ButtonContainer.fh_mobile {
+    margin-top: 5rem
+  }
+  .h6.small.space {
+    margin-top: 1rem
+  }
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+  .DesignContainer {
+    width: 90%
+  }
+  .competitive, .competitive.hi_fi, .competitive.designFh {
+    width: 80%
+  }
+  .competitive.flow, .competitive.mid_fi{
+    width: 86%
+  }
+  .competitive.hi_fi,.competitive.designFh {
+    margin-top: -2.5rem;
+  }
+  .competitive.hi_fi {
+     margin-bottom: -2rem}
+
+.competitive.mid_fi.mobile, .competitive.mid_fi.desktop {
+  width: 100%
+}
+.competitive.designFh.four, .competitive.fh_mobile  {
+  width: 86%;
+  margin-top: -3rem;
+}
+.competitive.fh_mobile {
+  margin-top: -1rem
+}
+.ButtonContainer.fh_mobile {
+  margin-top: 6rem
+}
+.Button.enlarge.white.no_margin {
+  margin-top: 0
+}
+ul.h5.bullets.ssc {
+  padding-left: -1.75rem
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .DesignContainer {
+    width: 90%
+  }
+  .WireframesContainer {
+    width: 100%;
+    flex-direction: column;
+  }
+  .ButtonContainer.design_fh,  .ButtonContainer.design_fh.first
+  {
+    width: 100%;
+    margin-top: 1rem
+  }
+
+  .competitive.designFh, .competitive.flow, .competitive.mid_fi, .competitive.hi_fi, .competitive.mid_fi.desktop, .competitive.designFh.four, .competitive.fh_mobile {
+    width: 100%;
+    margin-top: -3rem;
+  }
+  .competitive.mid_fi {
+    margin-top: -2rem
+  }
+
+  .competitive.mid_fi.desktop, .competitive.mid_fi.mobile,  .competitive.fh_mobile {
+    margin-top: -1rem;
+  }
+
+  ul.h5.bullets.ssc {
+    padding-left: 2rem
+  }
+  .h5.dropCap.black.fh {
+    margin-top: 1rem
+  }
+  .ButtonContainer.fh_mobile{
+    margin-top: 5rem
+  }
+  .Button.enlarge.white.fh {
+margin-top: 1rem
+  }
+  .competitive.mid_fi.mobile {
+    width: 60%;
+}
+.DesignContainer.fh {
+  margin-bottom: 3rem
+}
+}
+
+
+@media screen and (max-width: 479px)  {
+
+  .DesignContainer {
+    width: 85%;
+    margin-bottom: 4rem;
+  }
+  .DesignContainer.ssc {
+    margin-bottom: 5rem;
+  }
+  .competitive.designFh.four, .competitive.mid_fi.desktop, .competitive.mid_fi, .competitive.hi_fi,.competitive.mid_fi.mobile, .competitive.fh_mobile, .competitive.flow {
+    width: 100%
+  }
+.ButtonContainer.fh_mobile {
+  margin-top: 2rem;
+}
+.competitive.designFh {
+  margin: auto;
+  margin-top: 0;
+  width: 120%;
+  margin-left: -10%;
+}
+.competitive.designFh.four {
+  margin-top: -2rem;
+  margin-bottom: -3rem;
+  margin-left: 0;
+}
+.competitive.flow {
+  margin-top: -3.5rem;
+}
+.competitive.hi_fi, .competitive.mid_fi{
+  margin-top: -1.5rem;
+}
+.competitive.flow.nyt {
+  margin-top: -2.5rem;
+  width: 120%;
+  margin-left: -10%;
+}
+.h5.bullets.fh {
+  padding-left: 0
+}
+li.smHed {
+  margin-left: -1.75rem;
+}
+.competitive.mid_fi.desktop {
+  width: 105%;
+  margin-left: -2.5%;
+}
+ .competitive.mid_fi.mobile, .competitive.fh_mobile{
+  width: 115%;
+  margin-left: -7.5%;
+}
+.competitive.designFh.four, .competitive.mid_fi, .competitive.flow {
+  width: 110%;
+  margin-left: -5%;
+}
+.Button.enlarge.white.no_margin {
+  margin-top: 0
+}
+.WireframesContainer {
+  width: 100%;
+  flex-direction: column;
+}
+
+}

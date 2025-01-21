@@ -1,0 +1,75 @@
+.DefineContainer {
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 9rem;
+  width: 95rem;
+}
+
+.h5.black.center {
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+}
+
+.h5.black.center.venn {
+  margin-top: 2rem;
+}
+.competitive.venn {
+  margin-top: -5.5rem
+}
+.dropCap.hang {
+  font-family: gelica, sans-serif;
+  font-weight: 200;
+  color: black;
+  font-size: 5.5rem;
+  float: left;
+  margin-top: .75rem;
+}
+.dropCap.hang.one {
+  margin-left:1rem
+}
+
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+  .DefineContainer {
+    width: 90%;
+    margin-bottom: 8rem;
+}
+.competitive.persona_fh {
+  margin-top: -4.5rem;
+}
+.ResearchContainer.bottom.fh {
+  padding-bottom: 6rem;
+}
+
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .DefineContainer {
+    width: 90%;
+    margin-bottom: 7rem
+}
+.competitive.persona {
+  margin-bottom: -4rem
+}
+.competitive.venn {
+  margin-top: -4.5rem
+}
+}
+
+@media screen and (max-width: 479px) {
+  .DefineContainer {
+    width: 85%;
+    margin-bottom: 6rem;
+    margin-top: 3rem
+  }
+  .competitive.venn {
+    margin-top: -3.5rem;
+}
+.h5.black.center.venn {
+  margin-bottom: 0rem;
+}
+.leadin.black {
+  font-size: 1.5rem;
+}
+
+
+}

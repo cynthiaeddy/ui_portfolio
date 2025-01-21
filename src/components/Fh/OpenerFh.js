@@ -1,5 +1,4 @@
-/* eslint-disable no-unused-vars */
-import '../ReusableComponents.css'
+import '../ReusableOpener.css'
 import desktop from '../../assets/fh/feline_desktop.png'
 import mobile from '../../assets/fh/mobile_home.png'
 
@@ -57,4 +56,3 @@ export const OpenerFh = () => {
     </section>
   )
 }
-// export default OpenerFh

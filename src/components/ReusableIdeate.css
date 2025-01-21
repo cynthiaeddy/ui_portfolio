@@ -1,0 +1,53 @@
+.IdeateContainer {
+  width: 100%;
+  background: #231F20;
+  border-radius: 20px;
+  display: flex;
+  padding-bottom: 6.5rem;
+  margin-bottom: 10rem;;
+  flex-direction: column;
+}
+.IdeateContainer.ssc {
+  padding-bottom: 7.5rem
+}
+
+ .competitive.style, .competitive.mood {
+  margin-top: -4.5rem;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+  .IdeateContainer {
+   margin-bottom: 8rem;
+   padding-bottom: 5rem
+  }
+  .IdeateContainer.ssc {
+    padding-bottom: 6.5rem;
+}
+
+ }
+
+ @media screen and (min-width: 480px) and (max-width: 767px) {
+  .IdeateContainer {
+    margin-bottom: 8rem;
+    padding-bottom: 4.5rem
+   }
+
+.h5.dropCap, .h5.marginTop {
+  margin-top: 4rem
+}
+.IdeateContainer.ssc {
+  padding-bottom: 4.5rem
+ }
+ }
+
+ @media screen and (max-width: 479px)  {
+  .IdeateContainer,  .IdeateContainer.ssc {
+    margin-bottom: 7rem;
+    padding-bottom: 3rem
+   }
+   .competitive.mood, .competitive.style {
+    margin-top: -4rem;
+}
+
+ }

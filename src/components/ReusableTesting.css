@@ -1,0 +1,58 @@
+.TestingContainer {
+  width: 100%;
+  background: #231F20;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 6rem;
+  margin-bottom: 9rem
+
+}
+.competitive.nyt_iteraction {
+  margin-top: 1.5rem;
+  width: 95rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+  .TestingContainer.ssc {
+    padding-bottom: 2rem;
+    margin-bottom: 7.5rem;
+  }
+
+  .TestingContainer {
+    padding-bottom: 4rem;
+    width: 100%
+  }
+  .competitive.nyt_iteraction {
+    width: 100%
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .TestingContainer, .TestingContainer.fh {
+    padding-bottom: 4rem;
+    margin-bottom: 8rem
+  }
+  .TestingContainer {
+    margin-bottom: 7rem
+  }
+  .TestingContainer.ssc {
+    padding-bottom: 2rem;
+    /* margin-bottom: 7rem */
+  }
+  .competitive.nyt_iteraction {
+    width: 100%
+  }
+ }
+
+
+@media screen and (max-width: 479px) {
+  .competitive.nyt_iteraction {
+    width: 100%
+  }
+  .TestingContainer {
+    padding-bottom: 2rem;
+    margin-bottom: 7rem;
+  }
+
+
+  }

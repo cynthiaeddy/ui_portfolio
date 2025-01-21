@@ -1,0 +1,200 @@
+.OpenerContainer {
+  width: 95rem;
+  margin: auto;
+  margin-bottom: 9rem;
+}
+.Opener {
+  display: flex;
+  margin: auto;
+  width: 80rem;
+  justify-content: space-between;
+}
+.Opener.fh {
+  margin:0
+}
+.OpenerFoto {
+  width: 31%;
+  align-self: center;
+}
+
+.OpenerFoto.desktop {
+  width: 90%
+}
+.OpenerFoto.mobile {
+  width: 25%;
+  margin-left: -3rem;
+  margin-top: -4rem
+}
+.background {
+  background: #231F20;
+  margin-top: -25rem;
+  width: 100%;
+  height: 31rem;
+  border-radius: 20px;
+
+}
+.textWrapper {
+background: #231F20;
+width: 100%;
+border-radius: 20px;
+margin-top: .5px;
+padding: 3.5rem;
+}
+.OpenerInfo {
+  display: flex;
+  margin: 4rem;
+  justify-content: space-between;
+  margin-bottom: 0
+}
+.Info {
+  width: 80%
+}
+.InfoSmall {
+  width: 15%
+}
+.divider_curved {
+  width: 100%;
+  height: 3rem;
+  border-radius: 20px;
+border-bottom: .5px solid #000;
+margin-bottom: 2rem;}
+
+.h5.openerType {
+  text-align: center;
+}
+.h6.studies {
+  font-size: 1.4rem;
+
+}
+.h5.black {
+  color: black;
+
+}
+.h6.small {
+  margin-bottom: .5rem
+}
+
+.h5.small {
+  color: black;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+
+  .OpenerContainer{
+    width: 90%;
+    margin-bottom: 8rem;
+  }
+  .Opener {
+    width: 88%
+  }
+  .h6.studies {
+    font-size: 1.2rem;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .OpenerContainer{
+    width: 90%;
+    margin-bottom: 7rem;
+  }
+  .Opener {
+    width: 90%
+  }
+  .background {
+    margin-top: -20rem;
+    height:24rem
+  }
+  .textWrapper {
+    padding: 2.5rem;
+}
+.h6.studies {
+  font-size: 1.2rem;
+}
+}
+
+@media screen and (max-width: 479px){
+  .OpenerContainer {
+    width: 100%;
+    margin-bottom: 7rem
+  }
+  .Opener {
+    width: 75%;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .Opener.fh {
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+  }
+
+  .OpenerFoto.mobile {
+    margin-left: 0rem;
+    margin-top: 2rem;
+    width: 50%;
+ }
+ .OpenerFoto.desktop {
+  width: 100%
+ }
+
+ .textWrapper {
+  padding: 2rem;
+  width: 75%;
+  margin: auto;
+  margin-top: .1rem;
+}
+.OpenerInfo {
+  width: 85%;
+  margin: auto;
+  flex-direction: column
+}
+.h6.small {
+  font-size: 1rem;
+}
+.InfoSmall {
+  width: 100%;
+  display: flex;
+  margin-top: 2rem;
+}
+.Info {
+  width: 100%;
+  margin-top: 5rem;
+}
+.background {
+  margin: auto;
+  margin-top: -9rem;
+  width: 75%;
+  height: 11rem;
+  border-radius: 20px;
+}
+
+ .background.fh {
+  margin-top: -36rem;
+  height: 38rem;
+ }
+
+ h2.cases_openerText {
+  font-size: 3.75rem;
+  line-height: 1.2;
+}
+.h6.studies {
+  font-size: 1.1rem;
+  margin-top: -2rem
+}
+.MobileSm {
+  margin-right: 1rem;
+  width: 33%
+}
+.MobileSm:last-child {
+  margin-right: 0
+
+}
+
+}
+
+
+

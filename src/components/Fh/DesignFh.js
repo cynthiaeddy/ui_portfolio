@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import '../ReusableComponents.css'
+import '../ReusableDesign.css'
 import magWh from '../../assets/ssc/magWh.png'
 import magWhH from '../../assets/ssc/magWhH.png'
 import user_flow from '../../assets/fh/second iteration_final.png'
@@ -14,6 +15,7 @@ import { ModalFhHiMobile } from '../Modals/ModalFhHiMobile'
 
 export const DesignFh = () => {
   const [hover, setHover] = useState(false)
+  const [hover1, setHover1] = useState(false)
   const [ismodalFhLoDesktopOpen, setIsmodalFhLoDesktopOpen] = useState(false)
   const [ismodalFhLoMobileOpen, setIsmodalFhLoMobileOpen] = useState(false)
   const [ismodalFhHiDesktopOpen, setIsmodalFhHiDesktopOpen] = useState(false)
@@ -25,6 +27,13 @@ export const DesignFh = () => {
 
   const handleMouseOut = () => {
     setHover(false)
+  }
+  const handleMouseIn1 = () => {
+    setHover1(true)
+  }
+
+  const handleMouseOut1 = () => {
+    setHover1(false)
   }
 
   const modalFhLoDesktopOpen = () => {
@@ -66,7 +75,7 @@ export const DesignFh = () => {
       <div className='BlackHeds white'>
         <h2 className='h2_white cases_openerText'>Design</h2>
       </div>
-      <section className='OpenerContainer designFh'>
+      <section className='DesignContainer fh'>
         <h5 className='h5 black center'>
           <span className='leadin black'>
             Next, I created a user task flow{' '}
@@ -75,7 +84,7 @@ export const DesignFh = () => {
           the user journey as intuitive as possible.
         </h5>
         <div className='ButtonContainer'>
-          <div className='Button enlarge white'>user task flow</div>
+          <div className='Button enlarge white no_margin'>user task flow</div>
           <img
             className='competitive designFh'
             src={user_flow}
@@ -84,14 +93,14 @@ export const DesignFh = () => {
         </div>
         <div className='divider_curved top'></div>
         <div className='divider_curved_down'></div>
-        <h5 className='h5 dropCap black'>
+        <h5 className='h5 dropCap black fh'>
           The low-fidelity wireframes were essential in streamlining the design
           of the appointment booking feature. By simplifying the user flow and
           organizing the content structure, I aimed to create a more intuitive
           and efficient booking process. Below are the key elements of the
           design:
         </h5>
-        <ul className='h5 bullets'>
+        <ul className='h5 bullets fh'>
           <li className=''>
             <h5 className='h5 black'>
               Designed a two-step process for booking online appointments to
@@ -139,10 +148,10 @@ export const DesignFh = () => {
             <div className='Button enlarge white'>low fidelity mobile</div>
             <button
               onClick={modalFhLoMobileOpen}
-              onMouseOver={handleMouseIn}
-              onMouseOut={handleMouseOut}
+              onMouseOver={handleMouseIn1}
+              onMouseOut={handleMouseOut1}
             >
-              {hover ? (
+              {hover1 ? (
                 <img className='magnifier wh' src={magWhH} alt={magWhH} />
               ) : (
                 <img className='magnifier wh' src={magWh} alt={magWh} />
@@ -180,7 +189,7 @@ export const DesignFh = () => {
           </ul>
         </h5>
         <div className='ButtonContainer'>
-          <div className='Button enlarge white'>high fidelity desktop</div>
+          <div className='Button enlarge white fh'>high fidelity desktop</div>
           <button
             onClick={modalFhHiDesktopOpen}
             onMouseOver={handleMouseIn}
@@ -198,14 +207,14 @@ export const DesignFh = () => {
           src={fh_hi_desktop}
           alt={fh_hi_desktop}
         />
-        <div className='ButtonContainer'>
+        <div className='ButtonContainer fh_mobile'>
           <div className='Button enlarge white'>high fidelity mobile</div>
           <button
             onClick={modalFhHiMobileOpen}
-            onMouseOver={handleMouseIn}
-            onMouseOut={handleMouseOut}
+            onMouseOver={handleMouseIn1}
+            onMouseOut={handleMouseOut1}
           >
-            {hover ? (
+            {hover1 ? (
               <img className='magnifier wh' src={magWhH} alt={magWhH} />
             ) : (
               <img className='magnifier wh' src={magWh} alt={magWh} />

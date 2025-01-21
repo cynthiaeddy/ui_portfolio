@@ -1,4 +1,5 @@
 import '../ReusableComponents.css'
+import '../ReusableReflection.css'
 
 export const ReflectionNyt = () => {
   return (
@@ -6,7 +7,7 @@ export const ReflectionNyt = () => {
       <div className='BlackHeds'>
         <h2 className='cases_openerText'>Reflection</h2>
       </div>
-      <section className='WideContainer reflection'>
+      <section className='ReflectionContainer'>
         <div className='InnerContainer reflection'>
           <h5 className='leadin'>
             What challenges did I face, and what do I think led to them?

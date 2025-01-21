@@ -5,10 +5,6 @@ background: #FAF9F8;
 width: 100%;
 overflow-x: hidden
 }
-.WideContainer {
-  width: 100%;
-  background: #FAF9F8;
-}
 
  /* ///// Media Queries ///// */
  @media screen and (max-width: 767px)  {

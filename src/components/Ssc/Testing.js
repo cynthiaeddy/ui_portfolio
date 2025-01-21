@@ -1,4 +1,5 @@
 import '../ReusableComponents.css'
+import '../ReusableTesting.css'
 import { Carousel_ssc } from '../Carousel_ssc/Carousel_ssc.js'
 
 export const Testing = () => {
@@ -7,7 +8,7 @@ export const Testing = () => {
       <div className='BlackHeds'>
         <h2 className='cases_openerText'>Testing</h2>
       </div>
-      <section className='WideContainer testing'>
+      <section className='TestingContainer ssc'>
         <div className='InnerContainer'>
           <h5 className='h5 dropCap'>
             The moderated testing of the high-fidelity wireframes involved five

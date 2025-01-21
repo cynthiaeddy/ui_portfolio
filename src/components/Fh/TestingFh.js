@@ -1,4 +1,5 @@
 import '../ReusableComponents.css'
+import '../ReusableTesting.css'
 import { Carousel_fh } from '../Carousel_fh/Carousel_fh.js'
 import { Carousel_fh_mobile } from '../Carousel_fh/Carousel_fh_mobile.js'
 
@@ -8,7 +9,7 @@ export const TestingFh = () => {
       <div className='BlackHeds'>
         <h2 className='cases_openerText'>Testing</h2>
       </div>
-      <section className='WideContainer testing'>
+      <section className='TestingContainer fh'>
         <div className='InnerContainer'>
           <h5 className='h5 dropCap'>
             Testing was an essential part of refining the website. I conducted

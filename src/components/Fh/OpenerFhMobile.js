@@ -10,7 +10,7 @@ export const OpenerFhMobile = () => {
         <img className='OpenerFoto desktop' src={desktop} alt={desktop} />
         <img className='OpenerFoto mobile' src={mobile} alt={mobile} />
       </div>
-      <div className='background'></div>
+      <div className='background fh'></div>
       <div className='textWrapper'>
         <h2 className='cases_openerText'>Feline Health</h2>
         <h5 className='h5 openerType'>

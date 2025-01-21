@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import '../ReusableComponents.css'
+import '../ReusableDesign.css'
 import magWh from '../../assets/ssc/magWh.png'
 import magWhH from '../../assets/ssc/magWhH.png'
 import user_flow from '../../assets/ssc/ssc_user_flow.png'
@@ -53,7 +54,7 @@ export const Design = () => {
       <div className='BlackHeds white'>
         <h2 className='h2_white cases_openerText'>Design</h2>
       </div>
-      <section className='OpenerContainer define'>
+      <section className='DesignContainer ssc'>
         <h5 className='h5 black center'>
           <span className='leadin black'>
             After determining the project&apos;s key objectives,{' '}
@@ -62,7 +63,7 @@ export const Design = () => {
           navigation and search functionality.
         </h5>
         <div className='ButtonContainer'>
-          <div className='Button enlarge white'>user flow</div>
+          <div className='Button enlarge white no_margin'>user flow</div>
           <button
             onClick={modalSscFlowOpen}
             onMouseOver={handleMouseIn}
@@ -78,14 +79,14 @@ export const Design = () => {
         </div>
         <div className='divider_curved top'></div>
         <div className='divider_curved_down'></div>
-        <h5 className='h5 dropCap black'>
+        <h5 className='h5 dropCap black fh'>
           The low-fidelity wireframes helped shape the content structure and
           layout, ensuring key elements were organized effectively. By referring
           to the persona and affinity map, I focused on presenting crucial
           information that keeps users engaged, particularly on the landing and
           product pages.
         </h5>
-        <ul className='h5 bullets'>
+        <ul className='h5 bullets ssc'>
           <li className='first_li_research black'>
             <h5 className='h5 black'>
               Wireframes provided insights into content structure and page

@@ -1,6 +1,6 @@
 import './Modals.css'
 import { IoCloseCircle } from 'react-icons/io5'
-import swot from '../../assets/nyt/nyt_swot.png'
+import swot from '../../assets/nyt/nyt_swotcrop.png'
 
 export const ModalNytCompSwot = ({ isOpen = true, modalSscClose }) => {
   if (!isOpen) {

@@ -1,4 +1,5 @@
 import '../ReusableComponents.css'
+import '../ReusableIdeate.css'
 import ive_mood_resize from '../../assets/ssc/ive_mood.png'
 import ive_style from '../../assets/ssc/ive_style_resize.png'
 
@@ -8,8 +9,8 @@ export const Ideate = () => {
       <div className='BlackHeds'>
         <h2 className='cases_openerText'>Ideate</h2>
       </div>
-      <section className='WideContainer ideate ssc'>
-        <div className='InnerContainer cases'>
+      <section className='IdeateContainer ssc'>
+        <div className='InnerContainer'>
           <h5 className='h5 marginTop'>
             <span className='leadin'>Based on my research, </span> I determined
             the essential sections and features the website should incorporate:
@@ -35,7 +36,11 @@ export const Ideate = () => {
           </ul>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>mood board</div>
-            <img className='mood' src={ive_mood_resize} alt={ive_mood_resize} />
+            <img
+              className='competitive mood'
+              src={ive_mood_resize}
+              alt={ive_mood_resize}
+            />
             <div className='ButtonContainer'>
               <div className='Button enlarge'>style tile</div>
               <img
