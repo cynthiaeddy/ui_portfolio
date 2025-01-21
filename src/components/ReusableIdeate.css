@@ -10,9 +10,7 @@
 .IdeateContainer.ssc {
   padding-bottom: 7.5rem
 }
-.competitive.venn {
-  margin-top: -6.5rem;
-}
+
  .competitive.style, .competitive.mood {
   margin-top: -4.5rem;
 }
@@ -26,9 +24,6 @@
   .IdeateContainer.ssc {
     padding-bottom: 6.5rem;
 }
-  .competitive.venn {
-    margin-top: -5.5rem;
-}
 
  }
 
@@ -37,9 +32,7 @@
     margin-bottom: 8rem;
     padding-bottom: 4.5rem
    }
-   .competitive.venn {
-    margin-top: -5.5rem;
-}
+
 .h5.dropCap, .h5.marginTop {
   margin-top: 4rem
 }
@@ -56,7 +49,5 @@
    .competitive.mood, .competitive.style {
     margin-top: -4rem;
 }
-.competitive.venn {
-  margin-top: -3.5rem;
-}
+
  }

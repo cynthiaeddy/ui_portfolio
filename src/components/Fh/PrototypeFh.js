@@ -4,7 +4,7 @@ import opener from '../../assets/fh/feline_desktop.png'
 import openerMobile from '../../assets/fh/mobile_home.png'
 export const PrototypeFh = () => {
   return (
-    <section className='PrototypeContainer'>
+    <section className='PrototypeContainer fh'>
       <div className='prototype_container_desktop'>
         <img className='prototype fh_desktop' src={opener} />
         <Link

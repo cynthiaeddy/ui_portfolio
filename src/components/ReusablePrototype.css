@@ -1,11 +1,31 @@
 .PrototypeContainer {
   display: block;
   margin: auto;
-  width: 95rem;
-  flex-direction: column;
-  margin-bottom:8rem
+  margin-bottom: 8rem;
+  width: 85rem;
+
 
 }
+.PrototypeContainer.fh {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 9rem;
+  width: 90rem;
+}
+.prototype {
+  width: 35rem
+}
+.prototype.fh_desktop {
+  width: 65rem
+}
+.prototype.fh_mobile {
+  width: 19.75rem
+}
+.prototype_container_mobile{
+  margin: 0 -4rem
+}
+
 .prototype_container_desktop {
   margin-bottom: 4rem
 }
@@ -13,15 +33,32 @@
   .PrototypeContainer {
     width: 100%
   }
+
+  .PrototypeContainer.fh {
+    margin-bottom: 6rem;
+    width: 68rem;
+}
   .prototype {
     width: 25rem;
 }
+
+  .prototype.fh_desktop {
+    width: 50rem
+  }
+  .prototype.fh_mobile {
+    width: 18rem
+  }
 }
 
 
 @media screen and (max-width: 767px) {
-  .PrototypeContainer {
-    width: 100%
+  .PrototypeContainer, .PrototypeContainer.fh {
+    width: 100%;
+      flex-direction: column;
+      align-items: center;
+  }
+  .prototype {
+    width: 40%
   }
   .prototype_container_desktop, .prototype_container_mobile{
     width: 100%
