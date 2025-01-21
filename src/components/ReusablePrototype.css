@@ -1,0 +1,34 @@
+.PrototypeContainer {
+  display: block;
+  margin: auto;
+  width: 95rem;
+  flex-direction: column;
+  margin-bottom:8rem
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1030px) {
+  .PrototypeContainer {
+    width: 90%
+  }
+  .prototype {
+    width: 25rem;
+}
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .PrototypeContainer {
+    width: 90%
+  }
+}
+
+@media screen and (max-width: 479px)  {
+  .PrototypeContainer {
+    width: 85%;
+    margin-bottom: 7rem
+  }
+  .prototype {
+    width: 75%
+  }
+}

@@ -54,7 +54,7 @@ export const Design = () => {
       <div className='BlackHeds white'>
         <h2 className='h2_white cases_openerText'>Design</h2>
       </div>
-      <section className='DesignContainer'>
+      <section className='DesignContainer ssc'>
         <h5 className='h5 black center'>
           <span className='leadin black'>
             After determining the project&apos;s key objectives,{' '}

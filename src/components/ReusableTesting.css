@@ -14,7 +14,8 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1030px) {
   .TestingContainer.ssc {
-    padding-bottom: 3rem
+    padding-bottom: 3rem;
+    margin-bottom: 7.5rem;
   }
 
   .TestingContainer {
@@ -27,15 +28,27 @@
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
-  .TestingContainer.fh {
+  .TestingContainer, .TestingContainer.fh {
     padding-bottom: 4rem;
     margin-bottom: 8rem
+  }
+  .TestingContainer {
+    margin-bottom: 7rem
+  }
+  .competitive.nyt_iteraction {
+    width: 100%
   }
  }
 
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 479px) {
   .competitive.nyt_iteraction {
     width: 100%
   }
+  .TestingContainer {
+    padding-bottom: 4rem;
+    margin-bottom: 7rem;
+  }
+
+
   }

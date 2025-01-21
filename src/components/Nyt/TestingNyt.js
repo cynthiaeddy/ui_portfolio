@@ -9,7 +9,7 @@ export const TestingNyt = () => {
       <div className='BlackHeds'>
         <h2 className='cases_openerText'>Testing</h2>
       </div>
-      <section className='TestingContainer'>
+      <section className='TestingContainer nyt'>
         <div className='InnerContainer'>
           <h5 className='h5 dropCap nyt'>
             The high-fidelity wireframe testing with 6 participants revealed

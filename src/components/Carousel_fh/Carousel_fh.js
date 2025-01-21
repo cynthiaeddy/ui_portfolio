@@ -8,7 +8,6 @@ import arrowRhover from '../../assets/ssc/arrowRhover.png'
 
 export const Carousel_fh = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
-  // eslint-disable-next-line no-unused-vars
   const [hover, setHover] = useState(false)
   const [hoverR, setHoverR] = useState(false)
 

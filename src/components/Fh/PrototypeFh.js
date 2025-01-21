@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom'
+import '../ReusablePrototype.css'
 import opener from '../../assets/fh/feline_desktop.png'
 import openerMobile from '../../assets/fh/mobile_home.png'
 export const PrototypeFh = () => {
   return (
-    <section className='InnerContainer prototype fh'>
+    <section className='PrototypeContainer'>
       <div className='prototype_container_desktop'>
         <img className='prototype fh_desktop' src={opener} />
         <Link

@@ -15,6 +15,7 @@ import { ModalFhHiMobile } from '../Modals/ModalFhHiMobile'
 
 export const DesignFh = () => {
   const [hover, setHover] = useState(false)
+  const [hover1, setHover1] = useState(false)
   const [ismodalFhLoDesktopOpen, setIsmodalFhLoDesktopOpen] = useState(false)
   const [ismodalFhLoMobileOpen, setIsmodalFhLoMobileOpen] = useState(false)
   const [ismodalFhHiDesktopOpen, setIsmodalFhHiDesktopOpen] = useState(false)
@@ -26,6 +27,13 @@ export const DesignFh = () => {
 
   const handleMouseOut = () => {
     setHover(false)
+  }
+  const handleMouseIn1 = () => {
+    setHover1(true)
+  }
+
+  const handleMouseOut1 = () => {
+    setHover1(false)
   }
 
   const modalFhLoDesktopOpen = () => {
@@ -140,10 +148,10 @@ export const DesignFh = () => {
             <div className='Button enlarge white'>low fidelity mobile</div>
             <button
               onClick={modalFhLoMobileOpen}
-              onMouseOver={handleMouseIn}
-              onMouseOut={handleMouseOut}
+              onMouseOver={handleMouseIn1}
+              onMouseOut={handleMouseOut1}
             >
-              {hover ? (
+              {hover1 ? (
                 <img className='magnifier wh' src={magWhH} alt={magWhH} />
               ) : (
                 <img className='magnifier wh' src={magWh} alt={magWh} />
@@ -203,10 +211,10 @@ export const DesignFh = () => {
           <div className='Button enlarge white'>high fidelity mobile</div>
           <button
             onClick={modalFhHiMobileOpen}
-            onMouseOver={handleMouseIn}
-            onMouseOut={handleMouseOut}
+            onMouseOver={handleMouseIn1}
+            onMouseOut={handleMouseOut1}
           >
-            {hover ? (
+            {hover1 ? (
               <img className='magnifier wh' src={magWhH} alt={magWhH} />
             ) : (
               <img className='magnifier wh' src={magWh} alt={magWh} />

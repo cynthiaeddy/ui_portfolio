@@ -114,6 +114,9 @@ ul.h5.bullets.ssc {
     width: 100%;
     margin-top: -3rem;
   }
+  .competitive.mid_fi {
+    margin-top: -2rem
+  }
 
   .competitive.mid_fi.desktop, .competitive.mid_fi.mobile,  .competitive.fh_mobile {
     margin-top: -1rem;
@@ -145,6 +148,9 @@ margin-top: 1rem
   .DesignContainer {
     width: 85%;
     margin-bottom: 4rem;
+  }
+  .DesignContainer.ssc {
+    margin-bottom: 5rem;
   }
   .competitive.designFh.four, .competitive.mid_fi.desktop, .competitive.mid_fi, .competitive.hi_fi,.competitive.mid_fi.mobile, .competitive.fh_mobile, .competitive.flow {
     width: 100%
@@ -194,6 +200,10 @@ li.smHed {
 }
 .Button.enlarge.white.no_margin {
   margin-top: 0
+}
+.WireframesContainer {
+  width: 100%;
+  flex-direction: column;
 }
 
 }
