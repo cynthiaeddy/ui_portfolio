@@ -101,7 +101,14 @@ padding-left: 0;
   letter-spacing: .34rem;
 }
 
+#navbar-mobile {
+  width: 100%;
+  height: 100vh;
+  background: white;
+  position: fixed;
+  z-index: 100;
 
+}
 
 
 #navbar {
@@ -114,14 +121,31 @@ padding-left: 0;
   position: fixed;
   width: 100vw;
 }
+#navbar-mobile {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  height: 150px;
+}
+#navbar-mobile ul {
+  padding: 0;
+  background-color: white;
+  height: 10rem;
+  width: 100vw;
+  position: absolute;
+  margin: 0;
+  margin-top: -1rem
 
+}
 
 #navbar li {
   padding: 0 2rem;
   display: inline-block;
 }
 
-#navbar a {
+#navbar a,
+#navbar-mobile a {
   color: rgba(0,0,0,.5);
 }
 #navbar a:focus {
@@ -134,7 +158,12 @@ padding-left: 0;
   color: black
 }
 
-
+.navbar-mobile.active {
+  display: inline
+}
+.navbar-mobile.not-active {
+  display: none
+}
 
 
 
@@ -144,7 +173,9 @@ padding-left: 0;
 
 /* ///// Media Queries ///// */
 @media screen and (min-width: 768px) and (max-width: 1030px) {
-
+  /* .nav-links {
+    line-height: 1.7;
+  } */
 #NavbarContainer {
   padding-left: 5rem;
   padding-right: 5rem
@@ -152,5 +183,14 @@ padding-left: 0;
 .nav-item {
   padding:  2rem 1.5rem
 }
+/* .logo {
+  margin-left: 2rem;
+  margin-top: -2rem;
 
+
+
+} */
+/* .NavbarSection {
+  align-items: center;
+} */
 }

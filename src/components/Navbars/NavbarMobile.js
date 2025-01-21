@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import './Navbar.css'
+import './NavbarMobile.css'
 import logo from '../../assets/swirl_sm.jpg'
 import MenuButton from './MenuButton'
 import navActive from '../../assets/bug.svg'
@@ -49,27 +49,57 @@ export const NavbarMobile = () => {
                   src={navActive}
                   className='navActive_visable'
                   alt='navActive'
-                  // style={{
-                  //   visibility: ({ isActive }) =>
-                  //     isActive ? 'visible' : 'hidden',
-                  // }}
                 />
               </div>
             ) : (
               <>Home</>
             )}
-            {/* Home
-            <img
-              src={navActive}
-              className='navActive'
-              alt='navActive' */}
-            {/* // style={{ */}
-            {/* //   visibility: ({ isActive }) => (isActive ? 'visible' : 'hidden'),
-              // }}
-            // />
-            // <span
-            //   className={`menu ${isMenuOpen ? 'active' : 'not-active'}`}
-            // ></span> */}
+          </NavLink>
+        </li>
+        <li className='nav-item mobile top'>
+          <NavLink
+            to='/ux_ui'
+            className='mobile_nav-links'
+            activeClassName='mobile_active'
+            onClick={toggleMenu}
+            onMouseEnter={handleMouseIn}
+            onMouseLeave={handleMouseOut}
+          >
+            {hover ? (
+              <div className='hover_item'>
+                ux/ui
+                <img
+                  src={navActive}
+                  className='navActive_visable'
+                  alt='navActive'
+                />
+              </div>
+            ) : (
+              <>ux/ui</>
+            )}
+          </NavLink>
+        </li>
+        <li className='nav-item mobile top'>
+          <NavLink
+            to='/design'
+            className='mobile_nav-links'
+            activeClassName='mobile_active'
+            onClick={toggleMenu}
+            onMouseEnter={handleMouseIn}
+            onMouseLeave={handleMouseOut}
+          >
+            {hover ? (
+              <div className='hover_item'>
+                design
+                <img
+                  src={navActive}
+                  className='navActive_visable'
+                  alt='navActive'
+                />
+              </div>
+            ) : (
+              <>design</>
+            )}
           </NavLink>
         </li>
         {/* <li>
