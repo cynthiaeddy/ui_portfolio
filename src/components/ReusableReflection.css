@@ -1,8 +1,28 @@
 .ReflectionContainer {
-  padding-bottom: 6rem;
+  padding-bottom: 5rem;
   border-radius: 20px 20px 0px 0px;
-  width: 100%;
+  /* width: 100%; */
   background: #231F20;
+
+    margin: auto;
+    width: 95rem;
+    flex-direction: column;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+}
+.InnerContainer.reflection {
+  padding-top: 4rem;
 }
 
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .ReflectionContainer {
+    width: 100% }
+  }
+
+  @media screen and (max-width: 479px) {
+    .ReflectionContainer {
+      width: 100% }
+    }

@@ -1,15 +1,17 @@
-/* .OpenerContainer.define {
-  margin-top: 4rem;
-  margin-bottom: 9rem
-} */
-/* .OpenerContainer.design.ssc {
-  margin-bottom: 6rem
-} */
-/* .OpenerContainer.design, .OpenerContainer.designFh{
+/* *** containers *** */
+
+.OpenerContainer {
+  width: 95rem;
+  margin: auto;
+  margin-bottom: 9rem;
+}
+.OpenerContainer.define {
+  margin-top: 4rem
+}
+.OpenerContainer.designFh{
   margin-top: 4rem;
   margin-bottom: 3rem
-} */
-
+}
 
 .InnerContainer {
   display: flex;
@@ -17,14 +19,9 @@
   width: 95rem;
   flex-direction: column;
 }
-
-/* .h5.dropCap {
-  margin-top:5rem;
-} */
-
 .InnerContainer.prototype {
   display:block;
-  margin-bottom:10rem
+  margin-bottom: 9rem
 }
 
 .InnerContainer.prototype.fh {
@@ -46,56 +43,56 @@ display: flex;
   flex-direction: column;
 
 }
-/* .WideContainer.bottom {
+.WideContainer.bottom {
   margin-top: .5px;
-  margin-bottom: 10rem
-} */
-/* .WideContainer.ideate {
+  margin-bottom: 9rem
+}
+.WideContainer.ideate {
   padding-bottom: 8rem;
-  margin-bottom: 10rem
-} */
-/* .WideContainer.ideate.nyt {
+  margin-bottom: 9rem
+}
+.WideContainer.ideate.nyt {
   padding-bottom: 5rem
-} */
-/* .WideContainer.nyt.research {
+}
+.WideContainer.nyt.research {
   padding-bottom: 8rem;
-} */
-/* .WideContainer.testing {
+}
+.WideContainer.testing {
   padding-bottom: 3rem;
   margin-bottom: 9rem
-} */
-/* .WideContainer.reflection {
+}
+.WideContainer.reflection {
   padding-bottom: 6rem;
   border-radius: 20px 20px 0px 0px;
-} */
-/* .WideContainer.Fh.Research {
+}
+.WideContainer.Fh.Research {
   padding-bottom: 8rem;
-} */
+}
 
-/* .Opener {
+.Opener {
   display: flex;
   margin: auto;
   width: 80rem;
   justify-content: space-between;
-} */
-/* .Opener.fh {
+}
+.Opener.fh {
   margin:0
-} */
-/* .OpenerFoto {
+}
+.OpenerFoto {
   width: 31%;
   align-self: center;
-} */
+}
 
-/* .OpenerFoto.desktop {
+.OpenerFoto.desktop {
   width: 90%
 }
 .OpenerFoto.mobile {
   width: 25%;
   margin-left: -3rem;
   margin-top: -4rem
-} */
+}
 
-/* .background {
+.background {
     background: #231F20;
     margin-top: -25rem;
     width: 100%;
@@ -109,8 +106,8 @@ display: flex;
   border-radius: 20px;
   margin-top: .5px;
   padding: 3.5rem;
-} */
-/* h2 {
+}
+h2 {
   font-family: gelica, sans-serif;
   color: white;
   font-size: 4.5rem;
@@ -118,11 +115,11 @@ display: flex;
   letter-spacing: .01rem;
   line-height: 1.5;
 
-} */
+}
 .h2_white {
   color: black
 }
-/* h5,.leadin {
+h5,.leadin {
   font-size: 1.9rem;
   color:white;
   text-transform: initial;
@@ -131,51 +128,51 @@ display: flex;
    font-family: "neue-haas-grotesk-display", sans-serif;;
    text-align: left;
    line-height: 1.6;
-} */
-/* .h5.openerType {
+}
+.h5.openerType {
   text-align: center;
-} */
-/* .h5.black {
+}
+.h5.black {
   color: black;
-} */
-/* .h5.black.center {
+}
+.h5.black.center {
   text-align: center;
   margin-bottom: 3rem;
-} */
+}
 
-/* .h5.black.center.venn {
+.h5.black.center.venn {
   margin-top: 2rem;
-} */
+}
 
 
-/* .h5.small {
+.h5.small {
   color: black;
   font-size: 1.6rem;
   line-height: 1.5;
-} */
+}
 
 .h5.dropCap, .h5.marginTop {
   margin-top:5rem;
 }
 
-/* .h5.research {
+.h5.research {
   margin-top: 2rem
-} */
-/* .h6.studies {
+}
+.h6.studies {
   font-size: 1.4rem;
-} */
-/* .h6.small {
+}
+.h6.small {
   margin-bottom: .5rem
-} */
-/* .h6.small.space {
+}
+.h6.small.space {
   margin-top: 1rem
-} */
-/* li.smHed {
+}
+li.smHed {
   margin-left:-3rem
-} */
+}
 
 
-/*
+
 .OpenerInfo {
   display: flex;
   margin: 4rem;
@@ -187,7 +184,7 @@ display: flex;
 }
 .InfoSmall {
   width: 15%
-} */
+}
 
 .divider_curved {
   width: 100%;
@@ -246,7 +243,7 @@ margin-bottom: 2rem;}
 }
 .h5.leadins {
   margin-top: 6rem;
-  /* margin-bottom: 5rem */
+  margin-bottom: 5rem
 }
 .leadin {
   font-weight: 600;
@@ -269,9 +266,6 @@ margin-bottom: 2rem;}
   position: relative;
   margin-top: 3rem
 }
-/* .ButtonContainer.fh_mobile {
-  margin-top: 5rem
-} */
 
 
 .Button.enlarge {
@@ -283,7 +277,7 @@ margin-bottom: 2rem;}
   margin-top: 2rem;
   margin-bottom: 2.5rem;
   border: 1.25px solid rgb(160, 157, 157);
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 600;
   position: relative;
   z-index: 50;
@@ -308,34 +302,34 @@ margin-bottom: 2rem;}
   background-color: #FAF9F8;
 }
 
-/* button {
+button {
   background-color: #FAF9F8;
   background: none;
-} */
-.competitive {
+}
+.competitive, .mood {
   width: 75rem;
   border-radius: 20px;
   margin: auto;
   margin-top: -11.5rem;
 }
-/* .competitive.venn {
+.competitive.venn {
   margin-top: -5.5rem
-} */
-/* .competitive.designFh{
+}
+.competitive.designFh{
   width: 90rem;
   margin-top: -11rem
-} */
-/* .competitive.nyt_iteraction {
+}
+.competitive.nyt_iteraction {
   margin-top: 1.5rem;
   width: 95rem
-} */
+}
 
-/* .competitive.designFh.four{
+.competitive.designFh.four{
   width: 95rem;
   margin-top: -6rem;
   margin-bottom: -8rem
-} */
-/* .competitive.mid_fi.desktop{
+}
+.competitive.mid_fi.desktop{
   width: 61rem;
   margin-top: 0.75rem;
 }
@@ -343,50 +337,51 @@ margin-bottom: 2rem;}
 .competitive.mid_fi.mobile{
   width: 34rem;
   margin-top: 0.5rem;
-} */
-/* .mood, .style {
+}
+.mood, .style {
   margin-top: -5rem;
-} */
-/* .competitive.flow {
+}
+.competitive.flow {
   width: 82rem;
   margin-top: -13.5rem;
 }
 .competitive.flow.nyt {
   margin-top: -10.5rem;
-} */
-/* .competitive.mid_fi {
+}
+.competitive.mid_fi {
   width: 81.5rem;
   margin-top: -2.5rem;
-} */
-/* .competitive.hi_fi {
+}
+.competitive.hi_fi {
   width:95rem;
   margin-top: -4.5rem;
-} */
-/* .competitive_lg {
+}
+.competitive_lg {
   border-radius: 20px;
   width: 100%;
   height: fit-content;
-} */
-/* .competitive.persona {
+}
+.competitive.persona {
   margin-top: -5rem;
-} */
+  margin-bottom: 8rem
+}
 
 
-/* .competitive.fh_mobile {
+.competitive.fh_mobile {
   width:95rem;
   margin-top: -1rem
-} */
+}
 
 .h5.bullets {
   margin-top: 2rem
 }
 
-/* li {
+li {
   list-style: '•';
   color: white;
   font-size: 2rem;
   padding-left: 1rem
-} */
+}
 li.black {
   color: black
 }
@@ -406,11 +401,11 @@ ul {
   padding-left: .75rem
 }
 
-/* .space {
+.space {
   padding-left: 1rem
-} */
+}
 
-/* .dropCap.hang {
+.dropCap.hang {
   font-family: gelica, sans-serif;
   font-weight: 200;
   color: black;
@@ -420,7 +415,7 @@ ul {
 }
 .dropCap.hang.one {
   margin-left:1rem
-} */
+}
 .dropCap.nyt_test {
   font-size: 5.4rem
 }
@@ -445,10 +440,10 @@ ul {
   margin: 0 -4rem
 }
 
-/* .WireframesContainer {
+.WireframesContainer {
   display: flex;
   justify-content: space-between;
-} */
+}
 .Container_desktop {
   display:flex;
   flex-direction: column;
@@ -459,37 +454,33 @@ ul {
 @media screen and (min-width: 768px) and (max-width: 1030px) {
 
 
-   .InnerContainer{
+  .OpenerContainer, .InnerContainer{
     width: 90%;
-    margin-bottom:7rem;
+    margin-bottom:7rem
+  }
+  .InnerContainer {
     margin-bottom: 0;
   }
-  /* .OpenerContainer.design.ssc {
-    margin-bottom: 9rem
-  } */
-  /* .InnerContainer {
-    margin-bottom: 0;
-  } */
 
-  /* .Opener {
+  .Opener {
     width: 88%
-  } */
+  }
   .Button.enlarge, .Button.enlarge.white {
     font-size: 1.15rem;
   }
   h2.cases_openerText {
     font-size: 3.9rem
   }
-  /* h5 {
+  h5 {
     font-size: 1.7rem;
   }
 
   h6 {
     font-size: 1rem;
-  } */
-  /* .h6.studies {
+  }
+  .h6.studies {
     font-size: 1.2rem;
-  } */
+  }
 
   .h5.dropCap::first-letter {
     font-size: 9.25rem;
@@ -514,21 +505,21 @@ ul {
 }
 
 
-  /* .WideContainer.bottom {
+  .WideContainer.bottom {
     margin-bottom: 7rem;
     width: 100%
-  } */
+  }
 
   .mood {
     width: 80%
   }
-  /* .prototype {
+  .prototype {
     width: 25rem
-  } */
-  /* .InnerContainer.prototype.fh {
+  }
+  .InnerContainer.prototype.fh {
         width: 68rem;
         margin-bottom:6rem
-    } */
+    }
 
     .prototype.fh_desktop {
       width: 50rem
@@ -539,48 +530,31 @@ ul {
     .OpenerFoto.mobile {
       margin-top: -3.25rem
     }
-    .ButtonContainer {
-      margin-top: 2rem
-    }
-    .h5.dropCap, .h5.marginTop {
-      margin-top: 4rem;
-  }
-  .h5.dropCap.black.fh {
-    margin-top: 1rem
-  }
 }
 
 
 /* ///// Media Queries ///// */
 @media screen and (min-width: 480px) and (max-width: 767px)  {
-
-
- .h5.marginTop {
-    margin-top: 4rem;
-}
-.leadin {
-  font-size: 1.5rem
-}
-  /* .OpenerContainer {
+  .OpenerContainer {
     width: 90%;
     margin-bottom:6.5rem
   }
   .Opener {
     width: 90%
-  } */
-  /* .background {
+  }
+  .background {
     margin-top: -20rem;
     height:24rem
   }
   .textWrapper {
     padding: 2.5rem
-  } */
-  /* h2 {
+  }
+  h2 {
     font-size: 3.6rem;
   }
   h5 {
     font-size: 1.6rem;
-  } */
+  }
   .h5.small {
     font-size: 1.4rem;
   }
@@ -603,8 +577,7 @@ ul {
   }
   .Button.enlarge {
     font-size: 1.1rem;
-    line-height: 1.5;
-    padding: 1rem 2rem
+    line-height: 1.5
   }
   .OpenerFoto.mobile {
     width: 22%;
@@ -616,9 +589,9 @@ ul {
   .competitive.nyt_iteraction, .competitive.designFh, .competitive.mid_fi.desktop, .competitive.mid_fi.desktop, .competitive.designFh.four, .competitive.fh_mobile ,  .competitive.mid_fi.mobile  {
     width: 100%
   }
-  /* .competitive.persona {
+  .competitive.persona {
     margin-bottom: 4rem;
-  } */
+  }
 
   .competitive.flow {
     margin-top: -9.5rem
@@ -627,10 +600,10 @@ ul {
   .competitive.designFh {
     margin-top: -3rem;
 }
-/* .InnerContainer.prototype.fh {
+.InnerContainer.prototype.fh {
   width: 90%;
   margin-bottom: 6rem
-} */
+}
 
 .prototype {
   width: 25rem;
@@ -638,10 +611,10 @@ ul {
 .WideContainer.bottom {
   margin-bottom: 6.5rem;
 }
-/* .WideContainer.ideate {
+.WideContainer.ideate {
   padding-bottom: 4rem;
   margin-bottom: 6.5rem;
-} */
+}
 .competitive.hi_fi {
   margin-top: -2.5rem;
 }
@@ -673,12 +646,7 @@ ul {
  }
 
  @media screen and (max-width: 479px) {
-
-
-  .BlackHeds.white {
-    margin-bottom: -1rem
-  }
-  /* .OpenerContainer {
+  .OpenerContainer {
     width: 100%;
     margin-bottom: 6rem
   }
@@ -700,25 +668,25 @@ ul {
  }
  .OpenerFoto.desktop {
   width: 100%
- } */
+ }
  .Container.studies {
   margin-top: 15rem
  }
- /* .background {
+ .background {
   margin: auto;
   margin-top: -36rem;
   width: 75%;
   height: 38rem;
   border-radius: 20px;
- } */
- /* h2 {
+ }
+ h2 {
   font-size: 3.75rem;
   line-height: 1.2;
  }
  h5, .leadin {
   font-size: 1.5rem;
- } */
- /* .textWrapper {
+ }
+ .textWrapper {
   padding: 2rem;
   width: 75%;
   margin: auto;
@@ -728,7 +696,7 @@ ul {
   width: 85%;
   margin: auto;
   flex-direction: column
-} */
+}
 .h6.studies {
   font-size: 1.1rem;
   margin-top: -2rem
@@ -737,11 +705,11 @@ ul {
   width: 100%;
   margin-top: 5rem
 }
-/* .InfoSmall {
+.InfoSmall {
   width: 100%;
   display: flex;
   margin-top: 2rem
-} */
+}
 .MobileSm {
   margin-right: 1rem;
   width: 33%
@@ -769,40 +737,37 @@ ul {
 .Button_mobile {
   visibility: visible;
 }
-/* .competitive, .mood, .competitive.flow, .competitive.mid_fi, .competitive.hi_fi,
+.competitive, .mood, .competitive.flow, .competitive.mid_fi, .competitive.hi_fi,
   .competitive.nyt_iteraction, .competitive.designFh, .competitive.mid_fi.desktop, .competitive.mid_fi.desktop, .competitive.designFh.four, .competitive.fh_mobile ,  .competitive.mid_fi.mobile  {
     width: 100%
-  } */
-   .competitive {
-    width: 100%
-   }
-  /* .competitive.persona {
+  }
+  .competitive.persona {
     margin-bottom: 4rem;
     margin-top: -4rem
-  } */
-  /* .WideContainer.bottom, .WideContainer.ideate {
+  }
+  .WideContainer.bottom, .WideContainer.ideate {
     margin-bottom: 6rem;
   }
   .WideContainer.ideate {
     padding-bottom: 4rem ;
-  } */
-  /* .OpenerContainer.define, .OpenerContainer.designFh {
+  }
+  .OpenerContainer.define, .OpenerContainer.designFh {
     width: 85%
   }
   .WideContainer.Fh.Research {
     padding-bottom: 4rem;
-  } */
+  }
   .h5.dropCap {
     margin-top: 3rem;
   }
-  /* .WireframesContainer {
+  .WireframesContainer {
     width: 100%;
     flex-direction: column;
   }
   .InnerContainer.prototype.fh {
     flex-direction: column;
     width:90%
-  } */
+  }
   .prototype.fh_desktop, .prototype.fh_mobile {
     width: 100%
   }
@@ -818,10 +783,10 @@ ul {
   .InnerContainer.prototype.fh {
     margin-bottom: 6rem
   }
-  /* .competitive.designFh {
+  .competitive.designFh {
     margin: auto;
     margin-top: 0;
-  } */
+  }
   .background.ssc {
     height: 30rem;
     margin-top: -11rem;
@@ -841,18 +806,18 @@ ul {
 .prototype {
   width: 75%
 }
-/* .background.nyt{
+.background.nyt{
   margin: auto;
   margin-top: -9rem;
   width: 75%;
   height: 11rem;
   border-radius: 20px;
-} */
+}
 .WideContainer.nyt.research {
   padding-bottom: 2rem;
 }
 .h5.marginTop {
-  margin-top:3rem
+  margin-top:4rem
 }
 .WideContainer.ideate.nyt, .WideContainer.ideate.ssc, .WideContainer.ideate.fh {
   padding-bottom: 3rem;
@@ -884,12 +849,12 @@ margin-top: -1.5rem
 .prototype_container_desktop {
   margin-bottom: 3rem;
 }
-/* .competitive.designFh.four {
+.competitive.designFh.four {
   margin-top: -2rem;
   margin-bottom: -3rem;
- } */
-
-.leadin {
-  font-size: 1.5rem
+ }
+ .InnerContainer.cases.nyt {
+  padding-bottom: 2rem;
 }
+
  }

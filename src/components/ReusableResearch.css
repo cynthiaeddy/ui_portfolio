@@ -55,7 +55,7 @@
     }
 
     @media screen and (max-width: 479px) {
-      .ResearchContainer, .ResearchContainer.ssc  {
+      .ResearchContainer, .ResearchContainer.ssc, .ResearchContainer.bottom  {
 padding-bottom: 3.5rem
       }
       .ResearchContainer.bottom {

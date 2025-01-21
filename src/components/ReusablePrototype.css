@@ -6,10 +6,12 @@
   margin-bottom:8rem
 
 }
-
+.prototype_container_desktop {
+  margin-bottom: 4rem
+}
 @media screen and (min-width: 768px) and (max-width: 1030px) {
   .PrototypeContainer {
-    width: 90%
+    width: 100%
   }
   .prototype {
     width: 25rem;
@@ -17,18 +19,27 @@
 }
 
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .PrototypeContainer {
-    width: 90%
+    width: 100%
+  }
+  .prototype_container_desktop, .prototype_container_mobile{
+    width: 100%
+  }
+  .prototype.fh_desktop {
+    width: 70%
+  }
+  .prototype.fh_mobile {
+    width: 30%
   }
 }
 
 @media screen and (max-width: 479px)  {
   .PrototypeContainer {
-    width: 85%;
     margin-bottom: 7rem
   }
   .prototype {
-    width: 75%
+    width: 50%
   }
+
 }
