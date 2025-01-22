@@ -4,6 +4,8 @@ import './NavbarMobile.css'
 import logo from '../../assets/swirl_sm.jpg'
 import MenuButton from './MenuButton'
 import navActive from '../../assets/bug.svg'
+// import { Style } from '@material-ui/icons'
+// import { MenuOpen } from '@material-ui/icons'
 
 export const NavbarMobile = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -17,6 +19,7 @@ export const NavbarMobile = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
+
   const handleMouseInHome = () => {
     setHoverHome(true)
   }

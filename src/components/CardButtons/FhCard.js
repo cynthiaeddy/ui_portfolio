@@ -1,9 +1,8 @@
 import { Link } from 'react-router-dom'
 import desktop from '../../assets/fh/feline_desktop.png'
-// eslint-disable-next-line no-unused-vars
 import mobile from '../../assets/fh/mobile_home.png'
-
 import './CardButtons.css'
+
 export const FhCard = () => {
   return (
     <Link to='/ux_ui/fh_case_study' className='CardContainer fh'>
