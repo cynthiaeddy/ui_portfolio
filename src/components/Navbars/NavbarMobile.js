@@ -77,7 +77,7 @@ export const NavbarMobile = () => {
             onMouseLeave={handleMouseOutHome}
           >
             {hoverHome ? (
-              <div className='hover_item'>
+              <div className='hover_item hover'>
                 Home
                 <img
                   src={navActive}
@@ -107,7 +107,7 @@ export const NavbarMobile = () => {
             onMouseLeave={handleMouseOutUx}
           >
             {hoverUx ? (
-              <div className='hover_item'>
+              <div className='hover_item hover'>
                 ux/ui
                 <img
                   src={navActive}
@@ -137,7 +137,7 @@ export const NavbarMobile = () => {
             onMouseLeave={handleMouseOutDesign}
           >
             {hoverDesign ? (
-              <div className='hover_item'>
+              <div className='hover_item hover'>
                 design
                 <img
                   src={navActive}
@@ -167,7 +167,7 @@ export const NavbarMobile = () => {
             onMouseLeave={handleMouseOutDev}
           >
             {hoverDev ? (
-              <div className='hover_item'>
+              <div className='hover_item hover'>
                 development
                 <img
                   src={navActive}
@@ -197,7 +197,7 @@ export const NavbarMobile = () => {
             onMouseLeave={handleMouseOutAbout}
           >
             {hoverAbout ? (
-              <div className='hover_item'>
+              <div className='hover_item hover'>
                 about
                 <img
                   src={navActive}
@@ -227,7 +227,7 @@ export const NavbarMobile = () => {
             onMouseLeave={handleMouseOutContact}
           >
             {hoverContact ? (
-              <div className='hover_item'>
+              <div className='hover_item hover'>
                 contact
                 <img
                   src={navActive}
