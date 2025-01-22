@@ -6,8 +6,18 @@ export const OpenerFh = () => {
   return (
     <section className='OpenerContainer'>
       <div className='Opener fh'>
-        <img className='OpenerFoto desktop' src={desktop} alt={desktop} />
-        <img className='OpenerFoto mobile' src={mobile} alt={mobile} />
+        <img
+          className='OpenerFoto desktop'
+          rel='preload'
+          src={desktop}
+          alt={desktop}
+        />
+        <img
+          className='OpenerFoto mobile'
+          rel='preload'
+          src={mobile}
+          alt={mobile}
+        />
       </div>
       <div className='background'></div>
       <div className='textWrapper'>
