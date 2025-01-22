@@ -3,7 +3,7 @@ import ScrollToTop from './components/ScrollToTop'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css'
 import { Navbar } from './components/Navbars/Navbar'
-// import { NavbarMobile } from './components/Navbars/NavbarMobile'
+import { NavbarMobile } from './components/Navbars/NavbarMobile'
 import { Home } from './pages/Home/Home'
 import { Print } from './pages/Print/Print'
 import { Development } from './pages/Development/Development'
@@ -34,7 +34,7 @@ const App = () => {
   }, [])
 
   // Define breakpoints for screen sizes
-  // const isMobile = windowWidth <= 767
+  const isMobile = windowWidth <= 767
   const isTablet = windowWidth >= 479 && windowWidth <= 1030
   const isDesktop = windowWidth >= 1031
 
@@ -60,8 +60,8 @@ const App = () => {
     <div className='AppContainer'>
       <Router>
         <ScrollToTop />
-        {/* {!isMobile ? <Navbar /> : <NavbarMobile />} */}
-        <Navbar />
+        {!isMobile ? <Navbar /> : <NavbarMobile />}
+        {/* <Navbar /> */}
         {routes}
       </Router>
     </div>

@@ -1,0 +1,89 @@
+#navbar-mobile {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  border: 0.5px solid black;
+  background: white
+
+}
+
+#navbar-mobile ul {
+  width: 100vw;
+  position: absolute;
+  margin: 0;
+  margin-top: .05rem
+}
+
+#navbar-mobile a {
+  color: rgba(0,0,0,.5);
+}
+.logo {
+  width: 45px;
+  }
+  .Navbar-logo {
+    margin-top: 1.5rem
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+
+li:first-child {
+  padding-left: 20px;
+}
+.navbar-mobile-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item_mobile{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.navbar-spacer {
+  width: 6.5rem
+}
+.navbar-logo.mobile {
+  margin-top: 5rem
+}
+
+ul.navbar-mobile {
+  padding: 0
+}
+.nav-item.mobile {
+  padding: 2rem
+}
+.nav-item.mobile.top {
+  margin-top:20%
+}
+.navbar-mobile.active {
+  display: flex;
+  height: 100vh;
+  background:#FAF9F8;
+  flex-direction: column;
+  padding-top: 15%
+  }
+
+  .navbar-mobile.not-active {
+    display: none
+  }
+  .navActive_visable {
+    width: 1.1rem;
+    visibility: visible;
+  }
+  .navActive_visable.hidden {
+    visibility: hidden
+  }
+
+  .hover_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hover_item.hover {
+    font-weight: 600;
+  }
