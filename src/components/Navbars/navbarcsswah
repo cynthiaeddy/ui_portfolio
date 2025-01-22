@@ -9,7 +9,7 @@
   z-index: 100;
   background: white;
   margin-bottom: 2rem;
-  border: 0.5px solid black;
+  border-bottom: 0.5px solid black;
   padding-left: 10%;
   padding-right: 10%
 
@@ -27,21 +27,23 @@
   padding-left: 0
 }
 
-* {
+/* a.nav-links {
   margin: 0;
   padding: 0;
   border: 0;
-  color: #000;
+  color: rgba(0,0,0,.5);
 text-align: center;
 font-family: neue-haas-grotesk-text, sans-serif;
 font-size: 1.1rem;
 font-style: normal;
-font-weight: 400;
+font-weight: 500;
 line-height: 3.5rem;
 letter-spacing: .35rem;
 text-transform: uppercase;
 text-decoration-style: none;
-}
+} */
+
+
 .Navbar-logo {
   margin-top: 1.5rem
 }
@@ -65,7 +67,7 @@ width: 45px;
 }
 
 .nav-item {
-padding: 20px;
+padding: 20px 20px;
 display: flex;
 flex-direction: column;
 align-items: center
@@ -80,35 +82,34 @@ align-items: center
   visibility: visible;
 }
 
-
-.nav-link.active .icon {
+.nav-link.active  {
   visibility: visible; /* Visible when the link is active */
 }
-
-
 
 li:first-child {
 padding-left: 0;
 
 }
-.active {
-  font-weight: 600;
+/* .active {
+  font-weight: 700;
   letter-spacing: .34rem;
-}
+  color: black
+} */
 
 
-a.nav-links {
-  color: rgba(0,0,0,.5);
-  font-weight: 500;
+
+li {
+  padding: 0 2rem;
+  display: inline-block;
 }
 
 a.nav-links:hover {
-  color: rgba(0,0,0,.9);
+  color: black;
 }
 
-a.nav-links.active {
-  font-weight: 700;
-  color: black
+.nav-links.active {
+  color: black;
+  font-weight: 700
 }
 
 

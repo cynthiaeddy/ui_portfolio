@@ -8,14 +8,8 @@
 
 }
 
-#navbar-mobile ul {
-  width: 100vw;
-  position: absolute;
-  margin: 0;
-  margin-top: .05rem
-}
 
-#navbar-mobile a {
+a #navbar-mobile  {
   color: rgba(0,0,0,.5);
 }
 .logo {
@@ -25,8 +19,20 @@
     margin-top: 1.5rem
   }
 
-  a {
-    text-decoration: none !important;
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #000;
+  text-align: center;
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.5rem;
+  letter-spacing: .35rem;
+  text-transform: uppercase;
+  text-decoration-style: none;
   }
 
 li:first-child {
@@ -64,7 +70,8 @@ ul.navbar-mobile {
   height: 100vh;
   background:#FAF9F8;
   flex-direction: column;
-  padding-top: 15%
+  padding-top: 15%;
+  border-top: .5px solid black
   }
 
   .navbar-mobile.not-active {
@@ -87,3 +94,4 @@ ul.navbar-mobile {
   .hover_item.hover {
     font-weight: 600;
   }
+
