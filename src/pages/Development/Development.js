@@ -22,7 +22,7 @@ export const Development = () => {
         {<DevImages />}
         <div className='Footer'>
           <a
-            href='https://www.cynthiaeddy.com'
+            href='https://cynthiaeddy.dev'
             target='_blank'
             rel='noopener noreferrer'
             className='Footer_text'
