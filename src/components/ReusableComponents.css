@@ -12,6 +12,7 @@ h2 {
   text-transform: initial;
   letter-spacing: .01rem;
   line-height: 1.5;
+  font-weight: 200;
 
 }
 .h2_white {
@@ -236,6 +237,7 @@ ul {
   font-size: 5.5rem;
   float: left;
   margin-top: .75rem;
+  font-weight: 200;
 }
 .dropCap.hang.one {
   margin-left:1rem
