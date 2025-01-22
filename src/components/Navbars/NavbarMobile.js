@@ -7,17 +7,51 @@ import navActive from '../../assets/bug.svg'
 
 export const NavbarMobile = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [hover, setHover] = useState(false)
+  const [hoverHome, setHoverHome] = useState(false)
+  const [hoverUx, setHoverUx] = useState(false)
+  const [hoverDesign, setHoverDesign] = useState(false)
+  const [hoverDev, setHoverDev] = useState(false)
+  const [hoverAbout, setHoverAbout] = useState(false)
+  const [hoverContact, setHoverContact] = useState(false)
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
-  const handleMouseIn = () => {
-    setHover(true)
+  const handleMouseInHome = () => {
+    setHoverHome(true)
   }
-
-  const handleMouseOut = () => {
-    setHover(false)
+  const handleMouseOutHome = () => {
+    setHoverHome(false)
+  }
+  const handleMouseInUx = () => {
+    setHoverUx(true)
+  }
+  const handleMouseOutUx = () => {
+    setHoverUx(false)
+  }
+  const handleMouseInDesign = () => {
+    setHoverDesign(true)
+  }
+  const handleMouseOutDesign = () => {
+    setHoverDesign(false)
+  }
+  const handleMouseInDev = () => {
+    setHoverDev(true)
+  }
+  const handleMouseOutDev = () => {
+    setHoverDev(false)
+  }
+  const handleMouseInAbout = () => {
+    setHoverAbout(true)
+  }
+  const handleMouseOutAbout = () => {
+    setHoverAbout(false)
+  }
+  const handleMouseInContact = () => {
+    setHoverContact(true)
+  }
+  const handleMouseOutContact = () => {
+    setHoverContact(false)
   }
 
   return (
@@ -33,16 +67,16 @@ export const NavbarMobile = () => {
       </div>
       <ul className={`navbar-mobile ${isMenuOpen ? 'active' : 'not-active'}`}>
         {' '}
-        <li className='nav-item mobile top'>
+        <li className='nav-item_mobile'>
           <NavLink
             to='/'
             className='mobile_nav-links'
             activeClassName='mobile_active'
             onClick={toggleMenu}
-            onMouseEnter={handleMouseIn}
-            onMouseLeave={handleMouseOut}
+            onMouseEnter={handleMouseInHome}
+            onMouseLeave={handleMouseOutHome}
           >
-            {hover ? (
+            {hoverHome ? (
               <div className='hover_item'>
                 Home
                 <img
@@ -52,20 +86,27 @@ export const NavbarMobile = () => {
                 />
               </div>
             ) : (
-              <>Home</>
+              <div className='hover_item'>
+                home
+                <img
+                  src={navActive}
+                  className='navActive_visable hidden'
+                  alt='navActive'
+                />
+              </div>
             )}
           </NavLink>
         </li>
-        <li className='nav-item mobile top'>
+        <li className='nav-item_mobile'>
           <NavLink
             to='/ux_ui'
             className='mobile_nav-links'
             activeClassName='mobile_active'
             onClick={toggleMenu}
-            onMouseEnter={handleMouseIn}
-            onMouseLeave={handleMouseOut}
+            onMouseEnter={handleMouseInUx}
+            onMouseLeave={handleMouseOutUx}
           >
-            {hover ? (
+            {hoverUx ? (
               <div className='hover_item'>
                 ux/ui
                 <img
@@ -75,20 +116,27 @@ export const NavbarMobile = () => {
                 />
               </div>
             ) : (
-              <>ux/ui</>
+              <div className='hover_item'>
+                ux/ui
+                <img
+                  src={navActive}
+                  className='navActive_visable hidden'
+                  alt='navActive'
+                />
+              </div>
             )}
           </NavLink>
         </li>
-        <li className='nav-item mobile top'>
+        <li className='nav-item_mobile'>
           <NavLink
             to='/design'
             className='mobile_nav-links'
             activeClassName='mobile_active'
             onClick={toggleMenu}
-            onMouseEnter={handleMouseIn}
-            onMouseLeave={handleMouseOut}
+            onMouseEnter={handleMouseInDesign}
+            onMouseLeave={handleMouseOutDesign}
           >
-            {hover ? (
+            {hoverDesign ? (
               <div className='hover_item'>
                 design
                 <img
@@ -98,100 +146,107 @@ export const NavbarMobile = () => {
                 />
               </div>
             ) : (
-              <>design</>
+              <div className='hover_item'>
+                design
+                <img
+                  src={navActive}
+                  className='navActive_visable hidden'
+                  alt='navActive'
+                />
+              </div>
             )}
           </NavLink>
         </li>
-        {/* <li>
-          <NavLink
-            to='/'
-            className='nav-links'
-            activeClassName='active'
-            onClick={toggleMenu}
-          >
-            Home
-            <img
-              src={navActive}
-              className='navActive'
-              alt='navActive'
-              // style={{
-              //   visibility: ({ isActive }) => (isActive ? 'visible' : 'hidden'),
-              // }}
-            />
-            <span
-              className={`menu ${isMenuOpen ? 'active' : 'not-active'}`}
-            ></span>
-          </NavLink>
-        </li>
-        <li className='nav-item mobile'>
-          <NavLink to='/ux_ui' className='nav-links' activeClassName='active'>
-            ux/ui
-            <img
-              src={navActive}
-              className='navActive'
-              alt='navActive'
-              style={{
-                visibility: ({ isActive }) => (isActive ? 'visible' : 'hidden'),
-              }}
-            />
-          </NavLink>
-        </li>
-        <li className='nav-item mobile'>
-          <NavLink to='/design' className='nav-links' activeClassName='active'>
-            design
-            <img
-              src={navActive}
-              className='navActive'
-              alt='navActive'
-              style={{
-                visibility: ({ isActive }) => (isActive ? 'visible' : 'hidden'),
-              }}
-            />
-          </NavLink>
-        </li>
-        <li className='nav-item mobile'>
+        <li className='nav-item_mobile'>
           <NavLink
             to='/development'
-            className='nav-links'
-            activeClassName='active'
+            className='mobile_nav-links'
+            activeClassName='mobile_active'
+            onClick={toggleMenu}
+            onMouseEnter={handleMouseInDev}
+            onMouseLeave={handleMouseOutDev}
           >
-            development
-            <img
-              src={navActive}
-              className='navActive'
-              alt='navActive'
-              style={{
-                visibility: ({ isActive }) => (isActive ? 'visible' : 'hidden'),
-              }}
-            />
+            {hoverDev ? (
+              <div className='hover_item'>
+                development
+                <img
+                  src={navActive}
+                  className='navActive_visable'
+                  alt='navActive'
+                />
+              </div>
+            ) : (
+              <div className='hover_item'>
+                development
+                <img
+                  src={navActive}
+                  className='navActive_visable hidden'
+                  alt='navActive'
+                />
+              </div>
+            )}
           </NavLink>
         </li>
-        <li className='nav-item mobile'>
-          <NavLink to='/about' className='nav-links' activeClassName='active'>
-            about
-            <img
-              src={navActive}
-              className='navActive'
-              alt='navActive'
-              style={{
-                visibility: ({ isActive }) => (isActive ? 'visible' : 'hidden'),
-              }}
-            />
+        <li className='nav-item_mobile'>
+          <NavLink
+            to='/about'
+            className='mobile_nav-links'
+            activeClassName='mobile_active'
+            onClick={toggleMenu}
+            onMouseEnter={handleMouseInAbout}
+            onMouseLeave={handleMouseOutAbout}
+          >
+            {hoverAbout ? (
+              <div className='hover_item'>
+                about
+                <img
+                  src={navActive}
+                  className='navActive_visable'
+                  alt='navActive'
+                />
+              </div>
+            ) : (
+              <div className='hover_item'>
+                about
+                <img
+                  src={navActive}
+                  className='navActive_visable hidden'
+                  alt='navActive'
+                />
+              </div>
+            )}
           </NavLink>
         </li>
-        <li className='nav-item mobile'>
-          <NavLink to='/contact' className='nav-links' activeClassName='active'>
-            contact
-            <img
-              src={navActive}
-              className='navActive'
-              alt='navActive'
-              style={{
-                visibility: ({ isActive }) => (isActive ? 'visible' : 'hidden'),
-              }}
-            />
+        <li className='nav-item_mobile'>
+          <NavLink
+            to='/contact'
+            className='mobile_nav-links'
+            activeClassName='mobile_active'
+            onClick={toggleMenu}
+            onMouseEnter={handleMouseInContact}
+            onMouseLeave={handleMouseOutContact}
+          >
+            {hoverContact ? (
+              <div className='hover_item'>
+                contact
+                <img
+                  src={navActive}
+                  className='navActive_visable'
+                  alt='navActive'
+                />
+              </div>
+            ) : (
+              <div className='hover_item'>
+                contact
+                <img
+                  src={navActive}
+                  className='navActive_visable hidden'
+                  alt='navActive'
+                />
+              </div>
+            )}
           </NavLink>
-        // </li> */}
+        </li>
       </ul>
     </nav>
   )
