@@ -7,9 +7,9 @@ export const OpenerNyt = () => {
   return (
     <section className='OpenerContainer'>
       <div className='Opener'>
-        <img className='OpenerFoto' src={opener} alt={opener} />
-        <img className='OpenerFoto' src={recipe} alt={recipe} />
-        <img className='OpenerFoto' src={grocery} alt={grocery} />
+        <img className='OpenerFoto' rel='preload' src={opener} alt={opener} />
+        <img className='OpenerFoto' rel='preload' src={recipe} alt={recipe} />
+        <img className='OpenerFoto' rel='preload' src={grocery} alt={grocery} />
       </div>
       <div className='background'></div>
       <div className='textWrapper'>
