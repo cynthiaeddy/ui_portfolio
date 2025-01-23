@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
 align-items: center;
+width: 100%
 
 }
 .PrintImages.fitness, .WebImages {
@@ -86,11 +87,30 @@ padding-right: 4rem
 
 @media screen and (min-width: 480px) and (max-width: 767px){
   .PrintImages.fitness, .WebImages {
-    padding-right: 3.25rem
+    padding-right: 6%
+    /* padding-right: 3.25rem */
+
+  }
+  .PrintImages {
+    width: 64%
+  }
+  .PrintImages.fitness {
+    width:38%
   }
 
   .WebChildContainer {
     margin-top: 2.5rem
+  }
+
+  .WebImages.phone {
+    width: 30%
+  }
+
+  .WebImages {
+    width: 40%
+  }
+  .WebImages.hb {
+    width: 34%
   }
 }
 
