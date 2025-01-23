@@ -21,7 +21,7 @@ export const PrintImages = () => {
         </figure>
       </div>
       <div className='WebChildContainer'>
-        <figure className='WebImages'>
+        <figure className='WebImages phone'>
           <img className='WebImage' src={phone} alt={phone} />
           <figcaption className='Print_captions'>
             women&apos;s health <br />
