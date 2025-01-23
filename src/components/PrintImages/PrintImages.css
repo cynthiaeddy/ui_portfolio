@@ -87,15 +87,19 @@ padding-right: 4rem
 
 @media screen and (min-width: 480px) and (max-width: 767px){
   .PrintImages.fitness, .WebImages {
-    padding-right: 6%
+    /* padding-right: 6% */
     /* padding-right: 3.25rem */
+    padding-right: 0;
 
   }
   .PrintImages {
-    width: 64%
+    width: 63%
+    /* width: 64% */
+
   }
   .PrintImages.fitness {
-    width:38%
+    width:31.5%
+    /* width:38% */
   }
 
   .WebChildContainer {
@@ -103,14 +107,22 @@ padding-right: 4rem
   }
 
   .WebImages.phone {
-    width: 30%
+    width: 24%
+    /* width: 30% */
+
   }
 
   .WebImages {
-    width: 40%
+    width: 34%
+    /* width: 40% */
+
   }
   .WebImages.hb {
     width: 34%
+  }
+  .Print_captions {
+    margin-top: 1.5rem;
+
   }
 }
 
