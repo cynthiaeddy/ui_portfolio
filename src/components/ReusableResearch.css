@@ -25,7 +25,7 @@
   margin-top: 2rem
 }
 
-@media screen and (min-width: 768px) and (max-width: 1030px) {
+@media screen and (min-width: 769px) and (max-width: 1030px) {
   .ResearchContainer.bottom {
     margin-bottom: 8rem;
     padding-bottom: 6.5rem;
@@ -34,7 +34,7 @@
     margin-top: -5rem;
 }
   }
-  @media screen and (min-width: 480px) and (max-width: 767px) {
+  @media screen and (min-width: 480px) and (max-width: 768px) {
     .competitive.persona {
       margin-top: -4rem;
   }

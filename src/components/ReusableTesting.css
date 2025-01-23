@@ -12,7 +12,7 @@
   margin-top: 1.5rem;
   width: 95rem;
 }
-@media screen and (min-width: 768px) and (max-width: 1030px) {
+@media screen and (min-width: 769px) and (max-width: 1030px) {
   .TestingContainer.ssc {
     padding-bottom: 2rem;
     margin-bottom: 7.5rem;
@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) and (max-width: 768px) {
   .TestingContainer, .TestingContainer.fh {
     padding-bottom: 4rem;
     margin-bottom: 8rem
