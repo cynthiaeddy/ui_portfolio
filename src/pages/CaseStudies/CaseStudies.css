@@ -7,7 +7,7 @@ overflow-x: hidden
 }
 
  /* ///// Media Queries ///// */
- @media screen and (max-width: 767px)  {
+ @media screen and (max-width: 768px)  {
   .Container.studies {
     width: 100%
   }

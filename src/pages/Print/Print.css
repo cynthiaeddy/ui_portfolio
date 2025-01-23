@@ -22,7 +22,7 @@
  /* ///// Media Queries ///// */
 
 
- @media screen and (max-width: 767px) {
+ @media screen and (max-width: 768px) {
   .Footer.editorial {
     margin-top: 3.5rem
   }
