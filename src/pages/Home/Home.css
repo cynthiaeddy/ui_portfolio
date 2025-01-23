@@ -7,8 +7,8 @@
   letter-spacing: -.03em;
   line-height: 1.1;
   margin-left: 4.3rem;
-  color: rgba(71, 71, 69, 0.5);
-  /* color: rgba(0, 0, 0, 0.5); */
+  /* color: rgba(71, 71, 69, 0.5); */
+  color: rgba(0, 0, 0, 0.5);
   background-color: inherit;
   cursor:pointer;
 }
@@ -20,11 +20,15 @@
 }
 
 .HomeButton:hover {
-  color: rgb(256, 228, 195);
+  /* color: rgb(256, 228, 195); */
+  color: rgba(0, 0, 0, 0.3);
+
 
 }
 .HomeButton.ux:hover {
-  color: rgba(256, 228, 195, 0.5)
+  /* color: rgba(256, 228, 195, 0.5) */
+  color: rgba(0, 0, 0, 0.3);
+
   /* color: #808080; */
 
 }
