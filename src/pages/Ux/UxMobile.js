@@ -10,7 +10,7 @@ export const UxMobile = () => {
         <div className='main_type'>i am</div>
         <div className='HomeButtonContainer'>
           <div className='UxButton '>
-            a ux<span className='smallSlash default'>/</span>ui designer{' '}
+            a ui<span className='smallSlash default'>/</span>ux designer{' '}
           </div>
           <NavLink to='/design' className='HomeButton'>
             print & digital designer

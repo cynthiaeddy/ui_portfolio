@@ -60,6 +60,31 @@ letter-spacing: .01rem;
 overflow-y: scroll;
 font-weight: 300
 }
+.AboutInfo {
+  display: flex;
+   justify-content: left;
+   height: 5rem;
+}
+.AboutResume {
+  font-weight: 600;
+  font-size: 1rem;
+  padding-top: 1rem;
+  letter-spacing: .34rem;
+  text-align: left;
+}
+.AboutResume:hover {
+  font-weight: 300;
+  letter-spacing: .35rem;
+}
+.AboutResume.download {
+  margin-left: 1rem;
+}
+.AboutResume.view {
+  margin-right: 1rem
+}
+.AboutResume_span {
+  margin-left: 1.5rem;
+}
 
 .Container.about {
   display: flex;
@@ -78,6 +103,9 @@ flex-direction: column;
 margin-bottom: 4rem;
 margin-left: 2.5rem
 }
+.AboutResume_span {
+  visibility: visible;
+}
 
 /* ///// Media Queries ///// */
 @media screen and (min-width: 769px) and (max-width: 1030px) {
@@ -90,6 +118,24 @@ margin-left: 2.5rem
   }
   .AboutImages {
     min-width: 400px
+  }
+
+}
+
+@media screen and (max-width: 768px)  {
+  .AboutInfo {
+    flex-direction: column;
+    height:fit-content;
+  }
+
+  .AboutResume.download {
+    margin: 0
+  }
+  .AboutResume.view {
+    margin-bottom: -1.75rem
+  }
+  .AboutResume_span {
+    visibility: collapse;
   }
 
 }
@@ -113,6 +159,7 @@ margin-left: 2.5rem
 .AboutText {
   font-size: 1.9rem
 }
+
 }
 
 
@@ -143,4 +190,6 @@ margin-left: 2.5rem
   .AboutText {
     font-size: 1.9rem
   }
+
+
 }

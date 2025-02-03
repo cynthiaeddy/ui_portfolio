@@ -12,12 +12,12 @@ export const SplashScreen = () => {
       setTimePassed(true)
       setRedirect(true)
 
-      // window.location.replace('/ux_ui')
+      // window.location.replace('/ui_ux')
     }, 2000)
     return () => {
       clearTimeout(timer)
     }
   }, [])
 
-  return !timePassed ? <Home /> : redirect ? <Navigate to='./ux_ui' /> : null
+  return !timePassed ? <Home /> : redirect ? <Navigate to='./ui_ux' /> : null
 }

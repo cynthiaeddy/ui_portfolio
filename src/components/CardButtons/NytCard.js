@@ -3,7 +3,7 @@ import opener from '../../assets/nyt/home.png'
 import './CardButtons.css'
 export const NytCard = () => {
   return (
-    <Link to='/ux_ui/nyt_cooking_case_study' className='CardContainer'>
+    <Link to='/ui_ux/nyt_cooking_case_study' className='CardContainer'>
       <section className='Card'>
         <div className='CardText'>
           <div className='CardOpener'>

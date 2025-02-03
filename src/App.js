@@ -47,13 +47,13 @@ const App = () => {
       <Route exact path='/about' element={<About />} />
       <Route exact path='/contact' element={<Contact />} />
       <Route
-        path='/ux_ui'
+        path='/ui_ux'
         element={isDesktop ? <Ux /> : isTablet ? <UxTablet /> : <UxMobile />}
       />
 
-      <Route exact path='/ux_ui/ssc_case_study' element={<Ssc />} />
-      <Route exact path='/ux_ui/nyt_cooking_case_study' element={<Nyt />} />
-      <Route exact path='/ux_ui/fh_case_study' element={<Fh />} />
+      <Route exact path='/ui_ux/ssc_case_study' element={<Ssc />} />
+      <Route exact path='/ui_ux/nyt_cooking_case_study' element={<Nyt />} />
+      <Route exact path='/ui_ux/fh_case_study' element={<Fh />} />
     </Routes>
   )
   return (

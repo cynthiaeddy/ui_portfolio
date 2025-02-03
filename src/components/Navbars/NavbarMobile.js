@@ -102,7 +102,7 @@ export const NavbarMobile = () => {
         </li>
         <li className='nav-item_mobile'>
           <NavLink
-            to='/ux_ui'
+            to='/ui_ux'
             className='mobile_nav-links'
             activeClassName='mobile_active'
             onClick={toggleMenu}
@@ -111,7 +111,7 @@ export const NavbarMobile = () => {
           >
             {hoverUx ? (
               <div className='hover_item hover'>
-                ux/ui
+                ui/ux
                 <img
                   src={navActive}
                   className='navActive_visable'
@@ -120,7 +120,7 @@ export const NavbarMobile = () => {
               </div>
             ) : (
               <div className='hover_item'>
-                ux/ui
+                ui/ux
                 <img
                   src={navActive}
                   className='navActive_visable hidden'
