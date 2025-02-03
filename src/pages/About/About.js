@@ -1,6 +1,7 @@
 import me from '../../assets/about/me.png'
 import outside from '../../assets/about/outside.png'
 import quilt from '../../assets/about/quilt.png'
+import cynthiaeddy_resume from '../../assets/about/cynthia_eddy_resume.pdf'
 
 import './About.css'
 export const About = () => {
@@ -23,7 +24,7 @@ export const About = () => {
           <br />
           Outside of work, I&apos;m all about making—quilting, silversmithing,
           and experimenting in the kitchen. These creative outlets keep me
-          inspired and shape my work in UX/UI. I&apos;ve lived in New York for
+          inspired and shape my work in UI/UX. I&apos;ve lived in New York for
           decades, and the city (plus my hiking trips around it) constantly
           sparks new ideas. Travel also feeds my creativity—recent trips to
           Croatia and an upcoming adventure in Merida, Mexico, are already
@@ -36,6 +37,16 @@ export const About = () => {
           prototype, my goal is always to craft seamless, enjoyable user
           journeys.
         </h4>
+        <footer className='AboutInfo'>
+          <a href={cynthiaeddy_resume}>
+            <div className='AboutResume view'>
+              view my resume <span className='AboutResume_span'> |</span>{' '}
+            </div>
+          </a>
+          <a href={cynthiaeddy_resume} download>
+            <div className='AboutResume download'> download my resume</div>
+          </a>
+        </footer>
       </div>
     </section>
   )

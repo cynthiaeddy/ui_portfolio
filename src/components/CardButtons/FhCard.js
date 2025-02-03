@@ -5,7 +5,7 @@ import './CardButtons.css'
 
 export const FhCard = () => {
   return (
-    <Link to='/ux_ui/fh_case_study' className='CardContainer fh'>
+    <Link to='/ui_ux/fh_case_study' className='CardContainer fh'>
       <section className='Card fh'>
         <div className='CardImage fh'>
           <img className='IndiCard fh' src={desktop} alt={desktop} />

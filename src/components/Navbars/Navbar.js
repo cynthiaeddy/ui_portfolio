@@ -23,8 +23,8 @@ export const Navbar = () => {
             </NavLink>
           </li>
           <li className='nav-item'>
-            <NavLink to='/ux_ui' className='nav-links' activeClassName='active'>
-              ux/ui
+            <NavLink to='/ui_ux' className='nav-links' activeClassName='active'>
+              ui/ux
               <img
                 src={navActive}
                 className='navActive'
