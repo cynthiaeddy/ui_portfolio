@@ -29,7 +29,7 @@
 .prototype_container_desktop {
   margin-bottom: 4rem
 }
-@media screen and (min-width: 768px) and (max-width: 1030px) {
+@media screen and (min-width: 769px) and (max-width: 1030px) {
   .PrototypeContainer {
     width: 100%
   }
@@ -51,7 +51,7 @@
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .PrototypeContainer, .PrototypeContainer.fh {
     width: 100%;
       flex-direction: column;

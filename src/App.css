@@ -148,7 +148,7 @@ button {
 
 
 /* ///// Media Queries ///// */
-@media screen and (min-width: 768px) and (max-width: 1030px) {
+@media screen and (min-width: 769px) and (max-width: 1030px) {
   .main_type {
     font-size: 20rem;
   }
@@ -166,7 +166,7 @@ h6 {
 }
 
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) and (max-width: 768px) {
   .main_type {
     font-size: 17rem;
   }

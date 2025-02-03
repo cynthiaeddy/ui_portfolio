@@ -34,7 +34,7 @@ const App = () => {
   }, [])
 
   // Define breakpoints for screen sizes
-  const isMobile = windowWidth <= 767
+  const isMobile = windowWidth <= 768
   const isTablet = windowWidth >= 479 && windowWidth <= 1030
   const isDesktop = windowWidth >= 1031
 

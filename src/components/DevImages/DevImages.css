@@ -18,13 +18,13 @@
 
 /* ///// Media Queries ///// */
 
-@media screen and (min-width: 768px) and (max-width: 1030px) {
+@media screen and (min-width: 769px) and (max-width: 1030px) {
   .DevImagesContainer {
     gap:5rem
   }
   }
 
-  @media screen and (min-width: 480px) and (max-width: 767px) {
+  @media screen and (min-width: 480px) and (max-width: 768px) {
     .DevImagesContainer {
       gap:3.5rem
     }

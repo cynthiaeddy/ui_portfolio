@@ -7,7 +7,7 @@ import './PrintImages.css'
 
 export const PrintImages = () => {
   return (
-    <section className='PrintImagesContainer'>
+    <>
       <div className='PrintChildContainer'>
         <figure className='PrintImages fitness'>
           <img className='PrintImage responsive fitness' src={fit} alt={fit} />
@@ -21,7 +21,7 @@ export const PrintImages = () => {
         </figure>
       </div>
       <div className='WebChildContainer'>
-        <figure className='WebImages'>
+        <figure className='WebImages phone'>
           <img className='WebImage' src={phone} alt={phone} />
           <figcaption className='Print_captions'>
             women&apos;s health <br />
@@ -45,6 +45,6 @@ export const PrintImages = () => {
           </figcaption>
         </figure>
       </div>
-    </section>
+    </>
   )
 }

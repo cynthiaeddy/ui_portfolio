@@ -7,6 +7,7 @@
   letter-spacing: -.03em;
   line-height: 1.1;
   margin-left: 4.3rem;
+  /* color: rgba(71, 71, 69, 0.5); */
   color: rgba(0, 0, 0, 0.5);
   background-color: inherit;
   cursor:pointer;
@@ -19,11 +20,17 @@
 }
 
 .HomeButton:hover {
+  /* color: rgb(256, 228, 195); */
   color: rgba(0, 0, 0, 0.3);
+
 
 }
 .HomeButton.ux:hover {
-  color: #808080;
+  /* color: rgba(256, 228, 195, 0.5) */
+  color: rgba(0, 0, 0, 0.3);
+
+  /* color: #808080; */
+
 }
 .HomeButton.ux.default {
   color: #808080;
@@ -62,22 +69,23 @@ hr {
 }
 
   a.HomeButton.ux:hover > span.smallSlash  {
-    color: #808080}
+    border-color:  rgba(256, 228, 195, 0.5)
+  }
 
     .HomeButton.ux:hover .under {
-      border-color:  #808080;
+      border-color: rgba(256, 228, 195, 0.5)
     }
 
 
 
     /* ///// Media Queries ///// */
-@media screen and (min-width: 768px) and (max-width: 1030px) {
+@media screen and (min-width: 769px) and (max-width: 1030px) {
 
   .HomeButton {
     font-size: 4.75rem
   }
   }
-  @media screen and (min-width: 480px) and (max-width: 767px) {
+  @media screen and (min-width: 480px) and (max-width: 768px) {
 
     .HomeButton {
       font-size: 4rem;
