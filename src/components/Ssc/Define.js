@@ -12,7 +12,7 @@ export const Define = () => {
           <span className='leadin black'>
             After identifying users&apos; core needs,{' '}
           </span>{' '}
-          I distilled insights insights into three priorities:
+          I distilled insights into three priorities:
         </h5>
         <section>
           <div className='dropCap hang one'>1</div>

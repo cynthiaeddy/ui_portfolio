@@ -17,7 +17,7 @@ export const Testing = () => {
             for ease of use, finding the purchasing process intuitive and the
             navigation straightforward. However, some users noted that the
             sustainability information felt vague and suggested adding a
-            dedicated page to clarify the companyaposs practices. Overall, the
+            dedicated page to clarify the company&apos;s practices. Overall, the
             site scored 98% for ease of use and 100% for checkout flow. <br />
             <br />
             <span className='leadin'>
