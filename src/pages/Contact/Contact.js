@@ -48,15 +48,6 @@ export const Contact = () => {
   }
   console.log('name', name, 'email', email, 'statusMessage', statusMessage)
 
-  console.log(
-    'keys, service',
-    process.env.REACT_APP_SERVICE_ID,
-    'template',
-    process.env.REACT_APP_TEMPLATE_ID,
-    'PUBLIC',
-    process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
-  )
-
   return (
     <section className={`Container contact ${isSubmitted ? 'submitted' : ''}`}>
       <div className='Container_overlord'>
