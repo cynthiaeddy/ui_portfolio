@@ -1,6 +1,7 @@
   .Container.contact {
     display: flex;
-    width: 95rem;
+    width: 84rem;
+    /* width: 94rem; */
     margin: auto;
     margin-top: 26rem
     }
@@ -64,7 +65,9 @@
     }
 
     .AboutContact {
-      font-size: 5.5rem;
+      font-size: 6.3rem;
+      /* font-size: 7rem; */
+      /* font-size: 5.5rem; */
       text-transform: lowercase;
       font-weight:600;
       letter-spacing: -.03em;

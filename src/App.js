@@ -2,9 +2,12 @@ import { useState, useEffect } from 'react'
 import ScrollToTop from './components/ScrollToTop'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css'
-import { Navbar } from './components/Navbars/Navbar'
+// import { Navbar } from './components/Navbars/Navbar'
+import { NavbarNew } from './components/Navbars/NavbarNew'
 import { NavbarMobile } from './components/Navbars/NavbarMobile'
-import { Home } from './pages/Home/Home'
+// import { Home } from './pages/Home/Home'
+import { HomeNew } from './pages/HomeNew/HomeNew'
+
 import { Print } from './pages/Print/Print'
 import { Development } from './pages/Development/Development'
 import { About } from './pages/About/About'
@@ -15,7 +18,7 @@ import { UxMobile } from './pages/Ux/UxMobile'
 import { Ssc } from './pages/CaseStudies/Ssc'
 import { Fh } from './pages/CaseStudies/Fh'
 import { Nyt } from './pages/CaseStudies/Nyt'
-import { SplashScreen } from './components/SplashScreen'
+// import { SplashScreen } from './components/SplashScreen'
 
 const App = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
@@ -40,8 +43,8 @@ const App = () => {
 
   let routes = (
     <Routes>
-      <Route exact path='/' element={<SplashScreen />} />
-      <Route exact path='/' element={<Home />} />
+      {/* <Route exact path='/' element={<SplashScreen />} /> */}
+      <Route exact path='/' element={<HomeNew />} />
       <Route exact path='/design' element={<Print />} />
       <Route exact path='/development' element={<Development />} />
       <Route exact path='/about' element={<About />} />
@@ -60,7 +63,7 @@ const App = () => {
     <div className='AppContainer'>
       <Router>
         <ScrollToTop />
-        {!isMobile ? <Navbar /> : <NavbarMobile />}
+        {!isMobile ? <NavbarNew /> : <NavbarMobile />}
         {/* <Navbar /> */}
         {routes}
       </Router>

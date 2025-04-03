@@ -1,0 +1,67 @@
+.CardContainerHome {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6rem;
+
+}
+.IndieCard {
+  border: .75px solid #000;
+  display: flex;
+  padding: 4rem;
+  /* height: 55rem; */
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF;
+  cursor: pointer;
+
+}
+.ImagesContainer {
+  display: flex;
+  flex-direction: row
+}
+.CardImageHome {
+  filter: drop-shadow(2px 2px 3px rgba(64, 63, 63, 0.5));
+  /* max-width: 100%; */
+  height: auto;
+  aspect-ratio: auto;
+  margin-bottom: 2rem
+
+}
+.CardImageHome.jamesdt {
+  width:100%
+}
+
+.Card_hed {
+  color: black;
+  line-height: .75
+}
+.Card_blurb {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+
+
+.CardDek {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  /* align-items: center; */
+/*  */
+}
+.Card_p{
+  text-align: center;
+  margin-top: 1rem
+}
+
+.Button_website {
+  align-self: center;
+}
+
+.hed_and_blurb{
+
+}
+
