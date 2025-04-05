@@ -18,6 +18,8 @@ import { UxMobile } from './pages/Ux/UxMobile'
 import { Ssc } from './pages/CaseStudies/Ssc'
 import { Fh } from './pages/CaseStudies/Fh'
 import { Nyt } from './pages/CaseStudies/Nyt'
+import { Footer } from './components/Footer/Footer'
+
 // import { SplashScreen } from './components/SplashScreen'
 
 const App = () => {
@@ -67,6 +69,7 @@ const App = () => {
         {/* <Navbar /> */}
         {routes}
       </Router>
+      <Footer />
     </div>
   )
 }

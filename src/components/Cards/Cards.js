@@ -13,7 +13,7 @@ export const Cards = () => {
   return (
     <>
       <section className='CardContainerHome'>
-        <Link to='' className='IndieCard'>
+        <Link to='/ui_ux/ssc_case_study' className='IndieCard'>
           <img className='CardImageHome ssc' src={ssc} alt={ssc} />
           <div className='CardDek'>
             <h2 className='Card_hed'>Sustainable Soap Co.</h2>
@@ -27,7 +27,7 @@ export const Cards = () => {
             <button className='Button_website'>view</button>
           </div>
         </Link>
-        <Link to='' className='IndieCard'>
+        <Link to='https://www.jamesoseland.com' className='IndieCard'>
           <img
             className='CardImageHome'
             src={james_desktop}
@@ -47,7 +47,10 @@ export const Cards = () => {
             <button className='Button_website'>view</button>
           </div>
         </Link>
-        <Link to='' className='IndieCard'>
+        <Link
+          to='https://www.cynthiaeddy.me/womens-health-ipad'
+          className='IndieCard'
+        >
           <img className='CardImageHome wh' src={wh} alt={wh} />
           <div className='CardDek'>
             <h2 className='Card_hed'>Women&apos;s Health</h2>
@@ -61,7 +64,7 @@ export const Cards = () => {
             <button className='Button_website'>view</button>
           </div>
         </Link>
-        <Link to='' className='IndieCard'>
+        <Link to='/ui_ux/nyt_cooking_case_study' className='IndieCard'>
           <img className='CardImageHome nyt' src={nyt} alt={nyt} />
           <div className='CardDek'>
             <h2 className='Card_hed'>New York Times Cooking App</h2>
@@ -75,7 +78,7 @@ export const Cards = () => {
             <button className='Button_website'>view</button>
           </div>
         </Link>
-        <Link to='' className='IndieCard'>
+        <Link to='/ui_ux/fh_case_study' className='IndieCard'>
           <img className='CardImageHome jamesdt' src={fhd} alt={fhd} />
           <div className='CardDek'>
             <h2 className='Card_hed'>Feline Health</h2>
@@ -89,7 +92,7 @@ export const Cards = () => {
             <button className='Button_website'>view</button>
           </div>
         </Link>
-        <Link to='' className='IndieCard'>
+        <Link to='https://www.cynthiaeddy.me/print' className='IndieCard'>
           <img className='CardImageHome jamesdt' src={singles} alt={singles} />
           <div className='CardDek'>
             <h2 className='Card_hed'>Editorial Design</h2>
