@@ -15,8 +15,19 @@
   flex-direction: column;
   background-color: #FFF;
   cursor: pointer;
-
+  align-items: center;
 }
+
+.IndieCard:hover {
+  border: 1.5px solid rgba(0, 0, 0, 0.30);
+  background: #FFF;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
+  /* padding: 1.9rem */
+  }
+  .IndieCard.fh {
+    padding: 4rem 3rem 4rem 1rem
+  }
+
 .ImagesContainer {
   display: flex;
   flex-direction: row
@@ -26,17 +37,24 @@
   /* max-width: 100%; */
   height: auto;
   aspect-ratio: auto;
-  margin-bottom: 2rem
+  margin-bottom: 2rem;
+  width:100%
 
 }
-.CardImageHome.jamesdt {
-  width:100%
+.CardImageHome.nyt, .CardImageHome.ssc{
+  width:95%
+}
+.CardImageHome.wh {
+  width:80%
 }
 
 .Card_hed {
   color: black;
-  line-height: .75
+  line-height: 1
 }
+/* .Card_hed.edit {
+  width: 50%
+} */
 .Card_blurb {
   text-align: center;
   font-size: 1rem;
@@ -49,19 +67,15 @@
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  /* align-items: center; */
-/*  */
+  margin-top: auto;
 }
 .Card_p{
   text-align: center;
-  margin-top: 1rem
+  margin: 1rem 0;
 }
 
 .Button_website {
   align-self: center;
 }
 
-.hed_and_blurb{
-
-}
 

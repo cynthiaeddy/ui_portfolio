@@ -14,7 +14,7 @@
 .HomeContainerBottom {
   width: 100%;
   display: flex;
-  margin-top: 18rem
+  margin-top: 24rem
 
 
 }
@@ -30,9 +30,7 @@
   cursor: pointer;
 
 }
-.IndiCard {
-  filter: drop-shadow(2px 2px 3px rgba(64, 63, 63, 0.5));
-}
+
 
 .AboutHome {
   /* font-size: 5.5rem; */
@@ -73,3 +71,4 @@ margin-left: 23rem;
   width: 8.5rem;
   font-size: 1rem
 }
+
