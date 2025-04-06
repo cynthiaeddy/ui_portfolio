@@ -1,6 +1,7 @@
 import '../ReusableOpener.css'
 import desktop from '../../assets/fh/feline_desktop.png'
 import mobile from '../../assets/fh/mobile_home.png'
+// import fh_opener from '../../assets/fh/fh_.png'
 
 export const OpenerFh = () => {
   return (
@@ -18,6 +19,12 @@ export const OpenerFh = () => {
           src={mobile}
           alt={mobile}
         />
+        {/* <img
+          className='OpenerFoto mobile'
+          rel='preload'
+          src={fh_opener}
+          alt={fh_opener}
+        /> */}
       </div>
       <div className='background'></div>
       <div className='textWrapper'>

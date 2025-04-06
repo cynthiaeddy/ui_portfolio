@@ -47,10 +47,11 @@ export const Cards = () => {
             <button className='Button_website'>view</button>
           </div>
         </Link>
-        <Link
+        <Link to='/ui_ux/wh' className='IndieCard'>
+          {/* <Link
           to='https://www.cynthiaeddy.me/womens-health-ipad'
           className='IndieCard'
-        >
+        > */}
           <img className='CardImageHome wh' src={wh} alt={wh} />
           <div className='CardDek'>
             <h2 className='Card_hed'>Women&apos;s Health</h2>

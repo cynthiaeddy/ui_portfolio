@@ -14,7 +14,8 @@
 .HomeContainerBottom {
   width: 100%;
   display: flex;
-  margin-top: 24rem
+  margin-top: 24rem;
+  flex-direction: column;
 
 
 }

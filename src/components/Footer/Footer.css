@@ -3,6 +3,7 @@
   background: white;
   width: 100%;
   margin-top: 10rem;
-  border-top: 1px solid black
+  border-top: 1px solid black;
+  border-radius: 20px;
 }
 

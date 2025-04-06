@@ -18,7 +18,9 @@ import { UxMobile } from './pages/Ux/UxMobile'
 import { Ssc } from './pages/CaseStudies/Ssc'
 import { Fh } from './pages/CaseStudies/Fh'
 import { Nyt } from './pages/CaseStudies/Nyt'
-import { Footer } from './components/Footer/Footer'
+import { Wh } from './pages/Wh/Wh'
+
+// import { Footer } from './components/Footer/Footer'
 
 // import { SplashScreen } from './components/SplashScreen'
 
@@ -59,6 +61,7 @@ const App = () => {
       <Route exact path='/ui_ux/ssc_case_study' element={<Ssc />} />
       <Route exact path='/ui_ux/nyt_cooking_case_study' element={<Nyt />} />
       <Route exact path='/ui_ux/fh_case_study' element={<Fh />} />
+      <Route exact path='/ui_ux/wh' element={<Wh />} />
     </Routes>
   )
   return (
@@ -69,7 +72,7 @@ const App = () => {
         {/* <Navbar /> */}
         {routes}
       </Router>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
