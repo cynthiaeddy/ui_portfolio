@@ -16,6 +16,7 @@
   background-color: #FFF;
   cursor: pointer;
   align-items: center;
+  border-radius: 25px;
 }
 
 .IndieCard:hover {
