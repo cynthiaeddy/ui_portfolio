@@ -3,8 +3,8 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 // import ReactPlayer from 'react-player'
-import item1 from '../../assets/wh/wh_pho.mp4'
-import item2 from '../../assets/wh/wh_pho.mp4'
+import item1 from '../../assets/wh/try2.mp4'
+import item2 from '../../assets/wh/try3.mp4'
 const settings = {
   dots: true,
   infinite: true,
@@ -35,10 +35,10 @@ export const Carousel_whphone_slick = () => {
     <div className='whcarousel-container'>
       <Slider {...settings}>
         <div>
-          <video controls width='100%' src={item1}></video>
+          <video controls width='50%' src={item1}></video>
         </div>
         <div>
-          <video controls width='100%' src={item2}></video>
+          <video controls width='75%' src={item2}></video>
         </div>
         {/* Add more video slides as needed */}
       </Slider>
