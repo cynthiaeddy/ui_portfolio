@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Carousel_wh.css' // Custom CSS for your carousel
-import { items } from './items_phone' // Import items from the data folder
+import { items } from '../videos1' // Import items from the data folder
 import arrowL from '../../assets/ssc/arrowL.png'
 import arrowLhover from '../../assets/ssc/arrowLhover.png'
 import arrowR from '../../assets/ssc/arrowR.png'

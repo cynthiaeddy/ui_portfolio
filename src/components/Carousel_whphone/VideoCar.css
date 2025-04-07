@@ -1,0 +1,65 @@
+
+/* slick-carousel styles */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.video-carousel .slick-slide {
+  display: flex;
+  justify-content: center; /* Center the video within the carousel */
+}
+.video-carousel {
+  width: 50%;
+  margin: auto
+}
+
+
+/* Style for video size */
+/* .video-carousel {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid black;
+  border-radius: 30px;
+  margin: 0 auto;
+  padding: 4rem
+} */
+
+/* Custom Styling for Arrows */
+.slick-prev,
+.slick-next {
+  background-color: rgba(0, 0, 0, 0.5); /* Arrow background */
+  border-radius: 50%;                  /* Circular arrows */
+  color: white;                        /* Arrow color */
+  font-size: 24px;                     /* Arrow size */
+  padding: 10px;                       /* Arrow padding */
+  z-index: 1;                          /* Make sure arrows appear above videos */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  content: ''; /* Remove default arrow icon */
+}
+
+.slick-prev {
+  left: 10px;  /* Positioning left arrow */
+}
+
+.slick-next {
+  right: 10px; /* Positioning right arrow */
+}
+
+/* Dots Style */
+.slick-dots {
+  bottom: 10px; /* Adjust dot position */
+}
+
+.slick-dots li button {
+  background-color: rgba(255, 255, 255, 0.75); /* Dot background */
+  border-radius: 50%;                           /* Circular dots */
+  width: 12px;                                  /* Dot size */
+  height: 12px;                                 /* Dot size */
+}
+
+.slick-dots li.slick-active button {
+  background-color: white; /* Active dot color */
+}
