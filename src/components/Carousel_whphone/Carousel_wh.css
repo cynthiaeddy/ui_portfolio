@@ -29,6 +29,64 @@ margin-right: -3rem
 /* .carousel.carousel-slider{
   background-color: transparent !important;
 } */
+video::-webkit-media-controls-panel {
+  /* // Your styling here */
+  background-image: linear-gradient(white, white) !important
+  /* //Transparent for your case */
+
+
+
+}
+.slick-slider .slick-initialized {
+  margin: auto;
+}
+
+-webkit-appearance:none
+
+
+.slick-prev, .slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: relative;
+  /* top: 50%; */
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  /* color: transparent; */
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.slick-prev {
+  /* left: -25px; */
+  left: 100px;
+  color: black;
+}
+.slick-prev, .slick-next {
+  /* font-size: 0; */
+  /* line-height: 0; */
+  position: absolute;
+  top: 50%;
+  /* display: block; */
+  /* width: 20px; */
+  /* height: 20px; */
+  /* padding: 0; */
+  /* transform: translate(0, -50%); */
+  /* cursor: pointer; */
+  /* color: transparent; */
+  /* border: none; */
+  /* outline: none; */
+  /* background: transparent;
+
+video::-webkit-media-controls-panel {
+  background-color: transparent !important;
+  box-shadow: none !important
+}
+.slick-test .slick-track { background: none !important }
 .carousel .slide {
   background-color: transparent !important;
 }

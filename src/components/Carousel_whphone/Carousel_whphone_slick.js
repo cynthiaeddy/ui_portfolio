@@ -1,16 +1,24 @@
 import React from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
+// import GifPlayer from 'react-gif-player'
+
+// import 'slick-carousel/slick/slick-theme.css'
 // import ReactPlayer from 'react-player'
-import item1 from '../../assets/wh/try2.mp4'
-import item2 from '../../assets/wh/try3.mp4'
+// import item1 from '../../assets/wh/wh_pho.mp4'
+import item2 from '../../assets/wh/try.mp4'
+import item3 from '../../assets/wh/try2.mp4'
+import item4 from '../../assets/wh/try3.mp4'
+
+// import item2 from '../../assets/wh/beauty-discuss-ezgif.com-speed.gif'
 const settings = {
   dots: true,
   infinite: true,
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
+  // prevArrow: false,
+  // nextArrow: false,
   autoplay: false, // Set to true if you want videos to autoplay
   afterChange: () => {
     // Pause all videos
@@ -34,14 +42,84 @@ export const Carousel_whphone_slick = () => {
   return (
     <div className='whcarousel-container'>
       <Slider {...settings}>
+        {/* <div>
+          <video
+            controls
+            width='50%'
+            src={item1}
+            style={{
+              // minWidth: '100%',
+              // minHeight: '100%',
+              objectFit: 'cover',
+              width: 'auto',
+              height: 'auto',
+            }}
+          ></video>
+        </div> */}
         <div>
-          <video controls width='50%' src={item1}></video>
+          <video
+            controls
+            width='75%'
+            src={item2}
+            style={{
+              // minWidth: '100%',
+              // minHeight: '100%',
+              objectFit: 'cover',
+              width: 'auto',
+              height: 'auto',
+            }}
+          ></video>
         </div>
         <div>
-          <video controls width='75%' src={item2}></video>
+          <video
+            controls
+            width='75%'
+            src={item3}
+            style={{
+              // minWidth: '100%',
+              // minHeight: '100%',
+              objectFit: 'cover',
+              width: 'auto',
+              height: 'auto',
+            }}
+          ></video>
+        </div>
+        <div>
+          <video
+            controls
+            width='50%'
+            src={item4}
+            style={{
+              // minWidth: '100%',
+              // minHeight: '100%',
+              objectFit: 'cover',
+              width: 'auto',
+              height: 'auto',
+            }}
+          ></video>
         </div>
         {/* Add more video slides as needed */}
+        {/* <<Slider {...settings}>
+      <div>
+        <GifPlayer gif={item2} still={item2} autoplay={true} />
+      </div>
+      <div>
+        <GifPlayer gif={item2} still={item2} autoplay={true} />
+      </div> */}
       </Slider>
+      {/* <div style={{ width: '100%', height: '100%', overflow: 'hidden' }}> */}
+      {/* <video
+          src={src}
+          style={{
+            minWidth: '100%',
+            minHeight: '100%',
+            objectFit: 'cover',
+            width: 'auto',
+            height: 'auto',
+          }}
+          controls
+        /> */}
+      {/* </div> */}
     </div>
   )
 }

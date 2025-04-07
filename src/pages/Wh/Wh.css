@@ -5,3 +5,14 @@
   width: 100%;
   overflow-x: hidden;
 }
+video {
+  border: 1px solid black;
+  border-radius: 30px
+}
+.inline-gallery-container {
+  width: 100%;
+
+  /* // set 60% height */
+  height: 0;
+  padding-bottom: 65%;
+}

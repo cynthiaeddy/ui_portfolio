@@ -118,7 +118,7 @@ export const Design = () => {
           </li>
           <li className='black'>
             <h5 className='h5 black'>
-              Features usage instructions, ingredients, and customer reviews.{' '}
+              Features usage instructions, ingredients, and customer reviews.
             </h5>
           </li>
         </ul>
