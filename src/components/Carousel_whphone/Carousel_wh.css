@@ -18,7 +18,23 @@ background:  #231F20;
 margin-right: -3rem
 
 }
-
+.carousel .slide{
+  background-color: none;
+}
+.carousel .slide:hover{   background-color: transparent !important; }
+/* .video {
+  border-radius: 30px;
+  border: 1px solid black;
+} */
+/* .carousel.carousel-slider{
+  background-color: transparent !important;
+} */
+.carousel .slide {
+  background-color: transparent !important;
+}
+/* .carousel-container .carousel .slide {
+  background-color: transparent !important;
+} */
  .next-button {
   background:  #231F20;
   margin-left: -3rem
@@ -36,6 +52,15 @@ img.carousel-image {
   z-index: 50;
   background-color:  #231F20;
   margin-bottom:14rem
+}
+
+.carousel.carousel-slider .control-arrow {
+  top: 0;
+  color: #fff;
+  font-size: 26px;
+  bottom: 0;
+  margin-top: 0;
+  padding: 5px;
 }
 
 
