@@ -26,7 +26,7 @@ const NextArrow = ({ onClick, style }) => (
 
 const PrevArrow = ({ onClick, style }) => (
   <div
-    className='custom-arrow prev-arrow'
+    className='custom-arrow prev-arrow ipad'
     onClick={onClick}
     style={{
       ...style,

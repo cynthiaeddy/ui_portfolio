@@ -4,11 +4,8 @@
     margin: auto;
     margin-top: 16rem;
     flex-direction: column;
+    align-items: center;
 
-}
-.slick-slider {
-  width: 35%;
-  margin: auto;
 }
 
 video {
@@ -33,3 +30,15 @@ video {
 .Button_website.iphone {
   margin-top:4rem
 }
+
+.iphone-carousel-wrapper {
+  width: 35%
+}
+
+/* Specific size for the iPad carousel */
+.ipad-carousel-wrapper {
+  width: 55%; /* Set this to 80% or any percentage you'd like */
+
+}
+
+

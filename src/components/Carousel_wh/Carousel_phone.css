@@ -68,7 +68,7 @@
 }
 
 
-.custom-arrow {
+.custom-arrow, .ipad_custom-arrow {
   background: #fff;
   border-radius: 50%;
   width: 40px;
@@ -89,4 +89,10 @@
 /* 🔥 Directional shadow only on hover */
 .custom-arrow:hover {
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Ensuring no opacity change that might hide arrows */
+.slick-prev, .slick-next {
+  opacity: 1 !important; /* Force opacity to be visible */
 }
