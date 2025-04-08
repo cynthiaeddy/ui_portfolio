@@ -1,4 +1,4 @@
-.WhContainer {
+.WhContainer, .WhContainer_ipad{
   display: flex;
     width: 95rem;
     margin: auto;
