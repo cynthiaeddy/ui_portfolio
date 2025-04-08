@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel_phone from '../../components//Carousel_wh/Carousel_phone'
+import './Wh.css'
 
 // Import your videos
 import video1 from '../../assets/wh/try3.mp4'

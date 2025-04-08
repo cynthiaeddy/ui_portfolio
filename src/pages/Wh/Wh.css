@@ -14,6 +14,10 @@
     flex-direction: column;
 
 }
+.slick-slider {
+  width: 75%;
+  margin: auto;
+}
 
 video {
   border: 1px solid black;
