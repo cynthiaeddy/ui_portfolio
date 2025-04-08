@@ -19,9 +19,6 @@ export const HomeNew = () => {
             <button type='submit' className='Button_website home'>
               ^
             </button>
-            <div className='spinner scroll-down'>
-              {/* <a className="animate"></a> */}
-            </div>
           </div>
         </div>
         <div className='HomeContainerBottom'>{<Cards />}</div>
