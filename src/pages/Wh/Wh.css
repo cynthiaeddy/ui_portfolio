@@ -1,21 +1,13 @@
-/* .Container.wh {
-  margin: auto;
-  margin-top: 20rem;
-  background: #FAF9F8;
-  width: 100%;
-  overflow-x: hidden;
-} */
-
 .WhContainer {
   display: flex;
     width: 95rem;
     margin: auto;
-    margin-top: 26rem;
+    margin-top: 16rem;
     flex-direction: column;
 
 }
 .slick-slider {
-  width: 75%;
+  width: 35%;
   margin: auto;
 }
 
@@ -37,4 +29,7 @@ video {
   align-items: center;
   justify-content: center;
   z-index: 99;
+}
+.Button_website.iphone {
+  margin-top:4rem
 }

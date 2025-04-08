@@ -1,6 +1,5 @@
-// VideoSlide.jsx
 import React, { useState, useRef } from 'react'
-// import './spinner.css' // Make sure to import your CSS
+import './Carousel_phone.css'
 
 export const Carousel_slide = ({ src, notifyReady }) => {
   const [isReady, setIsReady] = useState(false)

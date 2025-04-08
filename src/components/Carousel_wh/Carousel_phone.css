@@ -13,17 +13,6 @@
 }
 
 
-/* Style for video size */
-/* .video-carousel {
-  width: 50%;
-  height: auto;
-  object-fit: cover;
-  border: 1px solid black;
-  border-radius: 30px;
-  margin: 0 auto;
-  padding: 4rem
-} */
-
 /* Custom Styling for Arrows */
 .slick-prev,
 .slick-next {
@@ -76,4 +65,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.custom-arrow {
+  background: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.2s ease;
+  cursor: pointer;
+  border: 1px solid black;
+
+}
+.custom-arrow svg {
+  vertical-align: middle; /* ensures SVG is centered properly */
+
+}
+
+/* 🔥 Directional shadow only on hover */
+.custom-arrow:hover {
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
 }
