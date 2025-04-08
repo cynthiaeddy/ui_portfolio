@@ -2,14 +2,17 @@
 import React, { useState, useRef } from 'react'
 // import './spinner.css' // Make sure to import your CSS
 
-export const Carousel_slide = ({ src }) => {
+export const Carousel_slide = ({ src, notifyReady }) => {
   const [isReady, setIsReady] = useState(false)
   const videoRef = useRef(null)
 
   const handleLoaded = () => {
     const video = videoRef.current
     if (video && video.videoWidth > 0 && video.videoHeight > 0) {
-      setIsReady(true)
+      if (!isReady) {
+        setIsReady(true)
+        if (notifyReady) notifyReady() // Fire only for first video
+      }
     }
   }
 

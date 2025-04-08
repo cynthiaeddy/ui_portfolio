@@ -1,10 +1,10 @@
-.Container.wh {
+/* .Container.wh {
   margin: auto;
   margin-top: 20rem;
   background: #FAF9F8;
   width: 100%;
   overflow-x: hidden;
-}
+} */
 
 .WhContainer {
   display: flex;
@@ -23,16 +23,18 @@ video {
   border: 1px solid black;
   border-radius: 30px
 }
-.inline-gallery-container {
-  width: 100%;
 
-  /* // set 60% height */
-  height: 0;
-  padding-bottom: 65%;
-}
 
-.video-carousel-container {
-  max-width: 768px;     /* Equivalent to Tailwind's max-w-3xl */
-  margin: 40px auto 0;  /* Top margin: 40px, horizontal centering */
-  padding: 0 16px;      /* Optional: some side padding */
+
+.carousel-spinner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
 }
