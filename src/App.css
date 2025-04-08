@@ -212,3 +212,64 @@ h5 {
 
 
 
+/* Container around the carousel */
+.video-carousel-container {
+  max-width: 768px;
+  margin: 40px auto 0;
+  padding: 0 16px;
+}
+
+/* Each slide wrapper */
+.slide-wrapper {
+  padding: 10px;
+}
+
+/* Video Slide Styling */
+.video-slide {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+/* Video Player */
+.video-player {
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.video-player.visible {
+  opacity: 1;
+}
+
+.video-player.hidden {
+  opacity: 0;
+}
+
+/* Spinner Overlay */
+.video-spinner-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+/* Spinner Styles */
+.spinner {
+  border: 4px solid #ccc;
+  border-top: 4px solid #333;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

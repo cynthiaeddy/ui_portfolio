@@ -14,20 +14,19 @@ export const Carousel_slide = ({ src }) => {
   }
 
   return (
-    <div className='relative w-full h-full'>
+    <div className='video-slide'>
       {!isReady && (
-        <div className='absolute inset-0 flex items-center justify-center bg-black z-10'></div>
+        <div className='video-spinner-overlay'>
+          <div className='spinner' />
+        </div>
       )}
-
       <video
         ref={videoRef}
         src={src}
         controls
         onLoadedMetadata={handleLoaded}
         onCanPlay={handleLoaded}
-        className={`w-full h-auto transition-opacity duration-300 ${
-          isReady ? 'opacity-100' : 'opacity-0'
-        }`}
+        className={`video-player ${isReady ? 'visible' : 'hidden'}`}
       />
     </div>
   )

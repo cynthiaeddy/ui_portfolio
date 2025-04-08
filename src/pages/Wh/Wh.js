@@ -1,15 +1,3 @@
-// import { Carousel_phone } from '../../components/Carousel_wh/Carousel_phone.js'
-// import './Wh.css'
-
-// export const Wh = () => {
-//   return (
-//     <section className='Container wh'>
-//       {/* im here */}
-//       <Carousel_phone />
-//     </section>
-//   )
-// }
-
 import React from 'react'
 import Carousel_phone from '../../components//Carousel_wh/Carousel_phone'
 
@@ -22,7 +10,7 @@ export const Wh = () => {
   const videoSources = [video1, video2, video3]
 
   return (
-    <div className='max-w-3xl mx-auto mt-10'>
+    <div className='WhContainer'>
       <Carousel_phone videoSources={videoSources} />
     </div>
   )
