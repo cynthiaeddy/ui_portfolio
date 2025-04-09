@@ -5,17 +5,16 @@ import Carousel_phone from '../../components/Carousel_wh/Carousel_phone'
 import './Wh.css'
 
 // Import your videos
-import video1 from '../../assets/wh/toc_iphone.mp4'
-import video3 from '../../assets/wh/beauty_iphone.mp4'
-import video2 from '../../assets/wh/commute5.mp4'
-import video5 from '../../assets/wh/iphone_fashion.mp4'
-import video4 from '../../assets/wh/workout_iphone.mp4'
-import video7 from '../../assets/wh/summer1.mp4'
-import video9 from '../../assets/wh/h20_ipad1.mp4'
-import video6 from '../../assets/wh/toc_ipad.mp4'
-import video8 from '../../assets/wh/stacked2.mp4'
-import video10 from '../../assets/wh/mother1.mp4'
-// import video11 from '../../assets/wh/game1.mp4'
+import video1 from '../../assets/wh/toc_iphone2.mp4'
+import video3 from '../../assets/wh/beauty_iphone2.mp4'
+import video2 from '../../assets/wh/commute2.mp4'
+import video5 from '../../assets/wh/iphone_fashion2.mp4'
+import video4 from '../../assets/wh/workout_iphone1.mp4'
+import video7 from '../../assets/wh/summer4.mp4'
+import video9 from '../../assets/wh/h20_ipad2.mp4'
+import video6 from '../../assets/wh/toc_ipad1.mp4'
+import video8 from '../../assets/wh/stacked3.mp4'
+import video10 from '../../assets/wh/mother2.mp4'
 
 export const Wh = () => {
   const [isPhoneReady, setIsPhoneReady] = useState(false)
@@ -34,7 +33,6 @@ export const Wh = () => {
       )}
 
       {/* Render phone carousel */}
-      <div>title for iphone</div>
       <div className='iphone-carousel-wrapper'>
         <Carousel_phone
           videoSources={videoSources}
@@ -45,11 +43,9 @@ export const Wh = () => {
         />
       </div>
       <button className='Button_website iphone'>down for ipad</button>
-
       {/* Render iPad carousel only after phone carousel is ready */}
       {isIpadReady && (
         <>
-          <div>title for ipad</div>
           <div className='ipad-carousel-wrapper'>
             <Carousel_ipad
               videoSources_ipad={videoSources_ipad}

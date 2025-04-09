@@ -78,7 +78,7 @@
   justify-content: center;
   transition: box-shadow 0.2s ease;
   cursor: pointer;
-  border: 1px solid black;
+  border: .75px solid #000;
 
 }
 .custom-arrow svg {
