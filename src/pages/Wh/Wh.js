@@ -10,15 +10,19 @@ import video3 from '../../assets/wh/beauty_iphone.mp4'
 import video2 from '../../assets/wh/commute5.mp4'
 import video5 from '../../assets/wh/iphone_fashion.mp4'
 import video4 from '../../assets/wh/workout_iphone.mp4'
-import video6 from '../../assets/wh/h20_ipad.mp4'
-import video7 from '../../assets/wh/h20_ipad.mp4'
+import video7 from '../../assets/wh/summer1.mp4'
+import video9 from '../../assets/wh/h20_ipad1.mp4'
+import video6 from '../../assets/wh/toc_ipad.mp4'
+import video8 from '../../assets/wh/stacked2.mp4'
+import video10 from '../../assets/wh/mother1.mp4'
+// import video11 from '../../assets/wh/game1.mp4'
 
 export const Wh = () => {
   const [isPhoneReady, setIsPhoneReady] = useState(false)
   const [isIpadReady, setIsIpadReady] = useState(false)
 
   const videoSources = [video1, video2, video3, video4, video5]
-  const videoSources_ipad = [video6, video7]
+  const videoSources_ipad = [video6, video7, video8, video9, video10]
 
   return (
     <div className='WhContainer'>
