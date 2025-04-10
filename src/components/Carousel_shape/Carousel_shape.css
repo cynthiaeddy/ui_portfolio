@@ -1,0 +1,62 @@
+.carousel-container.shape {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-content.shape {
+  overflow: hidden;
+  background-color: #fff;
+  width: 85%;
+  border: .75px solid #000;
+  border-radius: 20px;
+  padding: 3.5rem 4rem 2rem 4rem
+}
+.carousel-image.shape {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.carousel-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 16px;
+}
+
+/* Arrows outside image frame */
+.nav-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: .75px solid #333;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+}
+
+.nav-button.left {
+  left: -5px;
+}
+
+.nav-button.right {
+  right: -5px;
+}
+
+.nav-button:hover {
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.arrow-icon {
+  color: grey;
+  font-size: 14px;
+  pointer-events: none;
+}

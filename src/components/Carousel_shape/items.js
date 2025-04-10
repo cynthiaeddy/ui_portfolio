@@ -1,11 +1,11 @@
-import item1 from '../../assets/ssc/carousel/car_home.png'
-import item2 from '../../assets/ssc/carousel/car_menu.png'
-import item3 from '../../assets/ssc/carousel/car_values.png'
-import item4 from '../../assets/ssc/carousel/car_search.png'
-import item5 from '../../assets/ssc/carousel/car_details.png'
-import item6 from '../../assets/ssc/carousel/car_empty.png'
-import item7 from '../../assets/ssc/carousel/car_payment.png'
-import item8 from '../../assets/ssc/carousel/car_checkout.png'
+import item1 from '../../assets/shape/fittestcities1open.jpg'
+import item2 from '../../assets/shape/fittestcities2.jpg'
+import item3 from '../../assets/shape/fittestcities3.jpg'
+import item4 from '../../assets/shape/hotlist.jpg'
+import item5 from '../../assets/shape/lightenlunch1.jpg'
+import item6 from '../../assets/shape/lightenlunch2.jpg'
+import item7 from '../../assets/shape/cancerfood1.jpg'
+import item8 from '../../assets/shape/agefeat1.jpg'
 
 export const items = [
   {

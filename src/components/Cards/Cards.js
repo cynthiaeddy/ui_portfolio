@@ -93,7 +93,7 @@ export const Cards = () => {
             <button className='Button_website'>view</button>
           </div>
         </Link>
-        <Link to='https://www.cynthiaeddy.me/print' className='IndieCard'>
+        <Link to='/ui_ux/shape' className='IndieCard'>
           <img className='CardImageHome jamesdt' src={singles} alt={singles} />
           <div className='CardDek'>
             <h2 className='Card_hed'>Editorial Design</h2>

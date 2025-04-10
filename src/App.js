@@ -19,6 +19,7 @@ import { Ssc } from './pages/CaseStudies/Ssc'
 import { Fh } from './pages/CaseStudies/Fh'
 import { Nyt } from './pages/CaseStudies/Nyt'
 import { Wh } from './pages/Wh/Wh'
+import { Shape } from './pages/Shape/Shape'
 
 // import { Footer } from './components/Footer/Footer'
 
@@ -62,6 +63,7 @@ const App = () => {
       <Route exact path='/ui_ux/nyt_cooking_case_study' element={<Nyt />} />
       <Route exact path='/ui_ux/fh_case_study' element={<Fh />} />
       <Route exact path='/ui_ux/wh' element={<Wh />} />
+      <Route exact path='/ui_ux/shape' element={<Shape />} />
     </Routes>
   )
   return (
