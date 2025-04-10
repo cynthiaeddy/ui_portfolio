@@ -18,6 +18,10 @@ export const Carousel_shape = () => {
     )
   }
 
+  const goToSlide = (index) => {
+    setCurrentIndex(index)
+  }
+
   return (
     <div className='carousel-container shape'>
       <button className='nav-button left' onClick={goToPrevious}>
@@ -36,6 +40,16 @@ export const Carousel_shape = () => {
       <button className='nav-button right' onClick={goToNext}>
         <FaArrowRight className='arrow-icon' />
       </button>
+
+      <div className='carousel-indicators'>
+        {items.map((_, index) => (
+          <button
+            key={index}
+            className={`indicator ${index === currentIndex ? 'active' : ''}`}
+            onClick={() => goToSlide(index)}
+          ></button>
+        ))}
+      </div>
     </div>
   )
 }
