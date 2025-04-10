@@ -60,6 +60,7 @@
   text-align: center;
   font-size: 1rem;
   line-height: 2;
+  color: black
 }
 
 
@@ -73,6 +74,7 @@
 .Card_p{
   text-align: center;
   margin: 1rem 0;
+  color: black
 }
 
 .Button_website {

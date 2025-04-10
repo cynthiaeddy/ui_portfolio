@@ -23,33 +23,36 @@ export const Carousel_shape = () => {
   }
 
   return (
-    <div className='carousel-container shape'>
-      <button className='nav-button left' onClick={goToPrevious}>
-        <FaArrowLeft className='arrow-icon' />
-      </button>
+    <>
+      <div className='carousel-container shape'>
+        <button className='nav-button left' onClick={goToPrevious}>
+          <FaArrowLeft className='arrow-icon' />
+        </button>
 
-      <div className='carousel-content shape'>
-        <img
-          className='carousel-image shape'
-          src={items[currentIndex].image}
-          alt={items[currentIndex].title}
-        />
-        <h1 className='carousel-title'>{items[currentIndex].title}</h1>
+        <div className='carousel-content shape'>
+          <img
+            className='carousel-image shape'
+            src={items[currentIndex].image}
+            alt={items[currentIndex].title}
+          />
+          <h1 className='carousel-title'>{items[currentIndex].title}</h1>
+        </div>
+
+        <button className='nav-button right' onClick={goToNext}>
+          <FaArrowRight className='arrow-icon' />
+        </button>
+
+        <div className='carousel-indicators'>
+          {items.map((_, index) => (
+            <button
+              key={index}
+              className={`indicator ${index === currentIndex ? 'active' : ''}`}
+              onClick={() => goToSlide(index)}
+            ></button>
+          ))}
+        </div>
       </div>
-
-      <button className='nav-button right' onClick={goToNext}>
-        <FaArrowRight className='arrow-icon' />
-      </button>
-
-      <div className='carousel-indicators'>
-        {items.map((_, index) => (
-          <button
-            key={index}
-            className={`indicator ${index === currentIndex ? 'active' : ''}`}
-            onClick={() => goToSlide(index)}
-          ></button>
-        ))}
-      </div>
-    </div>
+      <button className='Button_website iphone'>view</button>
+    </>
   )
 }
