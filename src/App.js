@@ -62,10 +62,10 @@ const App = () => {
       />
 
       <Route exact path='/work/ssc' element={<Ssc />} />
-      <Route exact path='/ui_ux/nyt_cooking_case_study' element={<Nyt />} />
-      <Route exact path='/ui_ux/fh_case_study' element={<Fh />} />
-      <Route exact path='/ui_ux/wh' element={<Wh />} />
-      <Route exact path='/ui_ux/shape' element={<Shape />} />
+      <Route exact path='/work/nyt' element={<Nyt />} />
+      <Route exact path='/work/fh' element={<Fh />} />
+      <Route exact path='/work/wh' element={<Wh />} />
+      <Route exact path='/work/editorial' element={<Shape />} />
     </Routes>
   )
   return (
