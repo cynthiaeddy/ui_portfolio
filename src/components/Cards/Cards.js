@@ -13,7 +13,7 @@ export const Cards = () => {
   return (
     <>
       <section className='CardContainerHome'>
-        <Link to='/ui_ux/ssc_case_study' className='IndieCard'>
+        <Link to='/work/ssc' className='IndieCard'>
           <img className='CardImageHome ssc' src={ssc} alt={ssc} />
           <div className='CardDek'>
             <h2 className='Card_hed'>Sustainable Soap Co.</h2>

@@ -20,10 +20,11 @@ import { Fh } from './pages/CaseStudies/Fh'
 import { Nyt } from './pages/CaseStudies/Nyt'
 import { Wh } from './pages/Wh/Wh'
 import { Shape } from './pages/Shape/Shape'
+import { Work } from './pages/Work/Work'
 
 // import { Footer } from './components/Footer/Footer'
 
-// import { SplashScreen } from './components/SplashScreen'
+import { SplashScreen } from './components/SplashScreen'
 
 const App = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
@@ -48,18 +49,19 @@ const App = () => {
 
   let routes = (
     <Routes>
-      {/* <Route exact path='/' element={<SplashScreen />} /> */}
+      <Route exact path='/' element={<SplashScreen />} />
       <Route exact path='/' element={<HomeNew />} />
       <Route exact path='/design' element={<Print />} />
       <Route exact path='/development' element={<Development />} />
       <Route exact path='/about' element={<About />} />
       <Route exact path='/contact' element={<Contact />} />
+      <Route path='/work' element={<Work />} />
       <Route
         path='/ui_ux'
         element={isDesktop ? <Ux /> : isTablet ? <UxTablet /> : <UxMobile />}
       />
 
-      <Route exact path='/ui_ux/ssc_case_study' element={<Ssc />} />
+      <Route exact path='/work/ssc' element={<Ssc />} />
       <Route exact path='/ui_ux/nyt_cooking_case_study' element={<Nyt />} />
       <Route exact path='/ui_ux/fh_case_study' element={<Fh />} />
       <Route exact path='/ui_ux/wh' element={<Wh />} />

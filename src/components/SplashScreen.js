@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Navigate } from 'react-router-dom'
-import Home from '../pages/Home/Home'
+import HomeNew from '../pages/HomeNew/HomeNew'
 // import Ux from '../pages/Ux/Ux'
 
 export const SplashScreen = () => {
@@ -19,5 +19,5 @@ export const SplashScreen = () => {
     }
   }, [])
 
-  return !timePassed ? <Home /> : redirect ? <Navigate to='./ui_ux' /> : null
+  return !timePassed ? <HomeNew /> : redirect ? <Navigate to='./work' /> : null
 }

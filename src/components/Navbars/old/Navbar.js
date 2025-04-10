@@ -3,7 +3,7 @@ import './Navbar.css'
 import logo from '../../assets/swirl_sm.jpg'
 import navActive from '../../assets/bug.svg'
 
-export const NavbarNew = () => {
+export const Navbar = () => {
   return (
     <nav id='NavbarContainer'>
       <div className='NavbarSection'>
@@ -23,8 +23,8 @@ export const NavbarNew = () => {
             </NavLink>
           </li>
           <li className='nav-item'>
-            <NavLink to='/work' className='nav-links' activeClassName='active'>
-              work
+            <NavLink to='/ui_ux' className='nav-links' activeClassName='active'>
+              ui/ux
               <img
                 src={navActive}
                 className='navActive'
@@ -36,7 +36,42 @@ export const NavbarNew = () => {
               />
             </NavLink>
           </li>
-
+          <li className='nav-item'>
+            <NavLink
+              to='/design'
+              className='nav-links'
+              activeClassName='active'
+            >
+              design
+              <img
+                src={navActive}
+                className='navActive'
+                alt='navActive'
+                style={{
+                  visibility: ({ isActive }) =>
+                    isActive ? 'visible' : 'hidden',
+                }}
+              />
+            </NavLink>
+          </li>
+          <li className='nav-item'>
+            <NavLink
+              to='/development'
+              className='nav-links'
+              activeClassName='active'
+            >
+              development
+              <img
+                src={navActive}
+                className='navActive'
+                alt='navActive'
+                style={{
+                  visibility: ({ isActive }) =>
+                    isActive ? 'visible' : 'hidden',
+                }}
+              />
+            </NavLink>
+          </li>
           <li className='nav-item'>
             <NavLink to='/about' className='nav-links' activeClassName='active'>
               about

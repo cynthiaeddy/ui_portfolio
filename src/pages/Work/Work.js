@@ -1,6 +1,9 @@
-import './HomeNew.css'
+// import { NavLink } from 'react-router'
+import '../HomeNew/HomeNew.css'
+import { Cards } from '../../components/Cards/Cards'
+import { Footer } from '../../components/Footer/Footer'
 
-export const HomeNew = () => {
+export const Work = () => {
   return (
     <>
       <section className='HomeContainer'>
@@ -13,11 +16,14 @@ export const HomeNew = () => {
             </span> experiences <br />
             through <span className='HomeSerif Bold'>thoughtful,</span> <br />
             <span className='HomeSerif Bold'>human</span> centered design.
+            <button type='submit' className='Button_website home'>
+              ^
+            </button>
           </div>
         </div>
+        <div className='HomeContainerBottom'>{<Cards />}</div>
       </section>
+      {<Footer />}
     </>
   )
 }
-
-export default HomeNew
