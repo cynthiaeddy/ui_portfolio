@@ -1,0 +1,37 @@
+.scroll-down-circle {
+  /* position: absolute; */
+  left: 50%;
+  bottom: 10px;
+  /* transform: translateX(-50%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px; /* Circle size */
+  height: 50px; /* Circle size */
+  border-radius: 50%;
+  background-color: #000; /* Solid black circle */
+  cursor: pointer;
+  z-index: 100;
+}
+
+/* Animation for the icon only */
+.scroll-down-circle svg {
+  font-size: 14px; /* Icon size */
+  color: rgba(255, 255, 255, .7);/* White icon */
+  animation: fade_move_down 4s ease-in-out 1; /* Animate 3 times */
+}
+
+/* Only animate the icon */
+@keyframes fade_move_down {
+  0% {
+    transform: translateY(-10px); /* Move the icon up */
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(10px); /* Move the icon down */
+    opacity: 0;
+  }
+}

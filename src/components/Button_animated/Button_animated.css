@@ -1,0 +1,70 @@
+@keyframes fade_move_down {
+  0% {
+    transform: translate(0, -10px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 10px);
+    opacity: 0;
+  }
+}
+
+.animated-button {
+  font-family: 'Neue Haas Grotesk Text', sans-serif;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 2rem;
+  width: fit-content;
+  border-radius: 10rem;
+  font-weight: 600;
+  height: 4rem;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  line-height: 1.5;
+  cursor: pointer;
+  border: none; /* Optional, in case you want to remove the border */
+  animation: fade_move_down 2s ease-in-out infinite;
+  margin: 2rem
+}
+
+
+/* src/AnimatedButton.css */
+@keyframes arrow_move_down {
+  0% {
+    transform: translateY(-10px); /* Start above */
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(10px); /* Move downward */
+    opacity: 1;
+  }
+}
+
+.animated-button {
+  font-family: 'Neue Haas Grotesk Text', sans-serif;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 2rem;
+  width: fit-content;
+  border-radius: 10rem;
+  font-weight: 600;
+  height: 4rem;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  line-height: 1.5;
+  cursor: pointer;
+  border: none; /* Optional, in case you want to remove the border */
+  position: relative; /* To position the arrow inside the button */
+}
+
+.down-arrow {
+  margin-right: 10px; /* Add space between the arrow and text */
+  animation: arrow_move_down 2s ease-out 1; /* Apply animation to the arrow only, once */
+  display: inline-block;
+}
+
