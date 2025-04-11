@@ -84,3 +84,19 @@ margin-left: 23rem;
 .work-wrapper.fade-in {
   opacity: 1;
 }
+
+
+.work-wrapper {
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

@@ -1,11 +1,11 @@
-import { useState, useEffect } from 'react'
-
+import { useState, useEffect, useRef } from 'react'
 import ScrollToTop from './components/ScrollToTop'
 import {
   BrowserRouter as Router,
   Route,
   Routes,
   useNavigate,
+  useLocation,
 } from 'react-router-dom'
 import './App.css'
 // import { Navbar } from './components/Navbars/Navbar'
@@ -28,7 +28,18 @@ import { Wh } from './pages/Wh/Wh'
 import { Shape } from './pages/Shape/Shape'
 import { Work } from './pages/Work/Work'
 
+// import { Footer } from './components/Footer/Footer'
+
+// import { SplashScreen } from './components/SplashScreen'
+
 const HomeToWork = () => {
+  const location = useLocation()
+  const prevLocationRef = useRef(null)
+
+  useEffect(() => {
+    prevLocationRef.current = location.pathname
+  }, [location])
+
   const [fadeOut, setFadeOut] = useState(false)
   const navigate = useNavigate()
 
@@ -43,7 +54,7 @@ const HomeToWork = () => {
   }, [navigate])
 
   return (
-    <div className={`fade-wrapper ${fadeOut ? 'fade-out' : ''}`}>
+    <div className={`fade-wrapper ${fadeOut ? 'fade-out' : 'fade-in'}`}>
       <HomeNew />
     </div>
   )
@@ -73,8 +84,12 @@ const App = () => {
   let routes = (
     <Routes>
       <Route path='/' element={<HomeToWork />} />
-      <Route path='/work' element={<Work />} />
-
+      <Route
+        path='/work'
+        element={<Work fromHome={prevLocationRef.current === '/'} />}
+      />
+      {/* <Route exact path='/' element={<SplashScreen />} /> */}
+      {/* <Route exact path='/' element={<HomeNew />} /> */}
       <Route exact path='/design' element={<Print />} />
       <Route exact path='/development' element={<Development />} />
       <Route exact path='/about' element={<About />} />

@@ -8,40 +8,12 @@ export const NavbarNew = () => {
     <nav id='NavbarContainer'>
       <div className='NavbarSection'>
         <ul className='Navbar-items'>
-          <li className='nav-item'>
+          <li className='nav-item work-link'>
             <NavLink to='/' className='nav-links' activeClassName='active'>
-              Home
-              <img
-                src={navActive}
-                className='navActive'
-                alt='navActive'
-                style={{
-                  visibility: ({ isActive }) =>
-                    isActive ? 'visible' : 'hidden',
-                }}
-              />
-            </NavLink>
-          </li>
-          {/* <li className='nav-item'>
-            <NavLink to='/work' className='nav-links' activeClassName='active'>
-              work
-              <img
-                src={navActive}
-                className='navActive'
-                alt='navActive'
-                style={{
-                  visibility: ({ isActive }) =>
-                    isActive ? 'visible' : 'hidden',
-                }}
-              />
-            </NavLink>
-          </li> */}
-          {/* <li className='nav-item'>
-            <NavLink to='/work' className='nav-links' activeClassName='active'>
-              work
+              home
               <img src={navActive} className='navActive' alt='navActive' />
             </NavLink>
-          </li> */}
+          </li>
           <li className='nav-item work-link'>
             <NavLink to='/work' className='nav-links' activeClassName='active'>
               work
@@ -54,37 +26,14 @@ export const NavbarNew = () => {
               <img src={navActive} className='navActive' alt='navActive' />
             </NavLink>
           </li>
-
-          {/* <li className='nav-item'>
-            <NavLink to='/about' className='nav-links' activeClassName='active'>
-              about
-              <img
-                src={navActive}
-                className='navActive'
-                alt='navActive'
-                style={{
-                  visibility: ({ isActive }) =>
-                    isActive ? 'visible' : 'hidden',
-                }}
-              />
-            </NavLink>
-          </li> */}
-          <li className='nav-item'>
+          <li className='nav-item work-link'>
             <NavLink
               to='/contact'
               className='nav-links'
               activeClassName='active'
             >
               contact
-              <img
-                src={navActive}
-                className='navActive'
-                alt='navActive'
-                style={{
-                  visibility: ({ isActive }) =>
-                    isActive ? 'visible' : 'hidden',
-                }}
-              />
+              <img src={navActive} className='navActive' alt='navActive' />
             </NavLink>
           </li>
         </ul>
