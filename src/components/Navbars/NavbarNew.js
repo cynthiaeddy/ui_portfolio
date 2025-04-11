@@ -22,7 +22,7 @@ export const NavbarNew = () => {
               />
             </NavLink>
           </li>
-          <li className='nav-item'>
+          {/* <li className='nav-item'>
             <NavLink to='/work' className='nav-links' activeClassName='active'>
               work
               <img
@@ -35,9 +35,27 @@ export const NavbarNew = () => {
                 }}
               />
             </NavLink>
+          </li> */}
+          {/* <li className='nav-item'>
+            <NavLink to='/work' className='nav-links' activeClassName='active'>
+              work
+              <img src={navActive} className='navActive' alt='navActive' />
+            </NavLink>
+          </li> */}
+          <li className='nav-item work-link'>
+            <NavLink to='/work' className='nav-links' activeClassName='active'>
+              work
+              <img src={navActive} className='navActive' alt='navActive' />
+            </NavLink>
+          </li>
+          <li className='nav-item work-link'>
+            <NavLink to='/about' className='nav-links' activeClassName='active'>
+              about
+              <img src={navActive} className='navActive' alt='navActive' />
+            </NavLink>
           </li>
 
-          <li className='nav-item'>
+          {/* <li className='nav-item'>
             <NavLink to='/about' className='nav-links' activeClassName='active'>
               about
               <img
@@ -50,7 +68,7 @@ export const NavbarNew = () => {
                 }}
               />
             </NavLink>
-          </li>
+          </li> */}
           <li className='nav-item'>
             <NavLink
               to='/contact'
