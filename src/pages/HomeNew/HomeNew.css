@@ -10,6 +10,7 @@
 .HomeContainerTop {
   width: 85rem;
   margin: auto;
+  margin-left:6rem;
 }
 .HomeContainerBottom {
   width: 100%;

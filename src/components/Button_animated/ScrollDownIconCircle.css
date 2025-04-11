@@ -13,10 +13,17 @@
   margin: 4rem 0rem 7rem 0rem
 }
 
+.scroll-down-circle:hover {
+  box-shadow: 5px 5px 10px rgba(36, 36, 36, 0.5);
+}
+.scroll-down-circle svg:hover {
+  color:bisque
+}
+
 /* Animation for the icon only */
 .scroll-down-circle svg {
   font-size: 14px; /* Icon size */
-  color: rgba(255, 255, 255, .7);/* White icon */
+  color: rgba(255, 255, 255, .9);/* White icon */
   animation: fade_move_down 4s ease-in-out 2; /* Animate 3 times */
 }
 
