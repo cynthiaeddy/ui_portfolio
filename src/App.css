@@ -267,3 +267,16 @@ h5 {
     transform: rotate(360deg);
   }
 }
+
+/* /////fade-in-out////// */
+.fade-wrapper {
+  transition: opacity 2.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}

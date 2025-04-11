@@ -75,3 +75,12 @@ margin-left: 23rem;
   font-size: 1rem
 }
 
+
+.work-wrapper {
+  opacity: 0;
+  transition: opacity 2.5s ease-in-out;
+}
+
+.work-wrapper.fade-in {
+  opacity: 1;
+}
