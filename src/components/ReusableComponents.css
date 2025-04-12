@@ -272,6 +272,11 @@ ul {
   h2.cases_openerText {
     font-size: 3.9rem
   }
+
+  h2.Card_hed {
+    font-size: 4rem;
+    /* line-height: 1.2; */
+  }
   h5 {
     font-size: 1.7rem;
   }

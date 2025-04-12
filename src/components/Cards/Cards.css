@@ -82,3 +82,24 @@
 }
 
 
+@media screen and (min-width: 769px) and (max-width: 1030px) {
+  .IndieCard {
+    padding: 3rem;
+    height: 59rem
+  }
+
+  .CardDek {
+    gap: 2.9rem
+  }
+
+  .CardDek.wh, .CardDek.edit {
+    gap: 2.6rem
+  }
+
+
+  .Card_p{
+    margin: 1rem -.5rem;
+  }
+
+
+}
