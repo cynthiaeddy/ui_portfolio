@@ -24,13 +24,20 @@ text-transform:initial;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
-  width:90%;
-  min-width: 450px
+  width: fit-content;
+  min-width: 450px;
+  /* border: 10px solid #000;
+  border-radius: 30px; */
+  margin-left: 24rem
 }
 .AboutImage {
 width: 90%;
 /* margin: 0 1rem; */
 align-self: center;
+border:10px solid #000;
+border-radius: 30px;
+
+
 }
 
 
@@ -43,27 +50,31 @@ align-self: center;
   color: #000;
   text-align: right;
   margin-bottom: 0;
-  margin-top: 14.5rem;
-  width: 20rem;
-  margin-right:1.75rem;
-  margin-left: 1.75rem;
-  text-align: right;
+  margin-top: 2.5rem;
+  /* width: 20rem; */
+  /* margin-right:1.75rem;
+  margin-left: 1.75rem; */
+  text-align: left;
   height: fit-content;
+  margin-left: 7rem;
 }
 
 .AboutText {
   text-align: left;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 font-family: gelica, sans-serif;
 font-weight: 300;
 letter-spacing: .01rem;
 overflow-y: scroll;
-font-weight: 300
+font-weight: 300;
+margin-left:23rem
 }
 .AboutInfo {
   display: flex;
    justify-content: left;
    height: 5rem;
+   margin-left:23rem;
+   margin-top: 2rem
 }
 .AboutResume {
   font-weight: 600;
@@ -71,6 +82,7 @@ font-weight: 300
   padding-top: 1rem;
   letter-spacing: .34rem;
   text-align: left;
+  color: black
 }
 .AboutResume:hover {
   font-weight: 300;
@@ -91,21 +103,22 @@ font-weight: 300
 width: 95rem;
 margin: auto;
 margin-top: 29rem;
-height: 60rem
+/* height: 60rem */
 }
 
 .AboutContainerNew {
-  width: 60%;
+  width: 77%;
   margin-bottom: 6rem;
   overflow-y: scroll;
 display: flex;
 flex-direction: column;
 margin-bottom: 4rem;
-margin-left: 2.5rem
+margin-left: 5.5rem
 }
 .AboutResume_span {
   visibility: visible;
 }
+
 
 /* ///// Media Queries ///// */
 @media screen and (min-width: 769px) and (max-width: 1030px) {
