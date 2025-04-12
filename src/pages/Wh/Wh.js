@@ -42,7 +42,6 @@ export const Wh = () => {
           }}
         />
       </div>
-      <button className='Button_website iphone'>down for ipad</button>
       {/* Render iPad carousel only after phone carousel is ready */}
       {isIpadReady && (
         <>
@@ -52,7 +51,14 @@ export const Wh = () => {
               onFirstVideoReady={() => setIsIpadReady(true)}
             />
           </div>
-          <button className='Button_website iphone'>view</button>
+          <button
+            className='Button_website iphone'
+            onClick={() =>
+              window.open('https://cynthiaeddy.me/digital', '_blank')
+            }
+          >
+            view more on cynthiaeddy.me
+          </button>
         </>
       )}
     </div>

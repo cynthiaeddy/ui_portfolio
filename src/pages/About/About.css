@@ -28,14 +28,18 @@ text-transform:initial;
   min-width: 450px;
   /* border: 10px solid #000;
   border-radius: 30px; */
-  margin-left: 24rem
+  margin-left: 23rem;
+  width: 71%;
+
 }
 .AboutImage {
 width: 90%;
 /* margin: 0 1rem; */
 align-self: center;
 border:10px solid #000;
-border-radius: 30px;
+border-radius: 50%;
+height: 130px;
+width: 130px;
 
 
 }

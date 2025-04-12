@@ -52,7 +52,12 @@ export const Carousel_shape = () => {
           ))}
         </div>
       </div>
-      <button className='Button_website iphone'>view</button>
+      <button
+        className='Button_website iphone'
+        onClick={() => window.open('https://cynthiaeddy.me/print', '_blank')}
+      >
+        view more on cynthiaeddy.me
+      </button>
     </>
   )
 }

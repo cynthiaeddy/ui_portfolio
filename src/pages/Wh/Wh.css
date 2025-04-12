@@ -28,7 +28,8 @@ video {
   z-index: 99;
 }
 .Button_website.iphone {
-  margin-top:4rem
+  margin-top:4rem;
+  margin-bottom: 6rem
 }
 
 .iphone-carousel-wrapper {
@@ -38,6 +39,7 @@ video {
 /* Specific size for the iPad carousel */
 .ipad-carousel-wrapper {
   width: 55%;
+  margin-top: 9rem;
 }
 
 

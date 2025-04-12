@@ -2,7 +2,7 @@ import '../HomeNew/HomeNew.css'
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Cards } from '../../components/Cards/Cards'
-import { Footer } from '../../components/Footer/Footer'
+// import { Footer } from '../../components/Footer/Footer'
 import ScrollDownIconCircle from '../../components/Button_animated/ScrollDownIconCircle'
 
 export const Work = () => {
@@ -35,7 +35,7 @@ export const Work = () => {
           <Cards />
         </div>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

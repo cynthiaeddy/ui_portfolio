@@ -45,7 +45,7 @@ export const About = () => {
           journeys.
         </h4>
         <footer className='AboutInfo'>
-          <a href={cynthiaeddy_resume}>
+          <a href={cynthiaeddy_resume} className='About_link'>
             <div className='AboutResume view'>
               view my resume <span className='AboutResume_span'> |</span>{' '}
             </div>
