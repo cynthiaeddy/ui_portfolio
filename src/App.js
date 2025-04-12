@@ -43,7 +43,7 @@ const HomeToWork = () => {
   }, [navigate])
 
   return (
-    <div className={`fade-wrapper ${fadeOut ? 'fade-out' : ''}`}>
+    <div className={`fade-wrapper ${fadeOut ? 'fade-out' : 'fade-in'}`}>
       <HomeNew />
     </div>
   )
@@ -79,7 +79,6 @@ const App = () => {
       <Route exact path='/development' element={<Development />} />
       <Route exact path='/about' element={<About />} />
       <Route exact path='/contact' element={<Contact />} />
-      <Route path='/work' element={<Work />} />
       <Route
         path='/ui_ux'
         element={isDesktop ? <Ux /> : isTablet ? <UxTablet /> : <UxMobile />}

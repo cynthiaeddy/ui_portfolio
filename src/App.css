@@ -269,7 +269,7 @@ h5 {
 }
 
 /* /////fade-in-out////// */
-.fade-wrapper {
+.fade-wrapper{
   transition: opacity 2.5s ease-in-out;
 }
 
@@ -280,3 +280,7 @@ h5 {
 .fade-out {
   opacity: 0;
 }
+
+
+
+
