@@ -34,7 +34,10 @@ const HomeToWork = () => {
 
   useEffect(() => {
     const timer1 = setTimeout(() => setFadeOut(true), 1000) // start fade out
-    const timer2 = setTimeout(() => navigate('/work'), 3500) // after fade, route
+    const timer2 = setTimeout(
+      () => navigate('/work', { state: { fromHome: true } }),
+      3500,
+    ) // after fade, route
 
     return () => {
       clearTimeout(timer1)
@@ -73,7 +76,7 @@ const App = () => {
   let routes = (
     <Routes>
       <Route path='/' element={<HomeToWork />} />
-      <Route path='/work' element={<Work />} />
+      <Route exact path='/work' element={<Work />} />
 
       <Route exact path='/design' element={<Print />} />
       <Route exact path='/development' element={<Development />} />

@@ -8,20 +8,16 @@ import ScrollDownIconCircle from '../../components/Button_animated/ScrollDownIco
 export const Work = () => {
   const location = useLocation()
   const fromHome = location.state?.fromHome === true
-  const [fadeIn, setFadeIn] = useState(false)
+  const [fadeIn, setFadeIn] = useState(fromHome ? false : true)
   console.log('fromHome:', fromHome, 'location', location)
 
   useEffect(() => {
-    if (!fromHome) {
-      setFadeIn(true)
+    if (fromHome) {
+      // Trigger fade-in effect
+      const timeout = setTimeout(() => setFadeIn(true), 50)
+      return () => clearTimeout(timeout)
     }
   }, [fromHome])
-
-  useEffect(() => {
-    {
-      setFadeIn(true)
-    }
-  }, [])
 
   return (
     <div className={`fade-wrapper ${fadeIn ? 'fade-in' : 'fade-out'}`}>
@@ -42,8 +38,8 @@ export const Work = () => {
           <Cards />
         </div>
       </section>
-      {/* // <Footer />
-      //{' '} */}
+      {/* <Footer /> */}
     </div>
+    // )
   )
 }
