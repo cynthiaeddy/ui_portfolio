@@ -16,7 +16,7 @@ export const About = () => {
         <div className='AboutHi'>i&apos;ve been lucky</div>
         <div className='HomeSerif'>
           enough to <span className='HomeSerif Bold'>design</span> across
-          <span className='HomeSerif Bold'> mediums,</span>
+          <span className='HomeSerif Bold'> mediums, </span>
           starting in <span className='HomeSerif Bold'>print</span> and
           transitioning to
           <span className='HomeSerif Bold'> digital</span> early on—

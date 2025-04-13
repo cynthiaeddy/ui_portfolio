@@ -29,7 +29,7 @@ text-transform:initial;
   /* border: 10px solid #000;
   border-radius: 30px; */
   margin-left: 23rem;
-  width: 71%;
+  width: 65%;
 
 }
 .AboutImage {
@@ -111,13 +111,14 @@ margin-top: 29rem;
 }
 
 .AboutContainerNew {
-  width: 77%;
   margin-bottom: 6rem;
   overflow-y: scroll;
 display: flex;
 flex-direction: column;
 margin-bottom: 4rem;
-margin-left: 5.5rem
+margin-left: 5.5rem;
+width: 77%
+
 }
 .AboutResume_span {
   visibility: visible;
@@ -127,14 +128,32 @@ margin-left: 5.5rem
 /* ///// Media Queries ///// */
 @media screen and (min-width: 769px) and (max-width: 1030px) {
   .Container.about {
-    width: 90%
+    width: 94%
   }
   .AboutHi{
     font-size:4.75rem;
-    margin-top:12rem
+    /* margin-top:12rem */
   }
   .AboutImages {
-    min-width: 400px
+    width: 49%;
+    margin-left: 20rem
+  }
+  .AboutImage {
+   width: 120px;
+    height: 120px;
+  }
+
+  .AboutContainerNew {
+    width: 92%;
+    margin-left: 8rem
+    /* margin-right: 16% */
+  }
+  .AboutText {
+    width:41rem;
+    margin-left:20rem
+  }
+  .AboutInfo {
+    margin-left:20rem
   }
 
 }
