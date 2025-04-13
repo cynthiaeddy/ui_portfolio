@@ -89,3 +89,31 @@ margin-left: 23rem;
 
 
 }
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .HomeContainer {
+    width: 71%
+  }
+  .HomeContainerTop {
+    margin-left: 0rem;
+    width: 100%
+  }
+  .AboutHome {
+    font-size: 5rem;
+  }
+  .AboutHi {
+    font-size: 5rem;
+  }
+
+
+
+  .HomeSerif {
+    font-size: 4rem;
+    margin-left: 7rem
+    /* margin-left: 20rem;
+    width: 44.4rem */
+
+  }
+
+
+}

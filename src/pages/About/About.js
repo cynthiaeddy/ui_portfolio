@@ -19,7 +19,7 @@ export const About = () => {
           <span className='HomeSerif Bold'> mediums, </span>
           starting in <span className='HomeSerif Bold'>print</span> and
           transitioning to
-          <span className='HomeSerif Bold'> digital</span> early on—
+          <span className='HomeSerif Bold'> digital</span> early —
           <br />
         </div>
 

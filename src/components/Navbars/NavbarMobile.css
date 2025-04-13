@@ -65,6 +65,10 @@ ul.navbar-mobile {
 .nav-item.mobile.top {
   margin-top:20%
 }
+
+.mobile_nav-links {
+  color: black
+}
 .navbar-mobile.active {
   display: flex;
   height: 100vh;

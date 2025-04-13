@@ -173,6 +173,10 @@ width: 77%
   .AboutResume_span {
     visibility: collapse;
   }
+  .AboutContainerNew {
+    width: 100%;
+    margin-left: 0rem
+  }
 
 }
 
@@ -181,19 +185,31 @@ width: 77%
   width: 90%
 }
 .AboutHi{
-  font-size: 4rem;
-  margin-top: 9.75rem;
-  width: 32%;
-  margin-right:2rem
+  font-size: 5rem;
+  margin-left: 0rem
+  /* width: 32%;rem
+  margin-right:2rem */
  }
  .AboutImages {
-  min-width: 100%
+  margin: 0rem;
+ min-width: 0rem;
+  gap: 16px;
+  display: flex;
+  flex-direction: row;
+justify-content: flex-end;
+width:auto
 }
-.AboutContainerNew {
-  margin-left:2rem
-}
+
 .AboutText {
-  font-size: 1.9rem
+  font-size: 1.9rem;
+  margin-left: 7rem
+}
+.AboutInfo {
+  margin-left: 7rem
+}
+.AboutImage {
+  width: 102px;
+  height: 100%
 }
 
 }

@@ -8,12 +8,9 @@ import {
   useNavigate,
 } from 'react-router-dom'
 import './App.css'
-// import { Navbar } from './components/Navbars/Navbar'
 import { NavbarNew } from './components/Navbars/NavbarNew'
 import { NavbarMobile } from './components/Navbars/NavbarMobile'
-// import { Home } from './pages/Home/Home'
 import { HomeNew } from './pages/HomeNew/HomeNew'
-
 import { Print } from './pages/Print/Print'
 import { Development } from './pages/Development/Development'
 import { About } from './pages/About/About'
@@ -99,10 +96,8 @@ const App = () => {
       <Router>
         <ScrollToTop />
         {!isMobile ? <NavbarNew /> : <NavbarMobile />}
-        {/* <Navbar /> */}
         {routes}
       </Router>
-      {/* <Footer /> */}
     </div>
   )
 }
