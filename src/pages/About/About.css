@@ -132,6 +132,7 @@ width: 77%
   }
   .AboutHi{
     font-size:4.75rem;
+    width:fit-content
     /* margin-top:12rem */
   }
   .AboutImages {
