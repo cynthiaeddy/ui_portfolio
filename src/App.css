@@ -204,7 +204,14 @@ h5 {
    .h5.marginTop {
     margin-top: 3rem;
 }
+.video-slide {
+  margin-top: 3rem
 }
+}
+
+
+
+
 
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
@@ -260,7 +267,3 @@ h5 {
 .fade-out {
   opacity: 0;
 }
-
-
-
-

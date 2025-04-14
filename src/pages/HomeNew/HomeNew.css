@@ -92,11 +92,12 @@ margin-left: 23rem;
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .HomeContainer {
-    width: 71%
+    width: 90%
   }
   .HomeContainerTop {
     margin-left: 0rem;
-    width: 100%
+    width: fit-content;
+    margin: auto;
   }
   .AboutHome {
     font-size: 5rem;
@@ -105,15 +106,30 @@ margin-left: 23rem;
     font-size: 5rem;
   }
 
-
-
   .HomeSerif {
     font-size: 4rem;
-    margin-left: 7rem
+    margin-left: 7rem;
+    width: fit-content;
     /* margin-left: 20rem;
     width: 44.4rem */
 
   }
-
-
 }
+
+@media screen and (max-width: 479px) {
+.AboutHome{
+  font-size: 4.5rem;
+}
+.HomeSerif{
+  font-size: 3.25rem;
+  width:fit-content;
+  margin-left: 5rem;
+}
+.HomeContainer {
+  width: 90%
+}
+.HomeContainerTop {
+  width: fit-content;
+  margin-left: 0rem
+
+}}
