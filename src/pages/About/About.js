@@ -1,7 +1,7 @@
 import me from '../../assets/about/me.png'
 import outside from '../../assets/about/outside.png'
 import quilt from '../../assets/about/quilt.png'
-import cynthiaeddy_resume from '../../assets/about/cynthia_eddy_resume.pdf'
+import cynthia_eddy_resume from '../../assets/about/cynthia_eddy_resume.pdf'
 
 import './About.css'
 export const About = () => {
@@ -45,12 +45,12 @@ export const About = () => {
           journeys.
         </h4>
         <footer className='AboutInfo'>
-          <a href={cynthiaeddy_resume} className='About_link'>
+          <a href={cynthia_eddy_resume} className='About_link'>
             <div className='AboutResume view'>
               view my resume <span className='AboutResume_span'> |</span>{' '}
             </div>
           </a>
-          <a href={cynthiaeddy_resume} download>
+          <a href={cynthia_eddy_resume} download>
             <div className='AboutResume download'> download my resume</div>
           </a>
         </footer>
