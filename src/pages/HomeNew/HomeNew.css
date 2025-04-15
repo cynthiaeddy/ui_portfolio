@@ -59,9 +59,7 @@ margin-left: 23rem;
 /* width: fit-content; */
 /* width: 79rem */
 }
-.HomeSerif.about  {
-  width: 44.4rem
-}
+
 
 
 .HomeSerif.Bold {
@@ -86,10 +84,14 @@ margin-left: 23rem;
   .HomeSerif {
     font-size: 4rem;
     margin-left: 20rem;
-    /* width: 44.4rem */
-
-
   }
+    /* width: 44.4rem */
+    .HomeSerif.about {
+      width: 44.4rem
+    }
+
+
+
   .AboutHome {
     font-size: 5.5rem;
   }
@@ -114,8 +116,18 @@ margin-left: 23rem;
   }
 
   .HomeSerif {
-    font-size: 4rem;
+    font-size: 3.75rem;
     margin-left: 7rem;
+    /* width: fit-content; */
+    /* margin-left: 20rem;
+    width: 44.4rem */
+
+  }
+  .HomeSerif.about {
+    font-size: 3.75rem;
+    margin-left: 7rem;
+    max-width:   44.4rem;;
+
     /* width: fit-content; */
     /* margin-left: 20rem;
     width: 44.4rem */

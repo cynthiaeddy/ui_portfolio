@@ -23,20 +23,16 @@ text-transform:initial;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
   width: fit-content;
-  min-width: 450px;
-  /* border: 10px solid #000;
-  border-radius: 30px; */
   margin-left: 23rem;
-  width: 65%;
+  min-width: 0rem;
+  gap: 24px;
+  display: flex
 
 }
 .AboutImage {
 width: 90%;
-/* margin: 0 1rem; */
 align-self: center;
-/* border:10px solid #000; */
 border-radius: 50%;
 height: 130px;
 width: 130px;
@@ -46,7 +42,7 @@ width: 130px;
 
 
 .AboutHi {
-  font-size: 5.5rem;
+  font-size: 6.3rem;
   text-transform: lowercase;
   font-weight:600;
   letter-spacing: -.03em;
@@ -55,12 +51,9 @@ width: 130px;
   text-align: right;
   margin-bottom: 0;
   margin-top: 2.5rem;
-  /* width: 20rem; */
-  /* margin-right:1.75rem;
-  margin-left: 1.75rem; */
   text-align: left;
-  height: fit-content;
   margin-left: 7rem;
+  width:fit-content
 }
 
 .AboutText {
@@ -107,7 +100,6 @@ margin-left:23rem
 width: 95rem;
 margin: auto;
 margin-top: 29rem;
-/* height: 60rem */
 }
 
 .AboutContainerNew {
@@ -131,13 +123,17 @@ width: 77%
     width: 94%
   }
   .AboutHi{
-    font-size:4.75rem;
+    font-size:5.5rem;
     width:fit-content
     /* margin-top:12rem */
   }
   .AboutImages {
-    width: 49%;
-    margin-left: 20rem
+    margin-left: 20rem;
+    min-width: 0rem;
+    gap: 20px;
+    display: flex
+;
+    flex-direction: row;
   }
   .AboutImage {
    width: 120px;
@@ -147,10 +143,9 @@ width: 77%
   .AboutContainerNew {
     width: 92%;
     margin-left: 8rem
-    /* margin-right: 16% */
   }
   .AboutText {
-    width:41rem;
+    width:44.4rem;
     margin-left:20rem
   }
   .AboutInfo {
@@ -175,8 +170,9 @@ width: 77%
     visibility: collapse;
   }
   .AboutContainerNew {
-    width: 100%;
-    margin-left: 0rem
+    width: fit-content;
+    margin-left: 0rem;
+    margin: auto
   }
 
 }
@@ -188,22 +184,18 @@ width: 77%
 .AboutHi{
   font-size: 5rem;
   margin-left: 0rem
-  /* width: 32%;rem
-  margin-right:2rem */
  }
  .AboutImages {
   margin: 0rem;
- min-width: 0rem;
   gap: 16px;
   display: flex;
   flex-direction: row;
-justify-content: flex-end;
-width:auto
 }
 
 .AboutText {
   font-size: 1.9rem;
-  margin-left: 7rem
+  margin-left: 7rem;
+  max-width: 44.4rem;
 }
 .AboutInfo {
   margin-left: 7rem
@@ -222,15 +214,13 @@ width:auto
     margin-top: 18rem;
     width: 90%;
     flex-direction: column;
-    height: 65rem
 
   }
   .AboutHi {
-    font-size: 4rem;
-    margin-top: 0;
-    width: 100%;
+    font-size: 4.5rem;
     margin: 0;
     text-align: left;
+    margin-top: 2rem
   }
   .AboutContainerNew {
     margin: 0;
@@ -238,11 +228,22 @@ width:auto
     margin-top:2rem
   }
   .AboutImages {
-    min-width: 100%
-  }
+    margin: 0rem;
+   gap:16px
+ }
   .AboutText {
-    font-size: 1.9rem
+    font-size: 1.8rem;
+    margin-left: 5rem
   }
-
-
+  .AboutInfo {
+    margin-left: 5rem;
+    margin-bottom: 6rem
 }
+.AboutImage {
+  width: 92px;
+  height: 100%;
+}
+}
+
+
+
