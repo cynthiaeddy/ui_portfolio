@@ -103,3 +103,26 @@
 
 
 }
+@media screen and (min-width: 480px) and (max-width: 768px) {.CardContainerHome {
+display: flex;
+  flex-direction: column;;
+  margin: auto;
+  width: 435px
+
+}}
+
+@media screen and (max-width: 479px) {
+  .CardContainerHome {
+  display: flex;
+    flex-direction: column;;
+    margin: auto;
+    width: 100%
+
+  }
+
+.IndieCard {
+  padding:2rem
+}
+
+}
+
