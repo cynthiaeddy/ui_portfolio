@@ -118,19 +118,12 @@ margin-left: 23rem;
   .HomeSerif {
     font-size: 3.75rem;
     margin-left: 7rem;
-    /* width: fit-content; */
-    /* margin-left: 20rem;
-    width: 44.4rem */
 
   }
   .HomeSerif.about {
     font-size: 3.75rem;
     margin-left: 7rem;
     max-width:   44.4rem;;
-
-    /* width: fit-content; */
-    /* margin-left: 20rem;
-    width: 44.4rem */
 
   }
 }

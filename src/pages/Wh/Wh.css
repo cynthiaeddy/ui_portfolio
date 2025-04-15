@@ -1,4 +1,4 @@
-.WhContainer, .WhContainer_ipad{
+.WhContainer{
   display: flex;
     width: 95rem;
     margin: auto;
@@ -57,7 +57,8 @@ video {
 
  @media screen and (min-width: 480px) and (max-width: 768px) {
   .WhContainer {
-    width: 100%
+    width: 100%;
+    margin-top: 10rem
   }
 
   .iphone-carousel-wrapper {
@@ -68,7 +69,8 @@ video {
 
  @media screen and (max-width: 479px) {
   .WhContainer {
-    width: 100%
+    width: 100%;
+    margin-top: 8rem
   }
 
 
