@@ -18,4 +18,3 @@ const ScrollDownIconCircle = () => {
 }
 
 export default ScrollDownIconCircle
-//             </video>

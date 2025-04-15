@@ -13,11 +13,16 @@
     }
 
     .SecondContainer.success {
-      display: block
+      display: block;
+      margin-left:5rem;
+    }
+    .Container.contact.submitted {
+      margin-top: 10rem
     }
 
+
     .ButtonContainer.contact {
-      margin-left: 38rem;
+      margin-left: 29rem;
       flex-direction:unset
     }
     .Contact_text {
@@ -42,7 +47,6 @@
     .ContactForm.text {
       display: flex;
       flex-direction: column;
-      /* margin-bottom: 4rem; */
       width:100%;
       margin-left:4rem
     }
@@ -75,8 +79,12 @@
       color: #000;
       margin-top: 17.5rem;
       text-align: left;
-      margin-bottom: 3rem
+      margin-bottom: rem
     }
+    .AboutContact.success {
+     margin-bottom: 5rem;
+    }
+
     .Button_website.form {
       margin-left: 4rem;
       margin-top: 6rem;
@@ -101,25 +109,26 @@
     @media screen and (min-width: 769px) and (max-width: 1030px) {
       .Container.contact {
         width: 90%;
-        padding-left:3rem
+        padding-left:1rem
       }
       .AboutContact {
         margin-top: 15rem;
-        font-size: 4.75rem
+        font-size: 5.5rem
       }
 
       }
 
       @media screen and (max-width: 768px) {
         .Container.contact {
-          width: 90%
+          width: 90%;
+          margin-top: 15rem;
         }
         .SecondContainer {
           width: 90%
         }
         .AboutContact {
           width: 32%;
-          font-size: 4rem;
+          font-size: 5rem;
           margin-top: 12.25rem;
           text-align: right;
         }
@@ -131,7 +140,8 @@
           width: 60%
         }
         .Container.about {
-          margin-top:28.25rem
+          margin-top: 18rem;
+          width: 90%
         }
         .AboutContact.success {
           width: 100%;
@@ -175,7 +185,11 @@
           margin-left:2rem
         }
         .Container.contact {
-          margin-bottom: 4rem
+          margin-bottom: 4rem;
+          margin-top: 24rem
+        }
+        .Container.contact.submitted {
+          margin-top: 15rem
         }
 
       }

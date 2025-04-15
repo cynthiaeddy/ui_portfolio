@@ -24,7 +24,7 @@
 .scroll-down-circle svg {
   font-size: 14px; /* Icon size */
   color: rgba(255, 255, 255, .9);/* White icon */
-  animation: fade_move_down 4s ease-in-out 2; /* Animate 3 times */
+  animation: fade_move_down 2s ease-in-out 2; /* Animate 3 times */
 }
 
 /* Only animate the icon */

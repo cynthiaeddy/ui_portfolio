@@ -7,36 +7,14 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Carousel_slide from './Carousel_slide'
 
-const NextArrow = ({ onClick, style }) => (
-  <div
-    className='custom-arrow next-arrow'
-    onClick={onClick}
-    style={{
-      ...style,
-      position: 'absolute',
-      top: '50%',
-      right: '-100px',
-      transform: 'translateY(-50%)',
-      zIndex: 2,
-    }}
-  >
+const NextArrow = ({ onClick }) => (
+  <div className='custom-arrow next-arrow' onClick={onClick}>
     <FaArrowRight color='grey' size={14} />
   </div>
 )
 
-const PrevArrow = ({ onClick, style }) => (
-  <div
-    className='custom-arrow prev-arrow'
-    onClick={onClick}
-    style={{
-      ...style,
-      position: 'absolute',
-      top: '50%',
-      left: '-100px',
-      transform: 'translateY(-50%)',
-      zIndex: 2,
-    }}
-  >
+const PrevArrow = ({ onClick }) => (
+  <div className='custom-arrow prev-arrow' onClick={onClick}>
     <FaArrowLeft color='grey' size={14} />
   </div>
 )

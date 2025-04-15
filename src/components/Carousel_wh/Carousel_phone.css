@@ -49,9 +49,6 @@
   height: 12px;                                 /* Dot size */
 }
 
-.slick-dots li.slick-active button {
-  background-color: white; /* Active dot color */
-}
 .spinner {
   border: 4px solid #f3f3f3;
   border-top: 4px solid #333;
@@ -68,7 +65,7 @@
 }
 
 
-.custom-arrow, .ipad_custom-arrow {
+.custom-arrow {
   background: #fff;
   border-radius: 50%;
   width: 40px;
@@ -94,5 +91,42 @@
 
 /* Ensuring no opacity change that might hide arrows */
 .slick-prev, .slick-next {
-  opacity: 1 !important; /* Force opacity to be visible */
+  opacity: 1 !important;
+}
+
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.prev-arrow {
+  left: -100px;
+}
+.next-arrow {
+  right: -100px;
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .next-arrow{
+    right: -70px;
+  }
+
+  .prev-arrow {
+    left: -70px
+  }
+}
+
+
+@media screen and (max-width: 479px) {
+  .next-arrow{
+    right: -50px;
+  }
+
+  .prev-arrow {
+    left: -50px
+  }
+
 }

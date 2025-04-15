@@ -82,3 +82,47 @@
 }
 
 
+@media screen and (min-width: 769px) and (max-width: 1030px) {
+  .IndieCard {
+    padding: 3rem;
+    height: 59rem
+  }
+
+  .CardDek {
+    gap: 2.9rem
+  }
+
+  .CardDek.wh, .CardDek.edit {
+    gap: 2.5rem
+  }
+
+
+  .Card_p{
+    margin: 1rem -.5rem;
+  }
+
+
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {.CardContainerHome {
+display: flex;
+  flex-direction: column;;
+  margin: auto;
+  width: 435px
+
+}}
+
+@media screen and (max-width: 479px) {
+  .CardContainerHome {
+  display: flex;
+    flex-direction: column;;
+    margin: auto;
+    width: 100%
+
+  }
+
+.IndieCard {
+  padding:2rem
+}
+
+}
+

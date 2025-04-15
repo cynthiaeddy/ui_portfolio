@@ -8,12 +8,9 @@ import {
   useNavigate,
 } from 'react-router-dom'
 import './App.css'
-// import { Navbar } from './components/Navbars/Navbar'
 import { NavbarNew } from './components/Navbars/NavbarNew'
 import { NavbarMobile } from './components/Navbars/NavbarMobile'
-// import { Home } from './pages/Home/Home'
 import { HomeNew } from './pages/HomeNew/HomeNew'
-
 import { Print } from './pages/Print/Print'
 import { Development } from './pages/Development/Development'
 import { About } from './pages/About/About'
@@ -33,8 +30,11 @@ const HomeToWork = () => {
   const navigate = useNavigate()
 
   useEffect(() => {
-    const timer1 = setTimeout(() => setFadeOut(true), 1000) // start fade out
-    const timer2 = setTimeout(() => navigate('/work'), 3500) // after fade, route
+    const timer1 = setTimeout(() => setFadeOut(true), 500) // start fade out
+    const timer2 = setTimeout(
+      () => navigate('/work', { state: { fromHome: true } }),
+      3500,
+    ) // after fade, route
 
     return () => {
       clearTimeout(timer1)
@@ -43,7 +43,7 @@ const HomeToWork = () => {
   }, [navigate])
 
   return (
-    <div className={`fade-wrapper ${fadeOut ? 'fade-out' : ''}`}>
+    <div className={`fade-wrapper ${fadeOut ? 'fade-out' : 'fade-in'}`}>
       <HomeNew />
     </div>
   )
@@ -73,13 +73,12 @@ const App = () => {
   let routes = (
     <Routes>
       <Route path='/' element={<HomeToWork />} />
-      <Route path='/work' element={<Work />} />
+      <Route exact path='/work' element={<Work />} />
 
       <Route exact path='/design' element={<Print />} />
       <Route exact path='/development' element={<Development />} />
       <Route exact path='/about' element={<About />} />
       <Route exact path='/contact' element={<Contact />} />
-      <Route path='/work' element={<Work />} />
       <Route
         path='/ui_ux'
         element={isDesktop ? <Ux /> : isTablet ? <UxTablet /> : <UxMobile />}
@@ -97,10 +96,8 @@ const App = () => {
       <Router>
         <ScrollToTop />
         {!isMobile ? <NavbarNew /> : <NavbarMobile />}
-        {/* <Navbar /> */}
         {routes}
       </Router>
-      {/* <Footer /> */}
     </div>
   )
 }

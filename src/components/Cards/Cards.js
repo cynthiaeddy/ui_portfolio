@@ -49,7 +49,7 @@ export const Cards = () => {
         </Link>
         <Link to='/work/wh' className='IndieCard'>
           <img className='CardImageHome wh' src={wh} alt={wh} />
-          <div className='CardDek'>
+          <div className='CardDek wh'>
             <h2 className='Card_hed'>Women&apos;s Health</h2>
             <div className='hed_and_blurb'>
               <h6 className='Card_blurb'>mobile and tablet ui design</h6>
@@ -91,7 +91,7 @@ export const Cards = () => {
         </Link>
         <Link to='/work/editorial' className='IndieCard'>
           <img className='CardImageHome jamesdt' src={singles} alt={singles} />
-          <div className='CardDek'>
+          <div className='CardDek edit'>
             <h2 className='Card_hed'>Editorial Design</h2>
             <div className='hed_and_blurb'>
               <h6 className='Card_blurb'>
