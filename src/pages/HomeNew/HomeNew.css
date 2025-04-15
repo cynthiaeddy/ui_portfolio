@@ -101,7 +101,8 @@ margin-left: 23rem;
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .HomeContainer {
-    width: 90%
+    width: 90%;
+    margin-top: 14rem
   }
   .HomeContainerTop {
     margin-left: 0rem;
@@ -138,7 +139,8 @@ margin-left: 23rem;
   margin-left: 5rem;
 }
 .HomeContainer {
-  width: 90%
+  width: 90%;
+  margin-top: 14rem
 }
 .HomeContainerTop {
   width: fit-content;

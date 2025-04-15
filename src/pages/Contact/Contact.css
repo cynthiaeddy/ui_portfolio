@@ -16,6 +16,10 @@
       display: block;
       margin-left:5rem;
     }
+    .Container.contact.submitted {
+      margin-top: 10rem
+    }
+
 
     .ButtonContainer.contact {
       margin-left: 29rem;
@@ -43,7 +47,6 @@
     .ContactForm.text {
       display: flex;
       flex-direction: column;
-      /* margin-bottom: 4rem; */
       width:100%;
       margin-left:4rem
     }
@@ -117,7 +120,8 @@
 
       @media screen and (max-width: 768px) {
         .Container.contact {
-          width: 90%
+          width: 90%;
+          margin-top: 15rem;
         }
         .SecondContainer {
           width: 90%
@@ -136,7 +140,7 @@
           width: 60%
         }
         .Container.about {
-          margin-top:28.25rem;
+          margin-top: 18rem;
           width: 90%
         }
         .AboutContact.success {
@@ -181,7 +185,11 @@
           margin-left:2rem
         }
         .Container.contact {
-          margin-bottom: 4rem
+          margin-bottom: 4rem;
+          margin-top: 24rem
+        }
+        .Container.contact.submitted {
+          margin-top: 15rem
         }
 
       }
