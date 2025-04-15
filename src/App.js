@@ -30,7 +30,7 @@ const HomeToWork = () => {
   const navigate = useNavigate()
 
   useEffect(() => {
-    const timer1 = setTimeout(() => setFadeOut(true), 1000) // start fade out
+    const timer1 = setTimeout(() => setFadeOut(true), 500) // start fade out
     const timer2 = setTimeout(
       () => navigate('/work', { state: { fromHome: true } }),
       3500,
