@@ -1,0 +1,149 @@
+.HomeContainer {
+  display: flex
+  ;
+      width: 95rem;
+      margin: auto;
+      margin-top: 26rem;
+      flex-direction: column;
+
+}
+.HomeContainerTop {
+  width: 85rem;
+  margin: auto;
+  margin-left:6rem;
+}
+.HomeContainerBottom {
+  width: 100%;
+  display: flex;
+  margin-top: 24rem;
+  flex-direction: column;
+  margin-bottom: 8rem;
+
+
+}
+
+.CardContainerNew {
+  border: .75px solid #000;
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  background-color: #FFF;
+  cursor: pointer;
+
+}
+
+
+.AboutHome {
+  font-size: 6.3rem;
+  text-transform: lowercase;
+  font-weight: 600;
+  letter-spacing: -.03em;
+  line-height: 1.1;
+  color: #000;
+  margin-top: 2.5rem;
+  text-align: left;
+  width: fit-content
+
+}
+.HomeSerif {
+  text-align: left;
+  margin-top: 1rem;
+font-family: gelica, sans-serif;
+font-weight: 200;
+letter-spacing: .01rem;
+overflow-y: scroll;
+text-transform: initial;
+font-size: 4.5rem;
+line-height: 1.3;
+margin-left: 23rem;
+/* width: fit-content; */
+/* width: 79rem */
+}
+
+
+
+.HomeSerif.Bold {
+  font-weight: 500;
+  margin: auto
+}
+
+.Button_website.home{
+  margin-top: 10rem;
+  width: 8.5rem;
+  font-size: 1rem
+}
+
+@media screen and (min-width: 769px) and (max-width: 1030px) {
+  .HomeContainer {
+    width: 90%
+  }
+  .HomeContainerTop {
+    width: 100%;
+    margin-left: 6rem
+  }
+  .HomeSerif {
+    font-size: 4rem;
+    margin-left: 20rem;
+  }
+    /* width: 44.4rem */
+    .HomeSerif.about {
+      width: 44.4rem
+    }
+
+
+
+  .AboutHome {
+    font-size: 5.5rem;
+  }
+
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .HomeContainer {
+    width: 90%;
+    margin-top: 14rem
+  }
+  .HomeContainerTop {
+    margin-left: 0rem;
+    width: fit-content;
+    margin: auto;
+  }
+  .AboutHome {
+    font-size: 5rem;
+  }
+  .AboutHi {
+    font-size: 5rem;
+  }
+
+  .HomeSerif {
+    font-size: 3.75rem;
+    margin-left: 7rem;
+
+  }
+  .HomeSerif.about {
+    font-size: 3.75rem;
+    margin-left: 7rem;
+    max-width:   44.4rem;;
+
+  }
+}
+
+@media screen and (max-width: 479px) {
+.AboutHome{
+  font-size: 4.5rem;
+}
+.HomeSerif{
+  font-size: 3.25rem;
+  /* width:fit-content; */
+  margin-left: 5rem;
+}
+.HomeContainer {
+  width: 90%;
+  margin-top: 14rem
+}
+.HomeContainerTop {
+  width: fit-content;
+  margin-left: 0rem
+
+}}

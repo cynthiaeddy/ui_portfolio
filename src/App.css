@@ -204,10 +204,66 @@ h5 {
    .h5.marginTop {
     margin-top: 3rem;
 }
+.video-slide {
+  margin-top: 3rem
+}
 }
 
 
 
 
 
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 
+
+
+
+
+/* Each slide wrapper */
+.slide-wrapper {
+  padding: 10px;
+}
+
+/* Video Slide Styling */
+.video-slide {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+/* Video Player */
+.video-player {
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.video-player.visible {
+  opacity: 1;
+}
+
+.video-player.hidden {
+  opacity: 0;
+}
+
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* /////fade-in-out////// */
+.fade-wrapper{
+  transition: opacity 2.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}

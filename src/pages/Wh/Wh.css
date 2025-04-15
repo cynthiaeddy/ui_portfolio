@@ -1,0 +1,87 @@
+.WhContainer{
+  display: flex;
+    width: 95rem;
+    margin: auto;
+    margin-top: 20rem;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+video {
+  border: .75px solid #000;
+  border-radius: 30px
+}
+
+
+
+.carousel-spinner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+}
+.Button_website.iphone {
+  margin-top:4rem;
+  margin-bottom: 6rem
+}
+
+.iphone-carousel-wrapper {
+  width: 35%
+}
+
+/* Specific size for the iPad carousel */
+.ipad-carousel-wrapper {
+  width: 55%;
+  margin-top: 9rem;
+}
+
+
+ /* ///// Media Queries ///// */
+ @media screen and (min-width: 769px) and (max-width: 1030px) {
+  .WhContainer {
+    width: 100%
+  }
+
+  .iphone-carousel-wrapper {
+    width:40%;
+}
+ }
+
+
+ @media screen and (min-width: 480px) and (max-width: 768px) {
+  .WhContainer {
+    width: 100%;
+    margin-top: 10rem
+  }
+
+  .iphone-carousel-wrapper {
+    width:40%;
+}
+
+ }
+
+ @media screen and (max-width: 479px) {
+  .WhContainer {
+    width: 100%;
+    margin-top: 8rem
+  }
+
+
+  .iphone-carousel-wrapper {
+    width: 60%
+  }
+
+  /* Specific size for the iPad carousel */
+  .ipad-carousel-wrapper {
+    width: 60%;
+    margin-top: 5rem;
+  }
+
+ }

@@ -9,9 +9,10 @@
   z-index: 100;
   background: white;
   margin-bottom: 2rem;
-  border: 0.5px solid black;
+  border: .75px solid #000;
   padding-left: 10%;
-  padding-right: 10%
+  padding-right: 10%;
+  border-radius: 20px;
 
 }
 .NavbarSection {
@@ -31,7 +32,7 @@
   margin: 0;
   padding: 0;
   border: 0;
-  color: #000;
+  /* color: #000; */
 text-align: center;
 font-family: neue-haas-grotesk-text, sans-serif;
 font-size: 1.1rem;
@@ -61,7 +62,7 @@ a {
 }
 
 .logo {
-width: 45px;
+width: 50px;
 }
 
 .nav-item {
@@ -113,6 +114,38 @@ a.nav-links.active {
 
 
 
+
+/* .fade-start {
+  opacity: 0;
+  transition: opacity 2.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}
+ */
+
+/* 1) WORK link is grey by default */
+.work-link .nav-links {
+  color: rgba(0,0,0,.5);
+  transition: color 1.5s ease-in-out; /* fade text color over 1.5s */
+}
+
+/* 2) On active, transition from grey → black */
+.work-link .nav-links.active {
+  color: black;
+}
+
+/* 3) The navActive image is invisible initially (opacity 0) */
+.work-link .navActive {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out; /* fade image in over 1.5s */
+}
+
+/* 4) When .nav-links is active, fade the image to fully visible */
+.work-link .nav-links.active .navActive {
+  opacity: 1;
+}
 
 
 

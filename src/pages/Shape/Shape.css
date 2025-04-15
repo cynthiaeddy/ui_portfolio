@@ -1,0 +1,21 @@
+.ShapeContainer {
+  display: flex;
+  width: 95rem;
+  margin: auto;
+  margin-top: 19rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 1030px) {
+  .ShapeContainer {
+    width: 100%;
+  }
+}
+@media screen  and (max-width: 768px) {
+  .ShapeContainer {
+    margin-top: 9rem;
+  }
+}
+

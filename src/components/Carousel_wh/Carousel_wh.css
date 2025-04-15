@@ -1,0 +1,14 @@
+
+
+/* ///// Media Queries ///// */
+@media screen and (min-width: 769px) and (max-width: 1030px) {
+  img.carousel-image.ssc {
+    width: 75rem
+  }
+  }
+
+  @media screen and (max-width:768px) {
+    img.carousel-image.ssc {
+      width: 100%
+    }
+  }

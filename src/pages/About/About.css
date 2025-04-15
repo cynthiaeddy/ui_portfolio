@@ -23,19 +23,26 @@ text-transform:initial;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-  width:90%;
-  min-width: 450px
+  width: fit-content;
+  margin-left: 23rem;
+  min-width: 0rem;
+  gap: 24px;
+  display: flex
+
 }
 .AboutImage {
 width: 90%;
-/* margin: 0 1rem; */
 align-self: center;
+border-radius: 50%;
+height: 130px;
+width: 130px;
+
+
 }
 
 
 .AboutHi {
-  font-size: 5.5rem;
+  font-size: 6.3rem;
   text-transform: lowercase;
   font-weight:600;
   letter-spacing: -.03em;
@@ -43,27 +50,28 @@ align-self: center;
   color: #000;
   text-align: right;
   margin-bottom: 0;
-  margin-top: 14.5rem;
-  width: 20rem;
-  margin-right:1.75rem;
-  margin-left: 1.75rem;
-  text-align: right;
-  height: fit-content;
+  margin-top: 2.5rem;
+  text-align: left;
+  margin-left: 7rem;
+  width:fit-content
 }
 
 .AboutText {
   text-align: left;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 font-family: gelica, sans-serif;
 font-weight: 300;
 letter-spacing: .01rem;
 overflow-y: scroll;
-font-weight: 300
+font-weight: 300;
+margin-left:23rem
 }
 .AboutInfo {
   display: flex;
    justify-content: left;
    height: 5rem;
+   margin-left:23rem;
+   margin-top: 2rem
 }
 .AboutResume {
   font-weight: 600;
@@ -71,6 +79,7 @@ font-weight: 300
   padding-top: 1rem;
   letter-spacing: .34rem;
   text-align: left;
+  color: black
 }
 .AboutResume:hover {
   font-weight: 300;
@@ -91,33 +100,56 @@ font-weight: 300
 width: 95rem;
 margin: auto;
 margin-top: 29rem;
-height: 60rem
 }
 
 .AboutContainerNew {
-  width: 60%;
   margin-bottom: 6rem;
   overflow-y: scroll;
 display: flex;
 flex-direction: column;
 margin-bottom: 4rem;
-margin-left: 2.5rem
+margin-left: 5.5rem;
+width: 77%
+
 }
 .AboutResume_span {
   visibility: visible;
 }
 
+
 /* ///// Media Queries ///// */
 @media screen and (min-width: 769px) and (max-width: 1030px) {
   .Container.about {
-    width: 90%
+    width: 94%
   }
   .AboutHi{
-    font-size:4.75rem;
-    margin-top:12rem
+    font-size:5.5rem;
+    width:fit-content
+    /* margin-top:12rem */
   }
   .AboutImages {
-    min-width: 400px
+    margin-left: 20rem;
+    min-width: 0rem;
+    gap: 20px;
+    display: flex
+;
+    flex-direction: row;
+  }
+  .AboutImage {
+   width: 120px;
+    height: 120px;
+  }
+
+  .AboutContainerNew {
+    width: 92%;
+    margin-left: 8rem
+  }
+  .AboutText {
+    width:44.4rem;
+    margin-left:20rem
+  }
+  .AboutInfo {
+    margin-left:20rem
   }
 
 }
@@ -137,6 +169,11 @@ margin-left: 2.5rem
   .AboutResume_span {
     visibility: collapse;
   }
+  .AboutContainerNew {
+    width: fit-content;
+    margin-left: 0rem;
+    margin: auto
+  }
 
 }
 
@@ -145,19 +182,27 @@ margin-left: 2.5rem
   width: 90%
 }
 .AboutHi{
-  font-size: 4rem;
-  margin-top: 9.75rem;
-  width: 32%;
-  margin-right:2rem
+  font-size: 5rem;
+  margin-left: 0rem
  }
  .AboutImages {
-  min-width: 100%
+  margin: 0rem;
+  gap: 16px;
+  display: flex;
+  flex-direction: row;
 }
-.AboutContainerNew {
-  margin-left:2rem
-}
+
 .AboutText {
-  font-size: 1.9rem
+  font-size: 1.9rem;
+  margin-left: 7rem;
+  max-width: 44.4rem;
+}
+.AboutInfo {
+  margin-left: 7rem
+}
+.AboutImage {
+  width: 102px;
+  height: 100%
 }
 
 }
@@ -166,18 +211,16 @@ margin-left: 2.5rem
 @media screen and (max-width: 479px) {
 
   .Container.about.mobile {
-    margin-top: 18rem;
+    margin-top: 16rem;
     width: 90%;
     flex-direction: column;
-    height: 65rem
 
   }
   .AboutHi {
-    font-size: 4rem;
-    margin-top: 0;
-    width: 100%;
+    font-size: 4.5rem;
     margin: 0;
     text-align: left;
+    margin-top: 2rem
   }
   .AboutContainerNew {
     margin: 0;
@@ -185,11 +228,22 @@ margin-left: 2.5rem
     margin-top:2rem
   }
   .AboutImages {
-    min-width: 100%
-  }
+    margin: 0rem;
+   gap:16px
+ }
   .AboutText {
-    font-size: 1.9rem
+    font-size: 1.8rem;
+    margin-left: 5rem
   }
-
-
+  .AboutInfo {
+    margin-left: 5rem;
+    margin-bottom: 6rem
 }
+.AboutImage {
+  width: 92px;
+  height: 100%;
+}
+}
+
+
+

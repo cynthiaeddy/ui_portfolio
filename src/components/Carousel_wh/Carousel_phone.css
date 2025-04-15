@@ -1,0 +1,132 @@
+
+/* slick-carousel styles */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.video-carousel .slick-slide {
+  display: flex;
+  justify-content: center; /* Center the video within the carousel */
+}
+.video-carousel {
+  width: 50%;
+  margin: auto
+}
+
+
+/* Custom Styling for Arrows */
+.slick-prev,
+.slick-next {
+  background-color: rgba(0, 0, 0, 0.5); /* Arrow background */
+  border-radius: 50%;                  /* Circular arrows */
+  color: white;                        /* Arrow color */
+  font-size: 24px;                     /* Arrow size */
+  padding: 10px;                       /* Arrow padding */
+  z-index: 1;                          /* Make sure arrows appear above videos */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  content: ''; /* Remove default arrow icon */
+}
+
+.slick-prev {
+  left: 10px;  /* Positioning left arrow */
+}
+
+.slick-next {
+  right: 10px; /* Positioning right arrow */
+}
+
+/* Dots Style */
+.slick-dots {
+  bottom: 10px; /* Adjust dot position */
+}
+
+.slick-dots li button {
+  background-color: rgba(255, 255, 255, 0.75); /* Dot background */
+  border-radius: 50%;                           /* Circular dots */
+  width: 12px;                                  /* Dot size */
+  height: 12px;                                 /* Dot size */
+}
+
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #333;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.custom-arrow {
+  background: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.2s ease;
+  cursor: pointer;
+  border: .75px solid #000;
+
+}
+.custom-arrow svg {
+  vertical-align: middle; /* ensures SVG is centered properly */
+
+}
+
+/* 🔥 Directional shadow only on hover */
+.custom-arrow:hover {
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Ensuring no opacity change that might hide arrows */
+.slick-prev, .slick-next {
+  opacity: 1 !important;
+}
+
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.prev-arrow {
+  left: -100px;
+}
+.next-arrow {
+  right: -100px;
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .next-arrow{
+    right: -70px;
+  }
+
+  .prev-arrow {
+    left: -70px
+  }
+}
+
+
+@media screen and (max-width: 479px) {
+  .next-arrow{
+    right: -50px;
+  }
+
+  .prev-arrow {
+    left: -50px
+  }
+
+}

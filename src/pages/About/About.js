@@ -1,30 +1,37 @@
 import me from '../../assets/about/me.png'
 import outside from '../../assets/about/outside.png'
 import quilt from '../../assets/about/quilt.png'
-import cynthiaeddy_resume from '../../assets/about/cynthia_eddy_resume.pdf'
+import cynthia_eddy_resume from '../../assets/about/cynthia_eddy_resume.pdf'
 
 import './About.css'
 export const About = () => {
   return (
     <section className='Container about mobile'>
-      <div className='AboutHi'>hiya, i&apos;m cynthia</div>
       <div className='AboutContainerNew'>
         <div className='AboutImages'>
           <img src={me} className='AboutImage me' alt={me} />
           <img src={quilt} className='AboutImage' alt={quilt} />
           <img src={outside} className='AboutImage' alt={outside} />
         </div>
+        <div className='AboutHi'>i&apos;ve been lucky</div>
+        <div className='HomeSerif about'>
+          enough to <span className='HomeSerif Bold'>design</span> across
+          <span className='HomeSerif Bold'> mediums, </span>
+          starting in <span className='HomeSerif Bold'>print</span> and
+          transitioning to
+          <span className='HomeSerif Bold'> digital</span> early —
+          <br />
+        </div>
+
         <h4 className='AboutText'>
-          I&apos;ve been lucky enough to design across a variety of mediums,
-          starting in print and making my way into digital early on—working on
-          iPad and iPhone interfaces before they became the norm. After a
-          software development bootcamp, I spent a few years coding and
+          working on iPad and iPhone interfaces before they became the norm.
+          After a software development bootcamp, I spent a few years coding and
           freelancing, but design has always been my true passion.
           <br />
           <br />
           Outside of work, I&apos;m all about making—quilting, silversmithing,
           and experimenting in the kitchen. These creative outlets keep me
-          inspired and shape my work in UI/UX. I&apos;ve lived in New York for
+          inspired and shape my work in UX/UI. I&apos;ve lived in New York for
           decades, and the city (plus my hiking trips around it) constantly
           sparks new ideas. Travel also feeds my creativity—recent trips to
           Croatia and an upcoming adventure in Merida, Mexico, are already
@@ -38,12 +45,12 @@ export const About = () => {
           journeys.
         </h4>
         <footer className='AboutInfo'>
-          <a href={cynthiaeddy_resume}>
+          <a href={cynthia_eddy_resume} className='About_link'>
             <div className='AboutResume view'>
               view my resume <span className='AboutResume_span'> |</span>{' '}
             </div>
           </a>
-          <a href={cynthiaeddy_resume} download>
+          <a href={cynthia_eddy_resume} download>
             <div className='AboutResume download'> download my resume</div>
           </a>
         </footer>
