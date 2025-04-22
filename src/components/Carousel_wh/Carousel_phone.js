@@ -32,10 +32,11 @@ export const Carousel_phone = ({ videoSources, onFirstVideoReady }) => {
 
   return (
     <Slider {...settings}>
-      {videoSources.map((src, idx) => (
+      {videoSources.map((src, idx, poster) => (
         <div key={idx} className='slide-wrapper'>
           <Carousel_slide
             src={src}
+            poster={poster}
             notifyReady={idx === 0 ? onFirstVideoReady : undefined}
           />
         </div>

@@ -14,12 +14,23 @@ import video9 from '../../assets/wh/h20_ipad2.mp4'
 import video6 from '../../assets/wh/toc_ipad1.mp4'
 import video8 from '../../assets/wh/stacked3.mp4'
 import video10 from '../../assets/wh/mother2.mp4'
+import poster from '../../assets/wh/placeholder.jpg'
+import poster1 from '../../assets/wh/placeholder.jpg'
+import poster2 from '../../assets/wh/placeholder.jpg'
+import poster3 from '../../assets/wh/placeholder.jpg'
+import poster4 from '../../assets/wh/placeholder.jpg'
 
 export const Wh = () => {
   const [isPhoneReady, setIsPhoneReady] = useState(false)
   const [isIpadReady, setIsIpadReady] = useState(false)
 
-  const videoSources = [video1, video2, video3, video4, video5]
+  const videoSources = [
+    { src: video1, poster: poster },
+    { src: video2, poster: poster1 },
+    { src: video3, poster: poster2 },
+    { src: video4, poster: poster3 },
+    { src: video5, poster: poster4 },
+  ]
   const videoSources_ipad = [video6, video7, video8, video9, video10]
 
   return (
