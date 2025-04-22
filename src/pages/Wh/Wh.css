@@ -58,7 +58,7 @@ video {
  @media screen and (min-width: 480px) and (max-width: 768px) {
   .WhContainer {
     width: 100%;
-    margin-top: 10rem
+    margin-top: 20rem
   }
 
   .iphone-carousel-wrapper {

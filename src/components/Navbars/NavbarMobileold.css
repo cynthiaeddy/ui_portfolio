@@ -3,16 +3,17 @@
   z-index: 100;
   top: 0;
   width: 100%;
+  border: 0.5px solid black;
   background: white
 
 }
+
+
 a #navbar-mobile  {
   color: rgba(0,0,0,.5);
 }
-
-
 .logo {
-  width: 50px;
+  width: 45px;
   }
   .Navbar-logo {
     margin-top: 1.5rem
@@ -22,8 +23,8 @@ a #navbar-mobile  {
     margin: 0;
     padding: 0;
     border: 0;
-  /* text-align: center; */
-  /* font-family: neue-haas-grotesk-text, sans-serif; */
+    color: #000;
+  font-family: neue-haas-grotesk-text, sans-serif;
   font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
@@ -40,12 +41,7 @@ li:first-child {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: .75px solid black;
-  border-radius: 0rem 0rem 2rem 2rem;
-  width: 100%;
 }
-
-
 .nav-item_mobile{
   padding: 20px;
   display: flex;
@@ -68,19 +64,13 @@ ul.navbar-mobile {
 .nav-item.mobile.top {
   margin-top:20%
 }
-
-.mobile_nav-links {
-  color: black
-}
 .navbar-mobile.active {
   display: flex;
   height: 100vh;
   background:#FAF9F8;
   flex-direction: column;
-  padding-top: 15rem
-
-
-
+  padding-top: 15%;
+  border-top: .5px solid black
   }
 
   .navbar-mobile.not-active {
@@ -104,4 +94,3 @@ ul.navbar-mobile {
   .hover_item.hover {
     font-weight: 600;
   }
-

@@ -121,7 +121,7 @@
       @media screen and (max-width: 768px) {
         .Container.contact {
           width: 90%;
-          margin-top: 15rem;
+          margin-top: 28rem;
         }
         .SecondContainer {
           width: 90%
@@ -140,7 +140,7 @@
           width: 60%
         }
         .Container.about {
-          margin-top: 18rem;
+          margin-top: 31rem;
           width: 90%
         }
         .AboutContact.success {

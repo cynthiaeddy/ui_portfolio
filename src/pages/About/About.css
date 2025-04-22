@@ -172,7 +172,8 @@ width: 77%
   .AboutContainerNew {
     width: fit-content;
     margin-left: 0rem;
-    margin: auto
+    margin: auto;
+    margin-bottom: 6rem
   }
 
 }

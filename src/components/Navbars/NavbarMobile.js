@@ -4,17 +4,13 @@ import './NavbarMobile.css'
 import logo from '../../assets/swirl_sm.jpg'
 import MenuButton from './MenuButton'
 import navActive from '../../assets/bug.svg'
-// import { Style } from '@material-ui/icons'
-// import { MenuOpen } from '@material-ui/icons'
 
 export const NavbarMobile = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [hoverHome, setHoverHome] = useState(false)
-  const [hoverUx, setHoverUx] = useState(false)
-  const [hoverDesign, setHoverDesign] = useState(false)
-  const [hoverDev, setHoverDev] = useState(false)
   const [hoverAbout, setHoverAbout] = useState(false)
   const [hoverContact, setHoverContact] = useState(false)
+  const [hoverWork, setHoverWork] = useState(false)
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
@@ -26,24 +22,7 @@ export const NavbarMobile = () => {
   const handleMouseOutHome = () => {
     setHoverHome(false)
   }
-  const handleMouseInUx = () => {
-    setHoverUx(true)
-  }
-  const handleMouseOutUx = () => {
-    setHoverUx(false)
-  }
-  const handleMouseInDesign = () => {
-    setHoverDesign(true)
-  }
-  const handleMouseOutDesign = () => {
-    setHoverDesign(false)
-  }
-  const handleMouseInDev = () => {
-    setHoverDev(true)
-  }
-  const handleMouseOutDev = () => {
-    setHoverDev(false)
-  }
+
   const handleMouseInAbout = () => {
     setHoverAbout(true)
   }
@@ -55,6 +34,12 @@ export const NavbarMobile = () => {
   }
   const handleMouseOutContact = () => {
     setHoverContact(false)
+  }
+  const handleMouseInWork = () => {
+    setHoverWork(true)
+  }
+  const handleMouseOutWork = () => {
+    setHoverWork(false)
   }
 
   return (
@@ -102,16 +87,16 @@ export const NavbarMobile = () => {
         </li>
         <li className='nav-item_mobile'>
           <NavLink
-            to='/ui_ux'
+            to='/work'
             className='mobile_nav-links'
             activeClassName='mobile_active'
             onClick={toggleMenu}
-            onMouseEnter={handleMouseInUx}
-            onMouseLeave={handleMouseOutUx}
+            onMouseEnter={handleMouseInWork}
+            onMouseLeave={handleMouseOutWork}
           >
-            {hoverUx ? (
+            {hoverWork ? (
               <div className='hover_item hover'>
-                ui/ux
+                Work
                 <img
                   src={navActive}
                   className='navActive_visable'
@@ -120,67 +105,7 @@ export const NavbarMobile = () => {
               </div>
             ) : (
               <div className='hover_item'>
-                ui/ux
-                <img
-                  src={navActive}
-                  className='navActive_visable hidden'
-                  alt='navActive'
-                />
-              </div>
-            )}
-          </NavLink>
-        </li>
-        <li className='nav-item_mobile'>
-          <NavLink
-            to='/design'
-            className='mobile_nav-links'
-            activeClassName='mobile_active'
-            onClick={toggleMenu}
-            onMouseEnter={handleMouseInDesign}
-            onMouseLeave={handleMouseOutDesign}
-          >
-            {hoverDesign ? (
-              <div className='hover_item hover'>
-                design
-                <img
-                  src={navActive}
-                  className='navActive_visable'
-                  alt='navActive'
-                />
-              </div>
-            ) : (
-              <div className='hover_item'>
-                design
-                <img
-                  src={navActive}
-                  className='navActive_visable hidden'
-                  alt='navActive'
-                />
-              </div>
-            )}
-          </NavLink>
-        </li>
-        <li className='nav-item_mobile'>
-          <NavLink
-            to='/development'
-            className='mobile_nav-links'
-            activeClassName='mobile_active'
-            onClick={toggleMenu}
-            onMouseEnter={handleMouseInDev}
-            onMouseLeave={handleMouseOutDev}
-          >
-            {hoverDev ? (
-              <div className='hover_item hover'>
-                development
-                <img
-                  src={navActive}
-                  className='navActive_visable'
-                  alt='navActive'
-                />
-              </div>
-            ) : (
-              <div className='hover_item'>
-                development
+                work
                 <img
                   src={navActive}
                   className='navActive_visable hidden'
