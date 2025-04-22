@@ -1,16 +1,26 @@
-import React, { useState, useRef } from 'react'
+import React, { useState, useRef, useEffect, forwardRef } from 'react'
 import './Carousel_phone.css'
 
-export const Carousel_slide_ipad = ({ src, notifyReady }) => {
+const Carousel_slide_ipad = forwardRef(({ src, notifyReady }, externalRef) => {
   const [isReady, setIsReady] = useState(false)
   const videoRef = useRef(null)
+
+  // Assign the forwarded ref
+  useEffect(() => {
+    if (!externalRef) return
+    if (typeof externalRef === 'function') {
+      externalRef(videoRef.current)
+    } else {
+      externalRef.current = videoRef.current
+    }
+  }, [externalRef])
 
   const handleLoaded = () => {
     const video = videoRef.current
     if (video && video.videoWidth > 0 && video.videoHeight > 0) {
       if (!isReady) {
         setIsReady(true)
-        if (notifyReady) notifyReady() // Fire only for first video
+        if (notifyReady) notifyReady()
       }
     }
   }
@@ -25,12 +35,19 @@ export const Carousel_slide_ipad = ({ src, notifyReady }) => {
       <video
         ref={videoRef}
         src={src}
-        controls
+        className={`video-player ${isReady ? 'visible' : 'hidden'}`}
+        playsInline
+        muted
+        autoPlay
+        loop
         onLoadedMetadata={handleLoaded}
         onCanPlay={handleLoaded}
-        className={`video-player ${isReady ? 'visible' : 'hidden'}`}
+        // optional: add preload or style here
       />
     </div>
   )
-}
+})
+
+Carousel_slide_ipad.displayName = 'Carousel_slide_ipad'
+
 export default Carousel_slide_ipad
