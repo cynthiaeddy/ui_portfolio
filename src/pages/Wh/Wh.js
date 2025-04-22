@@ -12,9 +12,13 @@ import video5 from '../../assets/wh/iphone_fashion2.mp4'
 import video4 from '../../assets/wh/workout_iphone1.mp4'
 import video7 from '../../assets/wh/summer4.mp4'
 import video9 from '../../assets/wh/h20_ipad2.mp4'
-import video6 from '../../assets/wh/toc_ipad1.mp4'
+// import video6 from '../../assets/wh/toc_ipad1.mp4'
 import video8 from '../../assets/wh/stacked3.mp4'
 import video10 from '../../assets/wh/mother2.mp4'
+const video6 = 'https://www.w3schools.com/html/mov_bbb.mp4'
+
+// src="https://www.w3schools.com/html/mov_bbb.mp4"
+//
 
 export const Wh = () => {
   const [isPhoneReady, setIsPhoneReady] = useState(false)
