@@ -1,7 +1,7 @@
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
 import './Carousel_phone.css'
 
-import React from 'react'
+import React, { useRef } from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
@@ -20,6 +20,8 @@ const PrevArrow = ({ onClick }) => (
 )
 
 export const Carousel_ipad = ({ videoSources_ipad, onFirstVideoReady }) => {
+  const sliderRef = useRef(null)
+  const videoRefs = useRef([])
   const settings = {
     dots: true,
     infinite: false,
@@ -29,12 +31,20 @@ export const Carousel_ipad = ({ videoSources_ipad, onFirstVideoReady }) => {
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
   }
+  // useEffect(() => {
+  //   videoRefs.current.forEach((video) => {
+  //     if (video) {
+  //       video.setAttribute('playsinline', '')
+  //     }
+  //   })
+  // }, [videoRefs])
 
   return (
-    <Slider {...settings}>
+    <Slider {...settings} ref={sliderRef}>
       {videoSources_ipad.map((src, idx) => (
         <div key={idx} className='slide-wrapper'>
           <Carousel_slide_ipad
+            ref={(el) => (videoRefs.current[idx] = el)}
             src={src}
             notifyReady={idx === 0 ? onFirstVideoReady : undefined}
           />

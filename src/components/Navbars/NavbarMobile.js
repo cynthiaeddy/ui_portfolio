@@ -8,9 +8,9 @@ import navActive from '../../assets/bug.svg'
 export const NavbarMobile = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [hoverHome, setHoverHome] = useState(false)
-  const [hoverWork, setHoverWork] = useState(false)
   const [hoverAbout, setHoverAbout] = useState(false)
   const [hoverContact, setHoverContact] = useState(false)
+  const [hoverWork, setHoverWork] = useState(false)
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
@@ -21,13 +21,6 @@ export const NavbarMobile = () => {
   }
   const handleMouseOutHome = () => {
     setHoverHome(false)
-  }
-
-  const handleMouseInWork = () => {
-    setHoverWork(true)
-  }
-  const handleMouseOutWork = () => {
-    setHoverWork(false)
   }
 
   const handleMouseInAbout = () => {
@@ -41,6 +34,12 @@ export const NavbarMobile = () => {
   }
   const handleMouseOutContact = () => {
     setHoverContact(false)
+  }
+  const handleMouseInWork = () => {
+    setHoverWork(true)
+  }
+  const handleMouseOutWork = () => {
+    setHoverWork(false)
   }
 
   return (

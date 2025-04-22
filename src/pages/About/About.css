@@ -172,7 +172,8 @@ width: 77%
   .AboutContainerNew {
     width: fit-content;
     margin-left: 0rem;
-    margin: auto
+    margin: auto;
+    margin-bottom: 6rem
   }
 
 }
@@ -211,7 +212,7 @@ width: 77%
 @media screen and (max-width: 479px) {
 
   .Container.about.mobile {
-    margin-top: 16rem;
+    margin-top: 18rem;
     width: 90%;
     flex-direction: column;
 

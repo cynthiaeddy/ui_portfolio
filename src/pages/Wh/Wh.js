@@ -1,4 +1,3 @@
-// import React from 'react'
 import React, { useState } from 'react'
 import Carousel_ipad from '../../components/Carousel_wh/Carousel_ipad'
 import Carousel_phone from '../../components/Carousel_wh/Carousel_phone'
