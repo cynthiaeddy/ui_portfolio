@@ -9,7 +9,7 @@
   border-radius: 50%;
   background-color: #000;
   cursor: pointer;
-  z-index: 100;
+  z-index: 90;
   margin: 4rem 0rem 7rem 0rem
 }
 
