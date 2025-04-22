@@ -38,7 +38,7 @@ const Carousel_slide_ipad = forwardRef(({ src, notifyReady }, externalRef) => {
         className={`video-player ${isReady ? 'visible' : 'hidden'}`}
         playsInline
         muted
-        autoPlay
+        controls
         loop
         onLoadedMetadata={handleLoaded}
         onCanPlay={handleLoaded}
