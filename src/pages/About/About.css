@@ -212,7 +212,7 @@ width: 77%
 @media screen and (max-width: 479px) {
 
   .Container.about.mobile {
-    margin-top: 16rem;
+    margin-top: 18rem;
     width: 90%;
     flex-direction: column;
 

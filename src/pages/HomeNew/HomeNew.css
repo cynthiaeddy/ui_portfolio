@@ -140,10 +140,14 @@ margin-left: 23rem;
 }
 .HomeContainer {
   width: 90%;
-  margin-top: 14rem
+  margin-top: 17rem
 }
 .HomeContainerTop {
   width: fit-content;
   margin-left: 0rem
+}
+.HomeContainerBottom {
+  margin-top: 3rem
+}
 
-}}
+}
