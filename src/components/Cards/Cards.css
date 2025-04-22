@@ -60,7 +60,8 @@
   text-align: center;
   font-size: 1rem;
   line-height: 2;
-  color: black
+  color: black;
+  font-weight: 600;
 }
 
 
@@ -74,7 +75,13 @@
 .Card_p{
   text-align: center;
   margin: 1rem 0;
-  color: black
+  color: black;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-transform: initial;
+    letter-spacing: .1rem;
 }
 
 .Button_website {
