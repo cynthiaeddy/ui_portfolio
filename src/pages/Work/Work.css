@@ -151,3 +151,13 @@ margin-left: 23rem;
 }
 
 }
+
+
+.work-wrapper {
+  opacity: 0;
+  transition: opacity 3s ease;
+}
+
+.work-wrapper.fade-in {
+  opacity: 1;
+}
