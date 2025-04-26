@@ -9,19 +9,6 @@ export const NavbarNew = () => {
       <div className='NavbarSection'>
         <ul className='Navbar-items'>
           <li className='nav-item work-link'>
-            <NavLink
-              to={{
-                pathname: '/',
-                state: { fromHome: true },
-              }}
-              className='nav-links'
-              activeClassName='active'
-            >
-              home
-              <img src={navActive} className='navActive' alt='navActive' />
-            </NavLink>
-          </li>
-          <li className='nav-item work-link'>
             <NavLink to='/work' className='nav-links' activeClassName='active'>
               work
               <img src={navActive} className='navActive' alt='navActive' />

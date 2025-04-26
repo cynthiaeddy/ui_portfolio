@@ -7,20 +7,12 @@ import navActive from '../../assets/bug.svg'
 
 export const NavbarMobile = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [hoverHome, setHoverHome] = useState(false)
   const [hoverAbout, setHoverAbout] = useState(false)
   const [hoverContact, setHoverContact] = useState(false)
   const [hoverWork, setHoverWork] = useState(false)
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
-  }
-
-  const handleMouseInHome = () => {
-    setHoverHome(true)
-  }
-  const handleMouseOutHome = () => {
-    setHoverHome(false)
   }
 
   const handleMouseInAbout = () => {
@@ -55,36 +47,6 @@ export const NavbarMobile = () => {
       </div>
       <ul className={`navbar-mobile ${isMenuOpen ? 'active' : 'not-active'}`}>
         {' '}
-        <li className='nav-item_mobile'>
-          <NavLink
-            to='/'
-            className='mobile_nav-links'
-            activeClassName='mobile_active'
-            onClick={toggleMenu}
-            onMouseEnter={handleMouseInHome}
-            onMouseLeave={handleMouseOutHome}
-          >
-            {hoverHome ? (
-              <div className='hover_item hover'>
-                Home
-                <img
-                  src={navActive}
-                  className='navActive_visable'
-                  alt='navActive'
-                />
-              </div>
-            ) : (
-              <div className='hover_item'>
-                home
-                <img
-                  src={navActive}
-                  className='navActive_visable hidden'
-                  alt='navActive'
-                />
-              </div>
-            )}
-          </NavLink>
-        </li>
         <li className='nav-item_mobile'>
           <NavLink
             to='/work'

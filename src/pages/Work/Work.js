@@ -1,26 +1,22 @@
-import '../HomeNew/HomeNew.css'
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
+import './Work.css'
 import { Cards } from '../../components/Cards/Cards'
-// import { Footer } from '../../components/Footer/Footer'
 import ScrollDownIconCircle from '../../components/Button_animated/ScrollDownIconCircle'
 
 export const Work = () => {
   const location = useLocation()
   const fromHome = location.state?.fromHome === true
   const [fadeIn, setFadeIn] = useState(fromHome ? false : true)
-  console.log('fromHome:', fromHome, 'location', location)
 
   useEffect(() => {
     if (fromHome) {
-      // Trigger fade-in effect
-      const timeout = setTimeout(() => setFadeIn(true), 50)
-      return () => clearTimeout(timeout)
+      const timer = setTimeout(() => setFadeIn(true), 50)
+      return () => clearTimeout(timer)
     }
   }, [fromHome])
-
   return (
-    <div className={`fade-wrapper ${fadeIn ? 'fade-in' : 'fade-out'}`}>
+    <div className={`work-wrapper ${fadeIn ? 'fade-in' : ''}`}>
       <section className='HomeContainer'>
         <div className='HomeContainerTop'>
           <div className='AboutHome'>hiya, i&apos;m cynthia.</div>
@@ -38,8 +34,6 @@ export const Work = () => {
           <Cards />
         </div>
       </section>
-      {/* <Footer /> */}
     </div>
-    // )
   )
 }
