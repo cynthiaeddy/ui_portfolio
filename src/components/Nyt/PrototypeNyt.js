@@ -7,7 +7,7 @@ export const PrototypeNyt = () => {
     <section className='PrototypeContainer'>
       <img className='prototype' src={opener} />
       <Link
-        to='https://www.figma.com/proto/4q3KKecaz9tVgbqn02lF1r/swot-button_works?page-id=335%3A649&node-id=335-806&viewport=920%2C-220%2C0.35&t=5NdCA0OqmngmFNJ1-1&scaling=scale-down&content-scaling=fixed'
+        to='https://www.figma.com/proto/CEzzZHi83KNuRahEInadwf/prototype?page-id=0%3A1&node-id=1-740&p=f&viewport=181%2C288%2C0.25&t=OXfIQg9wZLeXczUL-1&scaling=scale-down&content-scaling=fixed'
         target='_blank'
         rel='noopener noreferrer'
         className='ButtonContainer'
