@@ -16,10 +16,13 @@ import { Work } from './pages/Work/Work'
 import { Splash } from './pages/Splash'
 import useGoatCounter from './components/useGoatCounter'
 
+const GoatCounterWrapper = () => {
+  useGoatCounter()
+  return null
+}
+
 const App = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
-
-  useGoatCounter()
 
   // Update windowWidth on window resize
   useEffect(() => {
@@ -55,6 +58,8 @@ const App = () => {
   return (
     <div className='AppContainer'>
       <Router>
+        <GoatCounterWrapper />
+
         <ScrollToTop />
         {!isMobile ? <NavbarNew /> : <NavbarMobile />}
         {routes}
