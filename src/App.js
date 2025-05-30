@@ -14,9 +14,12 @@ import { Wh } from './pages/Wh/Wh'
 import { Shape } from './pages/Shape/Shape'
 import { Work } from './pages/Work/Work'
 import { Splash } from './pages/Splash'
+import useGoatCounter from './components/useGoatCounter'
 
 const App = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+
+  useGoatCounter()
 
   // Update windowWidth on window resize
   useEffect(() => {
