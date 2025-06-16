@@ -25,24 +25,22 @@ export const About = () => {
 
         <h4 className='AboutText'>
           working on iPad and iPhone interfaces before they became the norm.
-          After a software development bootcamp, I spent a few years coding and
-          freelancing, but design has always been my true passion.
+          Along the way, I completed both a software development and a UX/UI
+          design bootcamp — training that deepened my ability to think across
+          disciplines and bridge design with development.
           <br />
           <br />
-          Outside of work, I&apos;m all about making—quilting, silversmithing,
-          and experimenting in the kitchen. These creative outlets keep me
-          inspired and shape my work in UX/UI. I&apos;ve lived in New York for
-          decades, and the city (plus my hiking trips around it) constantly
-          sparks new ideas. Travel also feeds my creativity—recent trips to
-          Croatia and an upcoming adventure in Merida, Mexico, are already
-          inspiring new thoughts.
+          With a foundation in editorial storytelling and technical fluency, I
+          create user-centered experiences that are both intuitive and visually
+          engaging — across editorial sites, e-commerce projects, and custom web
+          apps.
           <br />
           <br />
-          Today, I bring together my design and tech experience to create
-          digital experiences that are not only visually engaging but also
-          intuitive and user-focused. Whether it&apos;s a website, app, or
-          prototype, my goal is always to craft seamless, enjoyable user
-          journeys.
+          Outside of work, I like to keep my hands busy — quilting,
+          silversmithing, or experimenting in the kitchen. I find inspiration
+          everywhere: walking through the city, catching outdoor concerts, or
+          heading to a hiking trail just beyond it. Travel sparks ideas too —
+          most recently in Croatia and Mérida, Mexico.
         </h4>
         <footer className='AboutInfo'>
           <a href={cynthia_eddy_resume} className='About_link'>
