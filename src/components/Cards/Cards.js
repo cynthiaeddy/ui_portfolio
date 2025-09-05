@@ -47,6 +47,20 @@ export const Cards = () => {
             <button className='Button_website'>view</button>
           </div>
         </Link>
+        <Link to='/work/ssc2' className='IndieCard'>
+          <img className='CardImageHome ssc' src={ssc} alt={ssc} />
+          <div className='CardDek'>
+            <h2 className='Card_hed'>Sustainable Soap Co.</h2>
+            <div className='hed_and_blurb'>
+              <h6 className='Card_blurb'>mobile ux/ui design</h6>
+              <p className='Card_p'>
+                End to end redesign of a e-commerce website refining user
+                experience and brand identity.
+              </p>
+            </div>
+            <button className='Button_website'>view</button>
+          </div>
+        </Link>
         <Link to='/work/wh' className='IndieCard'>
           <img className='CardImageHome wh' src={wh} alt={wh} />
           <div className='CardDek wh'>

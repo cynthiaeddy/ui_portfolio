@@ -49,6 +49,7 @@ const App = () => {
       <Route exact path='/contact' element={<Contact />} />
 
       <Route exact path='/work/ssc' element={<Ssc />} />
+      <Route exact path='/work/ssc2' element={<Ssc />} />
       <Route exact path='/work/nyt' element={<Nyt />} />
       <Route exact path='/work/fh' element={<Fh />} />
       <Route exact path='/work/wh' element={<Wh />} />

@@ -3,8 +3,10 @@ import '../ReusableComponents.css'
 import '../ReusableResearch.css'
 import magBlk1H from '../../assets/ssc/magBlk1H.png'
 import magBlk1 from '../../assets/ssc/magBlk1.png'
-import competitive_sm from '../../assets/ssc/competitive_sm.png'
+// import competitive_sm from '../../assets/ssc/competitive_sm.png'
 import affinity_map from '../../assets/ssc/ive_affinity_mapcropped.png'
+import doit from '../../assets/ssc/Frame 88.png'
+
 import persona from '../../assets/ssc/ive_persona.png'
 import { ModalSsc } from '../Modals/ModalSsc'
 import { ModalSscAffinity } from '../Modals/ModalSscAffinity'
@@ -22,10 +24,10 @@ export const Research = () => {
     setHover(false)
   }
 
-  const modalSscOpen = () => {
-    setIsmodalSscOpen(true)
-    document.body.style.overflow = 'hidden'
-  }
+  // const modalSscOpen = () => {
+  //   setIsmodalSscOpen(true)
+  //   document.body.style.overflow = 'hidden'
+  // }
   const modalSscClose = () => {
     setIsmodalSscOpen(false)
     document.body.style.overflow = 'auto'
@@ -55,23 +57,7 @@ export const Research = () => {
           </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>competitive analysis swot</div>
-            <button
-              onClick={modalSscOpen}
-              onMouseOver={handleMouseIn}
-              onMouseOut={handleMouseOut}
-            >
-              {hover ? (
-                <img className='magnifier' src={magBlk1H} alt={magBlk1H} />
-              ) : (
-                <img className='magnifier' src={magBlk1} alt={magBlk1} />
-              )}
-            </button>
-            <img
-              className='competitive'
-              src={competitive_sm}
-              alt={competitive_sm}
-            />
-
+            <img className='competitive' src={doit} alt={doit} />
             <h5 className='h5 leadins'>
               <span className='leadin'>From the competitive analysis,</span> I
               learned that while many sustainable soap brands focus on
