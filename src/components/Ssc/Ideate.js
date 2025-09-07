@@ -1,8 +1,9 @@
 import '../ReusableComponents.css'
 import '../ReusableIdeate.css'
 import ive_mood_resize from '../../assets/ssc/ive_mood.png'
-import ive_style from '../../assets/ssc/ive_style_resize.png'
-
+// import ive_style from '../../assets/ssc/ive_style_resize.png'
+// import user_flow from '../../assets/ssc/ssc_user_flow_1.png'
+import user_flow from '../../assets/ssc/ssc_user_flow_1.png'
 export const Ideate = () => {
   return (
     <>
@@ -45,8 +46,8 @@ export const Ideate = () => {
               <div className='Button enlarge'>style tile</div>
               <img
                 className='competitive style'
-                src={ive_style}
-                alt={ive_style}
+                src={user_flow}
+                alt={user_flow}
               />
             </div>
           </div>

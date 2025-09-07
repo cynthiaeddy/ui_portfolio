@@ -196,7 +196,9 @@ button {
   width:95rem;
   margin-top: -1rem
 }
-
+.competitve.affinity {
+  width: 100%
+}
 .h5.bullets {
   margin-top: 2rem
 }

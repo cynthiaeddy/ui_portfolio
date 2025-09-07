@@ -1,28 +1,16 @@
 import { useState } from 'react'
 import '../ReusableComponents.css'
 import '../ReusableResearch.css'
-import magBlk1H from '../../assets/ssc/magBlk1H.png'
-import magBlk1 from '../../assets/ssc/magBlk1.png'
 // import competitive_sm from '../../assets/ssc/competitive_sm.png'
-import affinity_map from '../../assets/ssc/ive_affinity_mapcropped.png'
+// import affinity_map from '../../assets/ssc/Group 361.png'
+import affinity_map from '../../assets/ssc/Group 361.png'
 import doit from '../../assets/ssc/Frame 88.png'
 
 import persona from '../../assets/ssc/ive_persona.png'
 import { ModalSsc } from '../Modals/ModalSsc'
-import { ModalSscAffinity } from '../Modals/ModalSscAffinity'
 
 export const Research = () => {
   const [ismodalSscOpen, setIsmodalSscOpen] = useState(false)
-  const [ismodalSscAffinityOpen, setIsmodalSscAffinityOpen] = useState(false)
-  const [hover, setHover] = useState(false)
-
-  const handleMouseIn = () => {
-    setHover(true)
-  }
-
-  const handleMouseOut = () => {
-    setHover(false)
-  }
 
   // const modalSscOpen = () => {
   //   setIsmodalSscOpen(true)
@@ -30,14 +18,6 @@ export const Research = () => {
   // }
   const modalSscClose = () => {
     setIsmodalSscOpen(false)
-    document.body.style.overflow = 'auto'
-  }
-  const modalSscAffinityOpen = () => {
-    setIsmodalSscAffinityOpen(true)
-    document.body.style.overflow = 'hidden'
-  }
-  const modalSscAffinityClose = () => {
-    setIsmodalSscAffinityOpen(false)
     document.body.style.overflow = 'auto'
   }
 
@@ -120,19 +100,8 @@ export const Research = () => {
 
           <div className='ButtonContainer'>
             <div className='Button enlarge'>affinity mapping</div>
-            <button
-              onClick={modalSscAffinityOpen}
-              onMouseOver={handleMouseIn}
-              onMouseOut={handleMouseOut}
-            >
-              {hover ? (
-                <img className='magnifier' src={magBlk1H} alt={magBlk1H} />
-              ) : (
-                <img className='magnifier' src={magBlk1} alt={magBlk1} />
-              )}
-            </button>
             <img
-              className='competitive'
+              className='competitive affinity'
               src={affinity_map}
               alt={affinity_map}
             />
@@ -150,10 +119,6 @@ export const Research = () => {
         </div>
       </section>
       <ModalSsc isOpen={ismodalSscOpen} modalSscClose={modalSscClose} />
-      <ModalSscAffinity
-        isOpen={ismodalSscAffinityOpen}
-        modalSscClose={modalSscAffinityClose}
-      />
     </>
   )
 }
