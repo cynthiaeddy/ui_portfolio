@@ -12,6 +12,34 @@
   margin-top: 1.5rem;
   width: 95rem;
 }
+
+.competitive.testing {
+  width: 55rem
+
+}
+.ssc_testing_new {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+margin-bottom:2rem
+}
+
+.ssc_testing_new.last {
+  justify-content: space-around;
+}
+.ssc_testing_new .ssc {
+  width: auto;
+  height: 46rem;
+  object-fit: cover;
+}
+.ssc.checkout {
+  margin-left: 3rem
+}
+.ssc.review {
+  margin-right: 3rem
+}
+
+
 @media screen and (min-width: 769px) and (max-width: 1030px) {
   .TestingContainer.ssc {
     padding-bottom: 2rem;

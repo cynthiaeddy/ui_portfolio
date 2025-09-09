@@ -1,21 +1,14 @@
 import { useState } from 'react'
 import '../ReusableComponents.css'
 import '../ReusableResearch.css'
-// import competitive_sm from '../../assets/ssc/competitive_sm.png'
-// import affinity_map from '../../assets/ssc/Group 361.png'
 import affinity_map from '../../assets/ssc/Group 361.png'
 import doit from '../../assets/ssc/Frame 88.png'
-
 import persona from '../../assets/ssc/ive_persona.png'
 import { ModalSsc } from '../Modals/ModalSsc'
 
 export const Research = () => {
   const [ismodalSscOpen, setIsmodalSscOpen] = useState(false)
 
-  // const modalSscOpen = () => {
-  //   setIsmodalSscOpen(true)
-  //   document.body.style.overflow = 'hidden'
-  // }
   const modalSscClose = () => {
     setIsmodalSscOpen(false)
     document.body.style.overflow = 'auto'
@@ -37,7 +30,7 @@ export const Research = () => {
           </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>competitive analysis swot</div>
-            <img className='competitive' src={doit} alt={doit} />
+            <img className='competitive research' src={doit} alt={doit} />
             <h5 className='h5 leadins'>
               <span className='leadin'>From the competitive analysis,</span> I
               learned that while many sustainable soap brands focus on
