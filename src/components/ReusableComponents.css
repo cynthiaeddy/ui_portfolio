@@ -157,6 +157,10 @@ margin-bottom: 2rem;}
   position: relative;
   z-index: 50;
 }
+
+.Button.enlarge.style {
+  margin-top: 14rem
+}
 .Button.enlarge.white {
   background: white;
   color:black;
@@ -197,6 +201,9 @@ button {
   margin-top: -1rem
 }
 .competitve.affinity {
+  width: 100%
+}
+.competitve.ideate {
   width: 100%
 }
 .h5.bullets {

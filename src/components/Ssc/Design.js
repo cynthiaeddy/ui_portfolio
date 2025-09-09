@@ -1,54 +1,9 @@
-import { useState } from 'react'
 import '../ReusableComponents.css'
 import '../ReusableDesign.css'
-import magWh from '../../assets/ssc/magWh.png'
-import magWhH from '../../assets/ssc/magWhH.png'
-import user_flow from '../../assets/ssc/ssc_user_flow.png'
+import ive_style_resize from '../../assets/ssc/ive_style_resize.png'
 import hiFi from '../../assets/ssc/hifi_crop.jpg'
-import mid_fi from '../../assets/ssc/ive_mid_fi.png'
-import { ModalSscFlow } from '../Modals/ModalSscFlow'
-import { ModalSscLoFi } from '../Modals/ModalSscLoFi'
-import { ModalSscHiFi } from '../Modals/ModalSscHiFi'
 
 export const Design = () => {
-  const [hover, setHover] = useState(false)
-  const [ismodalSscFlowOpen, setIsmodalSscFlowOpen] = useState(false)
-  const [ismodalSscLoFiOpen, setIsmodalSscLoFiOpen] = useState(false)
-  const [ismodalSscHiFiOpen, setIsmodalSscHiFiOpen] = useState(false)
-
-  const handleMouseIn = () => {
-    setHover(true)
-  }
-
-  const handleMouseOut = () => {
-    setHover(false)
-  }
-
-  const modalSscFlowOpen = () => {
-    setIsmodalSscFlowOpen(true)
-    document.body.style.overflow = 'hidden'
-  }
-  const modalSscFlowClose = () => {
-    setIsmodalSscFlowOpen(false)
-    document.body.style.overflow = 'auto'
-  }
-
-  const modalSscLoFiOpen = () => {
-    setIsmodalSscLoFiOpen(true)
-    document.body.style.overflow = 'hidden'
-  }
-  const modalSscLoFiClose = () => {
-    setIsmodalSscLoFiOpen(false)
-    document.body.style.overflow = 'auto'
-  }
-  const modalSscHiFiOpen = () => {
-    setIsmodalSscHiFiOpen(true)
-    document.body.style.overflow = 'hidden'
-  }
-  const modalSscHiFiClose = () => {
-    setIsmodalSscHiFiOpen(false)
-    document.body.style.overflow = 'auto'
-  }
   return (
     <>
       <div className='BlackHeds white'>
@@ -63,81 +18,15 @@ export const Design = () => {
           navigation and search functionality.
         </h5>
         <div className='ButtonContainer'>
-          <div className='Button enlarge white no_margin'>user flow</div>
-          <button
-            onClick={modalSscFlowOpen}
-            onMouseOver={handleMouseIn}
-            onMouseOut={handleMouseOut}
-          >
-            {hover ? (
-              <img className='magnifier wh' src={magWhH} alt={magWhH} />
-            ) : (
-              <img className='magnifier wh' src={magWh} alt={magWh} />
-            )}
-          </button>
-          <img className='competitive flow' src={user_flow} alt={user_flow} />
+          <div className='Button enlarge white no_margin'>design system</div>
+          <img
+            className='competitive flow'
+            src={ive_style_resize}
+            alt={ive_style_resize}
+          />
         </div>
         <div className='divider_curved top'></div>
         <div className='divider_curved_down'></div>
-        <h5 className='h5 dropCap black fh'>
-          The low-fidelity wireframes helped shape the content structure and
-          layout, ensuring key elements were organized effectively. By referring
-          to the persona and affinity map, I focused on presenting crucial
-          information that keeps users engaged, particularly on the landing and
-          product pages.
-        </h5>
-        <ul className='h5 bullets ssc'>
-          <li className='first_li_research black'>
-            <h5 className='h5 black'>
-              Wireframes provided insights into content structure and page
-              organization.
-            </h5>
-          </li>
-          <li className='black'>
-            <h5 className='h5 black'>
-              Persona and affinity map guided the prioritization of
-              user-friendly, engaging information.
-            </h5>
-          </li>
-          <li className='smHed'>
-            <h6 className='h6 small space'>landing page</h6>
-          </li>
-          <li className='black'>
-            <h5 className='h5 black'>
-              Mission statement highlighting sustainability and handcrafted
-              products.
-            </h5>
-          </li>
-          <li className='black'>
-            <h5 className='h5 black'>
-              SSC&apos;s values presented with icons and brief text.
-            </h5>
-          </li>
-          <li className='smHed'>
-            <h6 className='h6 small space'>product page</h6>
-          </li>
-          <li className='black'>
-            <h5 className='h5 black'>
-              Features usage instructions, ingredients, and customer reviews.
-            </h5>
-          </li>
-        </ul>
-        <div className='ButtonContainer'>
-          <div className='Button enlarge white'>low fidelity wireframes</div>
-          <button
-            onClick={modalSscLoFiOpen}
-            onMouseOver={handleMouseIn}
-            onMouseOut={handleMouseOut}
-          >
-            {hover ? (
-              <img className='magnifier wh' src={magWhH} alt={magWhH} />
-            ) : (
-              <img className='magnifier wh' src={magWh} alt={magWh} />
-            )}
-          </button>
-          <img className='competitive mid_fi' src={mid_fi} alt={mid_fi} />
-        </div>
-        <div className='divider_curved top'></div>
         <h5 className='h5 dropCap black too'>
           In moderated testing of the low-fidelity wireframes, 5 participants
           completed their tasks of exploring the homepage, purchasing the vegan
@@ -167,32 +56,9 @@ export const Design = () => {
         </ul>
         <div className='ButtonContainer'>
           <div className='Button enlarge white'>high fidelity wireframes</div>
-          <button
-            onClick={modalSscHiFiOpen}
-            onMouseOver={handleMouseIn}
-            onMouseOut={handleMouseOut}
-          >
-            {hover ? (
-              <img className='magnifier wh' src={magWhH} alt={magWhH} />
-            ) : (
-              <img className='magnifier wh' src={magWh} alt={magWh} />
-            )}
-          </button>
           <img className='competitive hi_fi' src={hiFi} alt={hiFi} />
         </div>
       </section>
-      <ModalSscFlow
-        isOpen={ismodalSscFlowOpen}
-        modalSscClose={modalSscFlowClose}
-      />
-      <ModalSscLoFi
-        isOpen={ismodalSscLoFiOpen}
-        modalSscClose={modalSscLoFiClose}
-      />
-      <ModalSscHiFi
-        isOpen={ismodalSscHiFiOpen}
-        modalSscClose={modalSscHiFiClose}
-      />
     </>
   )
 }

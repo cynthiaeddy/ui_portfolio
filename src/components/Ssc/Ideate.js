@@ -2,8 +2,8 @@ import '../ReusableComponents.css'
 import '../ReusableIdeate.css'
 import ive_mood_resize from '../../assets/ssc/ive_mood.png'
 // import ive_style from '../../assets/ssc/ive_style_resize.png'
-// import user_flow from '../../assets/ssc/ssc_user_flow_1.png'
-import user_flow from '../../assets/ssc/ssc_user_flow_1.png'
+import lo_fi from '../../assets/ssc/ive_mid_fi.png'
+import user_flow from '../../assets/ssc/ssc_user_flow2.png'
 export const Ideate = () => {
   return (
     <>
@@ -43,12 +43,32 @@ export const Ideate = () => {
               alt={ive_mood_resize}
             />
             <div className='ButtonContainer'>
-              <div className='Button enlarge'>style tile</div>
+              <h5 className='h5 marginTop'>
+                <span className='leadin'>Based on my research, </span> I the
+                essential sections and features the website should incorporate:
+              </h5>
+              <div className='Button enlarge style'>user flow</div>
               <img
                 className='competitive style'
                 src={user_flow}
                 alt={user_flow}
               />
+            </div>
+            <div className='ButtonContainer lo_fi'>
+              <h5 className='h5 marginTop'>
+                <h5 className='h5 dropCap'>
+                  In moderated testing of the low-fidelity wireframes, 5
+                  participants completed their tasks of exploring the homepage,
+                  purchasing the vegan soap and accessing information about the
+                  company&apos;s sustainability practices and product usage. All
+                  five users succeeded without errors and found the navigation
+                  intuitive, though they suggested increasing the hamburger menu
+                  size and improving access to product reviews. <br /> <br />{' '}
+                  Next steps for the high-fidelity wireframes:{' '}
+                </h5>
+              </h5>
+              <div className='Button enlarge ideate'>lo fi</div>
+              <img className='competitive ideate' src={lo_fi} alt={lo_fi} />
             </div>
           </div>
         </div>
