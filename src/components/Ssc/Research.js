@@ -1,19 +1,10 @@
-import { useState } from 'react'
 import '../ReusableComponents.css'
 import '../ReusableResearch.css'
 import affinity_map from '../../assets/ssc/Group 361.png'
 import doit from '../../assets/ssc/Frame 88.png'
 import persona from '../../assets/ssc/ive_persona.png'
-import { ModalSsc } from '../Modals/ModalSsc'
 
 export const Research = () => {
-  const [ismodalSscOpen, setIsmodalSscOpen] = useState(false)
-
-  const modalSscClose = () => {
-    setIsmodalSscOpen(false)
-    document.body.style.overflow = 'auto'
-  }
-
   return (
     <>
       <div className='BlackHeds'>
@@ -111,7 +102,6 @@ export const Research = () => {
           <img className='competitive persona' src={persona} alt={persona} />
         </div>
       </section>
-      <ModalSsc isOpen={ismodalSscOpen} modalSscClose={modalSscClose} />
     </>
   )
 }
