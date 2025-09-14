@@ -27,50 +27,64 @@ export const Opener = () => {
           alt={soap_ive}
         />
       </div>
-      <div className='background'></div>
       <div className='textWrapper'>
-        <h2 className='cases_openerText'> Sustainable Soap Co.</h2>
-        <h5 className='h5 openerType'>
-          specializes in small batch sustainable products such as soaps, shampoo
-          and lotions for hair and body.
+        <h2 className='openerText'> Sustainable Soap Co.</h2>
+        <h5 className='h5 openerType lead'>
+          End-to-End Redesign of an e-commerce website specializing in
+          small-batch sustainable soaps, shampoos, and lotions, showcasing
+          sustainability while creating a seamless shopping experience.
         </h5>
       </div>
       <div className='OpenerInfo'>
         <div className='Info'>
-          <h6 className='h6 studies'>PROBLEM</h6>
+          {/* <div className='divider_curved_down'></div> */}
+          <div className='Button_website opener margin'>problem</div>
           <h5 className='h5 black'>
-            The website struggles with low traffic and customer engagement due
-            to a generic design that fails to stand out. A redesign is needed to
-            create a visually appealing experience aligned with the brand&apos;s
-            sustainable ethos, boosting conversions and user satisfaction.
+            Sustainable Soap Co. had a clear mission but a generic website that
+            didn&apos;t reflect it. Traffic was low, engagement was weak, and
+            customers weren&apos;t connecting with the brand&apos;s story.
+            Without transparency or a distinct visual identity, the site
+            wasn&apos;t converting visitors into buyers.
           </h5>
           <br />
-          <h6 className='h6 studies'>solution</h6>
-          <h5 className='h5 black'>
+          <div className='Button_website opener '>solution</div>
+          <h5 className='h5 black lead'>
             How might we redesign the website to create an engaging, visually
             appealing experience that showcases it&apos;s eco-friendly products,
             reflects it&apos;s sustainable ethos, and effectively converts
             visitors into loyal customers?
           </h5>
-        </div>
-        <div className='InfoSmall'>
-          <h6 className='h6 small'>role</h6>
-          <h5 className='h5 small'>
-            UX Researcher <br />
-            UI Designer
-          </h5>
-          <br />
-          <h6 className='h6 small'>duration</h6>
-          <h5 className='h5 small'>12 Weeks</h5>
-          <br />
-          <h6 className='h6 small'>tools</h6>
-          <h5 className='h5 small'>
-            Figma <br />
-            Photoshop
-          </h5>
+          <div className='InfoSmall'>
+            <div>
+              <h6 className='h6 small'>project</h6>
+              <h5 className='h5 small'>
+                End to End Mobile
+                <br />
+                Redesign
+              </h5>
+            </div>
+            <div>
+              <h6 className='h6 small'>role</h6>
+              <h5 className='h5 small'>
+                UX Researcher <br />
+                UI Designer
+              </h5>
+            </div>
+            <div>
+              <h6 className='h6 small'>duration</h6>
+              <h5 className='h5 small'>12 Weeks</h5>
+            </div>
+            <div>
+              <h6 className='h6 small'>tools</h6>
+              <h5 className='h5 small'>
+                Figma <br />
+                Photoshop
+              </h5>
+            </div>
+          </div>
         </div>
       </div>
-      <div className='divider_curved'></div>
+      {/* <div className='divider_curved lead'></div> */}
     </section>
   )
 }

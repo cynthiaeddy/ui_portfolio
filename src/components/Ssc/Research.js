@@ -13,11 +13,14 @@ export const Research = () => {
       <section className='ResearchContainer ssc'>
         <div className='InnerContainer'>
           <h5 className='h5 dropCap'>
-            To kick off the research phase, I conducted an in-depth analysis of
-            competing sustainable soap brands. The focus was to uncover what
-            sets Sustainable Soap Co. apart and identify ways to showcase their
-            commitment to eco-conscious practices through refined, distinctive
-            branding.
+            To kick off the research, I compared three sustainable soap brands
+            with overlapping markets. The Handmade Soap Company showed the most
+            polish, with strong branding, product photography, and a broad line,
+            though navigation felt cluttered. Idaho Soap Company had consistent
+            branding and easy navigation but a limited range and simpler site.
+            Small Batch Soapery offered unique, artisan products, yet the
+            website suffered from broken links, confusing navigation, and
+            inconsistent branding, with only light emphasis on sustainability.
           </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>competitive analysis swot</div>

@@ -6,7 +6,7 @@
 .Opener {
   display: flex;
   margin: auto;
-  width: 80rem;
+  width: 75rem;
   justify-content: space-between;
 }
 .Opener.fh {
@@ -15,6 +15,8 @@
 .OpenerFoto {
   width: 31%;
   align-self: center;
+  filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5))
+
 }
 
 .OpenerFoto.desktop {
@@ -34,23 +36,42 @@
 
 }
 .textWrapper {
-background: #231F20;
 width: 100%;
-border-radius: 20px;
-margin-top: .5px;
-padding: 3.5rem;
+margin:  4rem 0rem
 }
 .OpenerInfo {
-  display: flex;
-  margin: 4rem;
-  justify-content: space-between;
+ display: flex
+;    justify-content: space-between;
+    margin-bottom: 0;
+    width: 75rem;
+    margin: auto;
   margin-bottom: 0
 }
-.Info {
-  width: 80%
+.Button.enlarge.white.margin,.Button.enlarge.black.margin {
+  margin: auto
+}
+.Button_website.opener{
+  margin:auto;
+  margin-bottom: 1rem;
+  margin-top: -2rem
+}
+.Button_website.opener.margin{
+  margin-top: 0
+}
+.divider_curved.lead {
+    width: 75rem;
+    margin: auto;
+    margin-top: 1rem
+}
+.Button_website.opener:hover {
+  box-shadow: none;
+  color: white
+
 }
 .InfoSmall {
-  width: 15%
+ display: flex;
+ justify-content: space-evenly;
+ margin-top: 4rem
 }
 .divider_curved {
   width: 100%;
@@ -59,8 +80,21 @@ padding: 3.5rem;
 border-bottom: .5px solid #000;
 margin-bottom: 2rem;}
 
+.cases_openerText {
+  color: white
+}
+.openerText {
+  color: black;
+  font-size: 5rem
+}
 .h5.openerType {
   text-align: center;
+  color: black
+}
+
+.h5.openerType.lead {
+  /* font-weight: 500; */
+    font-size: 2rem;
 }
 .h6.studies {
   font-size: 1.4rem;
@@ -70,6 +104,7 @@ margin-bottom: 2rem;}
   color: black;
 
 }
+
 .h6.small {
   margin-bottom: .5rem
 }
