@@ -23,7 +23,7 @@ h5,.leadin {
   color:white;
   text-transform: initial;
   letter-spacing: .1rem;
-  font-weight: 400;
+  font-weight: 500;
    font-family: "neue-haas-grotesk-display", sans-serif;;
    text-align: left;
    line-height: 1.6;
@@ -52,6 +52,12 @@ h5,.leadin {
 
 .h5.dropCap, .h5.marginTop {
   margin-top:7rem;
+}
+.h5.black.dropCap.design {
+  margin-top: 5rem;
+}
+.h5.black.design {
+  margin-top: 7rem;
 }
 
 .h6.small {
@@ -101,9 +107,8 @@ margin-bottom: 2rem;}
 }
 
 
-.h5.dropCap::first-letter {
+.h5.dropCap::first-letter, .h5.black.dropcap::first-letter {
   font-family: gelica, sans-serif;
-  color: rgba(255, 255, 255, 0.8);
   font-size: 10.95rem;
   float: left;
   line-height: .85; /* from 1 */
@@ -113,19 +118,13 @@ margin-bottom: 2rem;}
   color: #c3996B
 }
 
-.h5.dropcap.black {
-  color: black
-}
-.h5.dropCap.black::first-letter {
-  color: black
-}
 .h5.leadins {
   margin-top: 6rem;
   margin-bottom: 5rem
 }
 .leadin {
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   letter-spacing: .05rem;
 }
 .leadin.black {
@@ -146,6 +145,9 @@ margin-bottom: 2rem;}
 }
 .ButtonContainer.ideate, .ButtonContainer.lo_fi {
   margin-top: 0rem
+}
+.ButtonContainer.ideate {
+  width: 95rem
 }
 
 
@@ -172,8 +174,10 @@ margin-bottom: 2rem;}
 }
 .Button.enlarge.white {
   background: white;
-  color:black;
-  border: 1.25px solid black
+  color:#a7835b;
+  border: 1.25px solid black;
+      filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.3));
+
 
 }
 

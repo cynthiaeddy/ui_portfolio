@@ -72,7 +72,7 @@ export const Ideate = () => {
             <div className='ButtonContainer lo_fi'>
               <h5 className='h5 marginTop'>
                 <span className='leadin'>
-                  I created low-fidelity wireframes{' '}
+                  I created low fidelity wireframes{' '}
                 </span>
                 in Figma and ran moderated testing with 5 participants. Their
                 tasks included exploring the homepage, purchasing the vegan
@@ -83,7 +83,7 @@ export const Ideate = () => {
                 reviews easier to access.
               </h5>
 
-              <div className='Button enlarge ideate'>lo fi</div>
+              <div className='Button enlarge ideate'>low fidelity</div>
               <img className='competitive ideate' src={lo_fi} alt={lo_fi} />
             </div>
           </div>
