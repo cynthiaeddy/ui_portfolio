@@ -31,7 +31,7 @@ export const Define = () => {
             <h5 className='h5 small'>
               Providing clear, easy-to-understand details on product use and
               ingredients enhances the user experience and aligns with
-              eco-friendly values
+              eco-friendly values.
             </h5>
           </div>
         </section>

@@ -46,12 +46,12 @@ h5,.leadin {
 .h5.small {
   color: white;
     color: black;
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   line-height: 1.5;
 }
 
 .h5.dropCap, .h5.marginTop {
-  margin-top:10rem;
+  margin-top:7rem;
 }
 
 .h6.small {
@@ -125,7 +125,7 @@ margin-bottom: 2rem;}
 }
 .leadin {
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 1.8rem;
   letter-spacing: .05rem;
 }
 .leadin.black {
@@ -143,6 +143,9 @@ margin-bottom: 2rem;}
   z-index: 5;
   position: relative;
   margin-top: 3rem
+}
+.ButtonContainer.ideate, .ButtonContainer.lo_fi {
+  margin-top: 0rem
 }
 
 
@@ -163,6 +166,9 @@ margin-bottom: 2rem;}
 
 .Button.enlarge.style {
   margin-top: 14rem
+}
+.Button.enlarge.ideate {
+  margin-top: 6rem
 }
 .Button.enlarge.white {
   background: white;

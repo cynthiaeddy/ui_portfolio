@@ -21,9 +21,11 @@
   font-family: gelica, sans-serif;
   font-weight: 200;
   color:#C3996B;
-  font-size: 5.5rem;
   float: left;
+  font-size: 5.5rem;
   margin-top: .75rem;
+    font-size: 10.25rem;
+    margin-top: 2.5rem;
 }
 .dropCap.hang.one {
   margin-left:1rem;

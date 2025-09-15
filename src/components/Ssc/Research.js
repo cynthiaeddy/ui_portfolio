@@ -48,8 +48,8 @@ export const Research = () => {
               from my research: an eco-conscious, research-driven shopper who
               values small-batch brands and expects both quality and
               convenience. She highlights the need for better transparency in
-              sustainable shopping, since she won&apos;’t commit without clear
-              without clear proof of sustainability. d
+              sustainable shopping, since she won&apos;t commit without clear
+              proof of sustainability.
             </h5>
           </div>
           <div className='ButtonContainer'>

@@ -12,11 +12,11 @@ export const Ideate = () => {
       </div>
       <section className='IdeateContainer ssc'>
         <div className='InnerContainer'>
-          <h5 className='h5 marginTop'>
+          {/* <h5 className='h5 marginTop'>
             <span className='leadin'>Based on my research, </span> I determined
             the essential sections and features the website should incorporate:
-          </h5>
-          <ul className='h5 bullets'>
+          </h5> */}
+          {/* <ul className='h5 bullets'>
             <li className='first_li_research'>
               <h5>Intuitive navigation with search functionality</h5>
             </li>
@@ -34,7 +34,18 @@ export const Ideate = () => {
             <li>
               <h5 className='leadin'>Updated branding and design elements</h5>
             </li>
-          </ul>
+          </ul> */}
+          <h5 className='h5 dropCap'>
+            {/* To set the visual direction, I created a mood board that blended the
+            brand&apos;s Art Deco roots with clean, natural visuals. This
+            preserved the heritage while signaling sustainability and trust. */}
+            To set the visual direction, I created a mood board that blended the
+            brand&apos;s Art Deco roots with clean, natural visuals. Earthy
+            tones and ingredient-focused imagery signaled sustainability, while
+            clean layouts and authentic textures built a sense of trust.
+            Together, these elements defined the typography, color, and imagery
+            that carried through the redesign.
+          </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>mood board</div>
             <img
@@ -42,10 +53,14 @@ export const Ideate = () => {
               src={ive_mood_resize}
               alt={ive_mood_resize}
             />
-            <div className='ButtonContainer'>
+            <div className='ButtonContainer ideate'>
               <h5 className='h5 marginTop'>
-                <span className='leadin'>Based on my research, </span> I the
-                essential sections and features the website should incorporate:
+                {/* <span className='leadin'>Based on my research, </span> I the
+                essential sections and features the website should incorporate: */}
+                <span className='leadin'>I mapped the key journey </span>
+                from homepage → product discovery → checkout. The focus was on
+                simplifying decisions and making sustainability info and reviews
+                easy to find.
               </h5>
               <div className='Button enlarge style'>user flow</div>
               <img
@@ -56,17 +71,18 @@ export const Ideate = () => {
             </div>
             <div className='ButtonContainer lo_fi'>
               <h5 className='h5 marginTop'>
-                <h5 className='h5 dropCap'>
-                  In moderated testing of the low-fidelity wireframes, 5
-                  participants completed their tasks of exploring the homepage,
-                  purchasing the vegan soap and accessing information about the
-                  company&apos;s sustainability practices and product usage. All
-                  five users succeeded without errors and found the navigation
-                  intuitive, though they suggested increasing the hamburger menu
-                  size and improving access to product reviews. <br /> <br />{' '}
-                  Next steps for the high-fidelity wireframes:{' '}
-                </h5>
+                <span className='leadin'>
+                  I created low-fidelity wireframes{' '}
+                </span>
+                in Figma and ran moderated testing with 5 participants. Their
+                tasks included exploring the homepage, purchasing the vegan
+                soap, and accessing information about the company&apos;s
+                sustainability practices and product usage. All five succeeded
+                without errors and found the navigation intuitive, though they
+                suggested enlarging the hamburger menu and making product
+                reviews easier to access.
               </h5>
+
               <div className='Button enlarge ideate'>lo fi</div>
               <img className='competitive ideate' src={lo_fi} alt={lo_fi} />
             </div>
