@@ -84,9 +84,15 @@ margin:  4rem 0rem
 
 }
 .InfoSmall {
- display: flex;
- justify-content: space-evenly;
- margin-top: 4rem
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 4rem;
+    width: 80%;
+}
+.h5.opener_text{
+  text-align: center;
+
 }
 .divider_curved {
   width: 100%;
@@ -119,7 +125,7 @@ margin-bottom: 2rem;}
 
 }
 
-.h6.small {
+.h6.small.opener {
   margin-bottom: .5rem;
   color:#C3996b
 }

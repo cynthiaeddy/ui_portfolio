@@ -39,7 +39,7 @@ export const Opener = () => {
         <div className='Info'>
           <div className='InfoSection'>
             <div className='Button_website opener margin'>problem</div>
-            <h5 className='h5'>
+            <h5 className='h5 opener_text'>
               The original site looked generic and failed to communicate the
               brand&apos;s sustainable ethos. Traffic was low, customer
               engagement was weak, and visitors weren&apos;t converting into
@@ -49,7 +49,7 @@ export const Opener = () => {
           </div>
           <div className='InfoSection'>
             <div className='Button_website opener margin'>solution</div>
-            <h5 className='h5'>
+            <h5 className='h5 opener_text'>
               Redesign the experience to feel authentic and modern while making
               sustainability proof front and center. The new site highlights
               eco-friendly products, shares the brand&apos;s story, and
@@ -58,7 +58,7 @@ export const Opener = () => {
           </div>
           <div className='InfoSmall'>
             <div>
-              <h6 className='h6 small'>project</h6>
+              <h6 className='h6 small opener'>project</h6>
               <h5 className='h5 small'>
                 End to End Mobile
                 <br />
@@ -66,18 +66,18 @@ export const Opener = () => {
               </h5>
             </div>
             <div>
-              <h6 className='h6 small'>role</h6>
+              <h6 className='h6 small opener'>role</h6>
               <h5 className='h5 small'>
                 UX Researcher <br />
                 UI Designer
               </h5>
             </div>
             <div>
-              <h6 className='h6 small'>duration</h6>
+              <h6 className='h6 small opener'>duration</h6>
               <h5 className='h5 small'>12 Weeks</h5>
             </div>
             <div>
-              <h6 className='h6 small'>tools</h6>
+              <h6 className='h6 small opener'>tools</h6>
               <h5 className='h5 small'>
                 Figma <br />
                 Photoshop

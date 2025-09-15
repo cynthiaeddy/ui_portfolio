@@ -50,7 +50,7 @@ h5,.leadin {
 }
 
 .h5.dropCap, .h5.marginTop {
-  margin-top:5rem;
+  margin-top:10rem;
 }
 
 .h6.small {
@@ -108,7 +108,8 @@ margin-bottom: 2rem;}
   line-height: .85; /* from 1 */
   margin-right: 0.05em;
   font-weight: 200;
-  margin-bottom: -1rem
+  margin-bottom: -1rem;
+  color: #ffca90
 }
 
 .h5.dropcap.black {
@@ -146,7 +147,7 @@ margin-bottom: 2rem;}
 
 .Button.enlarge {
   background: black;
-  color: #C3996B;
+  color: #c9963b;
   padding: .5rem 2rem;
   border-radius: 10rem;
   width: fit-content;
