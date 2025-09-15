@@ -13,7 +13,7 @@ export const Research = () => {
       <section className='ResearchContainer ssc'>
         <div className='InnerContainer'>
           <h5 className='h5 dropCap'>
-            To kick off the research, I compared three sustainable soap brands
+            Kicking off the research, I compared three sustainable soap brands
             with overlapping markets. The Handmade Soap Company showed the most
             polish, with strong branding, product photography, and a broad line,
             though navigation felt cluttered. Idaho Soap Company had consistent
@@ -23,67 +23,20 @@ export const Research = () => {
             inconsistent branding, with only light emphasis on sustainability.
           </h5>
           <div className='ButtonContainer'>
-            <div className='Button enlarge'>competitive analysis swot</div>
+            <div className='Button enlarge'>competitive analysis</div>
             <img className='competitive research' src={doit} alt={doit} />
-            <h5 className='h5 leadins'>
-              <span className='leadin'>From the competitive analysis,</span> I
-              learned that while many sustainable soap brands focus on
-              eco-friendly values and high-quality, handcrafted products, there
-              are clear opportunities for Sustainable Soap Co. to stand out.
-              Customers are increasingly drawn to small, artisan businesses that
-              prioritize local sourcing and sustainability, and by strengthening
-              Sustainable Soap Co.&apos;s brand story and visual appeal, we can
-              better reflect the quality of their products and create a stronger
-              connection with their audience. <br />
-              <br />
-              <span className='leadin'>
-                Competitors also have inconsistent
-              </span>{' '}
-              branding and poor site navigation, presenting an opportunity for
-              us to improve user experience by refining Sustainable Soap
-              Co.&apos;s design and making features like product reviews and
-              search functionality more visible.
-            </h5>
           </div>
         </div>
-      </section>
-      <section className='ResearchContainer bottom'>
+        {/* </section>
+      <section className='ResearchContainer bottom'> */}
         <div className='InnerContainer'>
-          <h5 className='h5 dropCap'>
-            I conducted five moderated research sessions via Zoom to explore how
-            users approach sustainable shopping decisions. Using affinity
-            mapping to organize the findings, key insights emerged: users are
-            methodical researchers who prioritize verified information and
-            transparency. They show strong preference for small businesses over
-            large retailers, consistently seek detailed product information, and
-            rely heavily on authentic reviews. Users value personal
-            recommendations and direct brand relationships throughout their
-            shopping journey. From these insights, five distinct patterns
-            emerged in how users approach sustainable shopping:
+          <h5 className='h5 marginTop'>
+            <span className='leadin'>To understand user motivations</span> and
+            shopping behavior, I conducted interviews and organized feedback
+            into an affinity map. Clear patterns emerged: users wanted proof of
+            sustainability, preferred small/local businesses, and relied heavily
+            on authentic reviews—insights that guided key design decisions.
           </h5>
-          <ul className='h5 bullets'>
-            <li className='first_li_research'>
-              <h5>Thorough product research and verification purchasing</h5>
-            </li>
-            <li>
-              <h5>Small business preference and direct brand relationships</h5>
-            </li>
-            <li>
-              <h5>
-                Detailed ingredient and manufacturing process investigation
-              </h5>
-            </li>
-            <li>
-              <h5>
-                Reliance on authentic reviews and community recommendations
-              </h5>
-            </li>
-            <li>
-              <h5>
-                Need for clear sustainability documentation and verification
-              </h5>
-            </li>
-          </ul>
 
           <div className='ButtonContainer'>
             <div className='Button enlarge'>affinity mapping</div>

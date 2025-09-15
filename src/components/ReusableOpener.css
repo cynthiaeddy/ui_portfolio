@@ -40,12 +40,23 @@ width: 100%;
 margin:  4rem 0rem
 }
 .OpenerInfo {
- display: flex
-;    justify-content: space-between;
     margin-bottom: 0;
     width: 75rem;
     margin: auto;
-  margin-bottom: 0
+  margin-bottom: 0;
+  background: #231F20;
+  border-radius: 20px;
+  padding:4rem;
+
+}
+.InfoSection {
+  margin-bottom: 4rem
+}
+
+
+.h5.opener {
+  font-family: "neue-haas-grotesk-text", sans-serif;
+
 }
 .Button.enlarge.white.margin,.Button.enlarge.black.margin {
   margin: auto
@@ -53,10 +64,14 @@ margin:  4rem 0rem
 .Button_website.opener{
   margin:auto;
   margin-bottom: 1rem;
-  margin-top: -2rem
+  background: black;
+  color: #C3996B;
+  border: 1.25px solid rgb(160, 157, 157);
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 .Button_website.opener.margin{
-  margin-top: 0
+  margin-top: 1rem
 }
 .divider_curved.lead {
     width: 75rem;
@@ -93,8 +108,7 @@ margin-bottom: 2rem;}
 }
 
 .h5.openerType.lead {
-  /* font-weight: 500; */
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 .h6.studies {
   font-size: 1.4rem;
@@ -106,11 +120,12 @@ margin-bottom: 2rem;}
 }
 
 .h6.small {
-  margin-bottom: .5rem
+  margin-bottom: .5rem;
+  color:#C3996b
 }
 
 .h5.small {
-  color: black;
+  color: white;
   font-size: 1.6rem;
   line-height: 1.5;
 }

@@ -30,30 +30,32 @@ export const Opener = () => {
       <div className='textWrapper'>
         <h2 className='openerText'> Sustainable Soap Co.</h2>
         <h5 className='h5 openerType lead'>
-          End-to-End Redesign of an e-commerce website specializing in
+          End-to-end redesign of an e-commerce website specializing in
           small-batch sustainable soaps, shampoos, and lotions, showcasing
           sustainability while creating a seamless shopping experience.
         </h5>
       </div>
       <div className='OpenerInfo'>
         <div className='Info'>
-          {/* <div className='divider_curved_down'></div> */}
-          <div className='Button_website opener margin'>problem</div>
-          <h5 className='h5 black'>
-            Sustainable Soap Co. had a clear mission but a generic website that
-            didn&apos;t reflect it. Traffic was low, engagement was weak, and
-            customers weren&apos;t connecting with the brand&apos;s story.
-            Without transparency or a distinct visual identity, the site
-            wasn&apos;t converting visitors into buyers.
-          </h5>
-          <br />
-          <div className='Button_website opener '>solution</div>
-          <h5 className='h5 black lead'>
-            How might we redesign the website to create an engaging, visually
-            appealing experience that showcases it&apos;s eco-friendly products,
-            reflects it&apos;s sustainable ethos, and effectively converts
-            visitors into loyal customers?
-          </h5>
+          <div className='InfoSection'>
+            <div className='Button_website opener margin'>problem</div>
+            <h5 className='h5'>
+              The original site looked generic and failed to communicate the
+              brand&apos;s sustainable ethos. Traffic was low, customer
+              engagement was weak, and visitors weren&apos;t converting into
+              buyers. Without a strong brand identity or clear transparency, the
+              website wasn&apos;t building trust.
+            </h5>
+          </div>
+          <div className='InfoSection'>
+            <div className='Button_website opener margin'>solution</div>
+            <h5 className='h5'>
+              Redesign the experience to feel authentic and modern while making
+              sustainability proof front and center. The new site highlights
+              eco-friendly products, shares the brand&apos;s story, and
+              streamlines the shopping flow to build confidence and loyalty.
+            </h5>
+          </div>
           <div className='InfoSmall'>
             <div>
               <h6 className='h6 small'>project</h6>
@@ -84,7 +86,6 @@ export const Opener = () => {
           </div>
         </div>
       </div>
-      {/* <div className='divider_curved lead'></div> */}
     </section>
   )
 }

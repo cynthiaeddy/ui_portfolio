@@ -4,11 +4,13 @@
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  padding-bottom: 6.5rem
+  padding-bottom: 6.5rem;
+
 }
 
 .ResearchContainer.ssc {
-  padding-bottom: 5rem
+  padding-bottom: 6.5rem;
+   margin-bottom: 10rem;
 }
 .ResearchContainer.bottom {
   margin-top: .5px;
