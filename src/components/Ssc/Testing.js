@@ -1,6 +1,7 @@
 import '../ReusableComponents.css'
 import '../ReusableTesting.css'
-import home_new from '../../assets/ssc/carousel/ssc_home.png'
+import home_new from '../../assets/ssc/red2.png'
+// import home_new from '../../assets/ssc/carousel/ssc_home.png'
 import story from '../../assets/ssc/carousel/ssc_story1.png'
 import search from '../../assets/ssc/carousel/ssc_search1.png'
 import product from '../../assets/ssc/carousel/ssc_product1.png'
