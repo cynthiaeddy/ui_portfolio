@@ -20,13 +20,14 @@
 .dropCap.hang {
   font-family: gelica, sans-serif;
   font-weight: 200;
-  color: black;
+  color:#C3996B;
   font-size: 5.5rem;
   float: left;
   margin-top: .75rem;
 }
 .dropCap.hang.one {
-  margin-left:1rem
+  margin-left:1rem;
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1030px) {

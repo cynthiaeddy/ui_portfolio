@@ -45,6 +45,7 @@ h5,.leadin {
 
 .h5.small {
   color: white;
+    color: black;
   font-size: 1.6rem;
   line-height: 1.5;
 }
@@ -109,7 +110,7 @@ margin-bottom: 2rem;}
   margin-right: 0.05em;
   font-weight: 200;
   margin-bottom: -1rem;
-  color: #ffca90
+  color: #c3996B
 }
 
 .h5.dropcap.black {

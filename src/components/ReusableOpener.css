@@ -86,13 +86,36 @@ margin:  4rem 0rem
 .InfoSmall {
     display: flex;
     justify-content: space-between;
-    margin: auto;
     margin-top: 4rem;
-    width: 80%;
+    margin: 0rem 3rem 0rem 2rem;
+    width: 90%;
 }
+
+.InfoSmallSection {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+      display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Button.enlarge.black.margin
 .h5.opener_text{
   text-align: center;
 
+}
+.h5.small.opener{
+  color: rgba(255, 255, 255, 0.7);
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.h5.opener_text.center {
+  text-align: center
 }
 .divider_curved {
   width: 100%;
@@ -127,7 +150,8 @@ margin-bottom: 2rem;}
 
 .h6.small.opener {
   margin-bottom: .5rem;
-  color:#C3996b
+  color:#C3996b;
+  text-align: center
 }
 
 .h5.small {
