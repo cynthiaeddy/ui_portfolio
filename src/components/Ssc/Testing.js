@@ -18,21 +18,21 @@ export const Testing = () => {
       <section className='TestingContainer ssc'>
         <div className='InnerContainer'>
           <h5 className='h5 dropCap'>
-            The moderated testing of the high-fidelity wireframes involved five
-            participants who evaluated the site&apos;s usability and design
-            enhancements. All participants rated the site a perfect 5 out of 5
-            for ease of use, finding the purchasing process intuitive and the
-            navigation straightforward. However, some users noted that the
-            sustainability information felt vague and suggested adding a
-            dedicated page to clarify the company&apos;s practices. Overall, the
-            site scored 98% for ease of use and 100% for checkout flow. <br />
+            Moderated usability testing with 5 participants validated the
+            redesign. Every participant rated the site 5/5 for usability, with
+            scores of 98% for ease of use and 100% for checkout flow. While the
+            purchasing process felt seamless, participants noted that
+            sustainability information still needed more depth. Based on this, I
+            planned refinements to strengthen transparency and clarity. <br />
             <br />
             <span className='leadin'>
-              Moving forward, I implemented several iterations,
+              Moving forward, I implemented several iterations
             </span>{' '}
-            including adding dropdown menus, enhancing the sustainability
-            section, and making icons more interactive to improve the user
-            experience and strengthen the brand message.
+            to improve clarity and flow. Homepage icons now link to dedicated
+            values sections, navigation was expanded, a cart page and empty
+            state were added, and design details like button styles, field
+            strokes, and subheads were standardized. These updates made the site
+            feel more consistent and user-friendly.
           </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>iterations</div>

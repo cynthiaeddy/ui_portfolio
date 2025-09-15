@@ -75,12 +75,11 @@ export const Ideate = () => {
                   I created low fidelity wireframes{' '}
                 </span>
                 in Figma and ran moderated testing with 5 participants. Their
-                tasks included exploring the homepage, purchasing the vegan
-                soap, and accessing information about the company&apos;s
-                sustainability practices and product usage. All five succeeded
-                without errors and found the navigation intuitive, though they
-                suggested enlarging the hamburger menu and making product
-                reviews easier to access.
+                tasks included exploring the homepage and purchasing the vegan
+                soap. 100% of participants completed the tasks without errors
+                and found the navigation intuitive, though they suggested
+                enlarging the hamburger menu and making product reviews easier
+                to access.
               </h5>
 
               <div className='Button enlarge ideate'>low fidelity</div>
