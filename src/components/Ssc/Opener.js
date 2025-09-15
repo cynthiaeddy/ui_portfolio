@@ -39,7 +39,7 @@ export const Opener = () => {
         <div className='Info'>
           <div className='InfoSection'>
             <div className='Button_website opener margin'>problem</div>
-            <h5 className='h5 opener_text'>
+            <h5 className='h5 opener_text center'>
               The original site looked generic and failed to communicate the
               brand&apos;s sustainable ethos. Traffic was low, customer
               engagement was weak, and visitors weren&apos;t converting into

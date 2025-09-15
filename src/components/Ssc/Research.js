@@ -27,8 +27,6 @@ export const Research = () => {
             <img className='competitive research' src={doit} alt={doit} />
           </div>
         </div>
-        {/* </section>
-      <section className='ResearchContainer bottom'> */}
         <div className='InnerContainer'>
           <h5 className='h5 marginTop'>
             <span className='leadin'>To understand user motivations</span> and
@@ -46,10 +44,12 @@ export const Research = () => {
               alt={affinity_map}
             />
             <h5 className='h5 marginTop'>
-              <span className='leadin'>Emma represents a growing segment </span>
-              of eco-conscious consumers who want to make sustainable choices
-              while maintaining quality and convenience, highlighting the need
-              for better transparency in sustainable shopping.
+              <span className='leadin'> Emma represents the insights </span>
+              from my research: an eco-conscious, research-driven shopper who
+              values small-batch brands and expects both quality and
+              convenience. She highlights the need for better transparency in
+              sustainable shopping, since she won&apos;’t commit without clear
+              without clear proof of sustainability. d
             </h5>
           </div>
           <div className='ButtonContainer'>
