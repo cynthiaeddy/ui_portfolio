@@ -29,10 +29,15 @@ export const Opener = () => {
       </div>
       <div className='textWrapper'>
         <h2 className='openerText'> Sustainable Soap Co.</h2>
-        <h5 className='h5 openerType lead'>
+        {/* <h5 className='h5 openerType lead'>
           End-to-end redesign of an e-commerce website for small-batch
           sustainable soaps, shampoos, and lotions, showcasing sustainability
           while creating a seamless shopping experience.
+        </h5> */}
+        <h5 className='h5 black'>
+          End-to-end redesign of my niece’s e-commerce site, a small-batch brand
+          specializing in sustainable soaps, shampoos, and lotions — showcasing
+          sustainability while creating a seamless shopping experience.
         </h5>
       </div>
       <div className='OpenerInfo'>
