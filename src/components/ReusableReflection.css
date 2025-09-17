@@ -9,9 +9,7 @@
     justify-content: center;
     align-items: center;
 }
-.InnerContainer.reflection {
-  padding-top: 4rem;
-}
+
 
 
 @media screen and (min-width: 480px) and (max-width: 768px) {

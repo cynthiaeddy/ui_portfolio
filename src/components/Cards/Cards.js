@@ -37,7 +37,7 @@ export const Cards = () => {
             <h2 className='Card_hed'>World Food</h2>
             <div className='hed_and_blurb'>
               <h6 className='Card_blurb'>
-                responsive UI design/software development
+                responsive UI design/software development - live site
               </h6>
               <p className='Card_p'>
                 End to end project designed and built for James Oseland&apos;s

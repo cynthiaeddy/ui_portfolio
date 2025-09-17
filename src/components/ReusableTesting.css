@@ -21,7 +21,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-margin-bottom:2rem
+margin-bottom:4rem
 }
 
 .ssc_testing_new.last {
@@ -29,7 +29,7 @@ margin-bottom:2rem
 }
 .ssc_testing_new .ssc {
   width: auto;
-  height: 46rem;
+  height: 44.5rem;
   object-fit: cover;
 }
 .ssc.checkout {

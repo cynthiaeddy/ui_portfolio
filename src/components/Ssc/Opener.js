@@ -40,20 +40,28 @@ export const Opener = () => {
           <div className='InfoSection'>
             <div className='Button_website opener margin'>problem</div>
             <h5 className='h5 opener_text center'>
-              The original site looked generic and failed to communicate the
-              brand&apos;s sustainable ethos. Traffic was low, customer
-              engagement was weak, and visitors weren&apos;t converting into
-              buyers. Without a strong brand identity or clear transparency, the
-              website wasn&apos;t building trust.
+              This is my niece&apos;s business, specializing in handmade,
+              eco-friendly soaps, shampoos, and lotions. The original site
+              looked generic and failed to communicate the sustainable ethos.
+              Traffic was low, customer engagement was weak, and visitors
+              weren&apos;t converting into buyers. Without a strong brand
+              identity or clear transparency, the website wasn&apos;t building
+              trust.
             </h5>
           </div>
           <div className='InfoSection'>
             <div className='Button_website opener margin'>solution</div>
             <h5 className='h5 opener_text center'>
-              Redesign the experience to feel authentic and modern while making
+              {/* Redesign the experience to feel authentic and modern while making
               sustainability proof front and center. The new site highlights
               eco-friendly products, shares the brand&apos;s story, and
-              streamlines the shopping flow to build confidence and loyalty.
+              streamlines the shopping flow to build confidence and loyalty. */}
+              The redesign focused on how the site might better reflect my
+              niece&apos;s brand—authentic, modern, and rooted in
+              sustainability—while also streamlining the shopping experience. By
+              highlighting small-batch products, sharing the brand story, and
+              making sustainability proof easy to access, the goal was to build
+              trust and convert visitors into loyal customers.
             </h5>
           </div>
           <div className='InfoSmall'>
