@@ -58,7 +58,7 @@
 } */
 .Card_blurb {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 2;
   color: black;
   font-weight: 600;
@@ -78,7 +78,7 @@
   color: black;
   font-family: "neue-haas-grotesk-display", sans-serif;
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 1.5;
     text-transform: initial;
     letter-spacing: .1rem;
