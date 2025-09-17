@@ -68,7 +68,7 @@ export const Cards = () => {
             <div className='hed_and_blurb'>
               <h6 className='Card_blurb'>mobile Ux/Ui design</h6>
               <p className='Card_p'>
-                Add a feature project which enables users to adjust a
+                Add a feature concept project enabling users to adjust a
                 recipe&apos;s serving size.
               </p>
             </div>

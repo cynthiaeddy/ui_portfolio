@@ -11,49 +11,60 @@ export const OpenerNyt = () => {
         <img className='OpenerFoto' rel='preload' src={recipe} alt={recipe} />
         <img className='OpenerFoto' rel='preload' src={grocery} alt={grocery} />
       </div>
-      <div className='background'></div>
       <div className='textWrapper'>
-        <h2 className='cases_openerText'>The New York Times Cooking App</h2>
-        <h5 className='h5 openerType'>
-          is a subscription-based platform with over 110 million users accessing
-          22,000+ recipes with personalized features and shopping lists.
+        <h2 className='openerText'>The New York Times Cooking App</h2>
+        <h5 className='h5 black opener'>
+          A concept project adding a serving size adjustment feature to the NYT
+          Cooking app, improving recipe accuracy, grocery lists, and meal prep.
         </h5>
       </div>
       <div className='OpenerInfo'>
         <div className='Info'>
-          <h6 className='h6 studies'>PROBLEM</h6>
-          <h5 className='h5 black'>
-            The NYT Cooking app lacks a feature to adjust serving sizes, making
-            it difficult for users to scale recipes accurately. This can lead to
-            errors, inconsistencies, and confusion during meal prep.
-          </h5>
-          <br />
-          <h6 className='h6 studies'>solution</h6>
-          <h5 className='h5 black'>
-            Introducing a serving size adjustment feature would automatically
-            update ingredients, cooking times, instructions, and grocery lists
-            in real-time, ensuring recipe accuracy and improving the overall
-            cooking experience.
-          </h5>
+          <div className='InfoSection'>
+            <div className='Button_website opener margin'>problem</div>
+            <h5 className='h5 opener_text center'>
+              The app lacks a serving size adjustment feature, making it
+              difficult for users to scale recipes accurately. This leads to
+              errors, inconsistencies, and confusion during meal prep. Without
+              automatic updates to grocery lists and nutritional info, the
+              experience feels incomplete.
+            </h5>
+          </div>
+          <div className='InfoSection'>
+            <div className='Button_website opener margin'>solution</div>
+            <h5 className='h5 opener_text center'>
+              I designed a serving size adjustment feature that automatically
+              recalculates ingredients, cooking times, instructions, and grocery
+              lists in real time — ensuring recipe accuracy and improving the
+              overall cooking experience.
+            </h5>
+          </div>
         </div>
         <div className='InfoSmall'>
-          <h6 className='h6 small'>role</h6>
-          <h5 className='h5 small'>
-            UX Researcher <br />
-            UI Designer
-          </h5>
-          <br />
-          <h6 className='h6 small'>duration</h6>
-          <h5 className='h5 small'>4 Weeks</h5>
-          <br />
-          <h6 className='h6 small'>tools</h6>
-          <h5 className='h5 small'>
-            Figma <br />
-            Photoshop
-          </h5>
+          <div>
+            <h6 className='h6 small opener'>project</h6>
+            <h5 className='h5 small opener'>Add a Feature</h5>
+          </div>
+          <div>
+            <h6 className='h6 small opener'>role</h6>
+            <h5 className='h5 small opener'>
+              UX Researcher <br />
+              UI Designer
+            </h5>
+          </div>
+          <div>
+            <h6 className='h6 small opener'>duration</h6>
+            <h5 className='h5 small opener'>4 Weeks</h5>
+          </div>
+          <div>
+            <h6 className='h6 small opener'>tools</h6>
+            <h5 className='h5 small opener'>
+              Figma <br />
+              Photoshop
+            </h5>
+          </div>
         </div>
       </div>
-      <div className='divider_curved'></div>
     </section>
   )
 }

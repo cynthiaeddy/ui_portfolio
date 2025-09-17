@@ -53,13 +53,10 @@ margin:  4rem 0rem
   margin-bottom: 4rem
 }
 
-
-.h5.opener {
-  font-family: "neue-haas-grotesk-text", sans-serif;
-
-}
 .h5.black.opener {
   text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
 }
 .Button.enlarge.white.margin,.Button.enlarge.black.margin {
   margin: auto
@@ -128,9 +125,7 @@ margin:  4rem 0rem
 border-bottom: .5px solid #000;
 margin-bottom: 2rem;}
 
-.cases_openerText {
-  color: white
-}
+
 .openerText {
   color: black;
   font-size: 5rem

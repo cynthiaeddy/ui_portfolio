@@ -3,7 +3,8 @@ import '../ReusableComponents.css'
 import '../ReusableResearch.css'
 import magBlk1H from '../../assets/ssc/magBlk1H.png'
 import magBlk1 from '../../assets/ssc/magBlk1.png'
-import competitive_sm from '../../assets/nyt/nyt_swot.png'
+// import competitive_sm from '../../assets/nyt/nyt_swot.png'
+import competitive from '../../assets/nyt/nyt_ana.png'
 import affinity_map from '../../assets/nyt/nyt_affinity_crop.png'
 import persona from '../../assets/nyt/nyt_persona.png'
 import { ModalNytCompSwot } from '../Modals/ModalNytCompSwot'
@@ -22,10 +23,6 @@ export const ResearchNyt = () => {
     setHover(false)
   }
 
-  const modalNytSwotOpen = () => {
-    setIsmodalNytSwotOpen(true)
-    document.body.style.overflow = 'hidden'
-  }
   const modalNytSwotClose = () => {
     setIsmodalNytSwotOpen(false)
     document.body.style.overflow = 'auto'
@@ -47,29 +44,20 @@ export const ResearchNyt = () => {
       <section className='ResearchContainer'>
         <div className='InnerContainer'>
           <h5 className='h5 dropCap'>
-            Through competitive research of recipe platforms, I identified an
-            opportunity to enhance the NYT Cooking app with dynamic serving size
-            adjustment that would automatically recalculate ingredients, grocery
-            lists, and nutritional information proportionally.
+            To begin the research, I compared four recipe platforms that
+            approach serving size and meal planning differently. Yummly provided
+            dynamic serving size adjustments and grocery list integration,
+            though nutritional updates were inconsistent. RecipeTin Eats offered
+            serving size adjustments at the ingredient level, but with no links
+            to groceries or nutrition. Mob attracted younger audiences with
+            quick, social-driven content, but lacked advanced features and
+            serving size flexibility. Tasty stood out with engaging videos and a
+            wide recipe base, yet had no built-in scaling, leaving users to
+            guess adjustments.
           </h5>
           <div className='ButtonContainer'>
-            <div className='Button enlarge'>competitive analysis swot</div>
-            <button
-              onClick={modalNytSwotOpen}
-              onMouseOver={handleMouseIn}
-              onMouseOut={handleMouseOut}
-            >
-              {hover ? (
-                <img className='magnifier' src={magBlk1H} alt={magBlk1H} />
-              ) : (
-                <img className='magnifier' src={magBlk1} alt={magBlk1} />
-              )}
-            </button>
-            <img
-              className='competitive'
-              src={competitive_sm}
-              alt={competitive_sm}
-            />
+            <div className='Button enlarge'>competitive analysis</div>
+            <img className='competitive' src={competitive} alt={competitive} />
           </div>
         </div>
       </section>
