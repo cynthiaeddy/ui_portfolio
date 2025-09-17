@@ -1,6 +1,6 @@
 import '../ReusableComponents.css'
 import '../ReusableDesign.css'
-import ive_style_resize from '../../assets/ssc/ive_style_resize.png'
+import ive_style_resize from '../../assets/ssc/ssc_brand.png'
 import hiFi from '../../assets/ssc/hifi_crop.jpg'
 
 export const Design = () => {
