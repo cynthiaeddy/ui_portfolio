@@ -40,7 +40,7 @@
   width: 75rem;
   margin-top: -5rem;
   border: 1.25px solid black;
-  filter:drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.3))
+  /* filter:drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.3)) */
 }
 .competitive.flow.nyt {
   margin-top: -10.5rem;

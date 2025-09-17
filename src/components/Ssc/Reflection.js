@@ -20,7 +20,7 @@ export const Reflection = () => {
           </h5>
           <br />
 
-          <h5 className='leadin'>Next Steps </h5>
+          <div className='Button_website opener margin'>next steps</div>
           <h5 className='h5'>
             Future plans include guest checkout, third-party sustainability
             certifications, and richer product filtering for faster discovery.

@@ -175,8 +175,8 @@ margin-bottom: 2rem;}
 .Button.enlarge.white {
   background: white;
   color:#a7835b;
-  border: 1.25px solid black;
-      filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.3));
+  border: 1px solid black;
+      /* filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.3)); */
 
 
 }

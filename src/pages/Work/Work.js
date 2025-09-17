@@ -21,12 +21,13 @@ export const Work = () => {
         <div className='HomeContainerTop'>
           <div className='AboutHome'>hiya, i&apos;m cynthia.</div>
           <div className='HomeSerif'>
-            I create <span className='HomeSerif Bold'>beautiful,</span>
+            i seek to create <span className='HomeSerif Bold'>beautiful,</span>
             <br /> <span className='HomeSerif Bold'>
               intuitive
             </span> experiences <br />
             through <span className='HomeSerif Bold'>thoughtful,</span> <br />
             <span className='HomeSerif Bold'>human</span> centered design.
+            <h6 className='after_thought'>and i prefer to type only in l/c</h6>
             <ScrollDownIconCircle />
           </div>
         </div>
