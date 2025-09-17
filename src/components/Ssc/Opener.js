@@ -34,7 +34,7 @@ export const Opener = () => {
           sustainable soaps, shampoos, and lotions, showcasing sustainability
           while creating a seamless shopping experience.
         </h5> */}
-        <h5 className='h5 black'>
+        <h5 className='h5 black opener'>
           End-to-end redesign of my niece’s e-commerce site, a small-batch brand
           specializing in sustainable soaps, shampoos, and lotions — showcasing
           sustainability while creating a seamless shopping experience.

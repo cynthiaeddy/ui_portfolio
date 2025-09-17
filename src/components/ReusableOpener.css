@@ -58,6 +58,9 @@ margin:  4rem 0rem
   font-family: "neue-haas-grotesk-text", sans-serif;
 
 }
+.h5.black.opener {
+  text-align: center;
+}
 .Button.enlarge.white.margin,.Button.enlarge.black.margin {
   margin: auto
 }

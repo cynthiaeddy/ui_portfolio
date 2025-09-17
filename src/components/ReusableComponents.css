@@ -27,6 +27,7 @@ h5,.leadin {
    font-family: "neue-haas-grotesk-display", sans-serif;;
    text-align: left;
    line-height: 1.6;
+   color: rgba(255, 255, 255, .9);
 }
 .h5.openerType {
   text-align: center;
