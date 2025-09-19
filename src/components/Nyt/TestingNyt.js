@@ -22,7 +22,7 @@ export const TestingNyt = () => {
             increments rather than adjustments of two.
           </h5>
           <div className='ButtonContainer'>
-            <div className='Button enlarge'>iteration</div>
+            <div className='Button enlarge iter nyt'>iteration</div>
             <img
               className='competitive nyt_iteraction'
               src={iteration}

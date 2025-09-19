@@ -181,9 +181,9 @@ margin-bottom: 2rem;}
 .Button.enlarge.ideate.nyt {
   margin-top: 5rem
 }
-/* .Button.enlarge.ideate.nyt_1 {
-  margin-top: 5rem
-} */
+.Button.enlarge.iter.nyt {
+  margin-bottom: 0rem
+}
 .Button.enlarge.white {
   background: white;
   color:#a7835b;

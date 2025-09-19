@@ -11,6 +11,9 @@
 .TestingContainer.ssc {
   padding-bottom: 3rem;
 }
+.TestingContainer.nyt {
+  padding-bottom: 4.75rem;
+}
 .competitive.nyt_iteraction {
   margin-top: 1.5rem;
   width: 95rem;
