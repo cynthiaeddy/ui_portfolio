@@ -60,7 +60,9 @@ h5,.leadin {
 .h5.black.design {
   margin-top: 7rem;
 }
-
+.h5.black.dropCap.nyt {
+  margin-top: .5rem;
+}
 .h6.small {
   margin-bottom: .5rem
 }
@@ -105,6 +107,9 @@ margin-bottom: 2rem;}
 .BlackHeds.white {
   background: white;
   border: 1.5px solid black;
+}
+.BlackHeds.white.nyt {
+  margin-top: 9rem;
 }
 
 
@@ -174,8 +179,11 @@ margin-bottom: 2rem;}
   margin-top: 6rem
 }
 .Button.enlarge.ideate.nyt {
-  margin-top: 11rem
+  margin-top: 5rem
 }
+/* .Button.enlarge.ideate.nyt_1 {
+  margin-top: 5rem
+} */
 .Button.enlarge.white {
   background: white;
   color:#a7835b;

@@ -5,11 +5,11 @@ export const ReflectionNyt = () => {
   return (
     <>
       <div className='BlackHeds'>
-        <h2 className='cases_openerText'>Reflection</h2>
+        <h2 className='cases_openerText'>Takeaways</h2>
       </div>
       <section className='ReflectionContainer'>
         <div className='InnerContainer reflection'>
-          <h5 className='h5'>
+          <h5 className='h5 dropCap'>
             One challenge I faced was balancing user requests for grocery list
             enhancements that were outside the project&apos;s scope. In
             hindsight, I could have communicated those boundaries more clearly

@@ -6,11 +6,11 @@ import venn from '../../assets/nyt/nyt_venn1.png'
 export const DefineNyt = () => {
   return (
     <>
-      <div className='BlackHeds white'>
+      <div className='BlackHeds white nyt'>
         <h2 className='h2_white cases_openerText'>Define</h2>
       </div>
       <section className='DefineContainer'>
-        <h5 className='h5 black center'>
+        <h5 className='h5 black center nyt'>
           <span className='leadin black'>Through user research </span> and
           affinity mapping I identified three priorities:
         </h5>

@@ -7,9 +7,10 @@
   margin-bottom: 10rem;;
   flex-direction: column;
 }
-.IdeateContainer.ssc {
+.IdeateContainer.ssc, .IdeateContainer.nyt {
   padding-bottom: 7.5rem
 }
+
 .ButtonContainer.ideate {
   margin-top: 0rem
 }
@@ -28,9 +29,10 @@ margin-top: -5rem;
  }
 
   .competitive.ideate.nyt {
-margin-top: -20.5rem;
+  margin-top: -20.5rem;
   width: 107rem;
-   margin-left: -8rem
+   margin-left: -8rem;
+   margin-bottom: -4rem;
  }
 
 

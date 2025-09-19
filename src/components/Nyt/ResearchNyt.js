@@ -26,7 +26,7 @@ export const ResearchNyt = () => {
       <div className='BlackHeds'>
         <h2 className='cases_openerText'>Research</h2>
       </div>
-      <section className='ResearchContainer'>
+      <section className='ResearchContainer nyt'>
         <div className='InnerContainer'>
           <h5 className='h5 dropCap'>
             To begin the research, I compared four recipe platforms that

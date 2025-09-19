@@ -9,7 +9,7 @@ export const IdeateNyt = () => {
       <div className='BlackHeds'>
         <h2 className='cases_openerText'>Ideate</h2>
       </div>
-      <section className='IdeateContainer'>
+      <section className='IdeateContainer nyt'>
         <div className='InnerContainer'>
           <h5 className='h5 dropCap'>
             I mapped the journey from the homepage into a recipe, through
@@ -41,7 +41,7 @@ export const IdeateNyt = () => {
               items).
             </h5>
 
-            <div className='Button enlarge ideate'>low fidelity</div>
+            <div className='Button enlarge ideate nyt '>low fidelity</div>
             <img className='competitive' src={lo_fi} alt={lo_fi} />
           </div>
         </div>
