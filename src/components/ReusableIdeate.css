@@ -24,8 +24,13 @@
   margin-left: -4rem
  }
  .competitive.ideate {
-margin-top: -5rem
+margin-top: -5rem;
+ }
 
+  .competitive.ideate.nyt {
+margin-top: -20.5rem;
+  width: 107rem;
+   margin-left: -8rem
  }
 
 

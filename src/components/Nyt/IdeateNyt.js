@@ -1,5 +1,7 @@
 import '../ReusableComponents.css'
 import '../ReusableIdeate.css'
+import nyt_user_flow from '../../assets/nyt/nyt_user_flow_VERT.png'
+import lo_fi from '../../assets/nyt/nyt_midfi_bigheds.png'
 
 export const IdeateNyt = () => {
   return (
@@ -9,37 +11,39 @@ export const IdeateNyt = () => {
       </div>
       <section className='IdeateContainer'>
         <div className='InnerContainer'>
-          <h5 className='h5 marginTop'>
-            <span className='leadin'>Drawing from my research </span> I
-            identified the key sections and features that the website should
-            include:
+          <h5 className='h5 dropCap'>
+            I mapped the journey from the homepage into a recipe, through
+            serving size adjustment, and into tools like grocery lists and
+            nutritional information. The flow emphasizes intuitive serving
+            adjustments with quantities updating instantly, while giving users
+            the option to edit a grocery list or view nutrition before returning
+            to the recipe. The goal was to reduce the friction of manual
+            recalculation and ensure every change in servings carried through
+            seamlessly.
           </h5>
-          <ul className='h5 bullets'>
-            <li className='first_li_research'>
-              <h5>
-                An intuitive interface providing serving size controls with
-                visual feedback and real-time updates
-              </h5>
-            </li>
-            <li>
-              <h5>
-                A dynamic system for automated recalculation of ingredients,
-                grocery lists, and nutritional information
-              </h5>
-            </li>
-            <li>
-              <h5>
-                A consistent visual system presenting original vs. adjusted
-                quantities
-              </h5>
-            </li>
-            <li>
-              <h5>
-                A seamless approach integrating with existing NYT Cooking
-                features
-              </h5>
-            </li>
-          </ul>
+          <div className='ButtonContainer'>
+            <div className='Button enlarge ideate nyt'>user flow</div>
+            <img
+              className='competitive ideate nyt'
+              src={nyt_user_flow}
+              alt={nyt_user_flow}
+            />
+          </div>
+          <div className='ButtonContainer lo_fi'>
+            <h5 className='h5 marginTop'>
+              <span className='leadin'>I tested low fidelity </span>
+              wireframes with 5 participants to validate the user flow —
+              adjusting a recipes&apos; serving size and checking the grocery
+              list. 100% of users completed the tasks successfully and rated the
+              flow easy to use. Overall satisfaction was 88%, lowered by the
+              fact that in the existing NYT UI, participants couldn&apos;t edit
+              the grocery list (for example, adding an extra lemon to the
+              items).
+            </h5>
+
+            <div className='Button enlarge ideate'>low fidelity</div>
+            <img className='competitive' src={lo_fi} alt={lo_fi} />
+          </div>
         </div>
       </section>
     </>

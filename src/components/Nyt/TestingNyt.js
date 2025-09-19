@@ -1,7 +1,7 @@
 import '../ReusableComponents.css'
 import '../ReusableTesting.css'
 
-import iteration from '../../assets/nyt/nyt_iterationTypecrop.png'
+import iteration from '../../assets/nyt/nyt_iteration.png'
 
 export const TestingNyt = () => {
   return (
@@ -12,37 +12,14 @@ export const TestingNyt = () => {
       <section className='TestingContainer nyt'>
         <div className='InnerContainer'>
           <h5 className='h5 dropCap nyt'>
-            The high-fidelity wireframe testing with 6 participants revealed
-            strong results:
-            <ul className='h5 bullets'>
-              <li className='first_li_testing'>
-                <h5>
-                  Users rated the serving size feature highly (93%
-                  satisfaction), with all users appreciating the red +/-
-                  adjustment buttons for visibility.
-                </h5>
-              </li>
-              <li className='first_li_research'>
-                <h5>
-                  The grocery list functionality received an 87% satisfaction
-                  score, though users requested additional features like inline
-                  editing that are beyond the current project scope.
-                </h5>
-              </li>
-              <li className='first_li_research'>
-                <h5>
-                  Overall site usability scored 87%, with users noting that the
-                  UI design aligned well with the New York Times brand identity.
-                </h5>
-              </li>
-              <li>
-                <h5>
-                  The main improvement request was to allow single-unit
-                  increments for serving size adjustments instead of increments
-                  of two.
-                </h5>
-              </li>
-            </ul>
+            Six users tested the high-fidelity prototypes, and the results were
+            strong. Satisfaction with the serving size adjustment feature
+            reached 93%, with participants praising the clarity of the red +/-
+            buttons. Grocery lists scored 87%, though users requested inline
+            editing, which was outside the project&apos;s scope. Overall
+            usability was rated at 87%, with the design aligning well to the NYT
+            brand identity. The main feedback was to allow single-unit
+            increments rather than adjustments of two.
           </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>iteration</div>

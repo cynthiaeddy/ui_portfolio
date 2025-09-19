@@ -49,6 +49,10 @@ margin:  4rem 0rem
   padding:4rem;
 
 }
+.OpenerInfo.nyt {
+  background: white;
+  border: 1.25px solid black;
+}
 .InfoSection {
   margin-bottom: 4rem
 }
@@ -73,6 +77,20 @@ margin:  4rem 0rem
 .Button_website.opener.margin{
   margin-top: 1rem
 }
+
+.Button_website.opener.margin.nyt{
+ background: white;
+  border: 1.25px solid black;
+}
+
+.Button_website.opener.margin.nyt:hover{
+ background: white;
+  border: 1.25px solid black;
+ color: #C3996B;
+
+}
+
+
 .divider_curved.lead {
     width: 75rem;
     margin: auto;
@@ -114,9 +132,16 @@ margin:  4rem 0rem
     font-size: 1.6rem
 
 }
+.h5.small.opener.nyt {
+  color:rgba(0, 0, 0, 0.85);
+}
+
 
 .h5.opener_text.center {
   text-align: center
+}
+.h5.opener_text.center.nyt {
+  color: black
 }
 .divider_curved {
   width: 100%;
@@ -231,6 +256,7 @@ margin-bottom: 2rem;}
   margin: auto;
   flex-direction: column
 }
+
 .h6.small {
   font-size: 1rem;
 }

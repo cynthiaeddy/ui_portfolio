@@ -1,7 +1,7 @@
 import '../ReusableComponents.css'
 import '../ReusableDefine.css'
 
-import venn from '../../assets/nyt/nyt_venn.png'
+import venn from '../../assets/nyt/nyt_venn1.png'
 
 export const DefineNyt = () => {
   return (
@@ -12,17 +12,17 @@ export const DefineNyt = () => {
       <section className='DefineContainer'>
         <h5 className='h5 black center'>
           <span className='leadin black'>Through user research </span> and
-          affinity mapping analysis, I identified these key priorities for the
-          NYT Cooking app&apos;s serving size feature:
+          affinity mapping I identified three priorities:
         </h5>
         <section>
           <div className='dropCap hang one'>1</div>
           <div className='smallWrapper'>
             <h6 className='h6 small'>Smart Scaling Algorithm</h6>
             <h5 className='h5 small'>
-              Develop an accurate serving size adjustment feature that maintains
-              recipe taste and integrity while automatically recalculating
-              ingredients
+              The feature needed to recalculate serving sizes while preserving
+              recipe integrity. Ingredient quantities, cooking times, and
+              preparation steps had to update together; otherwise, users lost
+              trust in the recipe.
             </h5>
           </div>
         </section>
@@ -31,8 +31,9 @@ export const DefineNyt = () => {
           <div className='smallWrapper'>
             <h6 className='h6 small'>Integrated Updates</h6>
             <h5 className='h5 small'>
-              Ensure the scaling feature simultaneously updates grocery lists
-              and nutritional information when serving sizes change
+              Scaling couldn&apos;t stop at ingredients. Users expected changes
+              to ripple through grocery lists and nutritional data, making
+              shopping easier and preventing mistakes.
             </h5>
           </div>
         </section>
@@ -41,8 +42,9 @@ export const DefineNyt = () => {
           <div className='smallWrapper'>
             <h6 className='h6 small'>User Interface Improvements</h6>
             <h5 className='h5 small'>
-              Design an intuitive interface with clear controls and visual
-              indicators to help users adjust serving sizes confidently
+              Accuracy wasn&apos;t enough — the feature had to feel simple and
+              natural. Clear controls, visual cues, and real-time updates built
+              confidence and encouraged experimentation.
             </h5>
           </div>
         </section>

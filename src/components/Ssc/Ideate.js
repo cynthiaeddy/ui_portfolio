@@ -1,7 +1,6 @@
 import '../ReusableComponents.css'
 import '../ReusableIdeate.css'
 import ive_mood_resize from '../../assets/ssc/ive_mood.png'
-// import ive_style from '../../assets/ssc/ive_style_resize.png'
 import lo_fi from '../../assets/ssc/ive_mid_fi.png'
 import user_flow from '../../assets/ssc/ssc_user_flow2.png'
 export const Ideate = () => {
@@ -12,33 +11,7 @@ export const Ideate = () => {
       </div>
       <section className='IdeateContainer ssc'>
         <div className='InnerContainer'>
-          {/* <h5 className='h5 marginTop'>
-            <span className='leadin'>Based on my research, </span> I determined
-            the essential sections and features the website should incorporate:
-          </h5> */}
-          {/* <ul className='h5 bullets'>
-            <li className='first_li_research'>
-              <h5>Intuitive navigation with search functionality</h5>
-            </li>
-            <li>
-              <h5>
-                Comprehensive product pages and user-friendly checkout process
-              </h5>
-            </li>
-            <li>
-              <h5>Company story and ingredient sourcing information</h5>
-            </li>
-            <li>
-              <h5>User engagement elements: reviews, social media links</h5>
-            </li>
-            <li>
-              <h5 className='leadin'>Updated branding and design elements</h5>
-            </li>
-          </ul> */}
           <h5 className='h5 dropCap'>
-            {/* To set the visual direction, I created a mood board that blended the
-            brand&apos;s Art Deco roots with clean, natural visuals. This
-            preserved the heritage while signaling sustainability and trust. */}
             To set the visual direction, I created a mood board that blended the
             brand&apos;s Art Deco roots with clean, natural visuals. Earthy
             tones and ingredient-focused imagery signaled sustainability, while
@@ -55,8 +28,6 @@ export const Ideate = () => {
             />
             <div className='ButtonContainer ideate'>
               <h5 className='h5 marginTop'>
-                {/* <span className='leadin'>Based on my research, </span> I the
-                essential sections and features the website should incorporate: */}
                 <span className='leadin'>I mapped the key journey </span>
                 from homepage → product discovery → checkout. The focus was on
                 simplifying decisions and making sustainability info and reviews

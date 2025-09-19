@@ -15,7 +15,8 @@
   margin-top: 2rem;
 }
 .competitive.venn {
-  margin-top: -5.5rem
+  margin-top: -5.5rem;
+  border:1.25px solid black
 }
 .dropCap.hang {
   font-family: gelica, sans-serif;

@@ -1,6 +1,6 @@
 import '../ReusableComponents.css'
 import '../ReusableResearch.css'
-import affinity_map from '../../assets/ssc/Group 361.png'
+import affinity_map from '../../assets/ssc/affinity_ssc.png'
 import doit from '../../assets/ssc/Frame 88.png'
 import persona from '../../assets/ssc/ive_persona.png'
 
@@ -30,10 +30,11 @@ export const Research = () => {
         <div className='InnerContainer'>
           <h5 className='h5 marginTop'>
             <span className='leadin'>To understand user motivations</span> and
-            shopping behavior, I conducted interviews and organized feedback
-            into an affinity map. Clear patterns emerged: users wanted proof of
-            sustainability, preferred small/local businesses, and relied heavily
-            on authentic reviews—insights that guided key design decisions.
+            shopping behavior, I conducted five interviews and organized
+            feedback into an affinity map. Clear patterns emerged: users wanted
+            proof of sustainability, preferred small/local businesses, and
+            relied heavily on authentic reviews—insights that guided key design
+            decisions.
           </h5>
 
           <div className='ButtonContainer'>
