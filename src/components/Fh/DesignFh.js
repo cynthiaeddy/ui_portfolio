@@ -3,9 +3,7 @@ import '../ReusableComponents.css'
 import '../ReusableDesign.css'
 import magWh from '../../assets/ssc/magWh.png'
 import magWhH from '../../assets/ssc/magWhH.png'
-import user_flow from '../../assets/fh/second iteration_final.png'
-import fh_lo_desktop from '../../assets/fh/fh_lofi_desktop.png'
-import fh_lo_mobile from '../../assets/fh/fh_lofi_mobile.png'
+import fh_styletile from '../../assets/fh/feline_health_style.png'
 import fh_hi_desktop from '../../assets/fh/fh_hifi_desktopcrop.png'
 import fh_hi_mobile from '../../assets/fh/fh_hifi_mobile.png'
 import { ModalFhLoDesktop } from '../Modals/ModalFhLoDesktop'
@@ -36,18 +34,11 @@ export const DesignFh = () => {
     setHover1(false)
   }
 
-  const modalFhLoDesktopOpen = () => {
-    setIsmodalFhLoDesktopOpen(true)
-    document.body.style.overflow = 'hidden'
-  }
   const modalFhLoDesktopClose = () => {
     setIsmodalFhLoDesktopOpen(false)
     document.body.style.overflow = 'auto'
   }
-  const modalFhLoMobileOpen = () => {
-    setIsmodalFhLoMobileOpen(true)
-    document.body.style.overflow = 'hidden'
-  }
+
   const modalFhLoMobileClose = () => {
     setIsmodalFhLoMobileOpen(false)
     document.body.style.overflow = 'auto'
@@ -76,95 +67,25 @@ export const DesignFh = () => {
         <h2 className='h2_white cases_openerText'>Design</h2>
       </div>
       <section className='DesignContainer fh'>
-        <h5 className='h5 black center'>
-          <span className='leadin black'>
-            Next, I created a user task flow{' '}
-          </span>{' '}
-          to streamline the appointment booking process. The goal was to make
-          the user journey as intuitive as possible.
+        <h5 className='h5 black dropCap design'>
+          I refined typography, colors, and logo lockups to modernize the look
+          while keeping the brand&apos;s Art Deco character intact. I also
+          created a new logo that worked seamlessly with existing brand assets,
+          making the identity feel updated without losing recognition. A muted,
+          nature-inspired palette reinforced sustainability, while consistent
+          use of type and iconography built trust through clarity and cohesion.
+          Together, these system elements ensured the redesigned site felt both
+          authentic to the brand and seamless for the user.
         </h5>
         <div className='ButtonContainer'>
-          <div className='Button enlarge white no_margin'>user task flow</div>
+          <div className='Button enlarge white no_margin'>branding</div>
           <img
-            className='competitive designFh'
-            src={user_flow}
-            alt={user_flow}
+            className='competitive flow'
+            src={fh_styletile}
+            alt={fh_styletile}
           />
         </div>
-        <div className='divider_curved top'></div>
-        <div className='divider_curved_down'></div>
-        <h5 className='h5 dropCap black fh'>
-          The low-fidelity wireframes were essential in streamlining the design
-          of the appointment booking feature. By simplifying the user flow and
-          organizing the content structure, I aimed to create a more intuitive
-          and efficient booking process. Below are the key elements of the
-          design:
-        </h5>
-        <ul className='h5 bullets fh'>
-          <li className=''>
-            <h5 className='h5 black'>
-              Designed a two-step process for booking online appointments to
-              simplify navigation.
-            </h5>
-          </li>
-          <section>
-            <div className='smallWrapper'>
-              <h6 className='h6 small'>First step</h6>
-              <h5 className='h5 small'>
-                User selects a date from a monthly calendar.
-              </h5>
-            </div>
-          </section>
-          <section>
-            <div className='smallWrapper'>
-              <h6 className='h6 small'>Second step</h6>
-              <h5 className='h5 small'>
-                Available time slots are displayed based on the selected date.
-              </h5>
-            </div>
-          </section>
-        </ul>
-        <div className='WireframesContainer'>
-          <div className='ButtonContainer design_fh'>
-            <div className='Button enlarge white'>low fidelity desktop</div>
-            <button
-              onClick={modalFhLoDesktopOpen}
-              onMouseOver={handleMouseIn}
-              onMouseOut={handleMouseOut}
-            >
-              {hover ? (
-                <img className='magnifier wh' src={magWhH} alt={magWhH} />
-              ) : (
-                <img className='magnifier wh' src={magWh} alt={magWh} />
-              )}
-            </button>
-            <img
-              className='competitive mid_fi desktop'
-              src={fh_lo_desktop}
-              alt={fh_lo_desktop}
-            />
-          </div>
-          <div className='ButtonContainer design_fh first'>
-            <div className='Button enlarge white'>low fidelity mobile</div>
-            <button
-              onClick={modalFhLoMobileOpen}
-              onMouseOver={handleMouseIn1}
-              onMouseOut={handleMouseOut1}
-            >
-              {hover1 ? (
-                <img className='magnifier wh' src={magWhH} alt={magWhH} />
-              ) : (
-                <img className='magnifier wh' src={magWh} alt={magWh} />
-              )}
-            </button>
-            <img
-              className='competitive mid_fi mobile'
-              src={fh_lo_mobile}
-              alt={fh_lo_mobile}
-            />
-          </div>
-        </div>
-        <div className='divider_curved top'></div>
+        <div className='ButtonContainer'></div>
         <h5 className='h5 dropCap black too'>
           After testing both the mobile and desktop low-fidelity wireframes and
           incorporating user feedback, I developed high-fidelity wireframes for
