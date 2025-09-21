@@ -1,7 +1,7 @@
 import '../ReusableComponents.css'
 import '../ReusableResearch.css'
 import affinity_map from '../../assets/ssc/affinity_ssc.png'
-import doit from '../../assets/ssc/Frame 88.png'
+import doit from '../../assets/ssc/ssc_analysis.png'
 import persona from '../../assets/ssc/ive_persona.png'
 
 export const Research = () => {
@@ -13,14 +13,13 @@ export const Research = () => {
       <section className='ResearchContainer ssc'>
         <div className='InnerContainer'>
           <h5 className='h5 dropCap'>
-            Kicking off the research, I compared three sustainable soap brands
-            with overlapping markets. The Handmade Soap Company showed the most
-            polish, with strong branding, product photography, and a broad line,
-            though navigation felt cluttered. Idaho Soap Company had consistent
-            branding and easy navigation but a limited range and simpler site.
-            Small Batch Soapery offered unique, artisan products, yet the
-            website suffered from broken links, confusing navigation, and
-            inconsistent branding, with only light emphasis on sustainability.
+            I began by analyzing sustainable e-commerce sites to understand how
+            small-batch brands were presenting themselves online. I noticed some
+            leaned on convenience and scale, while others focused on artisanal
+            storytelling or eco-certifications. What stood out was the lack of
+            balance between brand authenticity and shopping usability. That
+            insight shaped the opportunity for SSC: a site that feels true to
+            its roots while making sustainability proof easy to access.
           </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>competitive analysis</div>

@@ -179,7 +179,10 @@ margin-bottom: 2rem;}
   margin-top: 6rem
 }
 .Button.enlarge.ideate.nyt {
-  margin-top: 5rem
+  margin-top: 10rem
+}
+.Button.enlarge.fh {
+  margin-top: 10rem
 }
 .Button.enlarge.iter.nyt {
   margin-bottom: 0rem
@@ -211,9 +214,12 @@ button {
   width: 75rem;
   border-radius: 20px;
   margin: auto;
-  margin-top: -4.5rem;
+  margin-top: -4.8rem;
 }
 
+.competitive.fh{
+  width: 45rem;
+}
 
 .competitive_lg {
   border-radius: 20px;

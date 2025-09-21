@@ -15,44 +15,34 @@ export const DefineFh = () => {
         <section>
           <div className='dropCap hang one'>1</div>
           <div className='smallWrapper'>
-            <h6 className='h6 small'>Logo Redesign</h6>
+            <h6 className='h6 small'>Stronger Branding</h6>
             <h5 className='h5 small'>
-              Aligning the clinic&apos;s logo with the refreshed branding to
-              create a cohesive visual identity and strengthen brand
-              consistency.
+              Refresh the logo and overall visual identity so the site feels
+              cohesive and immediately recognizable, while reflecting the
+              playful, welcoming personality of Feline Health.
             </h5>
           </div>
         </section>
         <section>
           <div className='dropCap hang'>2</div>
           <div className='smallWrapper'>
-            <h6 className='h6 small'>Enhancing Transparency</h6>
+            <h6 className='h6 small'>Clear, Simple Navigation</h6>
             <h5 className='h5 small'>
-              {' '}
-              Improving navigation to make important information easy to find,
-              enhancing user experience across all pages.
+              Make key details like hours, location, and contact information
+              easy to find at a glance, creating a smoother experience for cat
+              owners seeking quick answers.
             </h5>
           </div>
         </section>
         <section>
           <div className='dropCap hang'>3</div>
           <div className='smallWrapper'>
-            <h6 className='h6 small'>Integration of Office Design</h6>
+            <h6 className='h6 small'>Bring the Space Online</h6>
             <h5 className='h5 small'>
-              Translating the vibrant, updated physical space into the
-              website&apos;s visual design, ensuring a seamless reflection of
-              the clinic&apos;s environment online.
-            </h5>
-          </div>
-        </section>
-        <section>
-          <div className='dropCap hang'>4</div>
-          <div className='smallWrapper'>
-            <h6 className='h6 small'>Optimizing User Experience</h6>
-            <h5 className='h5 small'>
-              Enhancing both desktop and mobile interfaces to ensure a modern,
-              responsive design with intuitive navigation and seamless usability
-              for all users.
+              Translate the one-doctor practice&apos;s warmth and the lively
+              interiors—neon signs, cat wallpaper, and a sense of community—into
+              the website, so visiting online feels like walking through the
+              clinic&apos;s doors.
             </h5>
           </div>
         </section>

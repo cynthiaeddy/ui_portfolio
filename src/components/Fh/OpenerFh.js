@@ -1,7 +1,6 @@
 import '../ReusableOpener.css'
 import desktop from '../../assets/fh/feline_desktop.png'
 import mobile from '../../assets/fh/mobile_home.png'
-// import fh_opener from '../../assets/fh/fh_.png'
 
 export const OpenerFh = () => {
   return (
@@ -19,57 +18,68 @@ export const OpenerFh = () => {
           src={mobile}
           alt={mobile}
         />
-        {/* <img
-          className='OpenerFoto mobile'
-          rel='preload'
-          src={fh_opener}
-          alt={fh_opener}
-        /> */}
       </div>
-      <div className='background'></div>
       <div className='textWrapper'>
-        <h2 className='cases_openerText'>Feline Health</h2>
-        <h5 className='h5 openerType'>
-          is a woman owned and run veterinary clinic. It&apos;s a cats only
-          practice and has one doctor, whom I adore.
+        <h2 className='openerText'>Feline Health</h2>
+        <h5 className='h5 black opener'>
+          Responsive redesign of a cat-only veterinary clinic website,
+          introducing online booking and elevating usability and brand
+          personality.
         </h5>
       </div>
       <div className='OpenerInfo'>
         <div className='Info'>
-          <h6 className='h6 studies'>PROBLEM</h6>
-          <h5 className='h5 black'>
-            Dr. Blair&apos;s website fails to capture the vibrant atmosphere of
-            Feline Health Veterinary, with clunky design and missing key
-            information. It doesn&apos;t reflect the lively space, defined by
-            neon signs and cat wallpaper, or the special bond between Dr. Blair
-            and her feline patients and their owners.
-          </h5>
-          <br />
-          <h6 className='h6 studies'>solution</h6>
-          <h5 className='h5 black'>
-            The challenge was to redesign the site to better reflect the
-            clinic&apos;s energy, improve usability, and engage users, with
-            simpler navigation, vibrant design, and clear calls to action.
-          </h5>
-        </div>
-        <div className='InfoSmall'>
-          <h6 className='h6 small'>role</h6>
-          <h5 className='h5 small'>
-            UX Researcher <br />
-            UI Designer
-          </h5>
-          <br />
-          <h6 className='h6 small'>duration</h6>
-          <h5 className='h5 small'>8 Weeks</h5>
-          <br />
-          <h6 className='h6 small'>tools</h6>
-          <h5 className='h5 small'>
-            Figma <br />
-            Photoshop
-          </h5>
+          <div className='InfoSection'>
+            <div className='Button_website opener margin'>problem</div>
+            <h5 className='h5 opener_text center'>
+              The clinic&apos;s website felt outdated and clunky, with missing
+              key information. It failed to capture Feline Health&apos;s vibrant
+              atmosphere—neon signs, playful wallpaper, and a welcoming
+              energy—or reflect the special bond Dr. Blair, who&apos;s my vet
+              and whom I adore, builds with her feline patients and their
+              owners.
+            </h5>
+          </div>
+          <div className='InfoSection'>
+            <div className='Button_website opener margin'>solution</div>
+            <h5 className='h5 opener_text center'>
+              The goal is for the website to capture Feline Health&apos;s lively
+              personality while making the experience intuitive for cat owners.
+              Simplified navigation, online booking, and playful design details
+              translate its neon-and-wallpaper aesthetic into a trusted digital
+              extension of Dr. Blair&apos;s practice.
+            </h5>
+          </div>
+          <div className='InfoSmall'>
+            <div className='InfoSmallSection'>
+              <h6 className='h6 small opener'>project</h6>
+              <h5 className='h5 small opener'>
+                Responsive Site
+                <br />
+                Redesign
+              </h5>
+            </div>
+            <div>
+              <h6 className='h6 small opener'>role</h6>
+              <h5 className='h5 small opener'>
+                UX Researcher <br />
+                UI Designer
+              </h5>
+            </div>
+            <div>
+              <h6 className='h6 small opener'>duration</h6>
+              <h5 className='h5 small opener'>8 Weeks</h5>
+            </div>
+            <div>
+              <h6 className='h6 small opener'>tools</h6>
+              <h5 className='h5 small opener'>
+                Figma <br />
+                Photoshop
+              </h5>
+            </div>
+          </div>
         </div>
       </div>
-      <div className='divider_curved'></div>
     </section>
   )
 }

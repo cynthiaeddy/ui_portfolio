@@ -1,6 +1,9 @@
 import '../ReusableComponents.css'
 import '../ReusableIdeate.css'
-import style_tile from '../../assets/fh/feline_health_style.png'
+import style_tile from '../../assets/fh/feline_user_flow.png'
+import lo_fi from '../../assets/fh/fh_lofi_split_1.png'
+import lo_fi_1 from '../../assets/fh/fh_lofi_split_2.png'
+import lo_fi_2 from '../../assets/fh/fh_lofi_split_3.png'
 
 export const IdeateFh = () => {
   return (
@@ -10,50 +13,52 @@ export const IdeateFh = () => {
       </div>
       <section className='IdeateContainer'>
         <div className='InnerContainer'>
-          <h5 className='h5 marginTop'>
-            <span className='leadin'>I then moved on to ideation, </span>{' '}
-            identifying critical website features and design elements:
+          <h5 className='h5 dropCap'>
+            The flow begins on the homepage, where users can choose how to book:
+            by email, phone, or through an online calendar. In the improved
+            experience, the calendar leads them step by step—selecting a date,
+            choosing a time slot, and confirming the visit. Each step highlights
+            the most important details and allows users to review or go back
+            before finalizing. The goal was to make scheduling feel simple,
+            reliable, and as straightforward as talking to the clinic
+            directly—without the delays or errors.
           </h5>
-          <ul className='h5 bullets'>
-            <li className='first_li_research'>
-              <h5>
-                A responsive design to ensure accessibility on all devices, with
-                a clear visual hierarchy and prominent calls-to-action (CTAs).
-              </h5>
-            </li>
-            <li>
-              <h5>
-                The ability to schedule appointments directly via a calendar
-                with real-time availability.
-              </h5>
-            </li>
-            <li>
-              <h5>
-                Easy-to-find contact information, including hours, location,
-                map, phone number, and email.
-              </h5>
-            </li>
-            <li>
-              <h5 className='leadin'>
-                A logo redesign and updated branding that echoed the new clinic
-                aesthetic.
-              </h5>
-            </li>
-          </ul>
           <div className='ButtonContainer'>
-            <div className='Button enlarge'>style tile</div>
+            <div className='Button enlarge fh'>user flow</div>
             <img
               className='competitive style'
               src={style_tile}
               alt={style_tile}
             />
           </div>
-          <h5 className='h5 marginTop'>
-            <span className='leadin'>I incorporated design elements </span>
-            from the clinic&apos;s interior, including neon signage and the
-            signature cat wallpaper, ensuring the digital experience mirrored
-            the lively, welcoming atmosphere of the clinic itself.
-          </h5>
+          <div className='ButtonContainer lo_fi'>
+            <h5 className='h5 marginTop'>
+              <span className='leadin'> I tested low fidelity </span> with
+              wireframes with five participants to validate the appointment
+              booking flow — selecting a date, choosing a time, and confirming
+              the visit. 100% of users completed the tasks successfully and
+              rated the process easy to follow. Overall satisfaction was 84%,
+              slightly lowered by feedback that contact details weren&apos;t
+              visible when users wanted to double-check information.
+            </h5>
+
+            <div className='Button enlarge ideate nyt '>
+              low fidelity desktop
+            </div>
+            <img className='competitive' src={lo_fi} alt={lo_fi} />
+            <div className='Button enlarge ideate nyt '>
+              low fidelity mobile
+            </div>
+            <img className='competitive' src={lo_fi_2} alt={lo_fi_2} />
+            <div className='Button enlarge ideate nyt '>
+              low fidelity desktop
+            </div>
+            <img className='competitive' src={lo_fi} alt={lo_fi} />
+            <div className='Button enlarge ideate nyt '>
+              low fidelity mobile
+            </div>
+            <img className='competitive fh' src={lo_fi_1} alt={lo_fi_1} />
+          </div>
         </div>
       </section>
     </>

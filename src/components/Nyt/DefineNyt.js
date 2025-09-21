@@ -17,12 +17,11 @@ export const DefineNyt = () => {
         <section>
           <div className='dropCap hang one'>1</div>
           <div className='smallWrapper'>
-            <h6 className='h6 small'>Smart Scaling Algorithm</h6>
+            <h6 className='h6 small'>Flexible Serving Sizes</h6>
             <h5 className='h5 small'>
-              The feature needed to recalculate serving sizes while preserving
-              recipe integrity. Ingredient quantities, cooking times, and
-              preparation steps had to update together; otherwise, users lost
-              trust in the recipe.
+              Give users more control by letting them adjust recipes to match
+              their household size, reducing food waste while making cooking
+              more approachable.
             </h5>
           </div>
         </section>
@@ -31,20 +30,21 @@ export const DefineNyt = () => {
           <div className='smallWrapper'>
             <h6 className='h6 small'>Integrated Updates</h6>
             <h5 className='h5 small'>
-              Scaling couldn&apos;t stop at ingredients. Users expected changes
-              to ripple through grocery lists and nutritional data, making
-              shopping easier and preventing mistakes.
+              Users wanted serving-size adjustments to connect seamlessly across
+              the experience — from ingredients to grocery lists to nutrition.
+              This integration made cooking easier, reduced errors, and built
+              trust in the tool.
             </h5>
           </div>
         </section>
         <section>
           <div className='dropCap hang'>3</div>
           <div className='smallWrapper'>
-            <h6 className='h6 small'>User Interface Improvements</h6>
+            <h6 className='h6 small'>Intuitive Interface</h6>
             <h5 className='h5 small'>
-              Accuracy wasn&apos;t enough — the feature had to feel simple and
-              natural. Clear controls, visual cues, and real-time updates built
-              confidence and encouraged experimentation.
+              Precision alone wasn&apos;t enough; the feature also had to feel
+              effortless. Simple controls, clear visual cues, and real-time
+              updates gave users confidence and encouraged them to experiment.
             </h5>
           </div>
         </section>

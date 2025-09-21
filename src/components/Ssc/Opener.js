@@ -50,12 +50,12 @@ export const Opener = () => {
           <div className='InfoSection'>
             <div className='Button_website opener margin'>solution</div>
             <h5 className='h5 opener_text center'>
-              The redesign focused on how the site might better reflect my
-              niece&apos;s brand—authentic, modern, and rooted in
-              sustainability—while also streamlining the shopping experience. By
-              highlighting small-batch products, sharing the brand story, and
-              making sustainability proof easy to access, the goal was to build
-              trust and convert visitors into loyal customers.
+              The redesign should convey my niece&apos;s brand—authentic,
+              modern, and rooted in sustainability—while reinforcing
+              transparency and trust. By highlighting small-batch products,
+              sharing the brand story, and making sustainability proof easy to
+              access, the goal is to deepen customer connection and foster
+              long-term loyalty.
             </h5>
           </div>
           <div className='InfoSmall'>

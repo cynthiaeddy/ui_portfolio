@@ -10,7 +10,8 @@
   justify-content: space-between;
 }
 .Opener.fh {
-  margin:0
+  margin:0;
+  margin-left: 3rem
 }
 .OpenerFoto {
   width: 31%;
@@ -25,8 +26,9 @@
 .OpenerFoto.mobile {
   width: 25%;
   margin-left: -3rem;
-  margin-top: -4rem
+  margin-top: -3rem
 }
+
 .background {
   background: #231F20;
   margin-top: -25rem;
@@ -67,7 +69,7 @@ margin:  4rem 0rem
 }
 .Button_website.opener{
   margin:auto;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   background: black;
   color: #C3996B;
   border: 1.25px solid rgb(160, 157, 157);

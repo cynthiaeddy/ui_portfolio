@@ -29,16 +29,14 @@ export const ResearchNyt = () => {
       <section className='ResearchContainer nyt'>
         <div className='InnerContainer'>
           <h5 className='h5 dropCap'>
-            To begin the research, I compared four recipe platforms that
-            approach serving size and meal planning differently. Yummly provided
-            dynamic serving size adjustments and grocery list integration,
-            though nutritional updates were inconsistent. RecipeTin Eats offered
-            serving size adjustments at the ingredient level, but with no links
-            to groceries or nutrition. Mob attracted younger audiences with
-            quick, social-driven content, but lacked advanced features and
-            serving size flexibility. Tasty stood out with engaging videos and a
-            wide recipe base, yet had no built-in scaling, leaving users to
-            guess adjustments.
+            I started by looking at how recipe platforms approached serving size
+            and meal planning. Some offered dynamic adjustments with grocery
+            integrations, while others only allowed scaling at the ingredient
+            level. Many leaned on video content or large recipe libraries but
+            lacked flexibility for real-world cooking needs. From this, I saw an
+            opportunity for NYT Cooking to blend its trusted editorial voice
+            with tools that empower users—like serving-size adjustment and
+            smarter grocery support.
           </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>competitive analysis</div>

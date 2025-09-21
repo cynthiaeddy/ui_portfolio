@@ -17,34 +17,34 @@ export const Define = () => {
         <section>
           <div className='dropCap hang one'>1</div>
           <div className='smallWrapper'>
-            <h6 className='h6 small'>Building Trust in Sustainability</h6>
+            <h6 className='h6 small'>Trust in Sustainability</h6>
             <h5 className='h5 small'>
-              Explore reliable ways to verify and communicate sustainable
-              practices, ensuring customers feel confident and informed.
+              Showcase certifications, eco-proof, and sustainable practices in
+              clear, visible ways so customers feel confident that their
+              purchases align with their values.
             </h5>
           </div>
         </section>
         <section>
           <div className='dropCap hang'>2</div>
           <div className='smallWrapper'>
-            <h6 className='h6 small'>Enhancing Transparency</h6>
+            <h6 className='h6 small'>Transparent Details</h6>
             <h5 className='h5 small'>
-              Providing clear, easy-to-understand details on product use and
-              ingredients enhances the user experience and aligns with
-              eco-friendly values.
+              Provide straightforward information about product ingredients and
+              usage, making it easy for customers to understand what
+              they&apos;re buying while reinforcing the brand&apos;s
+              eco-friendly mission.
             </h5>
           </div>
         </section>
         <section>
           <div className='dropCap hang'>3</div>
           <div className='smallWrapper'>
-            <h6 className='h6 small'>
-              Improving Visibility & the Shopping Experience
-            </h6>
+            <h6 className='h6 small'>Seamless Shopping</h6>
             <h5 className='h5 small'>
-              Streamline navigation, integrate reviews, and emphasize
-              distinctive branding to create a convenient, engaging shopping
-              experience that highlights the personal touch of a local business.
+              Streamline navigation, highlight authentic reviews, and emphasize
+              branding to create a smooth, engaging experience that feels both
+              convenient and personal, like shopping at a local market.
             </h5>
           </div>
         </section>
