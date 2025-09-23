@@ -28,35 +28,6 @@ export const Design = () => {
             alt={ive_style_resize}
           />
         </div>
-        {/* <div className='divider_curved top'></div>
-        <div className='divider_curved_down'></div> */}
-        {/* <h5 className='h5 dropCap black too'>
-          In moderated testing of the low-fidelity wireframes, 5 participants
-          completed their tasks of exploring the homepage, purchasing the vegan
-          soap and accessing information about the company&apos;s sustainability
-          practices and product usage. All five users succeeded without errors
-          and found the navigation intuitive, though they suggested increasing
-          the hamburger menu size and improving access to product reviews.{' '}
-          <br /> <br /> Next steps for the high-fidelity wireframes:{' '}
-        </h5>
-        <ul className='h5 bullets'>
-          <li className='first_li_research black'>
-            <h5 className='h5 black'>
-              Expanding the navigation bar and detailing sustainability
-              practices via new pages of an ingredients glossary and reviews to
-              enhance transparency and user satisfaction.
-            </h5>
-          </li>
-          <li className='black'>
-            <h5 className='h5 black'>
-              {' '}
-              Art deco branding theme was already established. The new logo and
-              branding echo and coexist with old in order for it to be updated
-              seamlessly and cohesively, while making the brand more distinct
-              and emphasizing sustainability again in the tagline.
-            </h5>
-          </li>
-        </ul> */}
         <h5 className='h5 black design'>
           <span className='leadin black'>In Figma, I translated </span>the
           design system into high fidelity wireframes that unified the brand

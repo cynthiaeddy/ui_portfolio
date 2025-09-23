@@ -38,8 +38,9 @@ export const IdeateFh = () => {
               booking flow — selecting a date, choosing a time, and confirming
               the visit. 100% of users completed the tasks successfully and
               rated the process easy to follow. Overall satisfaction was 84%,
-              slightly lowered by feedback that contact details weren&apos;t
-              visible when users wanted to double-check information.
+              lowered by feedback that contact details weren&apos;t always
+              visible when participants wanted to review information during the
+              flow.
             </h5>
             <div className='Button enlarge ideate nyt '>
               low fidelity desktop

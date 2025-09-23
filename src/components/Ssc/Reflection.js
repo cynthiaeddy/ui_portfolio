@@ -18,13 +18,6 @@ export const Reflection = () => {
             sustainability means different things to different people, and good
             design needs to reflect that.
           </h5>
-          <br />
-
-          <div className='Button_website opener margin'>next steps</div>
-          <h5 className='h5'>
-            Future plans include guest checkout, third-party sustainability
-            certifications, and richer product filtering for faster discovery.
-          </h5>
         </div>
       </section>
     </>

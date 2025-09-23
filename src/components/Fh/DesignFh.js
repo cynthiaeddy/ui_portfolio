@@ -12,14 +12,14 @@ export const DesignFh = () => {
       </div>
       <section className='DesignContainer fh'>
         <h5 className='h5 black dropCap design'>
-          I refined typography, colors, and logo lockups to modernize the look
-          while keeping the brand&apos;s Art Deco character intact. I also
-          created a new logo that worked seamlessly with existing brand assets,
-          making the identity feel updated without losing recognition. A muted,
-          nature-inspired palette reinforced sustainability, while consistent
-          use of type and iconography built trust through clarity and cohesion.
-          Together, these system elements ensured the redesigned site felt both
-          authentic to the brand and seamless for the user.
+          I refined typography, colors, and UI elements to modernize the site
+          while staying true to Feline Health&apos;s playful spirit. A refreshed
+          logo created cohesion, while neon pink accents echoed the
+          clinic&apos;s interiors and added energy. Consistent use of type,
+          buttons, and iconography built clarity and trust, with subtle touches
+          highlighted boxes and cards adding personality without clutter. The
+          result is a site that feels as welcoming online as the one-doctor
+          practice does in person.
         </h5>
         <div className='ButtonContainer'>
           <div className='Button enlarge white no_margin'>branding</div>
@@ -29,15 +29,15 @@ export const DesignFh = () => {
             alt={fh_styletile}
           />
         </div>
-        <div className='ButtonContainer'></div>
-        <h5 className='h5 dropCap black too'>
-          After testing both the mobile and desktop low-fidelity wireframes and
-          incorporating user feedback, I developed high-fidelity wireframes for
-          further testing on both platforms. The goal was to refine the design
-          and enhance the user experience, particularly by addressing usability
-          concerns on mobile and improving visual consistency on desktop.The
-          following updates were made to improve the booking flow across both
-          platforms:
+        <h5 className='h5 black design'>
+          <span className='leadin black'>High fidelity wireframes </span>
+          translated the validated flow into a fully realized experience that
+          balanced the clinic&apos;s personality with user needs. I streamlined
+          navigation so hours and contact details were always accessible, and
+          redesigned the appointment button to stand out more on mobile. Layout
+          and hierarchy were adjusted to guide users with less effort, while
+          consistent typography and neon-inspired accents carried the
+          clinic&apos;s playful atmosphere online
         </h5>
         <div className='ButtonContainer'>
           <div className='Button enlarge white fh'>high fidelity desktop</div>
