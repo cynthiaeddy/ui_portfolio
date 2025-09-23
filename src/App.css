@@ -38,7 +38,12 @@ html {
 /* font-family: neue-haas-grotesk-text, sans-serif; */
 
 
-
+.react-player__shadow {
+  background: none !important;
+}
+.react-player__controls {
+  background: none !important;
+}
 
 
 .AppContainer {
