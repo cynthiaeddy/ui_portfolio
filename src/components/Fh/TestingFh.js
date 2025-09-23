@@ -1,7 +1,10 @@
 import '../ReusableComponents.css'
 import '../ReusableTesting.css'
-import { Carousel_fh } from '../Carousel_fh/Carousel_fh.js'
-import { Carousel_fh_mobile } from '../Carousel_fh/Carousel_fh_mobile.js'
+import desktop_home from '../../assets/fh/fh_home_desktop.png'
+import desktop_home1 from '../../assets/fh/fh_home_desktop1.png'
+import desktop_appt from '../../assets/fh/fh_appt_desktop.png'
+import mobile_home from '../../assets/fh/fh_home_mobile.png'
+import mobile_appt from '../../assets/fh/fh_appt_mobile.png'
 
 export const TestingFh = () => {
   return (
@@ -45,10 +48,30 @@ export const TestingFh = () => {
             </li>
           </ul>
           <div className='ButtonContainer'>
-            <div className='Button enlarge'>iterations carousel</div>
+            <div className='Button enlarge'>iterations desktop</div>
           </div>
-          <Carousel_fh />
-          <Carousel_fh_mobile />
+          <img
+            className='competitive nyt_iteraction'
+            src={desktop_home}
+            alt={desktop_home}
+          />
+          <img
+            className='competitive nyt_iteraction'
+            src={desktop_home1}
+            alt={desktop_home1}
+          />
+          <img
+            className='competitive nyt_iteraction'
+            src={desktop_appt}
+            alt={desktop_appt}
+          />
+          <div className='ButtonContainer'>
+            <div className='Button enlarge'>iterations mobile</div>
+          </div>
+          <div className='ssc_testing_new fh'>
+            <img className='ssc ' src={mobile_home} alt={mobile_home} />
+            <img className='ssc ' src={mobile_appt} alt={mobile_appt} />
+          </div>
         </div>
       </section>
     </>

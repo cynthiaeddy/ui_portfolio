@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import '../ReusableComponents.css'
 import '../ReusableDesign.css'
-import magWh from '../../assets/ssc/magWh.png'
-import magWhH from '../../assets/ssc/magWhH.png'
 import fh_styletile from '../../assets/fh/feline_health_style.png'
 import fh_hi_desktop from '../../assets/fh/fh_hifi_desktopcrop.png'
 import fh_hi_mobile from '../../assets/fh/fh_hifi_mobile.png'
@@ -12,27 +10,10 @@ import { ModalFhHiDesktop } from '../Modals/ModalFhHiDesktop'
 import { ModalFhHiMobile } from '../Modals/ModalFhHiMobile'
 
 export const DesignFh = () => {
-  const [hover, setHover] = useState(false)
-  const [hover1, setHover1] = useState(false)
   const [ismodalFhLoDesktopOpen, setIsmodalFhLoDesktopOpen] = useState(false)
   const [ismodalFhLoMobileOpen, setIsmodalFhLoMobileOpen] = useState(false)
   const [ismodalFhHiDesktopOpen, setIsmodalFhHiDesktopOpen] = useState(false)
   const [ismodalFhHiMobileOpen, setIsmodalFhHiMobileOpen] = useState(false)
-
-  const handleMouseIn = () => {
-    setHover(true)
-  }
-
-  const handleMouseOut = () => {
-    setHover(false)
-  }
-  const handleMouseIn1 = () => {
-    setHover1(true)
-  }
-
-  const handleMouseOut1 = () => {
-    setHover1(false)
-  }
 
   const modalFhLoDesktopClose = () => {
     setIsmodalFhLoDesktopOpen(false)
@@ -43,19 +24,12 @@ export const DesignFh = () => {
     setIsmodalFhLoMobileOpen(false)
     document.body.style.overflow = 'auto'
   }
-  const modalFhHiDesktopOpen = () => {
-    setIsmodalFhHiDesktopOpen(true)
-    document.body.style.overflow = 'hidden'
-  }
+
   const modalFhHiDesktopClose = () => {
     setIsmodalFhHiDesktopOpen(false)
     document.body.style.overflow = 'auto'
   }
 
-  const modalFhHiMobileOpen = () => {
-    setIsmodalFhHiMobileOpen(true)
-    document.body.style.overflow = 'hidden'
-  }
   const modalFhHiMobileClose = () => {
     setIsmodalFhHiMobileOpen(false)
     document.body.style.overflow = 'auto'
@@ -94,34 +68,9 @@ export const DesignFh = () => {
           concerns on mobile and improving visual consistency on desktop.The
           following updates were made to improve the booking flow across both
           platforms:
-          <ul className='h5 bullets'>
-            <li className='first_li_research black'>
-              <h5 className='h5 black'>
-                Added an extra CTA for booking appointments in the mobile
-                version.
-              </h5>
-            </li>
-            <li className='black'>
-              <h5 className='h5 black'>
-                Used the same background photo throughout the desktop booking
-                screens to enhance user orientation.
-              </h5>
-            </li>
-          </ul>
         </h5>
         <div className='ButtonContainer'>
           <div className='Button enlarge white fh'>high fidelity desktop</div>
-          <button
-            onClick={modalFhHiDesktopOpen}
-            onMouseOver={handleMouseIn}
-            onMouseOut={handleMouseOut}
-          >
-            {hover ? (
-              <img className='magnifier wh' src={magWhH} alt={magWhH} />
-            ) : (
-              <img className='magnifier wh' src={magWh} alt={magWh} />
-            )}
-          </button>
         </div>
         <img
           className='competitive designFh four'
@@ -130,17 +79,6 @@ export const DesignFh = () => {
         />
         <div className='ButtonContainer fh_mobile'>
           <div className='Button enlarge white'>high fidelity mobile</div>
-          <button
-            onClick={modalFhHiMobileOpen}
-            onMouseOver={handleMouseIn1}
-            onMouseOut={handleMouseOut1}
-          >
-            {hover1 ? (
-              <img className='magnifier wh' src={magWhH} alt={magWhH} />
-            ) : (
-              <img className='magnifier wh' src={magWh} alt={magWh} />
-            )}
-          </button>
         </div>
         <img
           className='competitive fh_mobile'
