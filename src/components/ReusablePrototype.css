@@ -10,8 +10,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 9rem;
-  width: 90rem;
+  margin-bottom: 6rem;
+  width: 85rem;
 }
 .prototype {
   width: 35rem

@@ -18,6 +18,11 @@
   margin-top: 1.5rem;
   width: 95rem;
 }
+.competitive.fh_iteraction {
+  margin-top: .5rem;
+   width: 95rem;
+   margin-bottom: 1rem
+}
 
 .competitive.testing {
   width: 55rem
@@ -43,6 +48,7 @@ margin-bottom:4rem
   width: auto;
   height: 53rem;
   object-fit: cover;
+   margin-bottom:-4rem
 }
 
 

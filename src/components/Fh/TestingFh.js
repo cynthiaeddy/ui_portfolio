@@ -30,17 +30,17 @@ export const TestingFh = () => {
             <div className='Button enlarge'>iterations desktop</div>
           </div>
           <img
-            className='competitive nyt_iteraction'
+            className='competitive fh_iteraction'
             src={desktop_home}
             alt={desktop_home}
           />
           <img
-            className='competitive nyt_iteraction'
+            className='competitive fh_iteraction'
             src={desktop_home1}
             alt={desktop_home1}
           />
           <img
-            className='competitive nyt_iteraction'
+            className='competitive fh_iteraction'
             src={desktop_appt}
             alt={desktop_appt}
           />

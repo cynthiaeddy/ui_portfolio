@@ -10,7 +10,7 @@ export const ResearchFh = () => {
       <div className='BlackHeds'>
         <h2 className='cases_openerText'>Research</h2>
       </div>
-      <section className='ResearchContainer'>
+      <section className='ResearchContainer fh'>
         <div className='InnerContainer'>
           <h5 className='h5 dropCap'>
             I kicked off research with a competitive analysis of local

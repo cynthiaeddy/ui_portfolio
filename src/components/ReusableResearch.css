@@ -8,12 +8,12 @@
 
 }
 
-.ResearchContainer.ssc {
+.ResearchContainer.ssc, .ResearchContainer.fh {
   padding-bottom: 7.5rem;
    margin-bottom: 10rem;
 }
 
-.ResearchContainer.nyt {
+.ResearchContainer.nyt  {
   padding-bottom: 7.5rem;
 }
 .ResearchContainer.bottom {

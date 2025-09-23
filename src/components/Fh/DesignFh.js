@@ -37,7 +37,7 @@ export const DesignFh = () => {
           redesigned the appointment button to stand out more on mobile. Layout
           and hierarchy were adjusted to guide users with less effort, while
           consistent typography and neon-inspired accents carried the
-          clinic&apos;s playful atmosphere online
+          clinic&apos;s playful atmosphere online.
         </h5>
         <div className='ButtonContainer'>
           <div className='Button enlarge white fh'>high fidelity desktop</div>

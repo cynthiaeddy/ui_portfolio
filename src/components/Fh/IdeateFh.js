@@ -11,7 +11,7 @@ export const IdeateFh = () => {
       <div className='BlackHeds'>
         <h2 className='cases_openerText'>Ideate</h2>
       </div>
-      <section className='IdeateContainer'>
+      <section className='IdeateContainer fh'>
         <div className='InnerContainer'>
           <h5 className='h5 dropCap'>
             The flow begins on the homepage, where users can choose how to book:
@@ -42,13 +42,9 @@ export const IdeateFh = () => {
               visible when participants wanted to review information during the
               flow.
             </h5>
-            <div className='Button enlarge ideate nyt '>
-              low fidelity desktop
-            </div>
+            <div className='Button enlarge ideate fh'>low fidelity desktop</div>
             <img className='competitive' src={lo_fi} alt={lo_fi} />
-            <div className='Button enlarge ideate nyt '>
-              low fidelity mobile
-            </div>
+            <div className='Button enlarge ideate fh1'>low fidelity mobile</div>
             <img className='competitive fh' src={lo_fi_1} alt={lo_fi_1} />
           </div>
         </div>
