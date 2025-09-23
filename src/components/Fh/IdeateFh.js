@@ -3,7 +3,6 @@ import '../ReusableIdeate.css'
 import style_tile from '../../assets/fh/feline_user_flow.png'
 import lo_fi from '../../assets/fh/fh_desktop1.png'
 import lo_fi_1 from '../../assets/fh/fh_mobile1.png'
-// import lo_fi_2 from '../../assets/fh/fh_lofi_split_3.png'
 
 export const IdeateFh = () => {
   return (
