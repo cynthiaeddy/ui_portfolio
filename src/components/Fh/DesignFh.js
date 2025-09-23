@@ -1,40 +1,10 @@
-import { useState } from 'react'
 import '../ReusableComponents.css'
 import '../ReusableDesign.css'
 import fh_styletile from '../../assets/fh/feline_health_style.png'
 import fh_hi_desktop from '../../assets/fh/fh_hifi_desktopcrop.png'
 import fh_hi_mobile from '../../assets/fh/fh_hifi_mobile.png'
-import { ModalFhLoDesktop } from '../Modals/ModalFhLoDesktop'
-import { ModalFhLoMobile } from '../Modals/ModalFhLoMobile'
-import { ModalFhHiDesktop } from '../Modals/ModalFhHiDesktop'
-import { ModalFhHiMobile } from '../Modals/ModalFhHiMobile'
 
 export const DesignFh = () => {
-  const [ismodalFhLoDesktopOpen, setIsmodalFhLoDesktopOpen] = useState(false)
-  const [ismodalFhLoMobileOpen, setIsmodalFhLoMobileOpen] = useState(false)
-  const [ismodalFhHiDesktopOpen, setIsmodalFhHiDesktopOpen] = useState(false)
-  const [ismodalFhHiMobileOpen, setIsmodalFhHiMobileOpen] = useState(false)
-
-  const modalFhLoDesktopClose = () => {
-    setIsmodalFhLoDesktopOpen(false)
-    document.body.style.overflow = 'auto'
-  }
-
-  const modalFhLoMobileClose = () => {
-    setIsmodalFhLoMobileOpen(false)
-    document.body.style.overflow = 'auto'
-  }
-
-  const modalFhHiDesktopClose = () => {
-    setIsmodalFhHiDesktopOpen(false)
-    document.body.style.overflow = 'auto'
-  }
-
-  const modalFhHiMobileClose = () => {
-    setIsmodalFhHiMobileOpen(false)
-    document.body.style.overflow = 'auto'
-  }
-
   return (
     <>
       <div className='BlackHeds white'>
@@ -86,22 +56,6 @@ export const DesignFh = () => {
           alt={fh_hi_mobile}
         />
       </section>
-      <ModalFhLoDesktop
-        isOpen={ismodalFhLoDesktopOpen}
-        modalSscClose={modalFhLoDesktopClose}
-      />
-      <ModalFhLoMobile
-        isOpen={ismodalFhLoMobileOpen}
-        modalSscClose={modalFhLoMobileClose}
-      />
-      <ModalFhHiDesktop
-        isOpen={ismodalFhHiDesktopOpen}
-        modalSscClose={modalFhHiDesktopClose}
-      />
-      <ModalFhHiMobile
-        isOpen={ismodalFhHiMobileOpen}
-        modalSscClose={modalFhHiMobileClose}
-      />
     </>
   )
 }

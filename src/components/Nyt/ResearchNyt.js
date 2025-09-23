@@ -1,26 +1,10 @@
-import { useState } from 'react'
 import '../ReusableComponents.css'
 import '../ReusableResearch.css'
 import competitive from '../../assets/nyt/nyt_ana.png'
 import affinity_map from '../../assets/nyt/nyt_affinity.png'
 import persona from '../../assets/nyt/nyt_persona.png'
-import { ModalNytCompSwot } from '../Modals/ModalNytCompSwot'
-import { ModalNytAffinity } from '../Modals/ModalNytAffinity'
 
 export const ResearchNyt = () => {
-  const [ismodalNytSwotOpen, setIsmodalNytSwotOpen] = useState(false)
-  const [ismodalNytAffinityOpen, setIsmodalNytAffinityOpen] = useState(false)
-
-  const modalNytSwotClose = () => {
-    setIsmodalNytSwotOpen(false)
-    document.body.style.overflow = 'auto'
-  }
-
-  const modalNytAffinityClose = () => {
-    setIsmodalNytAffinityOpen(false)
-    document.body.style.overflow = 'auto'
-  }
-
   return (
     <>
       <div className='BlackHeds'>
@@ -75,14 +59,6 @@ export const ResearchNyt = () => {
           <img className='competitive persona' src={persona} alt={persona} />
         </div>
       </section>
-      <ModalNytAffinity
-        isOpen={ismodalNytAffinityOpen}
-        modalSscClose={modalNytAffinityClose}
-      />
-      <ModalNytCompSwot
-        isOpen={ismodalNytSwotOpen}
-        modalSscClose={modalNytSwotClose}
-      />
     </>
   )
 }

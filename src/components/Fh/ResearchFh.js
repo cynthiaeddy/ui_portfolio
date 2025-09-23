@@ -1,27 +1,10 @@
-import { useState } from 'react'
 import '../ReusableComponents.css'
 import '../ReusableResearch.css'
 import competitive from '../../assets/fh/feline_analysis.png'
 import affinity_map from '../../assets/fh/fh_affinity.png'
 import persona from '../../assets/fh/feline_health_persona.png'
-import { ModalFhCompetitive } from '../Modals/ModalFhCompetitive'
-import { ModalFhAffinity } from '../Modals/ModalFhAffinity'
 
 export const ResearchFh = () => {
-  const [ismodalFhCompetitiveOpen, setIsmodalFhCompetitiveOpen] =
-    useState(false)
-  const [ismodalFhAffinityOpen, setIsmodalFhAffinityOpen] = useState(false)
-
-  const modalFhCompetitiveClose = () => {
-    setIsmodalFhCompetitiveOpen(false)
-    document.body.style.overflow = 'auto'
-  }
-
-  const modalFhAffinityClose = () => {
-    setIsmodalFhAffinityOpen(false)
-    document.body.style.overflow = 'auto'
-  }
-
   return (
     <>
       <div className='BlackHeds'>
@@ -75,14 +58,6 @@ export const ResearchFh = () => {
           <img className='competitive persona_fh' src={persona} alt={persona} />
         </div>
       </section>
-      <ModalFhCompetitive
-        isOpen={ismodalFhCompetitiveOpen}
-        modalSscClose={modalFhCompetitiveClose}
-      />
-      <ModalFhAffinity
-        isOpen={ismodalFhAffinityOpen}
-        modalSscClose={modalFhAffinityClose}
-      />
     </>
   )
 }
