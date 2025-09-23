@@ -272,3 +272,9 @@ h5 {
 .fade-out {
   opacity: 0;
 }
+
+
+/* ///// Video Controls ///// */
+
+
+video::-webkit-media-controls { filter: invert(1); }
