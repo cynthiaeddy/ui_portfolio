@@ -3,7 +3,9 @@ import '../ReusableTesting.css'
 import desktop_home from '../../assets/fh/fh_home_desktop.png'
 import desktop_home1 from '../../assets/fh/fh_home_desktop1.png'
 import desktop_appt from '../../assets/fh/fh_appt_desktop.png'
-import mobile_home from '../../assets/fh/fh_home_mobile.png'
+import mobile_home from '../../assets/fh/fh_home_mobile5.png'
+import mobile_home2 from '../../assets/fh/fh_mobile_home2.png'
+import mobile_home1 from '../../assets/fh/fh_home_mobile4.png'
 import mobile_appt from '../../assets/fh/fh_appt_mobile.png'
 
 export const TestingFh = () => {
@@ -69,8 +71,12 @@ export const TestingFh = () => {
             <div className='Button enlarge'>iterations mobile</div>
           </div>
           <div className='ssc_testing_new fh'>
-            <img className='ssc ' src={mobile_home} alt={mobile_home} />
-            <img className='ssc ' src={mobile_appt} alt={mobile_appt} />
+            <img className='fh ' src={mobile_home} alt={mobile_home} />
+            <img className='fh ' src={mobile_home2} alt={mobile_home2} />
+          </div>
+          <div className='ssc_testing_new fh1'>
+            <img className='fh ' src={mobile_home1} alt={mobile_home1} />
+            <img className='fh' src={mobile_appt} alt={mobile_appt} />
           </div>
         </div>
       </section>
