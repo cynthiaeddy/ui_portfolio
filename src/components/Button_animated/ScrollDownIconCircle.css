@@ -41,3 +41,9 @@
     opacity: 0;
   }
 }
+
+@media screen and (max-width: 479px) {
+  .scroll-down-circle {
+   margin-bottom: 2rem;
+  }
+  }
