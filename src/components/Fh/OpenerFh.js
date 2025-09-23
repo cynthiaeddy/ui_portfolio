@@ -5,21 +5,21 @@ import mobile from '../../assets/fh/mobile_home.png'
 export const OpenerFh = () => {
   return (
     <section className='OpenerContainer'>
-      <div className='Opener fh'>
+      <div className='Opener fh '>
         <img
-          className='OpenerFoto desktop'
+          className='OpenerFoto desktop fh'
           rel='preload'
           src={desktop}
           alt={desktop}
         />
         <img
-          className='OpenerFoto mobile'
+          className='OpenerFoto mobile fh'
           rel='preload'
           src={mobile}
           alt={mobile}
         />
       </div>
-      <div className='textWrapper'>
+      <div className='textWrapper fh'>
         <h2 className='openerText'>Feline Health</h2>
         <h5 className='h5 black opener'>
           Responsive redesign of a cat-only veterinary clinic website,

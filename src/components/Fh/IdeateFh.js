@@ -1,9 +1,9 @@
 import '../ReusableComponents.css'
 import '../ReusableIdeate.css'
 import style_tile from '../../assets/fh/feline_user_flow.png'
-import lo_fi from '../../assets/fh/fh_lofi_split_1.png'
-import lo_fi_1 from '../../assets/fh/fh_lofi_split_2.png'
-import lo_fi_2 from '../../assets/fh/fh_lofi_split_3.png'
+import lo_fi from '../../assets/fh/fh_desktop1.png'
+import lo_fi_1 from '../../assets/fh/fh_mobile1.png'
+// import lo_fi_2 from '../../assets/fh/fh_lofi_split_3.png'
 
 export const IdeateFh = () => {
   return (
@@ -41,15 +41,6 @@ export const IdeateFh = () => {
               slightly lowered by feedback that contact details weren&apos;t
               visible when users wanted to double-check information.
             </h5>
-
-            <div className='Button enlarge ideate nyt '>
-              low fidelity desktop
-            </div>
-            <img className='competitive' src={lo_fi} alt={lo_fi} />
-            <div className='Button enlarge ideate nyt '>
-              low fidelity mobile
-            </div>
-            <img className='competitive' src={lo_fi_2} alt={lo_fi_2} />
             <div className='Button enlarge ideate nyt '>
               low fidelity desktop
             </div>

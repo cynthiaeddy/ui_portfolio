@@ -10,8 +10,9 @@
   justify-content: space-between;
 }
 .Opener.fh {
-  margin:0;
-  margin-left: 3rem
+  margin-top:3rem;
+  margin-left:6rem;
+  width:79rem
 }
 .OpenerFoto {
   width: 31%;
@@ -20,14 +21,20 @@
 
 }
 
-.OpenerFoto.desktop {
-  width: 90%
+.OpenerFoto.desktop.fh{
+  width: 70%
 }
 .OpenerFoto.mobile {
   width: 25%;
   margin-left: -3rem;
   margin-top: -3rem
 }
+.OpenerFoto.mobile.fh {
+ width: 30%;
+  /* margin-left: 0rem;
+  margin-top: 0rem; */
+}
+
 
 .background {
   background: #231F20;
@@ -40,6 +47,9 @@
 .textWrapper {
 width: 100%;
 margin:  4rem 0rem
+}
+.textWrapper.fh {
+ margin-top:2rem
 }
 .OpenerInfo {
     margin-bottom: 0;
