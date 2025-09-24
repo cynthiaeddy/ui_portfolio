@@ -46,7 +46,7 @@ export const Testing = () => {
             <img className='ssc two ' src={search} alt={search} />
           </div>
           <div className='ssc_testing_new'>
-            <img className='ssc two' src={product} alt={product} />
+            <img className='ssc two product' src={product} alt={product} />
             <img className='ssc cart' src={cart} alt={cart} />
           </div>
           <div className='ssc_testing_new last'>

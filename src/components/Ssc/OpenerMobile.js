@@ -11,54 +11,68 @@ export const OpenerMobile = () => {
         <img className='OpenerFoto' src={opener_down} alt={opener_down} />
         <img className='OpenerFoto' src={soap_ive} alt={soap_ive} />
       </div>
-      <div className='background'></div>
       <div className='textWrapper'>
-        <h2 className='cases_openerText'> Sustainable Soap Co.</h2>
+        <h2 className='cases_openerText mobile'> Sustainable Soap Co.</h2>
         <h5 className='h5 openerType'>
-          specializes in small batch sustainable products such as soaps, shampoo
-          and lotions for hair and body.
+          End-to-end redesign of my niece&apos;s e-commerce site, a small-batch
+          brand making eco-friendly soaps, shampoos, and lotions — highlighting
+          sustainability and a seamless shopping experience.
         </h5>
       </div>
       <div className='OpenerInfo'>
         <div className='Info'>
-          <h6 className='h6 studies'>PROBLEM</h6>
-          <h5 className='h5 black'>
-            The website struggles with low traffic and customer engagement due
-            to a generic design that fails to stand out. A redesign is needed to
-            create a visually appealing experience aligned with the brand&apos;s
-            sustainable ethos, boosting conversions and user satisfaction.
-          </h5>
-          <br />
-          <h6 className='h6 studies'>solution</h6>
-          <h5 className='h5 black'>
-            How might we redesign the website to create an engaging, visually
-            appealing experience that showcases it&apos;s eco-friendly products,
-            reflects it&apos;s sustainable ethos, and effectively converts
-            visitors into loyal customers?
-          </h5>
-        </div>
-        <div className='InfoSmall'>
-          <div className='MobileSm'>
-            <h6 className='h6 small'>role</h6>
-            <h5 className='h5 small'>
-              UX Researcher <br />
-              UI Designer
+          <div className='InfoSection'>
+            <div className='Button_website opener margin'>problem</div>
+            <h5 className='h5 opener_text center'>
+              The original site looked generic and failed to communicate the
+              sustainable ethos. Traffic was low, customer engagement was weak,
+              and visitors weren&apos;t converting into buyers. Without a strong
+              brand identity or clear transparency, the website wasn&apos;t
+              trust.
             </h5>
           </div>
-          <div className='MobileSm'>
-            <h6 className='h6 small'>duration</h6>
-            <h5 className='h5 small'>12 Weeks</h5>
-          </div>
-          <div className='MobileSm'>
-            <h6 className='h6 small'>tools</h6>
-            <h5 className='h5 small'>
-              Figma <br />
-              Photoshop
+          <div className='InfoSection'>
+            <div className='Button_website opener margin'>solution</div>
+            <h5 className='h5 opener_text center'>
+              The redesign should convey my niece&apos;s brand—authentic,
+              modern, and rooted in sustainability—while reinforcing
+              transparency and trust. By highlighting small-batch products,
+              sharing the brand story, and making sustainability proof easy to
+              access, the goal is to deepen customer connection and foster
+              long-term loyalty.
             </h5>
+          </div>
+          <div className='InfoSmall'>
+            <div className='MobileSm'>
+              <h6 className='h6 small opener'>project</h6>
+              <h5 className='h5 small opener mobile project'>
+                End to End Mobile
+                <br />
+                Redesign
+                <br />
+              </h5>
+            </div>
+            <div className='MobileSm'>
+              <h6 className='h6 small opener'>role</h6>
+              <h5 className='h5 small opener mobile'>
+                UX Researcher <br />
+                UI Designer
+              </h5>
+            </div>
+            <div className='MobileSm'>
+              <h6 className='h6 small opener'>duration</h6>
+              <h5 className='h5 small opener mobile'>12 Weeks</h5>
+            </div>
+            <div className='MobileSm'>
+              <h6 className='h6 small opener'>tools</h6>
+              <h5 className='h5 small opener mobile'>
+                Figma <br />
+                Photoshop
+              </h5>
+            </div>
           </div>
         </div>
       </div>
-      <div className='divider_curved'></div>
     </section>
   )
 }

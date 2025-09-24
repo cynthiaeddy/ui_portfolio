@@ -445,5 +445,14 @@ ul {
 .ButtonContainer {
   margin-bottom: 0
 }
+h2.cases_openerText {
+color:white  }
+
+.cases_openerText.mobile {
+  color: black
+}
+
+h2.h2_white.cases_openerText {
+color:black  }
 
  }

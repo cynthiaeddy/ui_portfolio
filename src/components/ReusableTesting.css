@@ -72,9 +72,16 @@ margin-bottom:4rem
     margin: auto;
     height: auto
   }
-  .ssc, img.ssc.two, img.ssc, .ssc.checkout, .ssc.cart {
-    margin-bottom: 3rem
+  img.ssc, img.ssc.two, img.ssc, .ssc.checkout, .ssc.cart {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
   }
+   img.ssc.two.product {
+    margin-top: 0
+   }
+   img.ssc.review {
+    margin-top: 2rem
+   }
 
    .ssc.cart {
     margin-bottom: 1rem
@@ -120,6 +127,72 @@ margin-bottom:4rem
   .competitive.nyt_iteraction {
     width: 100%
   }
+ }
+
+ @media screen and (max-width: 1030px) {
+  img.ssc, img.ssc.two, img.ssc, .ssc.checkout, .ssc.cart {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+   img.ssc.two.product {
+    margin-top: 0
+   }
+   img.ssc.review {
+    margin-top: 2rem
+   }
+
+   .ssc.cart {
+    margin-bottom: 1rem
+  }
+   .ssc_testing_new{
+    display: flex;
+      justify-content: space-around;
+      width: 100%;
+      margin-bottom: 2rem;
+      flex-direction: column;
+      width: 75%;
+      margin: auto;
+  }
+  .ssc_testing_new .ssc {
+  /* height: 47.5rem; */
+          width: 100%;
+        height: auto;
+        margin: auto;
+}
+.ssc.two, .ssc.checkout, .ssc.review {
+  width:70%
+}
+
+ }
+
+  @media screen and (max-width: 479px) {
+  img.ssc, img.ssc.two, img.ssc, .ssc.checkout, .ssc.cart {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+   img.ssc.two.product {
+    margin-top: 0
+   }
+   img.ssc.review {
+    margin-top: 2rem
+   }
+
+   .ssc.cart {
+    margin-bottom: 1rem
+  }
+   .ssc_testing_new{
+      width: 100%;
+  }
+  .ssc_testing_new .ssc {
+  /* height: 47.5rem; */
+          width: 100%;
+        height: auto;
+        margin: auto;
+}
+.ssc.two, .ssc.checkout, .ssc.review {
+  width:70%
+}
+
  }
 
 
