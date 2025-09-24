@@ -315,13 +315,15 @@ ul {
   .Button.enlarge, .Button.enlarge.white {
     font-size: 1.15rem;
   }
+  .Button.enlarge.style {
+    margin-top: 10rem
+  }
   h2.cases_openerText {
     font-size: 3.9rem
   }
 
   h2.Card_hed {
     font-size: 4rem;
-    /* line-height: 1.2; */
   }
   h5 {
     font-size: 1.7rem;
@@ -337,6 +339,9 @@ ul {
   }
   .competitive{
     width: 80%
+  }
+  .ButtonContainer.ideate {
+    width: 100%
   }
 
 

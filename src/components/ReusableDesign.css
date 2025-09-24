@@ -67,10 +67,13 @@ li.smHed {
   .DesignContainer {
     width: 90%
   }
-  .competitive, .competitive.hi_fi, .competitive.designFh {
+  .competitive, .competitive.hi_fi, .competitive.designFh, .competitive.research, .competitive.flow {
     width: 80%
   }
-  .competitive.flow, .competitive.mid_fi{
+    .competitive.hi_fi {
+      width:100%
+    }
+ .competitive.mid_fi{
     width: 86%
   }
   .competitive.hi_fi,.competitive.designFh {

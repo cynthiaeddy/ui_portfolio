@@ -39,15 +39,15 @@ export const Testing = () => {
           </div>
           <div className='ssc_testing_new'>
             <img className='ssc ' src={home_new} alt={home_new} />
-            <img className='ssc ' src={menu_1} alt={menu_1} />
+            <img className='ssc two' src={menu_1} alt={menu_1} />
           </div>
           <div className='ssc_testing_new'>
             <img className='ssc ' src={story} alt={story} />
-            <img className='ssc ' src={search} alt={search} />
+            <img className='ssc two ' src={search} alt={search} />
           </div>
           <div className='ssc_testing_new'>
-            <img className='ssc ' src={product} alt={product} />
-            <img className='ssc ' src={cart} alt={cart} />
+            <img className='ssc two' src={product} alt={product} />
+            <img className='ssc cart' src={cart} alt={cart} />
           </div>
           <div className='ssc_testing_new last'>
             <img className='ssc checkout' src={checkout} alt={checkout} />

@@ -67,6 +67,34 @@ margin-bottom:4rem
     padding-bottom: 2rem;
     margin-bottom: 7.5rem;
   }
+  img.ssc.two, .ssc.checkout, img.ssc.review, img.ssc.checkout{
+    width: 70%;
+    margin: auto;
+    height: auto
+  }
+  .ssc, img.ssc.two, img.ssc, .ssc.checkout, .ssc.cart {
+    margin-bottom: 3rem
+  }
+
+   .ssc.cart {
+    margin-bottom: 1rem
+  }
+  .ssc_testing_new{
+    display: flex;
+      justify-content: space-around;
+      width: 100%;
+      margin-bottom: 2rem;
+      flex-direction: column;
+      width: 75%;
+      margin: auto;
+  }
+  .ssc_testing_new .ssc {
+  /* height: 47.5rem; */
+          width: 100%;
+        height: auto;
+        margin: auto;
+}
+
 
   .TestingContainer {
     padding-bottom: 4rem;
