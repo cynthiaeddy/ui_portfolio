@@ -127,6 +127,7 @@ margin-bottom:4rem
   .competitive.nyt_iteraction {
     width: 100%
   }
+
  }
 
  @media screen and (max-width: 1030px) {
@@ -193,17 +194,27 @@ margin-bottom:4rem
   width:70%
 }
 
- }
-
-
-@media screen and (max-width: 479px) {
-  .competitive.nyt_iteraction {
+ .competitive.nyt_iteraction {
     width: 100%
   }
   .TestingContainer {
     padding-bottom: 2rem;
     margin-bottom: 7rem;
   }
-
-
+  .competitive.fh_iteraction {
+    width: 100%
   }
+  .ssc_testing_new .fh {
+    height: auto;
+    margin-bottom: 0
+  }
+.fh.one {
+    margin-bottom: 2rem
+  }
+  .fh.two {
+    margin-bottom: -2rem
+  }
+
+ }
+
+

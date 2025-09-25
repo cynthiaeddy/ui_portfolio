@@ -18,11 +18,11 @@ export const OpenerNyt = () => {
           Cooking app, improving recipe accuracy, grocery lists, and meal prep.
         </h5>
       </div>
-      <div className='OpenerInfo nyt'>
+      <div className='OpenerInfo '>
         <div className='Info'>
           <div className='InfoSection'>
-            <div className='Button_website opener margin nyt'>problem</div>
-            <h5 className='h5 opener_text center nyt'>
+            <div className='Button_website opener margin '>problem</div>
+            <h5 className='h5 opener_text center '>
               The app lacks a serving size adjustment feature, making it
               difficult for users to scale recipes accurately. This leads to
               errors, inconsistencies, and confusion during meal prep. Without
@@ -31,8 +31,8 @@ export const OpenerNyt = () => {
             </h5>
           </div>
           <div className='InfoSection'>
-            <div className='Button_website opener margin nyt'>solution</div>
-            <h5 className='h5 opener_text center nyt'>
+            <div className='Button_website opener margin '>solution</div>
+            <h5 className='h5 opener_text center '>
               I designed a serving size adjustment feature that automatically
               recalculates ingredients, cooking times, instructions, and grocery
               lists in real time — ensuring recipe accuracy and improving the
@@ -43,22 +43,22 @@ export const OpenerNyt = () => {
         <div className='InfoSmall'>
           <div>
             <h6 className='h6 small opener'>project</h6>
-            <h5 className='h5 small opener nyt'>Add a Feature</h5>
+            <h5 className='h5 small opener '>Add a Feature</h5>
           </div>
           <div>
             <h6 className='h6 small opener'>role</h6>
-            <h5 className='h5 small opener nyt'>
+            <h5 className='h5 small opener '>
               UX Researcher <br />
               UI Designer
             </h5>
           </div>
           <div>
             <h6 className='h6 small opener'>duration</h6>
-            <h5 className='h5 small opener nyt'>4 Weeks</h5>
+            <h5 className='h5 small opener '>4 Weeks</h5>
           </div>
           <div>
             <h6 className='h6 small opener'>tools</h6>
-            <h5 className='h5 small opener nyt'>
+            <h5 className='h5 small opener '>
               Figma <br />
               Photoshop
             </h5>

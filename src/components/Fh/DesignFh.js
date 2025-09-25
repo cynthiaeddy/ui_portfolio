@@ -24,7 +24,7 @@ export const DesignFh = () => {
         <div className='ButtonContainer'>
           <div className='Button enlarge white no_margin'>branding</div>
           <img
-            className='competitive flow'
+            className='competitive flow fh'
             src={fh_styletile}
             alt={fh_styletile}
           />

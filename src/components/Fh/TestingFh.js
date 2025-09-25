@@ -47,12 +47,12 @@ export const TestingFh = () => {
           <div className='ButtonContainer'>
             <div className='Button enlarge'>iterations mobile</div>
           </div>
-          <div className='ssc_testing_new fh'>
+          <div className='ssc_testing_new fh one'>
             <img className='fh ' src={mobile_home} alt={mobile_home} />
-            <img className='fh ' src={mobile_home2} alt={mobile_home2} />
+            <img className='fh two' src={mobile_home2} alt={mobile_home2} />
           </div>
           <div className='ssc_testing_new fh1'>
-            <img className='fh ' src={mobile_home1} alt={mobile_home1} />
+            <img className='fh one' src={mobile_home1} alt={mobile_home1} />
             <img className='fh' src={mobile_appt} alt={mobile_appt} />
           </div>
         </div>

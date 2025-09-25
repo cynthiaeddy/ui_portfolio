@@ -2,6 +2,7 @@ import '../ReusableComponents.css'
 import '../ReusableResearch.css'
 import competitive from '../../assets/fh/feline_analysis.png'
 import affinity_map from '../../assets/fh/fh_affinity.png'
+import affinity_map_mobile from '../../assets/fh/affinity_fh_mobile.png'
 import persona from '../../assets/fh/feline_health_persona.png'
 
 export const ResearchFh = () => {
@@ -39,11 +40,16 @@ export const ResearchFh = () => {
           </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>affinity mapping</div>
-            <img
-              className='competitive'
-              src={affinity_map}
-              alt={affinity_map}
-            />
+            <picture>
+              <source media='(max-width: 479px)' srcSet={affinity_map_mobile} />
+              <source media='(min-width: 480px)' srcSet={affinity_map} />
+              <img
+                className='competitive '
+                src={affinity_map}
+                alt='Affinity map'
+                loading='lazy'
+              />
+            </picture>
             <h5 className='h5 marginTop'>
               <span className='leadin'>Marvin embodies a rising group </span>
               of conscientious pet owners who prioritize both quality veterinary

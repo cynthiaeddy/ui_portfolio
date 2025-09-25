@@ -31,6 +31,7 @@ h5,.leadin {
 }
 .h5.openerType {
   text-align: center;
+  font-weight: 500;
 }
 .h5.black {
   color: black;

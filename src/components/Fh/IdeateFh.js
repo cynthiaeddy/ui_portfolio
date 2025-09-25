@@ -1,7 +1,7 @@
 import '../ReusableComponents.css'
 import '../ReusableIdeate.css'
 import style_tile from '../../assets/fh/feline_user_flow.png'
-import lo_fi from '../../assets/fh/fh_desktop1.png'
+import lo_fi from '../../assets/fh/fh_mobile_lofi.png'
 import lo_fi_1 from '../../assets/fh/fh_mobile1.png'
 
 export const IdeateFh = () => {
@@ -24,11 +24,7 @@ export const IdeateFh = () => {
           </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge fh'>user flow</div>
-            <img
-              className='competitive style'
-              src={style_tile}
-              alt={style_tile}
-            />
+            <img className='competitive fh' src={style_tile} alt={style_tile} />
           </div>
           <div className='ButtonContainer lo_fi'>
             <h5 className='h5 marginTop'>
@@ -44,7 +40,7 @@ export const IdeateFh = () => {
             <div className='Button enlarge ideate fh'>low fidelity desktop</div>
             <img className='competitive' src={lo_fi} alt={lo_fi} />
             <div className='Button enlarge ideate fh1'>low fidelity mobile</div>
-            <img className='competitive fh' src={lo_fi_1} alt={lo_fi_1} />
+            <img className='competitive fh_lo' src={lo_fi_1} alt={lo_fi_1} />
           </div>
         </div>
       </section>

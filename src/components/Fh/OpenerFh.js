@@ -32,22 +32,23 @@ export const OpenerFh = () => {
           <div className='InfoSection'>
             <div className='Button_website opener margin'>problem</div>
             <h5 className='h5 opener_text center'>
-              The clinic&apos;s website felt outdated and clunky, with missing
-              key information. It failed to capture Feline Health&apos;s vibrant
-              atmosphere—neon signs, playful wallpaper, and a welcoming
-              energy—or reflect the special bond Dr. Blair, who&apos;s my vet
-              and whom I adore, builds with her feline patients and their
-              owners.
+              The website didn&apos;t reflect the clinic&apos;s vibrant
+              personality or the warm, one-doctor care that makes it special.
+              The design was clunky, with missing information and dated
+              navigation. It failed to capture the playful space—defined by neon
+              signs and cat wallpaper—or the bond Dr. Blair builds with her
+              patients and their owners (she&apos;s also my vet, whom I trust).
             </h5>
           </div>
           <div className='InfoSection'>
             <div className='Button_website opener margin'>solution</div>
             <h5 className='h5 opener_text center'>
-              The goal is for the website to capture Feline Health&apos;s lively
-              personality while making the experience intuitive for cat owners.
-              Simplified navigation, online booking, and playful design details
-              translate its neon-and-wallpaper aesthetic into a trusted digital
-              extension of Dr. Blair&apos;s practice.
+              The site should convey the clinic&apos;s energy and personal touch
+              while simplifying the experience for cat owners. Clearer
+              navigation, online booking, and design details echoing the
+              neon-and-wallpaper aesthetic would create a trusted digital
+              extension of Dr. Blair&apos;s care—approachable, intuitive, and
+              connect with.
             </h5>
           </div>
           <div className='InfoSmall'>

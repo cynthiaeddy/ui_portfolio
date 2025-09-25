@@ -246,14 +246,14 @@ h2.openerText{
   }
   .Opener.fh {
     flex-direction: column;
-    width: 75%;
+    width: 100%;
     margin: auto;
   }
 
   .OpenerFoto.mobile {
     margin-left: 0rem;
     margin-top: 2rem;
-    width: 50%;
+    width: 40%;
  }
  .OpenerFoto.desktop {
   width: 100%
@@ -330,6 +330,8 @@ h2.openerText{
       font-size: 1.7rem;
     font-weight: 500;
     line-height: 1.5;
+    margin-top: 1rem
+
 
 }
 

@@ -13,7 +13,7 @@ export const OpenerMobile = () => {
       </div>
       <div className='textWrapper'>
         <h2 className='cases_openerText mobile'> Sustainable Soap Co.</h2>
-        <h5 className='h5 openerType'>
+        <h5 className='h5 black opener'>
           End-to-end redesign of my niece&apos;s e-commerce site, a small-batch
           brand making eco-friendly soaps, shampoos, and lotions — highlighting
           sustainability and a seamless shopping experience.

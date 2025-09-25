@@ -202,6 +202,12 @@ li.smHed {
   width: 110%;
   margin-left: -5%;
 }
+.competitive.flow.fh {
+    width: 100%;
+    margin-left: 0
+    /* margin:0 */
+
+}
 .Button.enlarge.white.no_margin {
   margin-top: 0
 }
