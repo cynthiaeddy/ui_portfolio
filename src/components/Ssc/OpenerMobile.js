@@ -45,7 +45,7 @@ export const OpenerMobile = () => {
           <div className='InfoSmall'>
             <div className='MobileSm'>
               <h6 className='h6 small opener'>project</h6>
-              <h5 className='h5 small opener mobile project'>
+              <h5 className='h5 small opener mobile'>
                 End to End Mobile
                 <br />
                 Redesign

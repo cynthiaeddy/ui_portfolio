@@ -8,7 +8,7 @@ export const Define = () => {
         <h2 className='h2_white cases_openerText'>Define</h2>
       </div>
       <section className='DefineContainer'>
-        <h5 className='h5 black center'>
+        <h5 className='h5 black '>
           <span className='leadin black'>
             After identifying users&apos; core needs,{' '}
           </span>{' '}

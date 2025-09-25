@@ -130,7 +130,7 @@ margin-bottom: 2rem;}
 }
 .leadin {
   font-weight: 600;
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   letter-spacing: .05rem;
 }
 .leadin.black {
@@ -398,27 +398,31 @@ ul {
   line-height: 1.2;
  }
  h5, .leadin {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
  }
 
 .h6.small {
-  font-size: 1rem;;
+  font-size: 1.2rem;
 }
 .h5.small {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 .InnerContainer {
   width: 85%
 }
 .h5.dropCap::first-letter {
-  font-size: 8rem
+  font-size: 9.1rem
 }
 .Button.enlarge {
   font-size: 1.1rem;
   line-height: 1.6;
 }
-.competitive  {
-    width: 100%
+.Button.enlarge.style {
+    margin-top: 3rem;
+}
+.competitive, .competitive.style  {
+    width: 100%;
+    margin-top: -3.8rem
   }
 
   .h5.dropCap {
@@ -428,7 +432,10 @@ ul {
 
   .ButtonContainer {
     margin-top:1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
+  }
+  .ButtonContainer.ideate {
+    width: 100%
   }
 
 .h5.marginTop {
@@ -442,9 +449,6 @@ ul {
   margin-top: 3.5rem
 }
 
-.ButtonContainer {
-  margin-bottom: 0
-}
 h2.cases_openerText {
 color:white  }
 
@@ -454,5 +458,8 @@ color:white  }
 
 h2.h2_white.cases_openerText {
 color:black  }
+.h5.black.center {
+  font-size: 1.6rem;
+}
 
  }

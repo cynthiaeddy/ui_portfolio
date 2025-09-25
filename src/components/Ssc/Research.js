@@ -1,7 +1,9 @@
 import '../ReusableComponents.css'
 import '../ReusableResearch.css'
+import affinity_map_mobile from '../../assets/ssc/affinity_ssc_mobile.png'
 import affinity_map from '../../assets/ssc/affinity_ssc.png'
 import doit from '../../assets/ssc/ssc_analysis.png'
+import analysis_mobile from '../../assets/ssc/analysis_mobile_ssc.png'
 import persona from '../../assets/ssc/ive_persona.png'
 
 export const Research = () => {
@@ -23,7 +25,16 @@ export const Research = () => {
           </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>competitive analysis</div>
-            <img className='competitive research' src={doit} alt={doit} />
+            <picture>
+              <source media='(max-width: 479px)' srcSet={analysis_mobile} />
+              <source media='(min-width: 480px)' srcSet={doit} />
+              <img
+                className='competitive affinity'
+                src={doit}
+                alt='Affinity map'
+                loading='lazy'
+              />
+            </picture>
           </div>
         </div>
         <div className='InnerContainer'>
@@ -38,11 +49,16 @@ export const Research = () => {
 
           <div className='ButtonContainer'>
             <div className='Button enlarge'>affinity mapping</div>
-            <img
-              className='competitive affinity'
-              src={affinity_map}
-              alt={affinity_map}
-            />
+            <picture>
+              <source media='(max-width: 479px)' srcSet={affinity_map_mobile} />
+              <source media='(min-width: 480px)' srcSet={affinity_map} />
+              <img
+                className='competitive affinity'
+                src={affinity_map}
+                alt='Affinity map'
+                loading='lazy'
+              />
+            </picture>
             <h5 className='h5 marginTop'>
               <span className='leadin'> Emma represents the insights </span>
               from my research: an eco-conscious, research-driven shopper who

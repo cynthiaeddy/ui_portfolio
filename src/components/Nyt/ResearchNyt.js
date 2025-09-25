@@ -2,6 +2,7 @@ import '../ReusableComponents.css'
 import '../ReusableResearch.css'
 import competitive from '../../assets/nyt/nyt_ana.png'
 import affinity_map from '../../assets/nyt/nyt_affinity.png'
+import affinity_map_mobile from '../../assets/nyt/affinity_nyt_mobile.png'
 import persona from '../../assets/nyt/nyt_persona.png'
 
 export const ResearchNyt = () => {
@@ -40,11 +41,16 @@ export const ResearchNyt = () => {
           </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>affinity mapping</div>
-            <img
-              className='competitive'
-              src={affinity_map}
-              alt={affinity_map}
-            />
+            <picture>
+              <source media='(max-width: 479px)' srcSet={affinity_map_mobile} />
+              <source media='(min-width: 480px)' srcSet={affinity_map} />
+              <img
+                className='competitive affinity'
+                src={affinity_map}
+                alt='Affinity map'
+                loading='lazy'
+              />
+            </picture>
             <h5 className='h5 marginTop'>
               <span className='leadin'>Sarah is an empty nester </span>
               embracing her newfound time to explore cooking as a creative

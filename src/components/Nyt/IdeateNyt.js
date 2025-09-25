@@ -1,7 +1,8 @@
 import '../ReusableComponents.css'
 import '../ReusableIdeate.css'
 import nyt_user_flow from '../../assets/nyt/nyt_user_flow_VERT.png'
-import lo_fi from '../../assets/nyt/nyt_midfi_bigheds.png'
+import lo_fi from '../../assets/nyt/nyt_midfi_big.png'
+import lo_fi_mobile from '../../assets/nyt/nyt_midfi_big_mobile.png'
 
 export const IdeateNyt = () => {
   return (
@@ -42,7 +43,17 @@ export const IdeateNyt = () => {
             </h5>
 
             <div className='Button enlarge ideate nyt '>low fidelity</div>
-            <img className='competitive' src={lo_fi} alt={lo_fi} />
+
+            <picture>
+              <source media='(max-width: 479px)' srcSet={lo_fi_mobile} />
+              <source media='(min-width: 480px)' srcSet={lo_fi} />
+              <img
+                className='competitive affinity'
+                src={lo_fi}
+                alt='Affinity map'
+                loading='lazy'
+              />
+            </picture>
           </div>
         </div>
       </section>

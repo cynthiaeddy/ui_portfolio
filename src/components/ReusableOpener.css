@@ -260,14 +260,15 @@ h2.openerText{
  }
 
  .textWrapper {
-  padding: 2rem;
+  padding: 3.5rem 2rem;
   margin: auto;
   margin-top: .1rem;
 }
 .OpenerInfo {
   width: 90%;
   margin: auto;
-  flex-direction: column
+  flex-direction: column;
+  padding: 2rem
 }
 
 .h6.small {
@@ -315,7 +316,8 @@ h2.openerText{
   width: 33%
 }
 .MobileSm:last-child {
-  margin-right: 0
+  margin-right: 0;
+  margin-top: 2rem;
 
 }
 .h5.small.opener.mobile {
@@ -323,6 +325,12 @@ h2.openerText{
 }
 .h5.small.opener.mobile.project {
   margin-bottom: 2rem
+}
+.h5.black.opener {
+      font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.5;
+
 }
 
 }

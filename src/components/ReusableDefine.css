@@ -77,6 +77,10 @@
 .leadin.black {
   font-size: 1.5rem;
 }
+.dropCap.hang {
+  font-size: 9rem;
+  margin-top: 2rem
+}
 
 
 }
