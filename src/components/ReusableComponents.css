@@ -195,7 +195,7 @@ margin-bottom: 2rem;}
 }
 .Button.enlarge.fh {
   margin-top: 2rem;
-  margin-top: 16rem;
+  margin-top: 11rem;
 
 }
 .Button.enlarge.iter.nyt {
@@ -234,10 +234,10 @@ button {
 }
 
 .competitive.fh{
-  width: 100%;
+  width: 80%;
     border-radius: 20px;
     margin: auto;
-    margin-top: -24.8rem;
+    margin-top: -20.8rem;
 }
 
 .competitive_lg {

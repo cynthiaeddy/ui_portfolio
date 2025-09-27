@@ -1,5 +1,5 @@
 import '../ReusableComponents.css'
-import '../ReusableIdeate.css'
+// import '../ReusableIdeate.css'
 // import style_tile from '../../assets/fh/feline_user_flow.png'
 // import lo_fi from '../../assets/fh/fh_mobile_lofi.png'
 // import lo_fi_1 from '../../assets/fh/fh_mobile1.png'

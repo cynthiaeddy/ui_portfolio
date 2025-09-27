@@ -31,8 +31,6 @@
 }
 .OpenerFoto.mobile.fh {
  width: 30%;
-  /* margin-left: 0rem;
-  margin-top: 0rem; */
 }
 
 
@@ -203,6 +201,11 @@ margin-bottom: 2rem;}
   }
   .h6.studies {
     font-size: 1.2rem;
+}
+.Opener.fh {
+    margin-top: 3rem;
+    margin-left: 0rem;
+    width: 95%;
 }
 }
 
