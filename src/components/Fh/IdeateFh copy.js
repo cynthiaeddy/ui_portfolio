@@ -1,11 +1,8 @@
 import '../ReusableComponents.css'
 import '../ReusableIdeate.css'
-// import style_tile from '../../assets/fh/feline_user_flow.png'
+import style_tile from '../../assets/fh/feline_user_flow.png'
 import lo_fi from '../../assets/fh/fh_mobile_lofi.png'
 import lo_fi_1 from '../../assets/fh/fh_mobile1.png'
-import fh_lo_desktop from '../../assets/fh/fh_lofi_desktop1.png'
-import fh_lo_mobile from '../../assets/fh/fh_lofi_mobile1.png'
-import style_tile from '../../assets/fh/nyt_user_flow_VERT1.png'
 
 export const IdeateFh = () => {
   return (
@@ -44,50 +41,6 @@ export const IdeateFh = () => {
             <img className='competitive' src={lo_fi} alt={lo_fi} />
             <div className='Button enlarge ideate fh1'>low fidelity mobile</div>
             <img className='competitive fh_lo' src={lo_fi_1} alt={lo_fi_1} />
-          </div>
-          <div className='WireframesContainer'>
-            <div className='ButtonContainer design_fh'>
-              <div className='Button enlarge ideate fh'>
-                low fidelity desktop
-              </div>
-              <img
-                className='competitive mid_fi desktop'
-                src={fh_lo_desktop}
-                alt={fh_lo_desktop}
-              />
-            </div>
-            <div className='ButtonContainer design_fh first'>
-              <div className='Button enlarge ideate fh'>
-                low fidelity mobile
-              </div>
-              <img
-                className='competitive mid_fi mobile'
-                src={fh_lo_mobile}
-                alt={fh_lo_mobile}
-              />
-            </div>
-          </div>
-          <div className='WireframesContainer'>
-            <div className='ButtonContainer design_fh'>
-              <div className='Button enlarge ideate fh'>
-                low fidelity desktop
-              </div>
-              <img
-                className='competitive mid_fi desktop'
-                src={lo_fi}
-                alt={fh_lo_desktop}
-              />
-            </div>
-            <div className='ButtonContainer design_fh first'>
-              <div className='Button enlarge ideate fh'>
-                low fidelity mobile
-              </div>
-              <img
-                className='competitive mid_fi mobile'
-                src={lo_fi_1}
-                alt={fh_lo_mobile}
-              />
-            </div>
           </div>
         </div>
       </section>

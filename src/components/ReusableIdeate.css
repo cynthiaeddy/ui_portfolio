@@ -34,7 +34,19 @@ margin-top: -5rem;
    margin-left: -8rem;
    margin-bottom: -4rem;
  }
-
+ .WireframesContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.competitive.mid_fi.desktop
+ {
+    width: 59rem;
+    margin-top: 0.75rem;
+}
+.competitive.mid_fi.mobile {
+    width: 32rem;
+    margin-top: 0.5rem;
+}
 
 @media screen and (min-width: 769px) and (max-width: 1030px) {
   .IdeateContainer {
@@ -68,6 +80,10 @@ margin-top: -5rem;
 .IdeateContainer.ssc {
   padding-bottom: 4.5rem
  }
+  .WireframesContainer {
+    width: 100%;
+    flex-direction: column;
+  }
  }
 
  @media screen and (max-width: 479px)  {
@@ -85,6 +101,11 @@ margin-top: -5rem;
   width: 140%;
   margin-left: -7rem;
 }
+.WireframesContainer {
+  width: 100%;
+  flex-direction: column;
+}
+
 }
 
 

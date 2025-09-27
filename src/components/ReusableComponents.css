@@ -183,6 +183,11 @@ margin-bottom: 2rem;}
   margin-top: 10rem
 }
 .Button.enlarge.ideate.fh {
+  margin-top: 10rem;
+  margin-bottom: -3rem
+}
+
+.Button.enlarge.ideate.fh {
   margin-top: 5rem
 }
 .Button.enlarge.ideate.fh1 {
@@ -225,7 +230,7 @@ button {
 }
 
 .competitive.fh{
-  width: 45rem;
+  width: 100%;
 }
 
 .competitive_lg {
