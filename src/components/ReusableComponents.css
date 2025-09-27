@@ -194,7 +194,9 @@ margin-bottom: 2rem;}
   margin-top: 8rem
 }
 .Button.enlarge.fh {
-  margin-top: 2rem
+  margin-top: 2rem;
+  margin-top: 16rem;
+
 }
 .Button.enlarge.iter.nyt {
   margin-bottom: 0rem
@@ -203,10 +205,12 @@ margin-bottom: 2rem;}
   background: white;
   color:#a7835b;
   border: 1.25px solid black;
-      /* filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.3)); */
-
+}
+.Button.enlarge.white.fh {
+  margin-top: 2rem
 
 }
+
 
 .magnifier {
   width: 6rem;
@@ -231,6 +235,9 @@ button {
 
 .competitive.fh{
   width: 100%;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: -24.8rem;
 }
 
 .competitive_lg {
