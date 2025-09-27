@@ -23,7 +23,8 @@
   width: 19.75rem
 }
 .prototype_container_mobile{
-  margin: 0 -4rem
+  /* margin: 0 -4rem; */
+  width: 30%
 }
 
 .prototype_container_desktop {
@@ -64,10 +65,12 @@
     width: 100%
   }
   .prototype.fh_desktop {
-    width: 70%
+    width: 70%;
+    margin-bottom: -2rem
   }
   .prototype.fh_mobile {
-    width: 30%
+    width: 30%;
+    margin:auto
   }
 }
 

@@ -214,7 +214,7 @@ margin-bottom: 2rem;}
     width: 90%;
     margin-bottom: 7rem;
   }
-  .Opener {
+  .Opener,.Opener.fh {
     width: 90%
   }
 
@@ -234,6 +234,12 @@ h2.openerText{
 .h6.studies {
   font-size: 1.2rem;
 }
+.OpenerInfo {
+  width:100%
+}
+.Opener.fh {
+  margin-left: 0;
+width: 100%}
 }
 
 @media screen and (max-width: 479px){
