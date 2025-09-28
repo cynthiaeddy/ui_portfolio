@@ -12,7 +12,7 @@ export const OpenerNyt = () => {
         <img className='OpenerFoto' rel='preload' src={grocery} alt={grocery} />
       </div>
       <div className='textWrapper'>
-        <h2 className='openerText'>The New York Times Cooking App</h2>
+        <h2 className='openerText nyt'>The New York Times Cooking App</h2>
         <h5 className='h5 black opener'>
           A concept project adding a serving size adjustment feature to the NYT
           Cooking app, improving recipe accuracy, grocery lists, and meal prep.

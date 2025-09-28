@@ -76,7 +76,7 @@ export const Cards = () => {
           </div>
         </Link>
         <Link to='/work/fh' className='IndieCard'>
-          <img className='CardImageHome jamesdt' src={fhd} alt={fhd} />
+          <img className='CardImageHome edit' src={fhd} alt={fhd} />
           <div className='CardDek'>
             <h2 className='Card_hed'>Feline Health</h2>
             <div className='hed_and_blurb'>
@@ -89,8 +89,8 @@ export const Cards = () => {
             <button className='Button_website'>view</button>
           </div>
         </Link>
-        <Link to='/work/editorial' className='IndieCard'>
-          <img className='CardImageHome jamesdt' src={singles} alt={singles} />
+        <Link to='/work/editorial' className='IndieCard edit'>
+          <img className='CardImageHome edit' src={singles} alt={singles} />
           <div className='CardDek edit'>
             <h2 className='Card_hed'>Editorial Design</h2>
             <div className='hed_and_blurb'>

@@ -224,18 +224,24 @@ margin-bottom: 2rem;}
 h2.openerText{
    font-size: 4.5rem;
 }
+h2.openerText.nyt{
+   line-height: 1;
+   margin-bottom: 1rem
+}
   .background {
     margin-top: -20rem;
     height:24rem
   }
   .textWrapper {
-    /* padding: 2.5rem; */
-}
+    width: 90%;
+    margin:3rem;
+  }
 .h6.studies {
   font-size: 1.2rem;
 }
 .OpenerInfo {
-  width:90%
+  width:90%;
+  padding:3rem
 }
 .Opener.fh {
   margin-left: 0;

@@ -20,7 +20,7 @@ export const DesignNyt = () => {
           editing to add or change items directly, but this functionality was
           beyond the project scope.
         </h5>
-        <div className='ButtonContainer'>
+        <div className='ButtonContainer nyt1'>
           <div className='Button enlarge white'>high fidelity wireframes</div>
           <img className='competitive hi_fi nyt' src={hifi} alt={hifi} />
         </div>

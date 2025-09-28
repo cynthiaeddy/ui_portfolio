@@ -21,7 +21,7 @@ export const TestingNyt = () => {
             brand identity. The main feedback was to allow single-unit
             increments rather than adjustments of two.
           </h5>
-          <div className='ButtonContainer'>
+          <div className='ButtonContainer nyt'>
             <div className='Button enlarge iter nyt'>iteration</div>
             <img
               className='competitive nyt_iteraction'

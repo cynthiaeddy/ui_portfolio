@@ -73,24 +73,6 @@ li.smHed {
 }
 
 
-.divider_curved {
-  width: 100%;
-  height: 3rem;
-  border-radius: 20px;
-border-bottom: .75px solid #000;
-margin-bottom: 2rem;}
-
-.divider_curved.top {
-  margin-bottom: 0rem
-}
-
-.divider_curved_down {
-  width: 100%;
-  height: 3rem;
-  border-radius: 20px;
-  border-top: 1px solid #000;
-}
-
 .BlackHeds {
   background: black;
   padding: 2rem;
@@ -351,7 +333,10 @@ ul {
   h6 {
     font-size: 1rem;
   }
-
+.openerText.nyt{
+  line-height: 1;
+  margin-bottom: 1.5rem;
+}
 
   .h5.dropCap::first-letter {
     font-size: 9.25rem;
@@ -362,7 +347,19 @@ ul {
   .ButtonContainer.ideate {
     width: 100%
   }
+   .ButtonContainer.nyt {
+   margin-top: 2rem
+  }
+   .ButtonContainer.nyt1 {
+   margin-top: 2rem
+  }
 
+.Button.enlarge.ideate.nyt1 {
+    margin-top: 4.5rem;
+}
+.Button.enlarge.ideate.nyt {
+    margin-top: 0rem;
+}
 
 }
 
@@ -399,11 +396,11 @@ ul {
     font-size: 1.1rem;
   }
   .Button.enlarge.ssc_research {
-    margin-top: 0rem
+    margin-top: 2rem
 
   }
   .Button.enlarge.style {
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
   .competitive  {
@@ -420,6 +417,9 @@ ul {
     font-weight: 600;
     font-size: 1.6rem;
     letter-spacing: .05rem;
+}
+.Button.enlarge.ideate.nyt {
+    margin-top: 2rem;
 }
 }
 
