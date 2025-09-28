@@ -4,11 +4,15 @@
   border-radius: 20px;
   display: flex;
   padding-bottom: 6.5rem;
-  margin-bottom: 10rem;;
+  margin-bottom: 10rem;
   flex-direction: column;
 }
-.IdeateContainer.ssc, .IdeateContainer.nyt, .IdeateContainer.fh {
+.IdeateContainer.ssc, .IdeateContainer.fh {
   padding-bottom: 7.5rem
+}
+.IdeateContainer.nyt {
+  padding-bottom: 6.5rem;
+  margin-bottom: 9rem
 }
 
 .ButtonContainer.ideate {

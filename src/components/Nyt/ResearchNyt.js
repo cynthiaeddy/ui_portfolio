@@ -25,7 +25,11 @@ export const ResearchNyt = () => {
           </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>competitive analysis</div>
-            <img className='competitive' src={competitive} alt={competitive} />
+            <img
+              className='competitive nyt'
+              src={competitive}
+              alt={competitive}
+            />
           </div>
         </div>
         <div className='InnerContainer'>

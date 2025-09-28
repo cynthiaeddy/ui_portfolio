@@ -42,7 +42,7 @@ export const IdeateNyt = () => {
               items).
             </h5>
 
-            <div className='Button enlarge ideate nyt '>low fidelity</div>
+            <div className='Button enlarge ideate nyt1 '>low fidelity</div>
 
             <picture>
               <source media='(max-width: 479px)' srcSet={lo_fi_mobile} />
