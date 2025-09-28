@@ -135,10 +135,13 @@ margin-top: -5rem;
     .competitive.style, .competitive.ideate.nyt {
     margin-top: 0;
     width: 120%;
-    margin-left: -3rem
+    margin-left: -3rem;
 }
 .competitive.style.ssc {
   margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+.competitive.ideate.nyt{
   margin-bottom: 0rem;
 }
 .competitive.fh {
@@ -149,6 +152,9 @@ margin-top: -5rem;
 .WireframesContainer {
   width: 100%;
   flex-direction: column;
+}
+.IdeateContainer.nyt {
+    padding-bottom: 4.5rem;
 }
 
 }
