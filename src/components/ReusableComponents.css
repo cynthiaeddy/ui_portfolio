@@ -446,7 +446,7 @@ ul {
 }
 .Button.enlarge {
   font-size: 1.1rem;
-  line-height: 1.6;
+  padding: .25rem 1.5rem;
 }
 .Button.enlarge.style {
     margin-top: 3rem;
@@ -455,10 +455,17 @@ ul {
     width: 100%;
     margin-top: -3.8rem
   }
+   .competitive.affinity.ssc, .competitive.affinity {
+    margin-top: -4.5rem;
+    margin-bottom: 0rem
+  }
 
   .h5.dropCap {
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
+ .h5.black.design {
+    margin-top: 5rem;
+}
 
 
   .ButtonContainer {
@@ -467,6 +474,19 @@ ul {
   }
   .ButtonContainer.ideate {
     width: 100%
+  }
+  .ButtonContainer.ideate.ssc {
+    margin-top: 1.5rem
+        /* margin-top: 3rem; */
+    }
+
+  .Button.enlarge.ideate {
+    margin-top: 3rem;
+}
+
+   .ButtonContainer.ssc {
+    margin-top:3rem;
+
   }
 
 .h5.marginTop {

@@ -158,7 +158,7 @@ margin-top: 1rem
     margin-bottom: 4rem;
   }
   .DesignContainer.ssc {
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
   }
   .competitive.designFh.four, .competitive.mid_fi.desktop, .competitive.mid_fi, .competitive.hi_fi,.competitive.mid_fi.mobile, .competitive.fh_mobile, .competitive.flow {
     width: 100%
@@ -178,7 +178,7 @@ margin-top: 1rem
   margin-left: 0;
 }
 .competitive.flow {
-  margin-top: -3.5rem;
+  margin-top: 0rem;
 }
 .competitive.hi_fi, .competitive.mid_fi{
   margin-top: -1.5rem;
@@ -202,14 +202,13 @@ li.smHed {
   width: 115%;
   margin-left: -7.5%;
 }
-.competitive.designFh.four, .competitive.mid_fi, .competitive.flow {
+.competitive.designFh.four, .competitive.mid_fi  {
   width: 110%;
   margin-left: -5%;
 }
-.competitive.flow.fh {
+.competitive.flow.fh, .competitive.flow {
     width: 100%;
     margin-left: 0
-    /* margin:0 */
 
 }
 .Button.enlarge.white.no_margin {

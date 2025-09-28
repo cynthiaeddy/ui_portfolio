@@ -206,6 +206,9 @@ img.ssc.two.search, img.ssc.two.product {
 .ssc.two, .ssc.checkout, .ssc.review {
   width:70%
 }
+.ssc.two.search {
+  margin-bottom: 0rem
+}
 
  .competitive.nyt_iteraction {
     width: 100%
@@ -234,6 +237,7 @@ img.ssc.two.search, img.ssc.two.product {
   flex-direction: column;
   margin-bottom: 0
 }
+
 
  }
 

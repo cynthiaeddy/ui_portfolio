@@ -20,7 +20,7 @@ export const Design = () => {
           Together, these system elements ensured the redesigned site felt both
           authentic to the brand and seamless for the user.
         </h5>
-        <div className='ButtonContainer'>
+        <div className='ButtonContainer ssc'>
           <div className='Button enlarge white no_margin'>branding</div>
           <img
             className='competitive flow'
