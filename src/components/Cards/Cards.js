@@ -93,7 +93,7 @@ export const Cards = () => {
           <img className='CardImageHome edit' src={singles} alt={singles} />
           <div className='CardDek edit'>
             <h2 className='Card_hed'>Editorial Design</h2>
-            <div className='hed_and_blurb'>
+            <div className='hed_and_blurb edit'>
               <h6 className='Card_blurb'>
                 Layout, typography, storytelling
                 {/* Layout, typography, and visual storytelling */}

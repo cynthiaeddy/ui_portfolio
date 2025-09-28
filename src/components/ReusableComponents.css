@@ -358,7 +358,7 @@ ul {
     margin-top: 4.5rem;
 }
 .Button.enlarge.ideate.nyt {
-    margin-top: 0rem;
+    margin-top: 2rem;
 }
 
 }
@@ -412,6 +412,9 @@ ul {
   .ButtonContainer.lo_fi {
     margin-top: 0rem;
     padding-bottom: 2rem;
+ }
+ .ButtonContainer.lo_fi.nyt {
+    padding-bottom: 0rem;
  }
 .leadin {
     font-weight: 600;

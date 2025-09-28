@@ -30,7 +30,7 @@ export const IdeateNyt = () => {
               alt={nyt_user_flow}
             />
           </div>
-          <div className='ButtonContainer lo_fi'>
+          <div className='ButtonContainer lo_fi nyt'>
             <h5 className='h5 marginTop'>
               <span className='leadin'>I tested low fidelity </span>
               wireframes with 5 participants to validate the user flow —

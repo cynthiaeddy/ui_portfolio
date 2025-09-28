@@ -140,7 +140,7 @@ display: flex;
 .CardImageHome.nyt, .CardImageHome.ssc, .CardImageHome.wh, .CardImageHome.edit {
   margin-bottom: 3rem
 }
-.hed_and_blurb {
+.hed_and_blurb.edit {
  margin: -.5rem
 }
 }

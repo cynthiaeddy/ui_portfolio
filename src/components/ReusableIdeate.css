@@ -121,9 +121,12 @@ margin-top: -5rem;
     margin-top: -.5rem;
     width: 110%;
     margin-left: -3rem;
-    margin-bottom: 0rem
+    margin-bottom: -2rem
 }
+.IdeateContainer.nyt {
+  padding-bottom: 5.5rem
  }
+}
  @media screen and (max-width: 479px)  {
   .IdeateContainer,  .IdeateContainer.ssc {
     margin-bottom: 7rem;
