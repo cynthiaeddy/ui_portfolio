@@ -43,7 +43,7 @@ export const Testing = () => {
           </div>
           <div className='ssc_testing_new'>
             <img className='ssc ' src={story} alt={story} />
-            <img className='ssc two ' src={search} alt={search} />
+            <img className='ssc two search' src={search} alt={search} />
           </div>
           <div className='ssc_testing_new'>
             <img className='ssc two product' src={product} alt={product} />

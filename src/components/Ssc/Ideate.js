@@ -26,7 +26,7 @@ export const Ideate = () => {
               src={ive_mood_resize}
               alt={ive_mood_resize}
             />
-            <div className='ButtonContainer ideate'>
+            <div className='ButtonContainer ideate ssc'>
               <h5 className='h5 marginTop'>
                 <span className='leadin'>I mapped the key journey </span>
                 from homepage → product discovery → checkout. The focus was on
@@ -35,7 +35,7 @@ export const Ideate = () => {
               </h5>
               <div className='Button enlarge style'>user flow</div>
               <img
-                className='competitive style'
+                className='competitive style ssc'
                 src={user_flow}
                 alt={user_flow}
               />

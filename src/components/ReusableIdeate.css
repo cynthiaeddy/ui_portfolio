@@ -24,6 +24,9 @@
   margin-bottom: -2.5rem;
   margin-left: -7rem
  }
+  .competitive.style.ssc {
+    margin-top:-19rem
+  }
  .competitive.ideate {
 margin-top: -5rem;
  }
@@ -60,10 +63,17 @@ margin-top: -5rem;
  .competitive.style {
   width: 95%;
   margin: 0;
-  margin-top: -14.5rem;
+  margin-top: -16rem;
   margin-bottom: -2.5rem;
   margin-left: 0rem
  }
+ .competitive.mood {
+  margin-bottom: 1rem
+ }
+  .competitive.style.ssc {
+    margin-bottom: -1rem;
+    margin-top: -15rem;
+  }
 
 
  }
@@ -75,7 +85,7 @@ margin-top: -5rem;
    }
 
 .h5.dropCap, .h5.marginTop {
-  margin-top: 4rem
+  margin-top: 6rem
 }
 .IdeateContainer.ssc {
   padding-bottom: 4.5rem
@@ -84,8 +94,18 @@ margin-top: -5rem;
     width: 100%;
     flex-direction: column;
   }
- }
+  .ButtonContainer.ideate.ssc {
+    width: 100%
 
+  }
+
+ .competitive.style.ssc {
+    width: 110%;
+    margin: auto;
+    margin-left: -5%;
+    margin-top:-15rem
+ }
+ }
  @media screen and (max-width: 479px)  {
   .IdeateContainer,  .IdeateContainer.ssc {
     margin-bottom: 7rem;

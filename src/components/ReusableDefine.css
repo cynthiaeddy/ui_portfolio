@@ -41,6 +41,9 @@
     width: 90%;
     margin-bottom: 8rem;
 }
+  .DefineContainer.ssc {
+    margin-bottom: 7rem;
+}
 .competitive.persona_fh {
   margin-top: -4.5rem;
 }
@@ -54,8 +57,9 @@
     width: 90%;
     margin-bottom: 7rem
 }
-.competitive.persona {
-  margin-bottom: -4rem
+.dropCap.hang {
+    font-size: 8.25rem;
+    margin-top: 1.5rem
 }
 .competitive.venn {
   margin-top: -4.5rem

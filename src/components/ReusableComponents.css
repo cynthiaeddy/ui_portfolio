@@ -329,7 +329,7 @@ ul {
     font-size: 1.15rem;
   }
   .Button.enlarge.style {
-    margin-top: 10rem
+    margin-top: 12rem
   }
   h2.cases_openerText {
     font-size: 3.9rem
@@ -372,11 +372,11 @@ ul {
     font-size: 1.6rem;
   }
   .h5.small {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   h6.h6.small {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .InnerContainer {
     width: 90%
@@ -391,13 +391,31 @@ ul {
   }
   .Button.enlarge {
     font-size: 1.1rem;
-    line-height: 1.5
   }
+  .Button.enlarge.ssc_research {
+    margin-top: 0rem
+
+  }
+  .Button.enlarge.style {
+    margin-top: 11rem;
+}
 
   .competitive  {
     width: 100%
   }
+  .competitive.affinity.ssc {
+    margin-top: -4.5rem
+  }
+  .ButtonContainer.lo_fi {
+    margin-top: 0rem;
+    padding-bottom: 2rem;
  }
+.leadin {
+    font-weight: 600;
+    font-size: 1.6rem;
+    letter-spacing: .05rem;
+}
+}
 
  @media screen and (max-width: 479px) {
 

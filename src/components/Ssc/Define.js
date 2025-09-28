@@ -7,7 +7,7 @@ export const Define = () => {
       <div className='BlackHeds white'>
         <h2 className='h2_white cases_openerText'>Define</h2>
       </div>
-      <section className='DefineContainer'>
+      <section className='DefineContainer ssc'>
         <h5 className='h5 black '>
           <span className='leadin black'>
             After identifying users&apos; core needs,{' '}

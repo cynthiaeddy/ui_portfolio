@@ -50,15 +50,34 @@ margin-bottom:4rem
   object-fit: cover;
    margin-bottom:-4rem
 }
-
-
-
-
 .ssc.checkout {
   margin-left: 3rem
 }
 .ssc.review {
   margin-right: 3rem
+}
+
+ @media screen and (max-width: 1030px) {
+  img.ssc, img.ssc.two, img.ssc, .ssc.checkout, .ssc.cart {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+   img.ssc.review {
+    margin-top: 2rem
+   }
+
+   .ssc.cart {
+    margin-bottom: 0rem
+  }
+   .ssc_testing_new{
+    display: flex;
+      justify-content: space-around;
+      margin-bottom: 2rem;
+      flex-direction: column;
+      width: 49rem;
+      margin: auto;
+  }
 }
 
 
@@ -76,9 +95,7 @@ margin-bottom:4rem
     margin-bottom: 2rem;
     margin-top: 2rem;
   }
-   img.ssc.two.product {
-    margin-top: 0
-   }
+
    img.ssc.review {
     margin-top: 2rem
    }
@@ -139,45 +156,30 @@ margin-bottom:4rem
   flex-direction: column;
   margin-bottom: 0
 }
+.ssc_testing_new {
+  width: 100%
+}
+img.ssc {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.ssc.checkout, .ssc.review {
+    margin:auto
+}
+.ssc_testing_new .ssc {
+    width: 90%;
+    height: auto;
+}
 
+.ssc.two, .ssc.checkout, .ssc.review {
+  width: 61%
+}
+img.ssc.two.search, img.ssc.two.product {
+  margin-bottom: 0rem
+}
 
  }
-
- @media screen and (max-width: 1030px) {
-  img.ssc, img.ssc.two, img.ssc, .ssc.checkout, .ssc.cart {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-  }
-   img.ssc.two.product {
-    margin-top: 0
-   }
-   img.ssc.review {
-    margin-top: 2rem
-   }
-
-   .ssc.cart {
-    margin-bottom: 1rem
-  }
-   .ssc_testing_new{
-    display: flex;
-      justify-content: space-around;
-      width: 100%;
-      margin-bottom: 2rem;
-      flex-direction: column;
-      width: 75%;
-      margin: auto;
-  }
-  .ssc_testing_new .ssc {
-  /* height: 47.5rem; */
-          width: 100%;
-        height: auto;
-        margin: auto;
-}
-.ssc.two, .ssc.checkout, .ssc.review {
-  width:70%
-}
-}
-
 
 
   @media screen and (max-width: 479px) {
@@ -185,9 +187,7 @@ margin-bottom:4rem
     margin-bottom: 2rem;
     margin-top: 2rem;
   }
-   img.ssc.two.product {
-    margin-top: 0
-   }
+
    img.ssc.review {
     margin-top: 2rem
    }

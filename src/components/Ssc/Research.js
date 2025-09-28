@@ -24,12 +24,14 @@ export const Research = () => {
             its roots while making sustainability proof easy to access.
           </h5>
           <div className='ButtonContainer'>
-            <div className='Button enlarge'>competitive analysis</div>
+            <div className='Button enlarge ssc_research'>
+              competitive analysis
+            </div>
             <picture>
               <source media='(max-width: 479px)' srcSet={analysis_mobile} />
               <source media='(min-width: 480px)' srcSet={doit} />
               <img
-                className='competitive affinity'
+                className='competitive affinity ssc'
                 src={doit}
                 alt='Affinity map'
                 loading='lazy'
