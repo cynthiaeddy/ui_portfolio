@@ -5,7 +5,7 @@ import grocery from '../../assets/nyt/grocery_edit.png'
 
 export const OpenerNyt = () => {
   return (
-    <section className='OpenerContainer'>
+    <section className='OpenerContainer nyt'>
       <div className='Opener'>
         <img className='OpenerFoto' rel='preload' src={opener} alt={opener} />
         <img className='OpenerFoto' rel='preload' src={recipe} alt={recipe} />

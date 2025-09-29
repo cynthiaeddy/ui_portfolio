@@ -3,6 +3,7 @@
   margin: auto;
   margin-bottom: 9rem;
 }
+.OpenerContainer.nyt {}
 .Opener {
   display: flex;
   margin: auto;
