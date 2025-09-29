@@ -35,16 +35,6 @@ export const TestingFh = () => {
           <div className='ButtonContainer'>
             <div className='Button enlarge'>iterations desktop</div>
           </div>
-          {/* <picture>
-            <source media='(max-width: 479px)' srcSet={desktop_home} />
-            <source media='(min-width: 480px)' srcSet={desktop_homesm} />
-            <img
-              className='competitive fh_desktop'
-              src={desktop_homesm}
-              alt='Affinity map'
-              loading='lazy'
-            />
-          </picture> */}
           <picture>
             <source media='(max-width: 479px)' srcSet={desktop_homebig} />
             <source media='(max-width: 768px)' srcSet={desktop_home} />
@@ -56,16 +46,6 @@ export const TestingFh = () => {
               loading='lazy'
             />
           </picture>
-          {/* <picture>
-            <source media='(max-width: 479px)' srcSet={desktop_hours} />
-            <source media='(min-width: 480px)' srcSet={desktop_hourssm} />
-            <img
-              className='competitive fh_desktop'
-              src={desktop_hourssm}
-              alt='Affinity map'
-              loading='lazy'
-            />
-          </picture> */}
           <picture>
             <source media='(max-width: 479px)' srcSet={desktop_hours_big} />
             <source media='(max-width: 768px)' srcSet={desktop_hours} />
@@ -82,7 +62,7 @@ export const TestingFh = () => {
             <source media='(max-width: 768px)' srcSet={desktop_appt1} />
             <source media='(min-width: 480px)' srcSet={desktop_apptsm} />
             <img
-              className='competitive fh_desktop'
+              className='competitive fh_desktop appt'
               src={desktop_apptsm}
               alt='Affinity map'
               loading='lazy'

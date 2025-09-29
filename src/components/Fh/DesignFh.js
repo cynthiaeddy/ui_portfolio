@@ -44,7 +44,7 @@ export const DesignFh = () => {
           <div className='Button enlarge white fh'>high fidelity desktop</div>
         </div>
         <img
-          className='competitive designFh four'
+          className='competitive designFh'
           src={fh_hi_desktop}
           alt={fh_hi_desktop}
         />

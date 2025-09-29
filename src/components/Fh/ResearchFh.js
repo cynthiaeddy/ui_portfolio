@@ -48,7 +48,7 @@ export const ResearchFh = () => {
               <source media='(max-width: 479px)' srcSet={affinity_map_mobile} />
               <source media='(min-width: 480px)' srcSet={affinity_map} />
               <img
-                className='competitive  '
+                className='competitive  affinity_fh'
                 src={affinity_map}
                 alt='Affinity map'
                 loading='lazy'

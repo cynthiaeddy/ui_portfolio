@@ -138,6 +138,9 @@ li.smHed {
 .ButtonContainer.ideate {
   width: 95rem
 }
+.ButtonContainer.design_fh, .ButtonContainer.design_fh.first{
+  margin-top: 0
+}
 
 
 
@@ -219,8 +222,16 @@ button {
   margin: auto;
   margin-top: -4.8rem;
 }
+.competitive.affinity_fh {
+  margin-bottom: -1rem
+}
 .competitive.fh_desktop{
-  width:95rem
+  width:95rem;
+  margin-top:0rem
+}
+.competitive.fh_desktop.appt{
+  margin-top:-3.5rem;
+  margin-bottom: -4rem;
 }
 
 .competitive.fh{
@@ -228,6 +239,7 @@ button {
     border-radius: 20px;
     margin: auto;
     margin-top: -20.8rem;
+    margin-bottom: -3rem
 }
 .competitive.nyt {
   margin-bottom: 1rem
@@ -419,7 +431,10 @@ ul {
   }
   .competitive.fh_desktop{
   width: 80%;
-  margin-bottom:4rem
+  margin-bottom:1rem
+}
+.competitive.fh_desktop.appt{
+  margin-top:-2rem
 }
   .ButtonContainer.lo_fi {
     margin-top: 0rem;
@@ -493,7 +508,10 @@ ul {
 .competitive.fh_desktop {
     width: 110%;
     margin-left: -2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
+}
+.competitive.fh_desktop.appt {
+    margin-top: -2.5rem;
 }
 
   .h5.dropCap {
