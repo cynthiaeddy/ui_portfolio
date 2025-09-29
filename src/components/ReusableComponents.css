@@ -333,6 +333,9 @@ ul {
   .Button.enlarge, .Button.enlarge.white {
     font-size: 1.15rem;
   }
+  .Button.enlarge.fh {
+    margin-top: 1.5rem
+  }
   .Button.enlarge.style {
     margin-top: 4rem
   }
@@ -361,6 +364,12 @@ ul {
   .competitive{
     width: 80%
   }
+   .competitive.fh{
+margin-top: 0rem
+}
+.competitive.fh_desktop.appt {
+  margin-bottom: -4rem;
+}
   .ButtonContainer.ideate {
     width: 100%
   }

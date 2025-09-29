@@ -83,6 +83,9 @@ li.smHed {
   .competitive.hi_fi,.competitive.designFh {
     margin-top: -2.5rem;
   }
+  .competitive.designFh {
+    margin-bottom: -4rem
+  }
   .competitive.hi_fi {
      margin-bottom: -2rem}
 
@@ -101,6 +104,9 @@ li.smHed {
 }
 .Button.enlarge.white.no_margin {
   margin-top: 0
+}
+.Button.enlarge.white.no_margin.fh {
+  margin-top: 2rem
 }
 ul.h5.bullets.ssc {
   padding-left: -1.75rem

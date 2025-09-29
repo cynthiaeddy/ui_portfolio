@@ -21,7 +21,7 @@ export const Design = () => {
           authentic to the brand and seamless for the user.
         </h5>
         <div className='ButtonContainer ssc'>
-          <div className='Button enlarge white no_margin'>branding</div>
+          <div className='Button enlarge white no_margin fh'>branding</div>
           <img
             className='competitive flow'
             src={ive_style_resize}
