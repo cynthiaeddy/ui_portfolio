@@ -140,19 +140,21 @@ li.smHed {
 }
 
 
+
+
 .Button.enlarge {
-  background: black;
-  color: #c9963b;
-  padding: .5rem 2rem;
-  border-radius: 10rem;
-  width: fit-content;
-  margin-top: 2rem;
-  margin-bottom: 2.5rem;
-  border: 1.25px solid rgb(160, 157, 157);
-  font-size: 1.3rem;
-  font-weight: 600;
-  position: relative;
-  z-index: 50;
+    background: black;
+    color: #c9963b;
+    padding: .5rem 2rem;
+    border-radius: 1.25rem;
+    width: fit-content;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    border: 1.25px solid rgb(160, 157, 157);
+    font-size: 1.3rem;
+    font-weight: 600;
+    position: relative;
+    z-index: 50;
 }
 
 .Button.enlarge.style {
