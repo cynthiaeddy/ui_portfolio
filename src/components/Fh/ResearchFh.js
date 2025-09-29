@@ -26,7 +26,11 @@ export const ResearchFh = () => {
           </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>competitive analysis</div>
-            <img className='competitive' src={competitive} alt={competitive} />
+            <img
+              className='competitive research_fh '
+              src={competitive}
+              alt={competitive}
+            />
           </div>
         </div>
         <div className='InnerContainer'>
@@ -44,7 +48,7 @@ export const ResearchFh = () => {
               <source media='(max-width: 479px)' srcSet={affinity_map_mobile} />
               <source media='(min-width: 480px)' srcSet={affinity_map} />
               <img
-                className='competitive '
+                className='competitive  '
                 src={affinity_map}
                 alt='Affinity map'
                 loading='lazy'

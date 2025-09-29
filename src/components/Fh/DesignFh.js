@@ -1,6 +1,7 @@
 import '../ReusableComponents.css'
 import '../ReusableDesign.css'
-import fh_styletile from '../../assets/fh/feline_health_style.png'
+import fh_styletile from '../../assets/fh/style_tile_fh.png'
+// import fh_styletile from '../../assets/fh/feline_health_style.png'
 import fh_hi_desktop from '../../assets/fh/fh_hifi_desktopcrop.png'
 import fh_hi_mobile from '../../assets/fh/fh_hifi_mobile.png'
 

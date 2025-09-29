@@ -2,6 +2,8 @@ import '../ReusableComponents.css'
 import '../ReusableTesting.css'
 
 import iteration from '../../assets/nyt/nyt_iteration.png'
+import iteration1 from '../../assets/nyt/iteration_nyt_1.png'
+import iteration2 from '../../assets/nyt/nyt_iteration_2.png'
 
 export const TestingNyt = () => {
   return (
@@ -23,11 +25,21 @@ export const TestingNyt = () => {
           </h5>
           <div className='ButtonContainer nyt'>
             <div className='Button enlarge iter nyt'>iteration</div>
-            <img
+            <picture>
+              <source media='(max-width: 768px)' srcSet={iteration2} />
+              <source media='(min-width: 769px)' srcSet={iteration1} />
+              <img
+                className='competitive '
+                src={iteration}
+                alt='Affinity map'
+                loading='lazy'
+              />
+            </picture>
+            {/* <img
               className='competitive nyt_iteraction'
               src={iteration}
               alt={iteration}
-            />
+            /> */}
           </div>
         </div>
       </section>
