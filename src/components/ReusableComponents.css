@@ -219,6 +219,9 @@ button {
   margin: auto;
   margin-top: -4.8rem;
 }
+.competitive.fh_desktop{
+  width:95rem
+}
 
 .competitive.fh{
   width: 80%;
@@ -362,6 +365,9 @@ ul {
 .Button.enlarge.ideate.nyt {
     margin-top: 2rem;
 }
+.competitive.fh_desktop{
+  width: 100%
+}
 
 }
 
@@ -411,6 +417,9 @@ ul {
   .competitive.affinity.ssc {
     margin-top: -4.5rem
   }
+  .competitive.fh_desktop{
+  width: 80%
+}
   .ButtonContainer.lo_fi {
     margin-top: 0rem;
     padding-bottom: 2rem;
@@ -478,6 +487,12 @@ ul {
   }
   .competitive.nyt {
     margin-bottom: 2rem;
+}
+
+.competitive.fh_desktop {
+    width: 110%;
+    margin-left: -2rem;
+    margin-bottom: 4rem;
 }
 
   .h5.dropCap {

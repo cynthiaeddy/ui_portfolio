@@ -1,13 +1,14 @@
 import '../ReusableComponents.css'
 import '../ReusableTesting.css'
-import desktop_home from '../../assets/fh/fh_desktop_home.png'
-import desktop_home1 from '../../assets/fh/fh_home_desktop2.png'
-import desktop_appt from '../../assets/fh/fh_appt_desktop1.png'
-import desktop_home2 from '../../assets/fh/fh_home1.png'
-import desktop_home3 from '../../assets/fh/fh_home2.png'
-import desktop_home4 from '../../assets/fh/fh_home4.png'
-import desktop_home5 from '../../assets/fh/fh_home5.png'
-import desktop_appt1 from '../../assets/fh/fh_appt.png'
+import desktop_homesm from '../../assets/fh/fh_desktophome_small.png'
+import desktop_hours from '../../assets/fh/fh_desktophours.png'
+import desktop_hourssm from '../../assets/fh/fh_desktophours_small.png'
+import desktop_home from '../../assets/fh/fh_home5.png'
+import desktop_appt from '../../assets/fh/fh_appt.png'
+// import desktop_home4 from '../../assets/fh/fh_home4.png'
+// import desktop_home5 from '../../assets/fh/fh_home5.png'
+import desktop_apptsm from '../../assets/fh/fh_desktopappt_small.png'
+import desktop_appt1 from '../../assets/fh/fh_appt1.png'
 import mobile_home from '../../assets/fh/fh_home_mobile5.png'
 import mobile_home2 from '../../assets/fh/fh_mobile_home2.png'
 import mobile_home1 from '../../assets/fh/fh_mobile_home1.png'
@@ -35,60 +36,36 @@ export const TestingFh = () => {
             <div className='Button enlarge'>iterations desktop</div>
           </div>
           <picture>
-            <source media='(max-width: 479px)' srcSet={desktop_home2} />
-            <source media='(min-width: 480px)' srcSet={desktop_home} />
+            <source media='(max-width: 479px)' srcSet={desktop_home} />
+            <source media='(min-width: 480px)' srcSet={desktop_homesm} />
             <img
-              className='competitive  '
-              src={desktop_home}
+              className='competitive fh_desktop'
+              src={desktop_homesm}
               alt='Affinity map'
               loading='lazy'
             />
           </picture>
           <picture>
-            <source media='(max-width: 479px)' srcSet={desktop_home4} />
-            <source media='(min-width: 480px)' srcSet={desktop_home} />
+            <source media='(max-width: 479px)' srcSet={desktop_hours} />
+            <source media='(min-width: 480px)' srcSet={desktop_hourssm} />
             <img
-              className='competitive  '
-              src={desktop_home5}
+              className='competitive fh_desktop'
+              src={desktop_hourssm}
               alt='Affinity map'
               loading='lazy'
             />
           </picture>
-          <img
-            className='competitive fh_iteraction'
-            src={desktop_home}
-            alt={desktop_home}
-          />
           <picture>
-            <source media='(max-width: 769px)' srcSet={desktop_home3} />
-            <source media='(min-width: 768px)' srcSet={desktop_home1} />
+            <source media='(max-width: 479px)' srcSet={desktop_appt} />
+            <source media='(max-width: 768px)' srcSet={desktop_appt1} />
+            <source media='(min-width: 480px)' srcSet={desktop_apptsm} />
             <img
-              className='competitive  '
-              src={desktop_home1}
+              className='competitive fh_desktop'
+              src={desktop_apptsm}
               alt='Affinity map'
               loading='lazy'
             />
           </picture>
-          <img
-            className='competitive fh_iteraction'
-            src={desktop_home1}
-            alt={desktop_home1}
-          />
-          <picture>
-            <source media='(max-width: 479px)' srcSet={desktop_appt1} />
-            <source media='(min-width: 480px)' srcSet={desktop_appt} />
-            <img
-              className='competitive  '
-              src={desktop_appt}
-              alt='Affinity map'
-              loading='lazy'
-            />
-          </picture>
-          <img
-            className='competitive fh_iteraction'
-            src={desktop_appt}
-            alt={desktop_appt}
-          />
           <div className='ButtonContainer'>
             <div className='Button enlarge'>iterations mobile</div>
           </div>
