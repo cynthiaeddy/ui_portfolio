@@ -4,7 +4,7 @@ import mobile from '../../assets/fh/mobile_home.png'
 
 export const OpenerFh = () => {
   return (
-    <section className='OpenerContainer'>
+    <section className='OpenerContainer fh'>
       <div className='Opener fh '>
         <img
           className='OpenerFoto desktop fh'

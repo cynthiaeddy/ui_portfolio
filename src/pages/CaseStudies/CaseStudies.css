@@ -11,4 +11,8 @@ overflow-x: hidden
   .Container.studies {
     width: 100%
   }
+  .Container.studies:has(+ .OpenerContainer.fh) {
+    margin-top: 15rem
+  /* styles for .Container.studies only if followed by .OpenerContainer.fh */
+}
  }

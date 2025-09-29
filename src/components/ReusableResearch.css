@@ -84,11 +84,14 @@
 padding-bottom: 3.5rem;
     margin-bottom: 7.5rem;
       }
+      .ResearchContainer.fh {
+    padding-bottom: 5.5rem;
+}
       .ResearchContainer.bottom {
         margin-bottom: 6.5rem
       }
       .competitive.persona_fh {
-        margin-top: -4rem
+        margin-top: -4.5rem
       }
        .competitive.research {
         width: 100%

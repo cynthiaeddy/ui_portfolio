@@ -1,6 +1,7 @@
 import '../ReusableComponents.css'
 import '../ReusableDesign.css'
 import fh_styletile from '../../assets/fh/style_tile_fh.png'
+import fh_styletile_add from '../../assets/fh/style_tile_fhadd.png'
 // import fh_styletile from '../../assets/fh/feline_health_style.png'
 import fh_hi_desktop from '../../assets/fh/fh_hifi_desktopcrop.png'
 import fh_hi_mobile from '../../assets/fh/fh_hifi_mobile.png'
@@ -24,11 +25,16 @@ export const DesignFh = () => {
         </h5>
         <div className='ButtonContainer'>
           <div className='Button enlarge white no_margin'>branding</div>
-          <img
-            className='competitive flow fh'
-            src={fh_styletile}
-            alt={fh_styletile}
-          />
+          <picture>
+            <source media='(max-width: 768px)' srcSet={fh_styletile_add} />
+            <source media='(min-width: 769px)' srcSet={fh_styletile} />
+            <img
+              className='competitive flow fh'
+              src={fh_styletile}
+              alt='Affinity map'
+              loading='lazy'
+            />
+          </picture>
         </div>
         <h5 className='h5 black design'>
           <span className='leadin black'>High fidelity wireframes </span>
@@ -41,7 +47,7 @@ export const DesignFh = () => {
           clinic&apos;s playful atmosphere online.
         </h5>
         <div className='ButtonContainer'>
-          <div className='Button enlarge white fh'>high fidelity desktop</div>
+          <div className='Button enlarge white no'>high fidelity desktop</div>
         </div>
         <img
           className='competitive designFh'

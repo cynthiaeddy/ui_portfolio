@@ -395,7 +395,9 @@ margin-top: 0rem
 
 /* ///// Media Queries ///// */
 @media screen and (min-width: 480px) and (max-width: 768px)  {
-
+  .Container.studies:has(.OpenerContainer.fh) {
+    margin-top: 15rem;
+  }
 
   h2 {
     font-size: 3.6rem;
@@ -431,6 +433,9 @@ margin-top: 0rem
   .Button.enlarge.style {
     margin-top: 5rem;
 }
+ .Button.enlarge.fh {
+    margin-top: 1rem;
+}
 
   .competitive  {
     width: 100%
@@ -438,6 +443,10 @@ margin-top: 0rem
   .competitive.affinity.ssc {
     margin-top: -4.5rem
   }
+  .competitive.fh {
+    margin-top: 0rem;
+    width: 100%;
+    }
   .competitive.fh_desktop{
   width: 80%;
   margin-bottom:1rem
@@ -502,6 +511,9 @@ margin-top: 0rem
 .Button.enlarge.ideate.nyt1 {
     margin-top: 4.5rem;
 }
+.Button.enlarge.fh {
+    margin-top: 3rem;
+}
 .competitive, .competitive.style  {
     width: 100%;
     margin-top: -3.8rem
@@ -513,6 +525,13 @@ margin-top: 0rem
   .competitive.nyt {
     margin-bottom: 2rem;
 }
+.competitive.research_fh, .competitive.affinity_fh, .competitive.persona_fh {
+    margin-top: -4.5rem;
+  }
+      .competitive.fh {
+        width: 140%;
+        margin-left: -9rem;
+      }
 
 .competitive.fh_desktop {
     width: 110%;

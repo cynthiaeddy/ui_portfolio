@@ -215,6 +215,9 @@ margin-bottom: 2rem;}
     width: 100%;
     margin-bottom: 7rem;
   }
+  .OpenerContainer.fh{
+    margin-top: 0rem
+  }
   .Opener,.Opener.fh {
     width: 90%
   }
@@ -246,7 +249,8 @@ h2.openerText.nyt{
 }
 .Opener.fh {
   margin-left: 0;
-width: 100%}
+width: 95%;
+margin-top: 9rem;}
 
 .InfoSmall {
       display: flex;

@@ -1,11 +1,12 @@
 import '../ReusableComponents.css'
-// import '../ReusableIdeate.css'
-// import style_tile from '../../assets/fh/feline_user_flow.png'
+import '../ReusableIdeate.css'
+import style_tile from '../../assets/fh/feline_user_flow.png'
 // import lo_fi from '../../assets/fh/fh_mobile_lofi.png'
 // import lo_fi_1 from '../../assets/fh/fh_mobile1.png'
 import fh_lo_desktop from '../../assets/fh/fh_lofi_desktop1.png'
+import fh_lo_desktopadd from '../../assets/fh/fh_lofi_desktopadd.png'
 import fh_lo_mobile from '../../assets/fh/fh_lofi_mobile1.png'
-import style_tile from '../../assets/fh/nyt_user_flow_VERT1.png'
+// import style_tile from '../../assets/fh/nyt_user_flow_VERT1.png'
 
 export const IdeateFh = () => {
   return (
@@ -46,11 +47,16 @@ export const IdeateFh = () => {
               <div className='Button enlarge ideate fh'>
                 low fidelity desktop
               </div>
-              <img
-                className='competitive mid_fi desktop'
-                src={fh_lo_desktop}
-                alt={fh_lo_desktop}
-              />
+              <picture>
+                <source media='(max-width: 479px)' srcSet={fh_lo_desktopadd} />
+                <source media='(min-width: 480px)' srcSet={fh_lo_desktop} />
+                <img
+                  className='competitive flow fh'
+                  src={fh_lo_desktop}
+                  alt='Affinity map'
+                  loading='lazy'
+                />
+              </picture>
             </div>
             <div className='ButtonContainer design_fh first'>
               <div className='Button enlarge ideate fh'>

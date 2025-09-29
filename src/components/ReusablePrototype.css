@@ -81,5 +81,13 @@
   .prototype {
     width: 50%
   }
-
+      .prototype.fh_desktop {
+        margin-bottom: 0rem;
+    }
+        .prototype.fh_mobile {
+        margin-bottom: 3rem;
+    }
 }
+
+
+
