@@ -1,18 +1,18 @@
 import '../ReusableComponents.css'
 import '../ReusableTesting.css'
-import desktop_homesm from '../../assets/fh/fh_desktophome_small.png'
-import desktop_hours from '../../assets/fh/fh_desktophours.png'
-import desktop_hourssm from '../../assets/fh/fh_desktophours_small.png'
-import desktop_home from '../../assets/fh/fh_home5.png'
-import desktop_appt from '../../assets/fh/fh_appt.png'
-// import desktop_home4 from '../../assets/fh/fh_home4.png'
-// import desktop_home5 from '../../assets/fh/fh_home5.png'
-import desktop_apptsm from '../../assets/fh/fh_desktopappt_small.png'
-import desktop_appt1 from '../../assets/fh/fh_appt1.png'
-import mobile_home from '../../assets/fh/fh_home_mobile5.png'
-import mobile_home2 from '../../assets/fh/fh_mobile_home2.png'
-import mobile_home1 from '../../assets/fh/fh_mobile_home1.png'
-import mobile_appt from '../../assets/fh/fh_appt_mobile.png'
+import desktop_homesm from '../../assets/fh/iterations/fh_desktophome_small.png'
+import desktop_hours from '../../assets/fh/iterations/fh_homehours_mid.png'
+import desktop_hours_big from '../../assets/fh/iterations/fh_homehours_big.png'
+import desktop_hourssm from '../../assets/fh/iterations/fh_desktophours_small.png'
+import desktop_home from '../../assets/fh/iterations/fh_home5.png'
+import desktop_appt from '../../assets/fh/iterations/fh_appt.png'
+import desktop_homebig from '../../assets/fh/iterations/fh_home_big.png'
+import desktop_apptsm from '../../assets/fh/iterations/fh_desktopappt_small.png'
+import desktop_appt1 from '../../assets/fh/iterations/fh_appt1.png'
+import mobile_home from '../../assets/fh/iterations/fh_home_mobile5.png'
+import mobile_home2 from '../../assets/fh/iterations/fh_mobile_home2.png'
+import mobile_home1 from '../../assets/fh/iterations/fh_mobile_home1.png'
+import mobile_appt from '../../assets/fh/iterations/fh_appt_mobile.png'
 
 export const TestingFh = () => {
   return (
@@ -35,7 +35,7 @@ export const TestingFh = () => {
           <div className='ButtonContainer'>
             <div className='Button enlarge'>iterations desktop</div>
           </div>
-          <picture>
+          {/* <picture>
             <source media='(max-width: 479px)' srcSet={desktop_home} />
             <source media='(min-width: 480px)' srcSet={desktop_homesm} />
             <img
@@ -44,13 +44,35 @@ export const TestingFh = () => {
               alt='Affinity map'
               loading='lazy'
             />
-          </picture>
+          </picture> */}
           <picture>
+            <source media='(max-width: 479px)' srcSet={desktop_homebig} />
+            <source media='(max-width: 768px)' srcSet={desktop_home} />
+            <source media='(min-width: 480px)' srcSet={desktop_homesm} />
+            <img
+              className='competitive fh_desktop'
+              src={desktop_homesm}
+              alt='Affinity map'
+              loading='lazy'
+            />
+          </picture>
+          {/* <picture>
             <source media='(max-width: 479px)' srcSet={desktop_hours} />
             <source media='(min-width: 480px)' srcSet={desktop_hourssm} />
             <img
               className='competitive fh_desktop'
               src={desktop_hourssm}
+              alt='Affinity map'
+              loading='lazy'
+            />
+          </picture> */}
+          <picture>
+            <source media='(max-width: 479px)' srcSet={desktop_hours_big} />
+            <source media='(max-width: 768px)' srcSet={desktop_hours} />
+            <source media='(min-width: 480px)' srcSet={desktop_hourssm} />
+            <img
+              className='competitive fh_desktop'
+              src={desktop_apptsm}
               alt='Affinity map'
               loading='lazy'
             />
