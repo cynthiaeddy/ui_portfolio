@@ -9,7 +9,15 @@
   margin: auto;
   width: 75rem;
   justify-content: space-between;
-  overflow: visible
+  overflow: visible;
+  gap: clamp(1rem, 4vw, 3rem);
+}
+
+.Opener img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5))
 }
 .Opener.fh {
   margin-top:3rem;
@@ -19,7 +27,7 @@
 .OpenerFoto {
   width: 31%;
   align-self: center;
-  filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5))
+  /* filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5)) */
 
 }
 
