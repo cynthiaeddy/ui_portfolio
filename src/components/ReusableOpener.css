@@ -5,12 +5,13 @@
 
 }
 .Opener {
-  display: flex;
-  margin: auto;
-  width: 75rem;
-  justify-content: space-between;
-  overflow: visible;        /* let shadows escape */
-  padding-bottom: 4rem;
+    display: flex
+;
+    margin: auto;
+    width: 79rem;
+    justify-content: space-between;
+    overflow: visible;
+    padding-bottom: 4rem;
 }
 .Opener.fh {
   margin-top:3rem;
@@ -18,8 +19,9 @@
   width:79rem
 }
 .OpenerFoto {
-  width: 31%;
+  width: 33%;
   align-self: center;
+  padding:1rem;
   filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5))
 
 }
