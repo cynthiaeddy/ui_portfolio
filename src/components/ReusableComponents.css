@@ -234,6 +234,9 @@ button {
   width: 100%;
   height: fit-content;
 }
+/* .competitive.research_fh {
+  margin-bottom: 1rem
+} */
 
 .competitive.fh_mobile {
   width:95rem;
@@ -384,7 +387,7 @@ margin-top: 0rem
 /* ///// Media Queries ///// */
 @media screen and (min-width: 480px) and (max-width: 768px)  {
   .Container.studies:has(.OpenerContainer.fh) {
-    margin-top: 15rem;
+    margin-top: 13rem;
   }
 
   h2 {
