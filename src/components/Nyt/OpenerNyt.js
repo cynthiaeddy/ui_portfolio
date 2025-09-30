@@ -1,15 +1,30 @@
 import '../ReusableOpener.css'
-import opener from '../../assets/nyt/home.png'
-import recipe from '../../assets/nyt/recipe_serve.png'
-import grocery from '../../assets/nyt/grocery_edit.png'
+import opener_sm from '../../assets/nyt/home_sm.png'
+import recipe_sm from '../../assets/nyt/recipe_serve_sm.png'
+import grocery_sm from '../../assets/nyt/grocery_edit_sm.png'
 
 export const OpenerNyt = () => {
   return (
     <section className='OpenerContainer nyt'>
       <div className='Opener'>
-        <img className='OpenerFoto' rel='preload' src={opener} alt={opener} />
-        <img className='OpenerFoto' rel='preload' src={recipe} alt={recipe} />
-        <img className='OpenerFoto' rel='preload' src={grocery} alt={grocery} />
+        <img
+          className='OpenerFoto'
+          rel='preload'
+          src={opener_sm}
+          alt={opener_sm}
+        />
+        <img
+          className='OpenerFoto'
+          rel='preload'
+          src={recipe_sm}
+          alt={recipe_sm}
+        />
+        <img
+          className='OpenerFoto'
+          rel='preload'
+          src={grocery_sm}
+          alt={grocery_sm}
+        />
       </div>
       <div className='textWrapper'>
         <h2 className='openerText nyt'>The New York Times Cooking App</h2>

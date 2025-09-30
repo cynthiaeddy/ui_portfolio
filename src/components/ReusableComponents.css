@@ -525,6 +525,9 @@ margin-top: 0rem
 .Button.enlarge.ideate.nyt {
     margin-top: 3.5rem;
 }
+.Button.enlarge.iter.nyt {
+    margin-bottom: 7rem;
+}
 .Button.enlarge.ideate.nyt1 {
     margin-top: 4.5rem;
 }
@@ -603,6 +606,7 @@ margin-top: 0rem
 
    .ButtonContainer.ssc {
     margin-top:3rem;
+    margin-bottom: -1rem;
 
   }
 

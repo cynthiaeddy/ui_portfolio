@@ -1,6 +1,8 @@
 import '../ReusableComponents.css'
 import '../ReusableDesign.css'
-import ive_style_resize from '../../assets/ssc/ssc_brand.png'
+import ive_style_resize from '../../assets/ssc/ssc_brand_top.png'
+import ive_style from '../../assets/ssc/ssc_brand.png'
+
 import hiFi from '../../assets/ssc/hifi_crop.jpg'
 
 export const Design = () => {
@@ -22,11 +24,16 @@ export const Design = () => {
         </h5>
         <div className='ButtonContainer ssc'>
           <div className='Button enlarge white no_margin fh'>branding</div>
-          <img
-            className='competitive flow'
-            src={ive_style_resize}
-            alt={ive_style_resize}
-          />
+          <picture>
+            <source media='(max-width: 479px)' srcSet={ive_style_resize} />
+            <source media='(min-width: 480px)' srcSet={ive_style} />
+            <img
+              className='competitive flow'
+              src={ive_style}
+              alt='style tile'
+              loading='lazy'
+            />
+          </picture>
         </div>
         <h5 className='h5 black design'>
           <span className='leadin black'>In Figma, I translated </span>the

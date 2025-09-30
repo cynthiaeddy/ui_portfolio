@@ -1,6 +1,6 @@
 import '../ReusableComponents.css'
-import soap_opener from '../../assets/ssc/soap_opener.png'
-import soap_ive from '../../assets/ssc/soap_ive.png'
+import soap_opener from '../../assets/ssc/soap_opener_sm.png'
+import soap_ive from '../../assets/ssc/soap_ive_sm.png'
 import opener_down from '../../assets/ssc/opener_down.png'
 
 export const OpenerMobile = () => {
