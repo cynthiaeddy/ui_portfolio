@@ -1,6 +1,7 @@
 import '../ReusableComponents.css'
 import '../ReusableIdeate.css'
 import nyt_user_flow from '../../assets/nyt/nyt_user_flow_VERT.png'
+import nyt_user_flowcrop from '../../assets/nyt/nyt_user_flow_VERTcrop.png'
 import lo_fi from '../../assets/nyt/nyt_midfi_big.png'
 import lo_fi_mobile from '../../assets/nyt/nyt_midfi_big_mobile.png'
 
@@ -24,11 +25,21 @@ export const IdeateNyt = () => {
           </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge ideate nyt'>user flow</div>
-            <img
+            <picture>
+              <source media='(max-width: 1030px)' srcSet={nyt_user_flowcrop} />
+              <source media='(min-width: 1031px)' srcSet={nyt_user_flow} />
+              <img
+                className='competitive ideate nyt'
+                src={nyt_user_flow}
+                alt='Affinity map'
+                loading='lazy'
+              />
+            </picture>
+            {/* <img
               className='competitive ideate nyt'
               src={nyt_user_flow}
               alt={nyt_user_flow}
-            />
+            /> */}
           </div>
           <div className='ButtonContainer lo_fi nyt'>
             <h5 className='h5 marginTop'>

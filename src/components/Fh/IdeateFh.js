@@ -1,12 +1,10 @@
 import '../ReusableComponents.css'
 import '../ReusableIdeate.css'
-import style_tile from '../../assets/fh/feline_user_flow.png'
-// import lo_fi from '../../assets/fh/fh_mobile_lofi.png'
-// import lo_fi_1 from '../../assets/fh/fh_mobile1.png'
+import user_flow from '../../assets/fh/feline_user_flow.png'
+import user_flow_crop from '../../assets/fh/feline_user_flowcrop.png'
 import fh_lo_desktop from '../../assets/fh/fh_lofi_desktop1.png'
 import fh_lo_desktopadd from '../../assets/fh/fh_lofi_desktopadd.png'
 import fh_lo_mobile from '../../assets/fh/fh_lofi_mobile1.png'
-// import style_tile from '../../assets/fh/nyt_user_flow_VERT1.png'
 
 export const IdeateFh = () => {
   return (
@@ -28,7 +26,16 @@ export const IdeateFh = () => {
           </h5>
           <div className='ButtonContainer'>
             <div className='Button enlarge fh'>user flow</div>
-            <img className='competitive fh' src={style_tile} alt={style_tile} />
+            <picture>
+              <source media='(max-width: 1030px)' srcSet={user_flow_crop} />
+              <source media='(min-width: 1031px)' srcSet={user_flow} />
+              <img
+                className='competitive fh'
+                src={user_flow}
+                alt='Affinity map'
+                loading='lazy'
+              />
+            </picture>
           </div>
           <div className='ButtonContainer lo_fi'>
             <h5 className='h5 marginTop'>

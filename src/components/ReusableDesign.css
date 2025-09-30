@@ -81,6 +81,12 @@ li.smHed {
   .competitive, .competitive.hi_fi, .competitive.designFh, .competitive.research, .competitive.flow {
     width: 80%
   }
+
+  .competitive.venn {
+    margin-top: -5rem;
+  }
+
+
     .competitive.hi_fi {
       width:100%
     }

@@ -21,7 +21,7 @@ export const OpenerNyt = () => {
       <div className='OpenerInfo '>
         <div className='Info'>
           <div className='InfoSection'>
-            <div className='Button_website opener margin '>problem</div>
+            <div className='Button enlarge opener'>problem</div>
             <h5 className='h5 opener_text center '>
               The app lacks a serving size adjustment feature, making it
               difficult for users to scale recipes accurately. This leads to
@@ -31,7 +31,7 @@ export const OpenerNyt = () => {
             </h5>
           </div>
           <div className='InfoSection'>
-            <div className='Button_website opener margin '>solution</div>
+            <div className='Button enlarge opener '>solution</div>
             <h5 className='h5 opener_text center '>
               I designed a serving size adjustment feature that automatically
               recalculates ingredients, cooking times, instructions, and grocery

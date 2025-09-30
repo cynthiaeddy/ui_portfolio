@@ -80,11 +80,10 @@ margin-top: -5rem;
     margin-top: 0rem;
   }
   .competitive.ideate.nyt {
-    width: 110%;
-    margin-left: -6rem;
-    margin-top: -2.5rem
+    width: 95%;
+    margin: 0 -4rem;
+    margin-bottom: -5.5rem
 }
-
 
  }
 
@@ -144,12 +143,15 @@ margin-top: -5rem;
   margin-bottom: 0rem;
 }
 .competitive.ideate.nyt{
-  margin-bottom: 0rem;
+  margin-bottom: -2rem;
 }
 .competitive.fh {
   margin-top: 0;
   width: 140%;
-  margin-left: 0
+  margin: 0 -13rem
+}
+.competitive.fh.flow {
+  margin: 0
 }
 .WireframesContainer {
   width: 100%;

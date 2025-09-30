@@ -21,7 +21,7 @@ export const OpenerFhMobile = () => {
       <div className='OpenerInfo'>
         <div className='Info'>
           <div className='InfoSection'>
-            <div className='Button_website opener margin'>problem</div>
+            <div className='Button enlarge opener'>problem</div>
             <h5 className='h5 opener_text center'>
               The website didn&apos;t reflect the clinic&apos;s vibrant
               personality or the warm, one-doctor care that makes it special.
@@ -32,7 +32,7 @@ export const OpenerFhMobile = () => {
             </h5>
           </div>
           <div className='InfoSection'>
-            <div className='Button_website opener margin'>solution</div>
+            <div className='Button enlarge opener'>solution</div>
             <h5 className='h5 opener_text center'>
               The site should convey the clinic&apos;s energy and personal touch
               while simplifying the experience for cat owners. Clearer

@@ -38,7 +38,7 @@ export const Opener = () => {
       <div className='OpenerInfo'>
         <div className='Info'>
           <div className='InfoSection'>
-            <div className='Button_website opener margin'>problem</div>
+            <div className='Button enlarge opener'>problem</div>
             <h5 className='h5 opener_text center'>
               The original site looked generic and failed to communicate the
               sustainable ethos. Traffic was low, customer engagement was weak,
@@ -48,7 +48,7 @@ export const Opener = () => {
             </h5>
           </div>
           <div className='InfoSection'>
-            <div className='Button_website opener margin'>solution</div>
+            <div className='Button enlarge opener'>solution</div>
             <h5 className='h5 opener_text center'>
               The redesign should convey my niece&apos;s brand—authentic,
               modern, and rooted in sustainability—while reinforcing

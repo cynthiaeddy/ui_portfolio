@@ -222,6 +222,9 @@ img.ssc.two.search, img.ssc.two.product {
     padding-bottom: 2rem;
     margin-bottom: 7rem;
   }
+  .TestingContainer.nyt {
+    padding-bottom: 3.75rem;
+  }
   .competitive.fh_iteraction {
     width: 100%
   }
