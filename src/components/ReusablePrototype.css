@@ -72,6 +72,12 @@
     width: 30%;
     margin:auto
   }
+
+
+.PrototypeContainer.fh, .PrototypeContainer.ssc {
+    margin-bottom: 8rem;
+}
+
 }
 
 @media screen and (max-width: 479px)  {

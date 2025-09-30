@@ -23,7 +23,7 @@ export const DesignFh = () => {
           result is a site that feels as welcoming online as the one-doctor
           practice does in person.
         </h5>
-        <div className='ButtonContainer'>
+        <div className='ButtonContainer fh_design'>
           <div className='Button enlarge white no_margin'>branding</div>
           <picture>
             <source media='(max-width: 768px)' srcSet={fh_styletile_add} />

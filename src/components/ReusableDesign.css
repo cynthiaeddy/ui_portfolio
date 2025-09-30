@@ -97,7 +97,7 @@ li.smHed {
      margin-bottom: -2rem}
 
 .competitive.mid_fi.mobile, .competitive.mid_fi.desktop {
-  width: 95%
+  width: 100%
 }
 .competitive.designFh.four, .competitive.fh_mobile  {
   width: 86%;
@@ -118,6 +118,18 @@ li.smHed {
 ul.h5.bullets.ssc {
   padding-left: -1.75rem
 }
+.ButtonContainer.design_fh_first {
+    width:38%
+}
+.ButtonContainer.design_fh {
+    width:58%
+}
+.competitive.flow.fh{
+    width: 100%;
+}
+.competitive.flow.fh_design {
+  width: 80%
+}
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
@@ -130,10 +142,17 @@ ul.h5.bullets.ssc {
     width: 100%;
     margin-top: 1rem
   }
+   .ButtonContainer.design_fh {
+    margin-top: -2rem;
+   }
 
   .competitive.designFh, .competitive.flow, .competitive.mid_fi, .competitive.hi_fi, .competitive.mid_fi.desktop, .competitive.designFh.four, .competitive.fh_mobile {
     width: 100%;
     margin-top: -3rem;
+  }
+  .competitive.flow.fh_design, .competitive.flow.fh {
+    width: 100%;
+    margin-top: 0rem;
   }
 
   .competitive.flow {
@@ -143,7 +162,7 @@ ul.h5.bullets.ssc {
     margin-top: -2rem
   }
 
-  .competitive.mid_fi.desktop, .competitive.mid_fi.mobile,  .competitive.fh_mobile {
+  .competitive.mid_fi.desktop,  .competitive.fh_mobile {
     margin-top: -1rem;
   }
 
@@ -161,12 +180,14 @@ margin-top: 1rem
   }
   .competitive.mid_fi.mobile {
     width: 60%;
+    margin-top: 1rem;
 }
 .DesignContainer.fh {
-  margin-bottom: 3rem
-}
+  margin-bottom: 5rem
 }
 
+
+}
 
 @media screen and (max-width: 479px)  {
 
@@ -223,7 +244,7 @@ li.smHed {
   width: 110%;
   margin-left: -5%;
 }
-.competitive.flow.fh, .competitive.flow {
+.competitive.flow.fh, .competitive.flow, .competitive.flow.fh_design {
     width: 100%;
     margin-left: 0
 
@@ -233,7 +254,7 @@ li.smHed {
 }
 .competitive.flow.fh {
     margin-bottom: 0;
-    margin-top: -4.5rem;
+    margin-top: 1rem;
 }
 }
 

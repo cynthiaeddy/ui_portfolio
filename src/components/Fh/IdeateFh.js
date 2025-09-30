@@ -58,7 +58,7 @@ export const IdeateFh = () => {
                 />
               </picture>
             </div>
-            <div className='ButtonContainer design_fh first'>
+            <div className='ButtonContainer design_fh_first'>
               <div className='Button enlarge ideate fh'>
                 low fidelity mobile
               </div>

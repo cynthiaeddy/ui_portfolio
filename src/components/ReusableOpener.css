@@ -213,7 +213,7 @@ margin-bottom: 2rem;}
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .OpenerContainer{
     width: 100%;
-    margin-bottom: 7rem;
+    margin-bottom: 7.5rem;
   }
   .OpenerContainer.fh{
     margin-top: 0rem

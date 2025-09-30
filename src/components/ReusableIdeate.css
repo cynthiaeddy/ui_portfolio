@@ -44,6 +44,7 @@ margin-top: -5rem;
  .WireframesContainer {
   display: flex;
   justify-content: space-between;
+  width: 100%
 }
 .competitive.mid_fi.desktop
  {
@@ -124,7 +125,8 @@ margin-top: -5rem;
     margin-bottom: -2rem
 }
 .IdeateContainer.nyt {
-  padding-bottom: 5.5rem
+  padding-bottom: 5.5rem;
+  margin-bottom:6rem
  }
 }
  @media screen and (max-width: 479px)  {
