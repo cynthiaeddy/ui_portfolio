@@ -150,9 +150,16 @@ ul.h5.bullets.ssc {
     width: 100%;
     margin-top: -3rem;
   }
+  .competitive.designFh {
+    margin-bottom: -3rem
+  }
   .competitive.flow.fh_design, .competitive.flow.fh {
     width: 100%;
     margin-top: 0rem;
+  }
+  .competitive.flow.fh_design {
+    margin-top:-5rem;
+    margin-bottom: -2rem
   }
 
   .competitive.flow {
@@ -198,6 +205,9 @@ margin-top: 1rem
   .DesignContainer.ssc {
     margin-bottom: 6rem;
   }
+  .DesignContainer.fh {
+    margin-bottom: 5rem;
+}
   .competitive.designFh.four, .competitive.mid_fi.desktop, .competitive.mid_fi, .competitive.hi_fi,.competitive.mid_fi.mobile, .competitive.fh_mobile, .competitive.flow {
     width: 100%
   }
