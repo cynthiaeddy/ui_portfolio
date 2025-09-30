@@ -35,11 +35,6 @@ export const TestingNyt = () => {
                 loading='lazy'
               />
             </picture>
-            {/* <img
-              className='competitive nyt_iteraction'
-              src={iteration}
-              alt={iteration}
-            /> */}
           </div>
         </div>
       </section>
