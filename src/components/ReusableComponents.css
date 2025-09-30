@@ -183,7 +183,7 @@ li.smHed {
 
 }
 .Button.enlarge.iter.nyt {
-  margin-bottom: 0rem
+  margin-bottom: 8rem
 }
 .Button.enlarge.white {
   background: white;
@@ -234,9 +234,6 @@ button {
   width: 100%;
   height: fit-content;
 }
-/* .competitive.research_fh {
-  margin-bottom: 1rem
-} */
 
 .competitive.fh_mobile {
   width:95rem;
