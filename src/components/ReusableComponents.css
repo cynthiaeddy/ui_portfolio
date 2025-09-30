@@ -142,9 +142,6 @@ li.smHed {
   margin-top: 0
 }
 
-
-
-
 .Button.enlarge {
     background: black;
     color: #c9963b;
@@ -173,13 +170,10 @@ li.smHed {
     margin-top: 5.5rem;
 }
 .Button.enlarge.ideate.fh {
-  margin-top: 10rem;
+  margin-top: 5rem;
   margin-bottom: -3rem
 }
 
-.Button.enlarge.ideate.fh {
-  margin-top: 5rem
-}
 .Button.enlarge.ideate.fh1 {
   margin-top: 8rem
 }
@@ -202,19 +196,16 @@ li.smHed {
 }
 
 
-.magnifier {
-  width: 6rem;
-  position: relative;
-  z-index: 50;
-  ;
-}
-.magnifier.wh {
-  background-color: #FAF9F8;
-}
-
 button {
   background-color: #FAF9F8;
   background: none;
+}
+.competitive.fh {
+    width: 112rem;
+    border-radius: 20px;
+    margin: -2rem;
+    margin-top: -20.8rem;
+    margin-bottom: -3rem;
 }
 .competitive{
   width: 75rem;
@@ -234,13 +225,6 @@ button {
   margin-bottom: -4rem;
 }
 
-.competitive.fh{
-  width: 80%;
-    border-radius: 20px;
-    margin: auto;
-    margin-top: -20.8rem;
-    margin-bottom: -3rem
-}
 .competitive.nyt {
   margin-bottom: 1rem
 }
@@ -329,7 +313,6 @@ ul {
     margin-bottom: 0;
   }
 
-
   .Button.enlarge, .Button.enlarge.white {
     font-size: 1.15rem;
   }
@@ -389,7 +372,12 @@ margin-top: 0rem
 .competitive.fh_desktop{
   width: 100%
 }
+    .competitive.fh {
+        margin-top: 0rem;
+        width: 120%;
+        margin: -2rem 0rem;
 
+}
 }
 
 
@@ -443,10 +431,13 @@ margin-top: 0rem
   .competitive.affinity.ssc {
     margin-top: -4.5rem
   }
-  .competitive.fh {
-    margin-top: 0rem;
-    width: 100%;
+
+        .competitive.fh {
+        margin-top: 0rem;
+        width: 140%;
+        margin: -2rem 0rem;
     }
+
   .competitive.fh_desktop{
   width: 80%;
   margin-bottom:1rem
@@ -530,7 +521,7 @@ margin-top: 0rem
   }
       .competitive.fh {
         width: 140%;
-        margin-left: -9rem;
+        margin: -2rem 0rem;
       }
 
 .competitive.fh_desktop {

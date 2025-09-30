@@ -5,6 +5,9 @@ background: #FAF9F8;
 width: 100%;
 overflow-x: hidden
 }
+  .Container.studies:has(.OpenerContainer.fh) {
+    margin-top: 19rem;
+  }
 
  /* ///// Media Queries ///// */
  @media screen and (max-width: 768px)  {

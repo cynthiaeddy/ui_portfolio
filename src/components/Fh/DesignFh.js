@@ -29,7 +29,7 @@ export const DesignFh = () => {
             <source media='(max-width: 768px)' srcSet={fh_styletile_add} />
             <source media='(min-width: 769px)' srcSet={fh_styletile} />
             <img
-              className='competitive flow fh'
+              className='competitive flow fh_design'
               src={fh_styletile}
               alt='Affinity map'
               loading='lazy'
