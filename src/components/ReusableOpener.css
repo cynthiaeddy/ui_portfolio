@@ -5,8 +5,7 @@
 
 }
 .Opener {
-    display: flex
-;
+    display: flex;
     margin: auto;
     width: 79rem;
     justify-content: space-between;
@@ -27,7 +26,8 @@
 }
 
 .OpenerFoto.desktop.fh{
-  width: 70%
+  width: 70%;
+  padding:1rem;
 }
 .OpenerFoto.mobile {
   width: 25%;
@@ -36,6 +36,7 @@
 }
 .OpenerFoto.mobile.fh {
  width: 30%;
+ padding:1rem;
 }
 
 
