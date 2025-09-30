@@ -1,13 +1,13 @@
 import '../ReusableComponents.css'
 import '../ReusableTesting.css'
-import home_new from '../../assets/ssc/home_mute.png'
-import story from '../../assets/ssc/story.png'
-import search from '../../assets/ssc/search.png'
-import product from '../../assets/ssc/product.png'
-import cart from '../../assets/ssc/cart.png'
-import checkout from '../../assets/ssc/checkout.png'
-import review from '../../assets/ssc/review.png'
-import menu_1 from '../../assets/ssc/menu.png'
+import home_new from '../../assets/ssc/iterations/home_mute.png'
+import story from '../../assets/ssc/iterations/story.png'
+import search from '../../assets/ssc/iterations/search.png'
+import product from '../../assets/ssc/iterations/product.png'
+import cart from '../../assets/ssc/iterations/cart.png'
+import checkout from '../../assets/ssc/iterations/checkout.png'
+import review from '../../assets/ssc/iterations/review.png'
+import menu_1 from '../../assets/ssc/iterations/menu.png'
 
 export const Testing = () => {
   return (
