@@ -9,28 +9,19 @@
   margin: auto;
   width: 75rem;
   justify-content: space-between;
-  overflow: visible;
-  padding-bottom: clamp(2rem, 6vw, 4rem);
-  margin-left: 9.5rem
-}
-.Opener::after { content:""; display:block; height: 40px; }
-
-.Opener img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5))
-}
-.OpenerFoto {
-  width: 31%;
-  align-self: center;
-  /* filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5)) */
-
+  overflow: visible;        /* let shadows escape */
+  padding-bottom: 4rem;
 }
 .Opener.fh {
   margin-top:3rem;
   margin-left:6rem;
   width:79rem
+}
+.OpenerFoto {
+  width: 31%;
+  align-self: center;
+  filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5))
+
 }
 
 .OpenerFoto.desktop.fh{
