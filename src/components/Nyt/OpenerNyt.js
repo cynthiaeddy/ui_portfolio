@@ -1,7 +1,7 @@
 import '../ReusableOpener.css'
-import opener from '../../assets/nyt/home.png'
-import recipe from '../../assets/nyt/recipe_serve.png'
-import grocery from '../../assets/nyt/grocery_edit.png'
+import opener from '../../assets/nyt/home_sm.png'
+import recipe from '../../assets/nyt/recipe_serve_sm.png'
+import grocery from '../../assets/nyt/grocery_edit_sm.png'
 
 export const OpenerNyt = () => {
   return (

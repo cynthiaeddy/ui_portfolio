@@ -2,13 +2,14 @@
   width: 95rem;
   margin: auto;
   margin-bottom: 9rem;
+
 }
-.OpenerContainer.nyt {}
 .Opener {
   display: flex;
   margin: auto;
   width: 75rem;
   justify-content: space-between;
+  overflow: visible
 }
 .Opener.fh {
   margin-top:3rem;
