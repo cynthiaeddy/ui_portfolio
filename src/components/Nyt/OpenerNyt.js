@@ -7,7 +7,7 @@ import triple_nyt from '../../assets/nyt/triple_nyt1.png'
 export const OpenerNyt = () => {
   return (
     <section className='OpenerContainer'>
-      <div className='Opener'>
+      <div className='Opener nyt'>
         <img className='OpenerFoto' src={triple_nyt} alt={triple_nyt} />
         {/* <img
           className='OpenerFoto'
