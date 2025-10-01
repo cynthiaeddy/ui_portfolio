@@ -9,23 +9,28 @@ export const OpenerNyt = () => {
       <div className='Opener'>
         <img
           className='OpenerFoto'
-          rel='preload'
           src={opener_sm}
-          alt={opener_sm}
-        />
+          alt=''
+          width={440}
+          height={866}
+        />{' '}
+        {/* use YOUR real pixel size */}
         <img
           className='OpenerFoto'
-          rel='preload'
           src={recipe_sm}
-          alt={recipe_sm}
+          alt=''
+          width={440}
+          height={866}
         />
         <img
           className='OpenerFoto'
-          rel='preload'
           src={grocery_sm}
-          alt={grocery_sm}
+          alt=''
+          width={440}
+          height={866}
         />
       </div>
+
       <div className='textWrapper'>
         <h2 className='openerText nyt'>The New York Times Cooking App</h2>
         <h5 className='h5 black opener'>

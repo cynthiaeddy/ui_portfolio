@@ -12,7 +12,6 @@
     overflow: visible;
   /* a tiny inner gutter so the last phone's shadow isn't at the edge */
   padding: 0 1rem 1rem;
-  box-sizing: content-box;   /* keeps your 75rem width intact */
   position: relative;        /* make sure it paints above what's next */
   z-index: 1;
 }
