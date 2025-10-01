@@ -1,0 +1,402 @@
+.OpenerContainer {
+  width: 95rem;
+  margin: auto;
+  margin-bottom: 9rem;
+}
+.Opener {
+  display: flex;
+  margin: auto;
+  width: 78rem;
+    /* width: 75rem; */
+  justify-content: space-between;
+}
+
+.Opener.fh {
+  /* margin-top:3rem;
+  margin-left:6rem;
+  width:79rem */
+      margin-top: 3rem;
+    margin-left: 6rem;
+    width: 80rem;
+}
+/* .OpenerFoto {
+  width: 31%;
+  align-self: center;
+  filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5))
+
+} */
+
+.OpenerFoto {
+    width: 30%;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    align-self: center;
+    filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5));
+}
+.OpenerFoto:last-child {
+  padding-right: 2rem;       /* 👈 just the rightmost phone */
+  box-sizing: content-box;    /* keeps the image width intact */
+}
+.OpenerFoto.desktop.fh{
+  width: 69%
+}
+.OpenerFoto.mobile {
+  width: 25%;
+  margin-left: -3rem;
+  margin-top: -3rem
+}
+.OpenerFoto.mobile.fh {
+ width: 29%;
+}
+.OpenerFoto {
+  width: 31%;
+  box-sizing: content-box;     /* so padding doesn't shrink the image */
+    filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5));
+}
+.OpenerFoto img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* 2) Ensure the row is allowed to overflow and paints above what follows */
+.Opener { position: relative; overflow: visible; z-index: 2; }
+
+/* 3) Make the next section sit underneath so it can't "cover" the shadow */
+.OpenerInfo { position: relative; z-index: 0; margin-top: 1rem; }
+
+
+.background {
+  background: #231F20;
+  margin-top: -25rem;
+  width: 100%;
+  height: 31rem;
+  border-radius: 20px;
+
+}
+.textWrapper {
+width: 100%;
+margin:  4rem 0rem;
+margin-top: 2rem
+}
+.textWrapper.fh {
+ margin-top:0rem
+}
+.OpenerInfo {
+    margin-bottom: 0;
+    width: 75rem;
+    margin: auto;
+  margin-bottom: 0;
+  background: #231F20;
+  border-radius: 20px;
+  padding:4rem;
+
+}
+.OpenerInfo.nyt {
+  background: white;
+  border: 1.25px solid black;
+}
+.InfoSection {
+  margin-bottom: 4rem
+}
+
+.h5.black.opener {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.Button.enlarge.white.margin,.Button.enlarge.black.margin {
+  margin: auto
+}
+.Button_website.opener{
+  margin:auto;
+  margin-bottom: 1rem;
+  background: black;
+  color: #C3996B;
+  border: 1.25px solid rgb(160, 157, 157);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.Button_website.opener.margin{
+  margin-top: 1rem
+}
+
+.Button_website.opener.margin.nyt{
+ background: white;
+  border: 1.25px solid black;
+}
+
+.Button_website.opener.margin.nyt:hover{
+ background: white;
+  border: 1.25px solid black;
+ color: #C3996B;
+
+}
+
+
+.divider_curved.lead {
+    width: 75rem;
+    margin: auto;
+    margin-top: 1rem
+}
+.Button_website.opener:hover {
+  box-shadow: none;
+  color: white
+
+}
+.InfoSmall {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin: 0rem 3rem 0rem 2rem;
+    width: 90%;
+}
+
+.InfoSmallSection {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+      display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Button.enlarge.black.margin
+.h5.opener_text{
+  text-align: center;
+
+}
+.h5.small.opener{
+  color: rgba(255, 255, 255, 0.7);
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.6rem
+
+}
+.h5.small.opener.nyt {
+  color:rgba(0, 0, 0, 0.85);
+}
+
+
+.h5.opener_text.center {
+  text-align: center
+}
+.h5.opener_text.center.nyt {
+  color: black
+}
+.divider_curved {
+  width: 100%;
+  height: 3rem;
+  border-radius: 20px;
+border-bottom: .5px solid #000;
+margin-bottom: 2rem;}
+
+
+.openerText {
+  color: black;
+  font-size: 5rem
+}
+.h5.openerType {
+  text-align: center;
+  color: black
+}
+
+.h5.openerType.lead {
+    font-size: 2.2rem;
+}
+.h6.studies {
+  font-size: 1.4rem;
+
+}
+.h5.black {
+  color: black;
+
+}
+
+.h6.small.opener {
+  margin-bottom: .5rem;
+  color:#C3996b;
+  text-align: center
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1030px) {
+
+  .OpenerContainer{
+    width: 80%;
+    margin-bottom: 8rem;
+  }
+
+  .Opener,  .OpenerInfo {
+    width: 90%
+  }
+  .h6.studies {
+    font-size: 1.2rem;
+}
+.Opener.fh {
+    margin-top: 3rem;
+    margin-left: 0rem;
+    width: 95%;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .OpenerContainer{
+    width: 100%;
+    margin-bottom: 7.5rem;
+  }
+  .OpenerContainer.fh{
+    margin-top: 0rem
+  }
+  .Opener,.Opener.fh {
+    width: 90%
+  }
+
+  h2.cases_openerText {
+  font-size: 4.75rem;
+}
+h2.openerText{
+   font-size: 4.5rem;
+}
+h2.openerText.nyt{
+   line-height: 1;
+   margin-bottom: 1rem
+}
+  .background {
+    margin-top: -20rem;
+    height:24rem
+  }
+  .textWrapper {
+    width: 90%;
+    margin:3rem;
+  }
+.h6.studies {
+  font-size: 1.2rem;
+}
+.OpenerInfo {
+  width:90%;
+  padding:3rem
+}
+.Opener.fh {
+  margin-left: 0;
+width: 95%;
+margin-top: 9rem;}
+
+.InfoSmall {
+      display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 4rem;
+    width: 100%
+
+
+}
+}
+
+@media screen and (max-width: 479px){
+
+  .OpenerContainer {
+    width: 100%;
+    margin-bottom: 7rem
+  }
+  .Opener {
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .Opener{ width:100% !important; padding-inline:2rem; }
+  .Opener.fh {
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+
+  .OpenerFoto.mobile {
+    margin-left: 0rem;
+    margin-top: 2rem;
+    width: 40%;
+ }
+ .OpenerFoto.desktop {
+  width: 100%
+ }
+
+ .textWrapper {
+  padding: 3.5rem 2rem;
+  margin: auto;
+  margin-top: .1rem;
+}
+.OpenerInfo {
+  width: 90%;
+  margin: auto;
+  flex-direction: column;
+  padding: 2rem
+}
+
+.h6.small {
+  font-size: 1rem;
+}
+.InfoSmall {
+  width: 100%;
+  display: flex;
+  margin-top: 2rem;
+  margin: 0;
+  flex: 1 1 50%;
+          flex-wrap: wrap;
+}
+
+
+.InfoSmall > div {
+  flex: 1 1 25%; /* 4 columns by default (desktop) */
+
+}
+
+.background {
+  margin: auto;
+  margin-top: -9rem;
+  width: 75%;
+  height: 11rem;
+  border-radius: 20px;
+}
+
+ .background.fh {
+  margin-top: -36rem;
+  height: 38rem;
+ }
+
+ h2.cases_openerText {
+  font-size: 3.75rem;
+  line-height: 1.2;
+  /* color: black */
+}
+.h6.studies {
+  font-size: 1.1rem;
+  margin-top: -2rem
+}
+.MobileSm {
+  margin-right: 1rem;
+  width: 33%
+}
+.MobileSm:last-child {
+  margin-right: 0;
+  margin-top: 2rem;
+
+}
+.h5.small.opener.mobile {
+  line-height: 1.3;
+}
+.h5.small.opener.mobile.project {
+  margin-bottom: 2rem
+}
+.h5.black.opener {
+      font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 1rem
+
+
+}
+
+}
