@@ -25,6 +25,26 @@
   filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5))
 
 }
+.Opener {
+  display: flex;
+  justify-content: space-between;
+  gap: clamp(1rem, 4vw, 3rem);
+  overflow: visible;     /* important */
+}
+
+/* shadow lives on the wrapper, not the img */
+.OpenerFoto  {
+  width: 31%;
+  padding: 0;
+  display: inline-block;
+  filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5))
+}
+
+.OpenerFoto  img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 .OpenerFoto.desktop.fh{
   width: 70%;
@@ -53,6 +73,8 @@
 width: 100%;
 margin: 0;
 margin-bottom: 4rem;
+margin-top: 4rem;
+
 }
 .textWrapper.fh {
  margin-top:2rem
