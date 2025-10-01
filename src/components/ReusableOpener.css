@@ -47,7 +47,6 @@
 }
 .OpenerFoto {
   width: 31%;
-  padding: 0 1rem 1.5rem 0;   /* right + bottom room for the shadow */
   box-sizing: content-box;     /* so padding doesn't shrink the image */
     filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5));
 }
