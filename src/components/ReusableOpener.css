@@ -21,6 +21,7 @@
   width: 33%;
   align-self: center;
   padding:1rem;
+  padding-bottom:2rem;
   filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5))
 
 }
