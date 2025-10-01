@@ -2,13 +2,19 @@
   width: 95rem;
   margin: auto;
   margin-bottom: 9rem;
+  overflow: visible;
 }
-.OpenerContainer.nyt {}
 .Opener {
   display: flex;
   margin: auto;
   width: 75rem;
   justify-content: space-between;
+    overflow: visible;
+  /* a tiny inner gutter so the last phone's shadow isn't at the edge */
+  padding: 0 1rem 1rem;
+  box-sizing: content-box;   /* keeps your 75rem width intact */
+  position: relative;        /* make sure it paints above what's next */
+  z-index: 1;
 }
 .Opener.fh {
   margin-top:3rem;
@@ -18,8 +24,8 @@
 .OpenerFoto {
   width: 31%;
   align-self: center;
-  filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5))
-
+  filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5));
+display:block;
 }
 
 .OpenerFoto.desktop.fh{
