@@ -1,19 +1,15 @@
 import '../ReusableOpener.css'
-import opener_sm from '../../assets/nyt/home_sm.png'
-import recipe_sm from '../../assets/nyt/recipe_serve_sm.png'
-import grocery_sm from '../../assets/nyt/grocery_edit_sm.png'
+// import opener_sm from '../../assets/nyt/home_sm.png'
+// import recipe_sm from '../../assets/nyt/recipe_serve_sm.png'
+// import grocery_sm from '../../assets/nyt/grocery_edit_sm.png'
+import triple_nyt from '../../assets/nyt/triple_nyt.png'
 
 export const OpenerNyt = () => {
   return (
-    <section className='OpenerContainer nyt'>
+    <section className='OpenerContainer'>
       <div className='Opener'>
-        <img
-          className='OpenerFoto'
-          rel='preload'
-          src={opener_sm}
-          alt={opener_sm}
-        />
-        <img
+        <img className='OpenerFoto' src={triple_nyt} alt={triple_nyt} />
+        {/* <img
           className='OpenerFoto'
           rel='preload'
           src={recipe_sm}
@@ -24,7 +20,7 @@ export const OpenerNyt = () => {
           rel='preload'
           src={grocery_sm}
           alt={grocery_sm}
-        />
+        /> */}
       </div>
 
       <div className='textWrapper'>
