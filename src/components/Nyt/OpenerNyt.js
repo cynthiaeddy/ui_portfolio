@@ -9,25 +9,21 @@ export const OpenerNyt = () => {
       <div className='Opener'>
         <img
           className='OpenerFoto'
+          rel='preload'
           src={opener_sm}
-          alt=''
-          width={440}
-          height={866}
-        />{' '}
-        {/* use YOUR real pixel size */}
-        <img
-          className='OpenerFoto'
-          src={recipe_sm}
-          alt=''
-          width={440}
-          height={866}
+          alt={opener_sm}
         />
         <img
           className='OpenerFoto'
+          rel='preload'
+          src={recipe_sm}
+          alt={recipe_sm}
+        />
+        <img
+          className='OpenerFoto'
+          rel='preload'
           src={grocery_sm}
-          alt=''
-          width={440}
-          height={866}
+          alt={grocery_sm}
         />
       </div>
 

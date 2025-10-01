@@ -23,6 +23,7 @@
 .OpenerFoto {
   width: 31%;
   align-self: center;
+    aspect-ratio: 440 / 866;   /* match your PNG ratio */
   filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5));
 display:block;
 }
