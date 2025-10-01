@@ -1,9 +1,9 @@
 import '../ReusableComponents.css'
 import '../ReusableTesting.css'
 
-import iteration from '../../assets/nyt/nyt_iteration.png'
-import iteration1 from '../../assets/nyt/iteration_nyt_1.png'
-import iteration2 from '../../assets/nyt/nyt_iteration_2.png'
+import iteration from '../../assets/nyt/nyt_iterationlo.png'
+import iteration1 from '../../assets/nyt/iteration_nyt_1lo.png'
+import iteration2 from '../../assets/nyt/nyt_iteration_2lo.png'
 
 export const TestingNyt = () => {
   return (
