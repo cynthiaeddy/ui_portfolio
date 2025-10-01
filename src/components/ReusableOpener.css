@@ -35,7 +35,8 @@
 /* shadow lives on the wrapper, not the img */
 .OpenerFoto  {
   width: 31%;
-  padding: 0;
+   padding:1rem;
+  padding-bottom:2rem;
   display: inline-block;
   filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5))
 }
@@ -73,7 +74,7 @@
 width: 100%;
 margin: 0;
 margin-bottom: 4rem;
-margin-top: 4rem;
+
 
 }
 .textWrapper.fh {
