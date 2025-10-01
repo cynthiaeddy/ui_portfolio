@@ -1,14 +1,12 @@
 /* eslint-disable no-unused-vars */
 import '../ReusableComponents.css'
-import desktop from '../../assets/fh/feline_desktop_sm.png'
-import mobile from '../../assets/fh/mobile_home_sm.png'
+import desktop from '../../assets/fh/triple_fh_mobile.png'
 
 export const OpenerFhMobile = () => {
   return (
     <section className='OpenerContainer'>
       <div className='Opener fh'>
         <img className='OpenerFoto desktop' src={desktop} alt={desktop} />
-        <img className='OpenerFoto mobile' src={mobile} alt={mobile} />
       </div>
       <div className='textWrapper'>
         <h2 className='cases_openerText mobile'> Feline Health</h2>

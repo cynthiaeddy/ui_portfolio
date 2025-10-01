@@ -397,7 +397,7 @@ margin-top: 0rem
 /* ///// Media Queries ///// */
 @media screen and (min-width: 480px) and (max-width: 768px)  {
   .Container.studies:has(.OpenerContainer.fh) {
-    margin-top: 13rem;
+    margin-top: 11rem;
   }
 
   h2 {

@@ -1,7 +1,4 @@
 import '../ReusableOpener.css'
-// import opener_sm from '../../assets/nyt/home_sm.png'
-// import recipe_sm from '../../assets/nyt/recipe_serve_sm.png'
-// import grocery_sm from '../../assets/nyt/grocery_edit_sm.png'
 import triple_nyt from '../../assets/nyt/triple_nyt2.png'
 
 export const OpenerNyt = () => {
@@ -9,21 +6,9 @@ export const OpenerNyt = () => {
     <section className='OpenerContainer'>
       <div className='Opener'>
         <img className='OpenerFoto' src={triple_nyt} alt={triple_nyt} />
-        {/* <img
-          className='OpenerFoto'
-          rel='preload'
-          src={recipe_sm}
-          alt={recipe_sm}
-        />
-        <img
-          className='OpenerFoto'
-          rel='preload'
-          src={grocery_sm}
-          alt={grocery_sm}
-        /> */}
       </div>
 
-      <div className='textWrapper'>
+      <div className='textWrapper nyt'>
         <h2 className='openerText nyt'>The New York Times Cooking App</h2>
         <h5 className='h5 black opener'>
           A concept project adding a serving size adjustment feature to the NYT

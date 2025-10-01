@@ -1,23 +1,11 @@
 import '../ReusableOpener.css'
-import desktop from '../../assets/fh/feline_desktop_sm.png'
-import mobile from '../../assets/fh/mobile_home_sm.png'
+import desktop from '../../assets/fh/triple_fh_desktop.png'
 
 export const OpenerFh = () => {
   return (
     <section className='OpenerContainer fh'>
       <div className='Opener fh '>
-        <img
-          className='OpenerFoto desktop fh'
-          rel='preload'
-          src={desktop}
-          alt={desktop}
-        />
-        <img
-          className='OpenerFoto mobile fh'
-          rel='preload'
-          src={mobile}
-          alt={mobile}
-        />
+        <img className='OpenerFoto' src={desktop} alt={desktop} />
       </div>
       <div className='textWrapper fh'>
         <h2 className='openerText'>Feline Health</h2>

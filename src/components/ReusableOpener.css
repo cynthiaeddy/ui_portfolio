@@ -10,30 +10,14 @@
   justify-content: space-between;
 }
 .Opener.fh {
-  margin-top:3rem;
   margin-left:6rem;
   width:79rem
 }
-.Opener.nyt {width:76rem}
 .OpenerFoto {
   width: 100%;
-  /* align-self: center; */
   filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5))
 
 }
-
-.OpenerFoto.desktop.fh{
-  width: 70%
-}
-.OpenerFoto.mobile {
-  width: 25%;
-  margin-left: -3rem;
-  margin-top: -3rem
-}
-.OpenerFoto.mobile.fh {
- width: 30%;
-}
-
 
 .background {
   background: #231F20;
@@ -50,6 +34,9 @@ margin:  4rem 0rem
 .textWrapper.fh {
  margin-top:2rem
 }
+.textWrapper.nyt {
+ margin-top:3rem
+}
 .OpenerInfo {
     margin-bottom: 0;
     width: 75rem;
@@ -60,10 +47,7 @@ margin:  4rem 0rem
   padding:4rem;
 
 }
-.OpenerInfo.nyt {
-  background: white;
-  border: 1.25px solid black;
-}
+
 .InfoSection {
   margin-bottom: 4rem
 }
@@ -103,11 +87,6 @@ margin:  4rem 0rem
 }
 
 
-.divider_curved.lead {
-    width: 75rem;
-    margin: auto;
-    margin-top: 1rem
-}
 .Button_website.opener:hover {
   box-shadow: none;
   color: white
@@ -155,12 +134,7 @@ margin:  4rem 0rem
 .h5.opener_text.center.nyt {
   color: black
 }
-.divider_curved {
-  width: 100%;
-  height: 3rem;
-  border-radius: 20px;
-border-bottom: .5px solid #000;
-margin-bottom: 2rem;}
+
 
 
 .openerText {
@@ -205,7 +179,7 @@ margin-bottom: 2rem;}
     font-size: 1.2rem;
 }
 .Opener.fh {
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-left: 0rem;
     width: 95%;
 }
@@ -281,15 +255,6 @@ margin-top: 9rem;}
     margin: auto;
   }
 
-  .OpenerFoto.mobile {
-    margin-left: 0rem;
-    margin-top: 2rem;
-    width: 40%;
- }
- .OpenerFoto.desktop {
-  width: 100%
- }
-
  .textWrapper {
   padding: 3.5rem 2rem;
   margin: auto;
@@ -362,10 +327,7 @@ margin-top: 9rem;}
     font-weight: 500;
     line-height: 1.5;
     margin-top: 1rem
-
-
 }
-
 }
 
 

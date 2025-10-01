@@ -1,7 +1,4 @@
 import '../ReusableComponents.css'
-// import opener from '../../assets/nyt/home_sm.png'
-// import recipe from '../../assets/nyt/recipe_serve_sm.png'
-// import grocery from '../../assets/nyt/grocery_edit_sm.png'
 import triple_nyt from '../../assets/nyt/triple_nyt2.png'
 
 export const OpenerNytMobile = () => {
@@ -9,8 +6,6 @@ export const OpenerNytMobile = () => {
     <section className='OpenerContainer'>
       <div className='Opener'>
         <img className='OpenerFoto' src={triple_nyt} alt={triple_nyt} />
-        {/* <img className='OpenerFoto' src={recipe} alt={recipe} />
-        <img className='OpenerFoto' src={grocery} alt={grocery} /> */}
       </div>
       <div className='textWrapper'>
         <h2 className='cases_openerText mobile'>
