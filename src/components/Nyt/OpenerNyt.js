@@ -2,12 +2,12 @@ import '../ReusableOpener.css'
 // import opener_sm from '../../assets/nyt/home_sm.png'
 // import recipe_sm from '../../assets/nyt/recipe_serve_sm.png'
 // import grocery_sm from '../../assets/nyt/grocery_edit_sm.png'
-import triple_nyt from '../../assets/nyt/triple_nyt1.png'
+import triple_nyt from '../../assets/nyt/triple_nyt2.png'
 
 export const OpenerNyt = () => {
   return (
     <section className='OpenerContainer'>
-      <div className='Opener nyt'>
+      <div className='Opener'>
         <img className='OpenerFoto' src={triple_nyt} alt={triple_nyt} />
         {/* <img
           className='OpenerFoto'
