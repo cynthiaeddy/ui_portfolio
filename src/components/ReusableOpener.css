@@ -25,10 +25,10 @@
   width:79rem
 }
 .OpenerFoto {
-  width: 31%;
-    display: block;
-  height: auto;
-  align-self: center;
+  width: 100%;
+    /* display: block; */
+  /* height: auto; */
+  /* align-self: center; */
   filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5));
 }
 
