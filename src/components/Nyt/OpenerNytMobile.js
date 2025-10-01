@@ -2,7 +2,7 @@ import '../ReusableComponents.css'
 // import opener from '../../assets/nyt/home_sm.png'
 // import recipe from '../../assets/nyt/recipe_serve_sm.png'
 // import grocery from '../../assets/nyt/grocery_edit_sm.png'
-import triple_nyt from '../../assets/nyt/triple_nyt.png'
+import triple_nyt from '../../assets/nyt/triple_nyt1.png'
 
 export const OpenerNytMobile = () => {
   return (
