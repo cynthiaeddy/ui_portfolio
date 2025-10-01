@@ -19,7 +19,6 @@
 }
 .OpenerFoto {
   width: 31%;
-  /* align-self: center; */
  margin:1rem;
   margin-bottom:2rem;
   filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5))
