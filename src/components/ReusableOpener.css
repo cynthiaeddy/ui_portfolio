@@ -18,28 +18,29 @@
   width:80rem
 }
 .OpenerFoto {
-  width: 33%;
-  align-self: center;
-  padding:1rem;
-  padding-bottom:2rem;
+  width: 31%;
+  /* align-self: center; */
+ margin:1rem;
+  margin-bottom:2rem;
   filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5))
 
 }
-.Opener {
+/* .Opener {
   display: flex;
+      width: 80rem;
   justify-content: space-between;
   gap: clamp(1rem, 4vw, 3rem);
   overflow: visible;     /* important */
-}
+/* } */ */
 
 /* shadow lives on the wrapper, not the img */
-.OpenerFoto  {
+/* .OpenerFoto  {
   width: 31%;
-   padding:1rem;
-  padding-bottom:2rem;
+   margin:1rem;
+  margin-bottom:2rem;
   display: inline-block;
   filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5))
-}
+} */
 
 .OpenerFoto  img {
   display: block;
