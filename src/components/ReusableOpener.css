@@ -2,54 +2,40 @@
   width: 95rem;
   margin: auto;
   margin-bottom: 9rem;
-
 }
 .Opener {
-    display: flex;
-    margin: auto;
-    width: 79rem;
-    justify-content: space-between;
-    overflow: visible;
-    /* padding-bottom: 4rem; */
-}
-.Opener.fh {
-  margin-top:3rem;
-  margin-left:6rem;
-  width:80rem
-}
-.OpenerFoto {
-  width: 31%;
- margin:1rem;
-  margin-bottom:2rem;
-  filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5))
-
-}
-/* .Opener {
   display: flex;
-      width: 80rem;
+  margin: auto;
+  width: 77rem;
+    /* width: 75rem; */
   justify-content: space-between;
-  gap: clamp(1rem, 4vw, 3rem);
-  overflow: visible;     /* important */
-/* } */ */
+}
 
-/* shadow lives on the wrapper, not the img */
-/* .OpenerFoto  {
+.Opener.fh {
+  /* margin-top:3rem;
+  margin-left:6rem;
+  width:79rem */
+      margin-top: 3rem;
+    margin-left: 6rem;
+    width: 81rem;
+}
+/* .OpenerFoto {
   width: 31%;
-   margin:1rem;
-  margin-bottom:2rem;
-  display: inline-block;
+  align-self: center;
   filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5))
+
 } */
 
-.OpenerFoto  img {
-  display: block;
-  width: 100%;
-  height: auto;
+.OpenerFoto {
+    width: 30%;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    align-self: center;
+    filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5));
 }
 
 .OpenerFoto.desktop.fh{
-  width: 70%;
-  padding:1rem;
+  width: 69%
 }
 .OpenerFoto.mobile {
   width: 25%;
@@ -57,8 +43,7 @@
   margin-top: -3rem
 }
 .OpenerFoto.mobile.fh {
- width: 30%;
- padding:1rem;
+ width: 29%;
 }
 
 
@@ -72,13 +57,11 @@
 }
 .textWrapper {
 width: 100%;
-margin: 0;
-margin-bottom: 4rem;
-
-
+margin:  4rem 0rem;
+margin-top: 2rem
 }
 .textWrapper.fh {
- margin-top:2rem
+ margin-top:0rem
 }
 .OpenerInfo {
     margin-bottom: 0;
@@ -396,6 +379,3 @@ margin-top: 9rem;}
 }
 
 }
-
-
-
