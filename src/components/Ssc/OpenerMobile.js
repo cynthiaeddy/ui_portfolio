@@ -2,7 +2,7 @@ import '../ReusableComponents.css'
 // import soap_opener from '../../assets/ssc/soap_opener_sm.png'
 // import soap_ive from '../../assets/ssc/soap_ive_sm.png'
 // import opener_down from '../../assets/ssc/opener_down.png'
-import ssc_triple from '../../assets/ssc/ssc_triple.png'
+import ssc_triple from '../../assets/ssc/ssc_triple1.png'
 
 export const OpenerMobile = () => {
   return (

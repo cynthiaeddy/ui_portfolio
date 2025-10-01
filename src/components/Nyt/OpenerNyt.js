@@ -1,5 +1,5 @@
 import '../ReusableOpener.css'
-import triple_nyt from '../../assets/nyt/triple_nyt2.png'
+import triple_nyt from '../../assets/nyt/triple_nyt4.png'
 
 export const OpenerNyt = () => {
   return (

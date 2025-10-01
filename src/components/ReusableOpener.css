@@ -29,7 +29,8 @@
 }
 .textWrapper {
 width: 100%;
-margin:  4rem 0rem
+margin:  4rem 0rem;
+margin-top: 3rem
 }
 .textWrapper.fh {
  margin-top:2rem
@@ -258,7 +259,7 @@ margin-top: 9rem;}
  .textWrapper {
   padding: 3.5rem 2rem;
   margin: auto;
-  margin-top: .1rem;
+  padding-top: 2.5rem;
 }
 .OpenerInfo {
   width: 90%;
