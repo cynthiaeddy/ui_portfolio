@@ -6,7 +6,7 @@
 .Opener {
   display: flex;
   margin: auto;
-  width: 77rem;
+  width: 78rem;
     /* width: 75rem; */
   justify-content: space-between;
 }
@@ -45,6 +45,23 @@
 .OpenerFoto.mobile.fh {
  width: 29%;
 }
+.OpenerFoto {
+  width: 31%;
+  padding: 0 1rem 1.5rem 0;   /* right + bottom room for the shadow */
+  box-sizing: content-box;     /* so padding doesn't shrink the image */
+    filter: drop-shadow(5px 5px 5px rgba(64, 63, 63, 0.5));
+}
+.OpenerFoto img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* 2) Ensure the row is allowed to overflow and paints above what follows */
+.Opener { position: relative; overflow: visible; z-index: 2; }
+
+/* 3) Make the next section sit underneath so it can't "cover" the shadow */
+.OpenerInfo { position: relative; z-index: 0; margin-top: 1rem; }
 
 
 .background {
