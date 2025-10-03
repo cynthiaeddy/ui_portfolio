@@ -15,10 +15,14 @@ import desktop_appt from '../../assets/fh/iterations/fh_desktopappt_small1.png'
 import desktop_appt1 from '../../assets/fh/iterations/fh_desktopappt_small1.png'
 // import desktop_apptbigger from '../../assets/fh/iterations/fh_desktopappt_small1.png'
 // import desktop_appt_big from '../../assets/fh/iterations/fh_desktopappt_small1.png'
-import mobile_appt from '../../assets/fh/iterations/fh_appt_mobile.png'
-import mobile_home from '../../assets/fh/iterations/fh_home_mobile5.png'
-import mobile_home2 from '../../assets/fh/iterations/fh_mobile_home2.png'
-import mobile_home1 from '../../assets/fh/iterations/fh_mobile_home1.png'
+// import mobile_appt from '../../assets/fh/iterations/fh_appt_mobile.png'
+// import mobile_home from '../../assets/fh/iterations/fh_home_mobile5.png'
+// import mobile_home2 from '../../assets/fh/iterations/fh_mobile_home2.png'
+// import mobile_home1 from '../../assets/fh/iterations/fh_mobile_home1.png'
+import mobile_apptnew from '../../assets/fh/iterations/fh_mobile_apptnew.png'
+import mobile_homenew from '../../assets/fh/iterations/fh_mobile_homenew.png'
+import mobile_home2new from '../../assets/fh/iterations/fh_mobile_home2new.png'
+import mobile_home1new from '../../assets/fh/iterations/fh_mobile_home3new.png'
 
 export const TestingFh = () => {
   return (
@@ -83,16 +87,28 @@ export const TestingFh = () => {
             <div className='Button enlarge'>iterations mobile</div>
           </div>
           <div className='fh_mobile'>
-            <img className='fh_testing' src={mobile_home} alt={mobile_home} />
-            <img className='fh_testing' src={mobile_home2} alt={mobile_home2} />
+            <img
+              className='fh_testing'
+              src={mobile_homenew}
+              alt={mobile_homenew}
+            />
+            <img
+              className='fh_testing'
+              src={mobile_home1new}
+              alt={mobile_home1new}
+            />
           </div>
           <div className='fh_mobile'>
             <img
               className='fh_testing home3'
-              src={mobile_home1}
-              alt={mobile_home1}
+              src={mobile_home2new}
+              alt={mobile_home2new}
             />
-            <img className='fh_testing' src={mobile_appt} alt={mobile_appt} />
+            <img
+              className='fh_testing'
+              src={mobile_apptnew}
+              alt={mobile_apptnew}
+            />
           </div>
         </div>
       </section>
