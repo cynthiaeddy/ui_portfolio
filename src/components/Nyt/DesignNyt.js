@@ -10,7 +10,7 @@ export const DesignNyt = () => {
       </div>
       <section className='DesignContainer'>
         <div className='ButtonContainer'></div>
-        <h5 className='h5 dropCap black nyt'>
+        <h4 className='h4 dropCap black nyt'>
           Building on the low fidelity feedback, I refined the grocery list
           interface by enlarging and moving the Edit/Done controls and aligning
           the deletion pattern with NYT&apos;s existing UI. I then tested the hi
@@ -19,7 +19,7 @@ export const DesignNyt = () => {
           87%, and overall usability 87%. Participants still wanted inline
           editing to add or change items directly, but this functionality was
           beyond the project scope.
-        </h5>
+        </h4>
         <div className='ButtonContainer nyt1'>
           <div className='Button enlarge white'>high fidelity wireframes</div>
           <img className='competitive hi_fi nyt' src={hifi} alt={hifi} />

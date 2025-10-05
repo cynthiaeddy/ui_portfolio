@@ -12,7 +12,7 @@ export const Design = () => {
         <h2 className='h2_white cases_openerText'>Design</h2>
       </div>
       <section className='DesignContainer ssc'>
-        <h5 className='h5 black dropCap design'>
+        <h4 className='h4 black dropCap design'>
           I refined typography, colors, and logo lockups to modernize the look
           while keeping the brand&apos;s Art Deco character intact. I also
           created a new logo that worked seamlessly with existing brand assets,
@@ -21,7 +21,7 @@ export const Design = () => {
           use of type and iconography built trust through clarity and cohesion.
           Together, these system elements ensured the redesigned site felt both
           authentic to the brand and seamless for the user.
-        </h5>
+        </h4>
         <div className='ButtonContainer ssc'>
           <div className='Button enlarge white no_margin fh'>branding</div>
           <picture>
@@ -35,7 +35,7 @@ export const Design = () => {
             />
           </picture>
         </div>
-        <h5 className='h5 black design'>
+        <h4 className='h4 black design'>
           <span className='leadin black'>In Figma, I translated </span>the
           design system into high fidelity wireframes that unified the brand
           story with user needs. Navigation was expanded for clarity, a
@@ -46,7 +46,7 @@ export const Design = () => {
           payment), followed by order review and confirmation. Progress
           indicators, cleaner forms, and express options like Apple Pay and
           PayPal made checkout faster and easier for users.
-        </h5>
+        </h4>
         <div className='ButtonContainer'>
           <div className='Button enlarge white'>high fidelity wireframes</div>
           <img className='competitive hi_fi' src={hiFi} alt={hiFi} />

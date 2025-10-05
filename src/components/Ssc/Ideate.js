@@ -11,14 +11,14 @@ export const Ideate = () => {
       </div>
       <section className='IdeateContainer ssc'>
         <div className='InnerContainer'>
-          <h5 className='h5 dropCap'>
+          <h4 className='h4 dropCap'>
             To set the visual direction, I created a mood board that blended the
             brand&apos;s Art Deco roots with clean, natural visuals. Earthy
             tones and ingredient-focused imagery signaled sustainability, while
             clean layouts and authentic textures built a sense of trust.
             Together, these elements defined the typography, color, and imagery
             that carried through the redesign.
-          </h5>
+          </h4>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>mood board</div>
             <img
@@ -27,12 +27,12 @@ export const Ideate = () => {
               alt={ive_mood_resize}
             />
             <div className='ButtonContainer ideate ssc'>
-              <h5 className='h5 marginTop'>
+              <h4 className='h4 marginTop'>
                 <span className='leadin'>I mapped the key journey </span>
                 from homepage → product discovery → checkout. The focus was on
                 simplifying decisions and making sustainability info and reviews
                 easy to find.
-              </h5>
+              </h4>
               <div className='Button enlarge style'>user flow</div>
               <img
                 className='competitive style ssc'
@@ -41,7 +41,7 @@ export const Ideate = () => {
               />
             </div>
             <div className='ButtonContainer lo_fi'>
-              <h5 className='h5 marginTop'>
+              <h4 className='h4 marginTop'>
                 <span className='leadin'>
                   I created low fidelity wireframes{' '}
                 </span>
@@ -51,7 +51,7 @@ export const Ideate = () => {
                 and found the navigation intuitive, though they suggested
                 enlarging the hamburger menu and making product reviews easier
                 to access.
-              </h5>
+              </h4>
 
               <div className='Button enlarge ideate'>low fidelity</div>
               <img className='competitive ideate' src={lo_fi} alt={lo_fi} />

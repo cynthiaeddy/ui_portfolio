@@ -13,7 +13,7 @@ export const IdeateNyt = () => {
       </div>
       <section className='IdeateContainer nyt'>
         <div className='InnerContainer'>
-          <h5 className='h5 dropCap'>
+          <h4 className='h4 dropCap'>
             I mapped the journey from the homepage into a recipe, through
             serving size adjustment, and into tools like grocery lists and
             nutritional information. The flow emphasizes intuitive serving
@@ -22,7 +22,7 @@ export const IdeateNyt = () => {
             to the recipe. The goal was to reduce the friction of manual
             recalculation and ensure every change in servings carried through
             seamlessly.
-          </h5>
+          </h4>
           <div className='ButtonContainer'>
             <div className='Button enlarge ideate nyt'>user flow</div>
             <picture>
@@ -42,7 +42,7 @@ export const IdeateNyt = () => {
             /> */}
           </div>
           <div className='ButtonContainer lo_fi nyt'>
-            <h5 className='h5 marginTop'>
+            <h4 className='h4 marginTop'>
               <span className='leadin'>I tested low fidelity </span>
               wireframes with 5 participants to validate the user flow —
               adjusting a recipes&apos; serving size and checking the grocery
@@ -51,7 +51,7 @@ export const IdeateNyt = () => {
               fact that in the existing NYT UI, participants couldn&apos;t edit
               the grocery list (for example, adding an extra lemon to the
               items).
-            </h5>
+            </h4>
 
             <div className='Button enlarge ideate nyt1 '>low fidelity</div>
 

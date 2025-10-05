@@ -5,16 +5,16 @@
   width: 95rem;
 }
 
-.h5.black.center {
+.h4.black.center {
   text-align: left;
   margin-bottom: 3rem;
   margin-top: 5.5rem;
 }
 
-.h5.black.center.venn {
+.h4.black.center.venn {
   margin-top: 2rem;
 }
-.h5.black.center.nyt {
+.h4.black.center.nyt {
   margin-top: 4.5rem;
 }
 .competitive.venn {
@@ -75,7 +75,7 @@
   .competitive.venn {
     margin-top: -4.5rem;
 }
-.h5.black.center.venn {
+.h4.black.center.venn {
   margin-bottom: 0rem;
 }
 .leadin.black {

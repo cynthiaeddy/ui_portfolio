@@ -91,7 +91,7 @@
       align-self: flex-start;
     }
 
-    h5.h5.contact {
+    h4.h4.contact {
       font-size: 1.9rem;
       color: black;
       text-transform: initial;
@@ -149,7 +149,7 @@
           width: 100%;
           text-align: left
         }
-        h5.h5.contact {
+        h4.h4.contact {
           margin-left:14rem
         }
         .ButtonContainer.contact {
@@ -183,7 +183,7 @@
         .AboutContact.success {
           margin-top: 4rem
         }
-        h5.h5.contact {
+        h4.h4.contact {
           margin-left:2rem
         }
         .Container.contact {

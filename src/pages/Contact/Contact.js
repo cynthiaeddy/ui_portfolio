@@ -55,9 +55,9 @@ export const Contact = () => {
           // UI shown after successful submission
           <section className='SecondContainer success'>
             <div className='AboutContact success'>thank you!</div>
-            <h5 className='h5 contact'>
+            <h4 className='h4 contact'>
               I&apos;ll be sure to get back to you within 48 hours.
-            </h5>
+            </h4>
             <Link to='/' className='ButtonContainer contact'>
               <div className='Button_website'>return home</div>
             </Link>

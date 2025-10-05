@@ -53,7 +53,7 @@ margin-top: 3rem
   margin-bottom: 4rem
 }
 
-.h5.black.opener {
+.h4.black.opener {
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
@@ -113,26 +113,26 @@ margin-top: 3rem
     text-align: center;
 }
 .Button.enlarge.black.margin
-.h5.opener_text{
+.h4.opener_text{
   text-align: center;
 
 }
-.h5.small.opener{
+.h4.small.opener{
   color: rgba(255, 255, 255, 0.7);
     font-weight: 300;
     text-align: center;
     font-size: 1.6rem
 
 }
-.h5.small.opener.nyt {
+.h4.small.opener.nyt {
   color:rgba(0, 0, 0, 0.85);
 }
 
 
-.h5.opener_text.center {
+.h4.opener_text.center {
   text-align: center
 }
-.h5.opener_text.center.nyt {
+.h4.opener_text.center.nyt {
   color: black
 }
 
@@ -142,19 +142,19 @@ margin-top: 3rem
   color: black;
   font-size: 5rem
 }
-.h5.openerType {
+.h4.openerType {
   text-align: center;
   color: black
 }
 
-.h5.openerType.lead {
+.h4.openerType.lead {
     font-size: 2.2rem;
 }
 .h6.studies {
   font-size: 1.4rem;
 
 }
-.h5.black {
+.h4.black {
   color: black;
 
 }
@@ -317,13 +317,13 @@ margin-top: 9rem;}
   margin-top: 2rem;
 
 }
-.h5.small.opener.mobile {
+.h4.small.opener.mobile {
   line-height: 1.3;
 }
-.h5.small.opener.mobile.project {
+.h4.small.opener.mobile.project {
   margin-bottom: 2rem
 }
-.h5.black.opener {
+.h4.black.opener {
       font-size: 1.7rem;
     font-weight: 500;
     line-height: 1.5;

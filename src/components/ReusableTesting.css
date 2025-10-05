@@ -32,15 +32,12 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
-margin-bottom:4rem
+margin-bottom:3rem
 }
 
-.ssc_testing_new.last {
-  justify-content: space-around;
-}
 .ssc_testing_new .ssc {
   width: auto;
-  height: 44.5rem;
+  height: 36.5rem;
   object-fit: cover;
 }
 
@@ -50,34 +47,32 @@ margin-bottom:4rem
   object-fit: cover;
    margin-bottom:-4rem
 }
-.ssc.checkout {
-  margin-left: 3rem
+.fh_testing {
+    width: 35rem;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: -4rem;
 }
-.ssc.review {
-  margin-right: 3rem
+
+.iteration_container {
+   width: min-content;
+}
+
+.iteration_container h5 {
+  margin-top: -.5rem;
 }
 
  @media screen and (max-width: 1030px) {
-  img.ssc, img.ssc.two, img.ssc, .ssc.checkout, .ssc.cart {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-  }
-
-   img.ssc.review {
-    margin-top: 2rem
-   }
-
-   .ssc.cart {
-    margin-bottom: 0rem
-  }
    .ssc_testing_new{
-    display: flex;
-      justify-content: space-around;
-      margin-bottom: 2rem;
       flex-direction: column;
       width: 49rem;
       margin: auto;
+      margin-bottom:2rem
   }
+  .iteration_container {
+   width:fit-content;
+}
+
 }
 
 
@@ -89,31 +84,21 @@ margin-bottom:4rem
   .TestingContainer.fh {
     padding-bottom: 7rem;
      margin-bottom: 7.5rem;
+     /* width: 70rem */
 
   }
-  img.ssc.two, .ssc.checkout, img.ssc.review, img.ssc.checkout{
+  .mobile_iter_container {
+   width: 67rem;
+   margin:auto
+  }
+  .fh.mobile {
+    width: 70rem
+  }
+  img.ssc.two{
     width: 70%;
     margin: auto;
     height: auto
   }
-  img.ssc, img.ssc.two, img.ssc, .ssc.checkout, .ssc.cart {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-  }
-
-   img.ssc.review {
-    margin-top: 2rem
-   }
-
-   .ssc.cart {
-    margin-bottom: 1rem
-  }
-  .ssc_testing_new .ssc {
-          width: 100%;
-        height: auto;
-        margin: auto;
-}
-
 
   .TestingContainer {
     padding-bottom: 4rem;
@@ -126,9 +111,14 @@ margin-bottom:4rem
     width: 100%
   }
   .fh_testing {
-    width:40%;
+    width: 44%;
     height: auto
   }
+    .iteration_container:first-child,    .iteration_container.last  {
+      margin:auto;
+  margin-bottom: 2rem
+}
+
 
 }
 
@@ -161,59 +151,55 @@ margin-bottom:4rem
   flex-direction: column;
   margin-bottom: 0
 }
+    .iteration_container:first-child,    .iteration_container.last  {
+      margin:auto;
+  margin-bottom: 3rem
+}
+.iteration_container h5 {
+  margin-top: -.5rem;
+  font-size: 1.5rem
+}
 .ssc_testing_new {
-  width: 100%
+  width: 100%;
+  margin-bottom: 3rem
 }
 img.ssc {
   width: 100%;
   height: auto;
   margin: auto;
 }
-.ssc.checkout, .ssc.review {
-    margin:auto
-}
+
 .ssc_testing_new .ssc {
     width: 90%;
     height: auto;
 }
 
-.ssc.two, .ssc.checkout, .ssc.review {
+.ssc.two{
   width: 61%
-}
-img.ssc.two.search, img.ssc.two.product {
-  margin-bottom: 0rem
 }
 
  }
 
 
   @media screen and (max-width: 479px) {
-  img.ssc, img.ssc.two, img.ssc, .ssc.checkout, .ssc.cart {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-  }
 
-   img.ssc.review {
-    margin-top: 2rem
-   }
 
    .ssc.cart {
     margin-bottom: 1rem
   }
    .ssc_testing_new{
       width: 100%;
+      margin-bottom: 3rem
   }
   .ssc_testing_new .ssc {
           width: 100%;
         height: auto;
         margin: auto;
 }
-.ssc.two, .ssc.checkout, .ssc.review {
+.ssc.two {
   width:70%
 }
-.ssc.two.search {
-  margin-bottom: 0rem
-}
+
 
  .competitive.nyt_iteraction {
     width: 100%
@@ -244,6 +230,14 @@ img.ssc.two.search, img.ssc.two.product {
 .fh_mobile {
   flex-direction: column;
   margin-bottom: 0
+}
+    .iteration_container:first-child,    .iteration_container.last  {
+      margin:auto;
+  margin-bottom: 3rem
+}
+.iteration_container h5 {
+  margin-top: -.5rem;
+  font-size: 1.5rem
 }
 
 

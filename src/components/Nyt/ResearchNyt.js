@@ -13,7 +13,7 @@ export const ResearchNyt = () => {
       </div>
       <section className='ResearchContainer nyt'>
         <div className='InnerContainer'>
-          <h5 className='h5 dropCap'>
+          <h4 className='h4 dropCap'>
             I started by looking at how recipe platforms approached serving size
             and meal planning. Some offered dynamic adjustments with grocery
             integrations, while others only allowed scaling at the ingredient
@@ -22,7 +22,7 @@ export const ResearchNyt = () => {
             opportunity for NYT Cooking to blend its trusted editorial voice
             with tools that empower users—like serving-size adjustment and
             smarter grocery support.
-          </h5>
+          </h4>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>competitive analysis</div>
             <img
@@ -33,7 +33,7 @@ export const ResearchNyt = () => {
           </div>
         </div>
         <div className='InnerContainer'>
-          <h5 className='h5 marginTop'>
+          <h4 className='h4 marginTop'>
             <span className='leadin'>To explore how home cooks interact </span>
             with recipe scaling, I ran five moderated research sessions and
             organized feedback into an affinity map. Clear patterns emerged:
@@ -42,7 +42,7 @@ export const ResearchNyt = () => {
             to build confidence. They also wanted flexibility for batch cooking
             or smaller portions, and emphasized that scaling should be fast,
             intuitive, and time-saving—insights that guided the feature design.
-          </h5>
+          </h4>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>affinity mapping</div>
             <picture>
@@ -55,13 +55,13 @@ export const ResearchNyt = () => {
                 loading='lazy'
               />
             </picture>
-            <h5 className='h5 marginTop'>
+            <h4 className='h4 marginTop'>
               <span className='leadin'>Sarah is an empty nester </span>
               embracing her newfound time to explore cooking as a creative
               outlet. She seeks tools and inspiration that make scaling recipes,
               discovering unique ingredients, and learning new techniques both
               seamless and enjoyable.
-            </h5>
+            </h4>
           </div>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>persona</div>

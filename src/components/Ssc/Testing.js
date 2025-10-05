@@ -1,13 +1,13 @@
 import '../ReusableComponents.css'
 import '../ReusableTesting.css'
-import home_new from '../../assets/ssc/iterations/home_mute.png'
-import story from '../../assets/ssc/iterations/story.png'
-import search from '../../assets/ssc/iterations/search.png'
-import product from '../../assets/ssc/iterations/product.png'
-import cart from '../../assets/ssc/iterations/cart.png'
-import checkout from '../../assets/ssc/iterations/checkout.png'
-import review from '../../assets/ssc/iterations/review.png'
-import menu_1 from '../../assets/ssc/iterations/menu.png'
+import home_new from '../../assets/ssc/new_iterations/home.png'
+import story from '../../assets/ssc/new_iterations/values.png'
+import search from '../../assets/ssc/new_iterations/search.png'
+import product from '../../assets/ssc/new_iterations/products.png'
+import cart from '../../assets/ssc/new_iterations/cart.png'
+import checkout from '../../assets/ssc/new_iterations/checkout.png'
+import review from '../../assets/ssc/new_iterations/review.png'
+import menu_1 from '../../assets/ssc/new_iterations/menu.png'
 
 export const Testing = () => {
   return (
@@ -17,7 +17,7 @@ export const Testing = () => {
       </div>
       <section className='TestingContainer ssc'>
         <div className='InnerContainer'>
-          <h5 className='h5 dropCap'>
+          <h4 className='h4 dropCap'>
             Moderated usability testing with 5 participants validated the
             redesign. Every participant rated the site 5/5 for usability, with
             scores of 98% for ease of use and 100% for checkout flow. While the
@@ -33,25 +33,63 @@ export const Testing = () => {
             state were added, and design details like button styles, field
             strokes, and subheads were standardized. These updates made the site
             feel more consistent and user-friendly.
-          </h5>
+          </h4>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>iterations</div>
           </div>
           <div className='ssc_testing_new'>
-            <img className='ssc ' src={home_new} alt={home_new} />
-            <img className='ssc two' src={menu_1} alt={menu_1} />
+            <div className='iteration_container'>
+              <img className='ssc ' src={home_new} alt={home_new} />
+              <h5>
+                Each icon goes to it&apos;s own section on Our Values page when
+                clicked
+              </h5>
+            </div>
+            <div className='iteration_container'>
+              <img className='ssc two' src={menu_1} alt={menu_1} />
+              <h5>
+                About Us navigation expanded into a drodown with two subpages
+              </h5>
+            </div>
           </div>
           <div className='ssc_testing_new'>
-            <img className='ssc ' src={story} alt={story} />
-            <img className='ssc two search' src={search} alt={search} />
+            <div className='iteration_container'>
+              <img className='ssc ' src={story} alt={story} />
+              <h5>
+                My Story and Our Values are now separate pages, with social
+                links on My Story and &quot;learn more&quot; links on Our Values
+              </h5>
+            </div>
+            <div className='iteration_container'>
+              <img className='ssc two search' src={search} alt={search} />
+              <h5>
+                Search field restyled, trending labels refined, and product
+                cards updated for consistency
+              </h5>
+            </div>
           </div>
           <div className='ssc_testing_new'>
-            <img className='ssc two product' src={product} alt={product} />
-            <img className='ssc cart' src={cart} alt={cart} />
+            <div className='iteration_container'>
+              <img className='ssc two product' src={product} alt={product} />
+              <h5>
+                Continue shopping button added to Product page for smoother
+                browsing
+              </h5>
+            </div>
+            <div className='iteration_container'>
+              <img className='ssc cart' src={cart} alt={cart} />
+              <h5>Added item count indicator and empty cart state</h5>
+            </div>
           </div>
-          <div className='ssc_testing_new last'>
-            <img className='ssc checkout' src={checkout} alt={checkout} />
-            <img className='ssc review' src={review} alt={review} />
+          <div className='ssc_testing_new'>
+            <div className='iteration_container'>
+              <img className='ssc two' src={checkout} alt={checkout} />
+              <h5>Input fields restyled with gold strokes for consistency</h5>
+            </div>
+            <div className='iteration_container last'>
+              <img className='ssc two' src={review} alt={review} />
+              <h5>Subheads update for consistent hierachy and clarity</h5>
+            </div>
           </div>
         </div>
       </section>
