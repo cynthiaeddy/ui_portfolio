@@ -2,7 +2,6 @@ import '../ReusableComponents.css'
 import '../ReusableTesting.css'
 
 import desktop_homes from '../../assets/fh/new_iterations/fh_desktophome_small.png'
-
 import desktop_hours from '../../assets/fh/new_iterations/fh_desktophours_small.png'
 import desktop_appt from '../../assets/fh/new_iterations/fh_desktopappt_small.png'
 
@@ -31,26 +30,40 @@ export const TestingFh = () => {
           <div className='ButtonContainer'>
             <div className='Button enlarge fh_iter'>iterations desktop</div>
           </div>
-
-          <img
-            className='competitive fh_desktop'
-            src={desktop_homes}
-            alt='Affinity map'
-            loading='lazy'
-          />
-          <img
-            className='competitive fh_desktop'
-            src={desktop_hours}
-            alt='Affinity map'
-            loading='lazy'
-          />
-
-          <img
-            className='competitive fh_desktop appt'
-            src={desktop_appt}
-            alt='Affinity map'
-            loading='lazy'
-          />
+          <div className='iteration_container'>
+            <img
+              className='competitive fh_desktop'
+              src={desktop_homes}
+              alt={desktop_homes}
+              loading='lazy'
+            />
+            <h5>
+              A) Changed book appointment link to pink <br />
+              B) Added prompt to show calendar icon &quot;Click to Book
+              Appointment&quot; on hover
+            </h5>
+          </div>
+          <div className='iteration_container'>
+            <img
+              className='competitive fh_desktop'
+              src={desktop_hours}
+              alt={desktop_hours}
+              loading='lazy'
+            />
+            <h5>
+              Changed After Hours Emergency information to a 24/7 emergency vet
+              clinic
+            </h5>
+          </div>
+          <div className='iteration_container'>
+            <img
+              className='competitive fh_desktop appt'
+              src={desktop_appt}
+              alt={desktop_appt}
+              loading='lazy'
+            />
+            <h5>Changed user option to only show available time slots</h5>
+          </div>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>iterations mobile</div>
           </div>
