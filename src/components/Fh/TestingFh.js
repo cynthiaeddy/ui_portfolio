@@ -38,9 +38,10 @@ export const TestingFh = () => {
               loading='lazy'
             />
             <h5>
-              A) Changed book appointment link to pink <br />
-              B) Added prompt to show calendar icon &quot;Click to Book
-              Appointment&quot; on hover
+              <span className='letter_bullets'>A</span>) Changed book
+              appointment link to pink <br />
+              <span className='letter_bullets'>B</span>) Added prompt to show
+              calendar icon &quot;Click to Book Appointment&quot; on hover
             </h5>
           </div>
           <div className='iteration_container'>
