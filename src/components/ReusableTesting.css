@@ -28,7 +28,7 @@
   width: 55rem
 
 }
-.ssc_testing_new, .fh_mobile {
+.ssc_testing_new{
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -42,16 +42,10 @@ margin-bottom:3rem
 }
 
 .fh_testing {
-  width: auto;
-  height: 53rem;
-  object-fit: cover;
-   margin-bottom:-4rem
-}
-.fh_testing {
     width: 35rem;
     height: auto;
     object-fit: cover;
-    margin-bottom: -1rem;
+    margin-bottom: 1rem;
 }
 
 .iteration_container {
@@ -71,13 +65,14 @@ margin-bottom:3rem
   display: flex;
   justify-content: space-around;
   width: 95rem;
-  margin: auto
+  margin: auto;
+  flex-wrap: wrap
 }
 .fh_mobile {
       width: min-content;
-    display: flex
-;
+    display: flex;
     flex-direction: column;
+    margin-bottom: 2rem
 
 }
 

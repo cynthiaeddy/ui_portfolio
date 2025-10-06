@@ -71,13 +71,20 @@ export const TestingFh = () => {
             <div className='Button enlarge'>iterations mobile</div>
           </div>
           <div className='mobile_iter_container'>
-            {/* <div className='fh_mobile'> */}
             <div className='fh_mobile'>
               <img className='fh_testing' src={mobile_home} alt={mobile_home} />
               <h5>
                 Added prompt to show calendar icon &quot;Click to Book
                 Appointment&quot; on hover
               </h5>
+            </div>
+            <div className='fh_mobile'>
+              <img
+                className='fh_testing'
+                src={mobile_buttons}
+                alt={mobile_buttons}
+              />
+              <h5>Changed all button heights to 40px for ease of use</h5>
             </div>
             <div className='fh_mobile'>
               <img
@@ -90,22 +97,10 @@ export const TestingFh = () => {
                 vet clinic and added Scroll to Top button
               </h5>
             </div>
-            {/* </div> */}
-
-            {/* <div className='fh_mobile'> */}
-            <div className='fh_mobile'>
-              <img
-                className='fh_testing'
-                src={mobile_buttons}
-                alt={mobile_buttons}
-              />
-              <h5>Changed all button heights to 40px for ease of use</h5>
-            </div>
             <div className='fh_mobile'>
               <img className='fh_testing' src={mobile_appt} alt={mobile_appt} />
               <h5>Changed user options to only show available time slots</h5>
             </div>
-            {/* </div> */}
           </div>
         </div>
       </section>
