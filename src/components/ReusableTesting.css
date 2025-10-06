@@ -9,6 +9,9 @@
 
 }
 .TestingContainer.ssc {
+  padding-bottom: 0rem;
+}
+.TestingContainer.fh {
   padding-bottom: 3rem;
 }
 .TestingContainer.nyt {
@@ -75,7 +78,7 @@ margin-bottom:3rem
       width: min-content;
     display: flex;
     flex-direction: column;
-    margin-bottom: 2rem
+    margin-bottom: 3rem
 
 }
 
@@ -99,9 +102,8 @@ margin-bottom:3rem
     margin-bottom: 7.5rem;
   }
   .TestingContainer.fh {
-    padding-bottom: 7rem;
+    padding-bottom: 3rem;
      margin-bottom: 7.5rem;
-     /* width: 70rem */
 
   }
   .mobile_iter_container {
@@ -144,11 +146,18 @@ margin-bottom:3rem
     padding-bottom: 4rem;
     margin-bottom: 8rem
   }
+    .TestingContainer.fh {
+        padding-bottom: 4.5em;
+    }
+
   .TestingContainer {
     margin-bottom: 7rem
   }
   .TestingContainer.ssc {
-    padding-bottom: 3rem;
+    padding-bottom: 0rem;
+  }
+  .IdeateContainer.fh {
+    padding-bottom: 6.5rem;
   }
   .competitive.nyt_iteraction, .competitive.fh_iteraction {
     width: 100%
@@ -166,7 +175,7 @@ margin-bottom:3rem
 .fh_mobile {
   display:flex;
   flex-direction: column;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   /* width: 100% */
 }
 .mobile_iter_container {
@@ -233,6 +242,9 @@ img.ssc {
   .TestingContainer.nyt {
     padding-bottom: 3.75rem;
   }
+  .TestingContainer.fh {
+    padding-bottom: 3rem;
+}
   .competitive.fh_iteraction {
     width: 100%
   }
@@ -263,11 +275,14 @@ img.ssc {
 }
 
 .iteration_container h5 {
-  margin-top: -.5rem;
+  margin-top: -1.5rem;
   font-size: 1.5rem
 }
+.iteration_container.last {
+  margin-bottom:2rem
+}
 .fh_mobile h5 {
-  margin-top:2rem;
+  margin-top:.5rem;
   font-size: 1.5rem;
   /* width: 40% */
 }
