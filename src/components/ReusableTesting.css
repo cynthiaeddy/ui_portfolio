@@ -51,7 +51,7 @@ margin-bottom:3rem
     width: 35rem;
     height: auto;
     object-fit: cover;
-    margin-bottom: -4rem;
+    margin-bottom: -1rem;
 }
 
 .iteration_container {
@@ -66,6 +66,19 @@ margin-bottom:3rem
   font-weight: 800;
   /* margin-right: .3rem; */
     font-size: 1.5rem;
+}
+.mobile_iter_container {
+  display: flex;
+  justify-content: space-around;
+  width: 95rem;
+  margin: auto
+}
+.fh_mobile {
+      width: min-content;
+    display: flex
+;
+    flex-direction: column;
+
 }
 
  @media screen and (max-width: 1030px) {

@@ -5,10 +5,10 @@ import desktop_homes from '../../assets/fh/new_iterations/fh_desktophome_small.p
 import desktop_hours from '../../assets/fh/new_iterations/fh_desktophours_small.png'
 import desktop_appt from '../../assets/fh/new_iterations/fh_desktopappt_small.png'
 
-import mobile_appt from '../../assets/fh/new_iterations/fh_mobile_apptstationary.png'
-import mobile_homenew from '../../assets/fh/new_iterations/fh_mobile_homestationary.png'
-import mobile_home2new from '../../assets/fh/new_iterations/fh_mobile_homestationary1.png'
-import mobile_home1new from '../../assets/fh/new_iterations/fh_mobile_homestationary2.png'
+import mobile_appt from '../../assets/fh/new_iterations/fh_mobile_appt.png'
+import mobile_home from '../../assets/fh/new_iterations/fh_mobile_home.png'
+import mobile_buttons from '../../assets/fh/new_iterations/fh_mobile_homebuttons.png'
+import mobile_hours from '../../assets/fh/new_iterations/fh_mobile_homehours.png'
 export const TestingFh = () => {
   return (
     <>
@@ -30,65 +30,82 @@ export const TestingFh = () => {
           <div className='ButtonContainer'>
             <div className='Button enlarge fh_iter'>iterations desktop</div>
           </div>
-          <div className='iteration_container'>
-            <img
-              className='competitive fh_desktop'
-              src={desktop_homes}
-              alt={desktop_homes}
-              loading='lazy'
-            />
-            <h5>
-              <span className='letter_bullets'>A</span>) Changed book
-              appointment link to pink <br />
-              <span className='letter_bullets'>B</span>) Added prompt to show
-              calendar icon &quot;Click to Book Appointment&quot; on hover
-            </h5>
-          </div>
-          <div className='iteration_container'>
-            <img
-              className='competitive fh_desktop'
-              src={desktop_hours}
-              alt={desktop_hours}
-              loading='lazy'
-            />
-            <h5>
-              Changed After Hours Emergency information to a 24/7 emergency vet
-              clinic
-            </h5>
-          </div>
-          <div className='iteration_container'>
-            <img
-              className='competitive fh_desktop appt'
-              src={desktop_appt}
-              alt={desktop_appt}
-              loading='lazy'
-            />
-            <h5>Changed user option to only show available time slots</h5>
+          <div className='desktop_iter_container'>
+            <div className='iteration_container'>
+              <img
+                className='competitive fh_desktop'
+                src={desktop_homes}
+                alt={desktop_homes}
+                loading='lazy'
+              />
+              <h5>
+                <span className='letter_bullets'>A</span>) Changed book
+                appointment link to pink <br />
+                <span className='letter_bullets'>B</span>) Added prompt to show
+                calendar icon &quot;Click to Book Appointment&quot; on hover
+              </h5>
+            </div>
+            <div className='iteration_container'>
+              <img
+                className='competitive fh_desktop'
+                src={desktop_hours}
+                alt={desktop_hours}
+                loading='lazy'
+              />
+              <h5>
+                Changed After Hours Emergency information to a 24/7 emergency
+                vet clinic
+              </h5>
+            </div>
+            <div className='iteration_container'>
+              <img
+                className='competitive fh_desktop'
+                src={desktop_appt}
+                alt={desktop_appt}
+                loading='lazy'
+              />
+              <h5>Changed user options to only show available time slots</h5>
+            </div>
           </div>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>iterations mobile</div>
           </div>
           <div className='mobile_iter_container'>
+            {/* <div className='fh_mobile'> */}
             <div className='fh_mobile'>
-              <img
-                className='fh_testing'
-                src={mobile_homenew}
-                alt={mobile_homenew}
-              />
-              <img
-                className='fh_testing'
-                src={mobile_home1new}
-                alt={mobile_home1new}
-              />
+              <img className='fh_testing' src={mobile_home} alt={mobile_home} />
+              <h5>
+                Added prompt to show calendar icon &quot;Click to Book
+                Appointment&quot; on hover
+              </h5>
             </div>
             <div className='fh_mobile'>
               <img
-                className='fh_testing home3'
-                src={mobile_home2new}
-                alt={mobile_home2new}
+                className='fh_testing'
+                src={mobile_hours}
+                alt={mobile_hours}
               />
+              <h5>
+                Changed After Hours Emergency information to a 24/7 emergency
+                vet clinic and added Scroll to Top button
+              </h5>
+            </div>
+            {/* </div> */}
+
+            {/* <div className='fh_mobile'> */}
+            <div className='fh_mobile'>
+              <img
+                className='fh_testing'
+                src={mobile_buttons}
+                alt={mobile_buttons}
+              />
+              <h5>Changed all button heights to 40px for ease of use</h5>
+            </div>
+            <div className='fh_mobile'>
               <img className='fh_testing' src={mobile_appt} alt={mobile_appt} />
+              <h5>Changed user options to only show available time slots</h5>
             </div>
+            {/* </div> */}
           </div>
         </div>
       </section>
