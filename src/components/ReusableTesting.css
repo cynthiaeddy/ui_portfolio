@@ -57,8 +57,7 @@ margin-bottom:3rem
   margin-top: -.5rem;
 }
 .letter_bullets {
-  font-weight: 800;
-  /* margin-right: .3rem; */
+  font-weight: 500;
     font-size: 1.5rem;
 }
 .mobile_iter_container {
@@ -125,10 +124,10 @@ margin-bottom:3rem
     width: 100%
   }
   .fh_testing {
-    width: 44%;
+    width: 35rem;
     height: auto
   }
-    .iteration_container:first-child,    .iteration_container.last  {
+    .iteration_container  {
       margin:auto;
   margin-bottom: 2rem
 }
@@ -151,7 +150,7 @@ margin-bottom:3rem
     width: 100%
   }
   .fh_testing {
-  width: 50%;
+  /* width: 50%; */
   height: auto;
   margin: auto;
   margin-bottom: -1rem
@@ -163,15 +162,21 @@ margin-bottom:3rem
 .fh_mobile {
   display:flex;
   flex-direction: column;
-  margin-bottom: 0
+  margin-bottom: 0;
+  /* width: 100% */
 }
-    .iteration_container:first-child,    .iteration_container.last  {
-      margin:auto;
-  margin-bottom: 3rem
+.mobile_iter_container {
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
 }
-.iteration_container h5 {
+
+.iteration_container h5, .fh_mobile h5 {
   margin-top: -.5rem;
   font-size: 1.5rem
+}
+.fh_mobile h5 {
+  margin-top:2rem
 }
 .ssc_testing_new {
   width: 100%;
@@ -237,18 +242,14 @@ img.ssc {
   height: auto;
   margin-bottom: -1rem
 }
-.fh_testing.home3 {
-  margin-bottom: 2rem
-}
+
 
 .fh_mobile {
   flex-direction: column;
-  margin-bottom: 0
+  margin-bottom: 0;
+  width:70%
 }
-    .iteration_container:first-child,    .iteration_container.last  {
-      margin:auto;
-  margin-bottom: 3rem
-}
+
 .iteration_container h5 {
   margin-top: -.5rem;
   font-size: 1.5rem

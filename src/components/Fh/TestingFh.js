@@ -2,8 +2,11 @@ import '../ReusableComponents.css'
 import '../ReusableTesting.css'
 
 import desktop_homes from '../../assets/fh/new_iterations/fh_desktophome_small.png'
+import desktop_homesmall from '../../assets/fh/new_iterations/fh_desktophome.png'
 import desktop_hours from '../../assets/fh/new_iterations/fh_desktophours_small.png'
+import desktop_hourssmall from '../../assets/fh/new_iterations/fh_desktophours.png'
 import desktop_appt from '../../assets/fh/new_iterations/fh_desktopappt_small.png'
+import desktop_apptsmall from '../../assets/fh/new_iterations/fh_desktopappt.png'
 
 import mobile_appt from '../../assets/fh/new_iterations/fh_mobile_appt.png'
 import mobile_home from '../../assets/fh/new_iterations/fh_mobile_home.png'
@@ -32,12 +35,16 @@ export const TestingFh = () => {
           </div>
           <div className='desktop_iter_container'>
             <div className='iteration_container'>
-              <img
-                className='competitive fh_desktop'
-                src={desktop_homes}
-                alt={desktop_homes}
-                loading='lazy'
-              />
+              <picture>
+                <source media='(max-width: 768px)' srcSet={desktop_homesmall} />
+                <source media='(min-width: 769px)' srcSet={desktop_homes} />
+                <img
+                  className='competitive fh_desktop'
+                  src={desktop_homes}
+                  alt='Affinity map'
+                  loading='lazy'
+                />
+              </picture>
               <h5>
                 <span className='letter_bullets'>A</span>) Changed book
                 appointment link to pink <br />
@@ -46,24 +53,35 @@ export const TestingFh = () => {
               </h5>
             </div>
             <div className='iteration_container'>
-              <img
-                className='competitive fh_desktop'
-                src={desktop_hours}
-                alt={desktop_hours}
-                loading='lazy'
-              />
+              <picture>
+                <source
+                  media='(max-width: 768px)'
+                  srcSet={desktop_hourssmall}
+                />
+                <source media='(min-width: 769px)' srcSet={desktop_hours} />
+                <img
+                  className='competitive fh_desktop'
+                  src={desktop_hours}
+                  alt='Affinity map'
+                  loading='lazy'
+                />
+              </picture>
               <h5>
                 Changed After Hours Emergency information to a 24/7 emergency
                 vet clinic
               </h5>
             </div>
             <div className='iteration_container'>
-              <img
-                className='competitive fh_desktop'
-                src={desktop_appt}
-                alt={desktop_appt}
-                loading='lazy'
-              />
+              <picture>
+                <source media='(max-width: 768px)' srcSet={desktop_apptsmall} />
+                <source media='(min-width: 769px)' srcSet={desktop_appt} />
+                <img
+                  className='competitive fh_desktop'
+                  src={desktop_appt}
+                  alt='Affinity map'
+                  loading='lazy'
+                />
+              </picture>
               <h5>Changed user options to only show available time slots</h5>
             </div>
           </div>

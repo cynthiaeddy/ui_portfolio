@@ -377,8 +377,8 @@ margin-top: 0rem
     margin-top: 2rem;
 }
 .competitive.fh_desktop, .fh.mobile{
-  /* width: 100% */
-  width:70rem
+  width: 100%
+  /* width:70rem */
 }
     .competitive.fh {
         margin-top: 0rem;
@@ -455,7 +455,7 @@ margin-top: 0rem
     }
 
   .competitive.fh_desktop{
-  width: 80%;
+  width: 100%;
   margin-bottom:1rem
 }
 .competitive.fh_desktop.appt{
