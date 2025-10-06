@@ -45,7 +45,7 @@ export const TestingFh = () => {
                   loading='lazy'
                 />
               </picture>
-              <h5>
+              <h5 className='testingFh_h5'>
                 <span className='letter_bullets'>A</span>) Changed book
                 appointment link to pink <br />
                 <span className='letter_bullets'>B</span>) Added prompt to show
