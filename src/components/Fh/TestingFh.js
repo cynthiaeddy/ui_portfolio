@@ -5,10 +5,10 @@ import desktop_homes from '../../assets/fh/new_iterations/fh_desktophome_small.p
 import desktop_hours from '../../assets/fh/new_iterations/fh_desktophours_small.png'
 import desktop_appt from '../../assets/fh/new_iterations/fh_desktopappt_small.png'
 
-import mobile_appt from '../../assets/fh/iterations/fh_mobile_apptstationary.png'
-import mobile_homenew from '../../assets/fh/iterations/fh_mobile_homestationary.png'
-import mobile_home2new from '../../assets/fh/iterations/fh_mobile_homestationary1.png'
-import mobile_home1new from '../../assets/fh/iterations/fh_mobile_homestationary2.png'
+import mobile_appt from '../../assets/fh/new_iterations/fh_mobile_apptstationary.png'
+import mobile_homenew from '../../assets/fh/new_iterations/fh_mobile_homestationary.png'
+import mobile_home2new from '../../assets/fh/new_iterations/fh_mobile_homestationary1.png'
+import mobile_home1new from '../../assets/fh/new_iterations/fh_mobile_homestationary2.png'
 export const TestingFh = () => {
   return (
     <>
