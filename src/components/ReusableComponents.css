@@ -325,7 +325,7 @@ ul {
     margin-top: 1.5rem
   }
   .Button.enlarge.style {
-    margin-top: 4rem
+    margin-top: 5rem
   }
   h2.cases_openerText {
     font-size: 3.9rem
@@ -366,7 +366,7 @@ margin-top: 0rem
     width: 100%
   }
    .ButtonContainer.nyt {
-   margin-top: 2rem
+   margin-top: 3rem
   }
    .ButtonContainer.nyt1 {
    margin-top: 2rem
@@ -382,7 +382,7 @@ margin-top: 0rem
   }
 
 .Button.enlarge.ideate.nyt1 {
-    margin-top: 4.5rem;
+    margin-top: 5.5rem;
 }
 .Button.enlarge.ideate.nyt {
     margin-top: 2rem;
@@ -452,6 +452,9 @@ margin-top: 0rem
 .ButtonContainer.fh_design.mobile {
     margin-bottom: -2rem;
     margin-top: 3.5rem;
+}
+.ButtonContainer.flow {
+  margin-top: 4rem;
 }
 
   .competitive  {

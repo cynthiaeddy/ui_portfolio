@@ -74,7 +74,7 @@ margin-top: -5rem;
   margin-left: 0rem
  }
  .competitive.mood {
-  margin-bottom: 1rem
+  margin-bottom: 0rem
  }
   .competitive.style.ssc {
     margin-bottom: -1rem;
@@ -106,8 +106,10 @@ margin-top: -5rem;
   }
   .ButtonContainer.ideate.ssc {
     width: 100%
-
   }
+  .ButtonContainer.flow {
+  margin-top: 4rem;
+}
   .competitive.mood {
     margin-bottom: 2rem;
   }

@@ -24,7 +24,7 @@ export const IdeateFh = () => {
             reliable, and as straightforward as talking to the clinic
             directly—without the delays or errors.
           </h4>
-          <div className='ButtonContainer'>
+          <div className='ButtonContainer flow'>
             <div className='Button enlarge fh'>user flow</div>
             <picture>
               <source media='(max-width: 1030px)' srcSet={user_flow_crop} />

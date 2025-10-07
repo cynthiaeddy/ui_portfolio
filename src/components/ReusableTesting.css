@@ -108,7 +108,8 @@ margin-bottom:.5rem
   }
   .mobile_iter_container {
    width: 67rem;
-   margin:auto
+   margin:auto;
+   margin-bottom: -2rem
   }
   .fh.mobile {
     width: 70rem
@@ -135,7 +136,10 @@ margin-bottom:.5rem
   }
     .iteration_container  {
       margin:auto;
-  margin-bottom: 2rem
+  margin-bottom: 4rem
+}
+.iteration_container.bottom {
+  margin-bottom:2.5rem
 }
 
 
@@ -176,8 +180,8 @@ margin-bottom:.5rem
   display:flex;
   flex-direction: column;
   margin-bottom: 1rem;
-  /* width: 100% */
 }
+
 .mobile_iter_container {
     justify-content: space-around;
     width: 100%;
