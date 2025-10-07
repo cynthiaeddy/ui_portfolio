@@ -29,7 +29,7 @@ export const TestingNyt = () => {
                 <source media='(max-width: 479px)' srcSet={iteration_small} />
                 <source media='(min-width: 480px)' srcSet={iteration} />
                 <img
-                  className='competitive nyt'
+                  className='competitive nyt iter'
                   src={iteration}
                   alt='Affinity map'
                   loading='lazy'

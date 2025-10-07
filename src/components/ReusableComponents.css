@@ -233,7 +233,9 @@ button {
 .competitive.nyt {
   margin-bottom: 1rem
 }
-
+.competitive.nyt.iter {
+  margin-bottom: -.5rem
+}
 .competitive_lg {
   border-radius: 20px;
   width: 100%;
@@ -566,6 +568,13 @@ margin-top: 0rem
   }
   .competitive.nyt {
     margin-bottom: 2rem;
+}
+.competitive.nyt.iter {
+  margin-bottom: -.5rem
+}
+ h5.nyt_h5{
+  font-size: 1.5rem
+
 }
 .competitive.research_fh, .competitive.affinity_fh, .competitive.persona_fh {
     margin-top: -4.5rem;

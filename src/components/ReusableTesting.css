@@ -230,6 +230,7 @@ img.ssc {
           width: 100%;
         height: auto;
         margin: auto;
+        margin-bottom: 1.5rem
 }
 .ssc.two {
   width:70%
