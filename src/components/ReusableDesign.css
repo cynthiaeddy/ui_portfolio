@@ -219,11 +219,20 @@ margin-top: 1rem
   .DesignContainer.fh {
     margin-bottom: 5rem;
 }
+.DefineContainer.nyt {
+  margin-bottom: 9rem;
+}
   .competitive.designFh.four, .competitive.mid_fi.desktop, .competitive.mid_fi, .competitive.hi_fi,.competitive.mid_fi.mobile, .competitive.fh_mobile, .competitive.flow {
     width: 100%
   }
 .ButtonContainer.fh_mobile {
   margin-top: 2rem;
+}
+.ButtonContainer.nyt1{
+  margin-bottom: 5rem
+}
+.competitive.hi_fi.nyt {
+    margin-bottom: 0rem;
 }
 .competitive.designFh {
   margin: auto;
