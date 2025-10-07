@@ -136,7 +136,8 @@ li.smHed {
   margin-top: 0rem
 }
 .ButtonContainer.ideate {
-  width: 95rem
+  width: 95rem;
+
 }
 .ButtonContainer.design_fh, .ButtonContainer.design_fh_first{
   margin-top: 0
@@ -222,7 +223,7 @@ button {
   margin-top: -4.8rem;
 }
 .competitive.affinity_fh {
-  margin-bottom: -1rem
+  margin-bottom: 0rem
 }
 .competitive.fh_desktop{
   width:95rem;
