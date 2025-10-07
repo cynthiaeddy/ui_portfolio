@@ -9,7 +9,7 @@ export const DefineNyt = () => {
       <div className='BlackHeds white nyt'>
         <h2 className='h2_white cases_openerText'>Define</h2>
       </div>
-      <section className='DefineContainer'>
+      <section className='DefineContainer nyt'>
         <h4 className='h4 black center nyt'>
           <span className='leadin black'>Through user research </span> and
           affinity mapping I identified three priorities:

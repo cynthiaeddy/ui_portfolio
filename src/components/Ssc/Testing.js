@@ -45,7 +45,7 @@ export const Testing = () => {
                 clicked
               </h5>
             </div>
-            <div className='iteration_container'>
+            <div className='iteration_container bottom'>
               <img className='ssc two' src={menu_1} alt={menu_1} />
               <h5>
                 About Us navigation expanded into a drodown with two subpages
@@ -60,7 +60,7 @@ export const Testing = () => {
                 links on My Story and &quot;learn more&quot; links on Our Values
               </h5>
             </div>
-            <div className='iteration_container'>
+            <div className='iteration_container bottom'>
               <img className='ssc two search' src={search} alt={search} />
               <h5>
                 Search field restyled, trending labels refined, and product
@@ -76,7 +76,7 @@ export const Testing = () => {
                 browsing
               </h5>
             </div>
-            <div className='iteration_container'>
+            <div className='iteration_container bottom'>
               <img className='ssc cart' src={cart} alt={cart} />
               <h5>Added item count indicator and empty cart state</h5>
             </div>
@@ -86,7 +86,7 @@ export const Testing = () => {
               <img className='ssc two' src={checkout} alt={checkout} />
               <h5>Input fields restyled with gold strokes for consistency</h5>
             </div>
-            <div className='iteration_container last'>
+            <div className='iteration_container bottom last'>
               <img className='ssc two' src={review} alt={review} />
               <h5>Subheads update for consistent hierachy and clarity</h5>
             </div>

@@ -16,7 +16,7 @@
 }
 
 .ButtonContainer.ideate {
-  margin-top: 0rem
+   margin-top: 1.5rem
 }
 
  .competitive.style, .competitive.mood {
@@ -29,7 +29,8 @@
   margin-left: -7rem
  }
   .competitive.style.ssc {
-    margin-top:-19rem
+    margin-top:-18rem;
+    margin-bottom: -1rem;
   }
  .competitive.ideate {
 margin-top: -5rem;
@@ -73,7 +74,7 @@ margin-top: -5rem;
   margin-left: 0rem
  }
  .competitive.mood {
-  margin-bottom: 1rem
+  margin-bottom: 0rem
  }
   .competitive.style.ssc {
     margin-bottom: -1rem;
@@ -105,8 +106,10 @@ margin-top: -5rem;
   }
   .ButtonContainer.ideate.ssc {
     width: 100%
-
   }
+  .ButtonContainer.flow {
+  margin-top: 4rem;
+}
   .competitive.mood {
     margin-bottom: 2rem;
   }
@@ -156,9 +159,11 @@ margin-top: -5rem;
 .WireframesContainer {
   width: 100%;
   flex-direction: column;
+  margin-top: -2rem
 }
 .IdeateContainer.nyt {
     padding-bottom: 4.5rem;
+    margin-bottom: 7.5rem
 }
  .IdeateContainer.fh {
     padding-bottom: 6rem;

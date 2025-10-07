@@ -136,7 +136,8 @@ li.smHed {
   margin-top: 0rem
 }
 .ButtonContainer.ideate {
-  width: 95rem
+  width: 95rem;
+
 }
 .ButtonContainer.design_fh, .ButtonContainer.design_fh_first{
   margin-top: 0
@@ -222,7 +223,7 @@ button {
   margin-top: -4.8rem;
 }
 .competitive.affinity_fh {
-  margin-bottom: -1rem
+  margin-bottom: 0rem
 }
 .competitive.fh_desktop{
   width:95rem;
@@ -324,7 +325,7 @@ ul {
     margin-top: 1.5rem
   }
   .Button.enlarge.style {
-    margin-top: 4rem
+    margin-top: 5rem
   }
   h2.cases_openerText {
     font-size: 3.9rem
@@ -365,7 +366,7 @@ margin-top: 0rem
     width: 100%
   }
    .ButtonContainer.nyt {
-   margin-top: 2rem
+   margin-top: 3rem
   }
    .ButtonContainer.nyt1 {
    margin-top: 2rem
@@ -381,7 +382,7 @@ margin-top: 0rem
   }
 
 .Button.enlarge.ideate.nyt1 {
-    margin-top: 4.5rem;
+    margin-top: 5.5rem;
 }
 .Button.enlarge.ideate.nyt {
     margin-top: 2rem;
@@ -451,6 +452,9 @@ margin-top: 0rem
 .ButtonContainer.fh_design.mobile {
     margin-bottom: -2rem;
     margin-top: 3.5rem;
+}
+.ButtonContainer.flow {
+  margin-top: 4rem;
 }
 
   .competitive  {
@@ -534,22 +538,22 @@ margin-top: 0rem
     margin-top: 3rem;
 }
 .Button.enlarge.ideate.nyt {
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
 }
 .Button.enlarge.iter.nyt {
     margin-bottom: 7rem;
 }
 .Button.enlarge.ideate.nyt1 {
-    margin-top: 4.5rem;
-}
-.Button.enlarge.fh {
-    margin-top: 3rem;
-}
-.Button.enlarge.fh_iter {
     margin-top: 3.5rem;
 }
+.Button.enlarge.fh {
+    margin-top: 2rem;
+}
+.Button.enlarge.fh_iter {
+    margin-top: 2.5rem;
+}
 .Button.enlarge.white.no {
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom:0rem
 }
 .competitive, .competitive.style  {
@@ -646,6 +650,9 @@ h2.h2_white.cases_openerText {
 color:black  }
 .h4.black.center {
   font-size: 1.6rem;
+}
+.BlackHeds.white.nyt {
+    margin-top: 7rem;
 }
 
  }
