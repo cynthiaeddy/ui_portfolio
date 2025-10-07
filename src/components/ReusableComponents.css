@@ -227,7 +227,8 @@ button {
 }
 .competitive.fh_desktop{
   width:95rem;
-  margin-top:0rem
+  margin-top:0rem;
+  margin-bottom: -.5rem
 }
 
 .competitive.nyt {
@@ -462,6 +463,9 @@ margin-top: 0rem
   .competitive  {
     width: 100%
   }
+  .competitive.nyt.iter {
+    margin-bottom: 0.5rem;
+  }
   .competitive.affinity.ssc {
     margin-top: -4.5rem
   }
@@ -476,7 +480,7 @@ margin-top: 0rem
 
   .competitive.fh_desktop{
   width: 100%;
-  margin-bottom:1rem
+  margin-bottom:.5rem
 }
 .competitive.fh_desktop.appt{
   margin-top:-2rem
