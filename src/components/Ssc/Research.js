@@ -14,7 +14,7 @@ export const Research = () => {
       </div>
       <section className='ResearchContainer ssc'>
         <div className='InnerContainer'>
-          <h5 className='h5 dropCap'>
+          <h4 className='h4 dropCap'>
             I began by analyzing sustainable e-commerce sites to understand how
             small-batch brands were presenting themselves online. I noticed some
             leaned on convenience and scale, while others focused on artisanal
@@ -22,7 +22,7 @@ export const Research = () => {
             balance between brand authenticity and shopping usability. That
             insight shaped the opportunity for SSC: a site that feels true to
             its roots while making sustainability proof easy to access.
-          </h5>
+          </h4>
           <div className='ButtonContainer'>
             <div className='Button enlarge ssc_research'>
               competitive analysis
@@ -40,14 +40,14 @@ export const Research = () => {
           </div>
         </div>
         <div className='InnerContainer'>
-          <h5 className='h5 marginTop'>
+          <h4 className='h4 marginTop'>
             <span className='leadin'>To understand user motivations</span> and
             shopping behavior, I conducted five interviews and organized
             feedback into an affinity map. Clear patterns emerged: users wanted
             proof of sustainability, preferred small/local businesses, and
             relied heavily on authentic reviews—insights that guided key design
             decisions.
-          </h5>
+          </h4>
 
           <div className='ButtonContainer'>
             <div className='Button enlarge'>affinity mapping</div>
@@ -61,14 +61,14 @@ export const Research = () => {
                 loading='lazy'
               />
             </picture>
-            <h5 className='h5 marginTop'>
+            <h4 className='h4 marginTop'>
               <span className='leadin'> Emma represents the insights </span>
               from my research: an eco-conscious, research-driven shopper who
               values small-batch brands and expects both quality and
               convenience. She highlights the need for better transparency in
               sustainable shopping, since she won&apos;t commit without clear
               proof of sustainability.
-            </h5>
+            </h4>
           </div>
           <div className='ButtonContainer'>
             <div className='Button enlarge'>persona</div>

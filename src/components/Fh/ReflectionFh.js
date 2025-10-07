@@ -9,7 +9,7 @@ export const ReflectionFh = () => {
       </div>
       <section className='ReflectionContainer'>
         <div className='InnerContainer reflection'>
-          <h5 className='h5 dropCap'>
+          <h4 className='h4 dropCap'>
             This project was especially meaningful because Dr. Blair is my own
             vet, and I wanted the site to capture the personality and care she
             brings to her work. The challenge was balancing scope with
@@ -18,7 +18,7 @@ export const ReflectionFh = () => {
             created a smoother foundation across platforms. The key lesson:
             thoughtful prioritization is just as critical as design craft when
             creating experiences that feel both personal and dependable.
-          </h5>
+          </h4>
         </div>
       </section>
     </>

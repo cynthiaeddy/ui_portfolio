@@ -88,13 +88,13 @@ ul {
   margin-left: -1rem
 }
 
-h5,.leadin {
+h4,.leadin {
   font-size: 1.9rem;
   color:white;
   text-transform: initial;
   letter-spacing: .1rem;
   font-weight: 400;
-   font-family: "neue-haas-grotesk-display", sans-serif;;
+   font-family: "neue-haas-grotesk-display", sans-serif;
    text-align: left;
    line-height: 1.6;
 }
@@ -105,6 +105,16 @@ h6 {
   font-size: 1.3rem;
   text-align: left;
   line-height: 1.5
+}
+h5 {
+     font-family: "neue-haas-grotesk-display", sans-serif;
+     font-size: 1.7rem;
+     color: rgba(255,255,255, .85);
+     text-transform: initial;
+     letter-spacing: .1rem;
+     line-height: 1.6;
+
+
 }
 
 .BottomContainer {
@@ -162,7 +172,7 @@ button {
   font-size: 1rem;
     line-height: 1.5;
 }
-h5 {
+h4 {
   font-size: 1.7rem;
 }
 h6 {
@@ -183,7 +193,7 @@ button.Button_website {
 h2 {
   font-size: 3.6rem;
 }
-h5 {
+h4 {
   font-size: 1.6rem;
 }
 }
@@ -203,10 +213,10 @@ h5 {
     font-size: 3.75rem;
     line-height: 1.2;
    }
-   h5, .leadin {
+   h4, .leadin {
     font-size: 1.5rem;
    }
-   .h5.marginTop {
+   .h4.marginTop {
     margin-top: 3rem;
 }
 .video-slide {

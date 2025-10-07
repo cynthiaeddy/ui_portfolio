@@ -23,7 +23,7 @@ export const About = () => {
           <br />
         </div>
 
-        <h4 className='AboutText'>
+        <h3 className='AboutText'>
           working on iPad and iPhone interfaces before they became the norm.
           Along the way, I completed both a software development and a UX/UI
           design bootcamp — training that deepened my ability to think across
@@ -41,7 +41,7 @@ export const About = () => {
           everywhere: walking through the city, catching outdoor concerts, or
           heading to a hiking trail just beyond it. Travel sparks ideas too —
           most recently in Croatia and Mérida, Mexico.
-        </h4>
+        </h3>
         <footer className='AboutInfo'>
           <a href={cynthia_eddy_resume} className='About_link'>
             <div className='AboutResume view'>

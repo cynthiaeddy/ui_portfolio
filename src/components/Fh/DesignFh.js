@@ -13,7 +13,7 @@ export const DesignFh = () => {
         <h2 className='h2_white cases_openerText'>Design</h2>
       </div>
       <section className='DesignContainer fh'>
-        <h5 className='h5 black dropCap design'>
+        <h4 className='h4 black dropCap design'>
           I refined typography, colors, and UI elements to modernize the site
           while staying true to Feline Health&apos;s playful spirit. A refreshed
           logo created cohesion, while neon pink accents echoed the
@@ -22,7 +22,7 @@ export const DesignFh = () => {
           highlighted boxes and cards adding personality without clutter. The
           result is a site that feels as welcoming online as the one-doctor
           practice does in person.
-        </h5>
+        </h4>
         <div className='ButtonContainer fh_design'>
           <div className='Button enlarge white no_margin'>branding</div>
           <picture>
@@ -36,7 +36,7 @@ export const DesignFh = () => {
             />
           </picture>
         </div>
-        <h5 className='h5 black design'>
+        <h4 className='h4 black design'>
           <span className='leadin black'>High fidelity wireframes </span>
           translated the validated flow into a fully realized experience that
           balanced the clinic&apos;s personality with user needs. I streamlined
@@ -45,7 +45,7 @@ export const DesignFh = () => {
           and hierarchy were adjusted to guide users with less effort, while
           consistent typography and neon-inspired accents carried the
           clinic&apos;s playful atmosphere online.
-        </h5>
+        </h4>
         <div className='ButtonContainer'>
           <div className='Button enlarge white no'>high fidelity desktop</div>
         </div>
@@ -54,7 +54,7 @@ export const DesignFh = () => {
           src={fh_hi_desktop}
           alt={fh_hi_desktop}
         />
-        <div className='ButtonContainer fh_mobile'>
+        <div className='ButtonContainer fh_design mobile'>
           <div className='Button enlarge white'>high fidelity mobile</div>
         </div>
         <img

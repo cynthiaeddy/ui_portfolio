@@ -18,7 +18,7 @@ h2 {
 .h2_white {
   color: black
 }
-h5,.leadin {
+h4,.leadin {
   font-size: 1.9rem;
   color:white;
   text-transform: initial;
@@ -29,39 +29,39 @@ h5,.leadin {
    line-height: 1.6;
    color: rgba(255, 255, 255, .9);
 }
-.h5.openerType {
+.h4.openerType {
   text-align: center;
   font-weight: 500;
 }
-.h5.black {
+.h4.black {
   color: black;
 }
-.h5.black.center {
+.h4.black.center {
   text-align: left;
   margin-bottom: 3rem;
 }
 
-.h5.black.center.venn {
+.h4.black.center.venn {
   margin-top: 2rem;
 }
 
-.h5.small {
+.h4.small {
   color: white;
     color: black;
   font-size: 1.9rem;
   line-height: 1.5;
 }
 
-.h5.dropCap, .h5.marginTop {
+.h4.dropCap, .h4.marginTop {
   margin-top:7rem;
 }
-.h5.black.dropCap.design {
+.h4.black.dropCap.design {
   margin-top: 5rem;
 }
-.h5.black.design {
+.h4.black.design {
   margin-top: 7rem;
 }
-.h5.black.dropCap.nyt {
+.h4.black.dropCap.nyt {
   margin-top: .5rem;
 }
 .h6.small {
@@ -96,7 +96,7 @@ li.smHed {
 }
 
 
-.h5.dropCap::first-letter, .h5.black.dropcap::first-letter {
+.h4.dropCap::first-letter, .h4.black.dropcap::first-letter {
   font-family: gelica, sans-serif;
   font-size: 10.95rem;
   float: left;
@@ -107,7 +107,7 @@ li.smHed {
   color: #c3996B
 }
 
-.h5.leadins {
+.h4.leadins {
   margin-top: 6rem;
   margin-bottom: 5rem
 }
@@ -141,6 +141,11 @@ li.smHed {
 .ButtonContainer.design_fh, .ButtonContainer.design_fh_first{
   margin-top: 0
 }
+.ButtonContainer.fh_design.mobile {
+        margin-bottom: -2rem;
+            margin-top: 7.5rem;
+
+  }
 
 .Button.enlarge {
     background: black;
@@ -223,10 +228,6 @@ button {
   width:95rem;
   margin-top:0rem
 }
-.competitive.fh_desktop.appt{
-  margin-top:-3.5rem;
-  margin-bottom: -4rem;
-}
 
 .competitive.nyt {
   margin-bottom: 1rem
@@ -248,7 +249,7 @@ button {
 .competitve.ideate {
   width: 100%
 }
-.h5.bullets {
+.h4.bullets {
   margin-top: 2rem
 }
 
@@ -332,7 +333,7 @@ ul {
   h2.Card_hed {
     font-size: 4rem;
   }
-  h5 {
+  h4 {
     font-size: 1.7rem;
   }
 
@@ -344,7 +345,7 @@ ul {
   margin-bottom: 1.5rem;
 }
 
-  .h5.dropCap::first-letter {
+  .h4.dropCap::first-letter {
     font-size: 9.25rem;
   }
   .competitive{
@@ -373,6 +374,11 @@ margin-top: 0rem
     margin-top: 4.5rem;
     margin-bottom: -1rem
   }
+  .ButtonContainer.fh_design.mobile {
+        margin-bottom: -2rem;
+            margin-top: 4.5rem;
+
+  }
 
 .Button.enlarge.ideate.nyt1 {
     margin-top: 4.5rem;
@@ -380,8 +386,9 @@ margin-top: 0rem
 .Button.enlarge.ideate.nyt {
     margin-top: 2rem;
 }
-.competitive.fh_desktop{
+.competitive.fh_desktop, .fh.mobile{
   width: 100%
+  /* width:70rem */
 }
     .competitive.fh {
         margin-top: 0rem;
@@ -403,10 +410,10 @@ margin-top: 0rem
   h2 {
     font-size: 3.6rem;
   }
-  h5 {
+  h4 {
     font-size: 1.6rem;
   }
-  .h5.small {
+  .h4.small {
     font-size: 1.6rem;
   }
 
@@ -417,7 +424,7 @@ margin-top: 0rem
     width: 90%
   }
 
-  .h5.dropCap::first-letter {
+  .h4.dropCap::first-letter {
     font-size: 8.5rem;
     float: left;
     line-height: .9; /* from 1 */
@@ -441,6 +448,10 @@ margin-top: 0rem
     margin-top: 4rem;
     margin-bottom: -3rem;
 }
+.ButtonContainer.fh_design.mobile {
+    margin-bottom: -2rem;
+    margin-top: 3.5rem;
+}
 
   .competitive  {
     width: 100%
@@ -458,7 +469,7 @@ margin-top: 0rem
     }
 
   .competitive.fh_desktop{
-  width: 80%;
+  width: 100%;
   margin-bottom:1rem
 }
 .competitive.fh_desktop.appt{
@@ -499,20 +510,20 @@ margin-top: 0rem
   font-size: 3.75rem;
   line-height: 1.2;
  }
- h5, .leadin {
+ h4, .leadin {
   font-size: 1.6rem;
  }
 
 .h6.small {
   font-size: 1.2rem;
 }
-.h5.small {
+.h4.small {
   font-size: 1.6rem;
 }
 .InnerContainer {
   width: 85%
 }
-.h5.dropCap::first-letter {
+.h4.dropCap::first-letter {
   font-size: 9.1rem
 }
 .Button.enlarge, .Button.enlarge.opener {
@@ -576,10 +587,10 @@ margin-top: 0rem
     margin-bottom:-5rem
 }
 
-  .h5.dropCap {
+  .h4.dropCap {
     margin-top: 5rem;
   }
- .h5.black.design {
+ .h4.black.design {
     margin-top: 5rem;
 }
 
@@ -599,6 +610,9 @@ margin-top: 0rem
   margin-top:3.5rem;
   margin-bottom: -1rem
 }
+.ButtonContainer.fh_design.mobile {
+    margin-top: 0rem;
+}
 
   .Button.enlarge.ideate {
     margin-top: 3rem;
@@ -610,14 +624,14 @@ margin-top: 0rem
 
   }
 
-.h5.marginTop {
+.h4.marginTop {
   margin-top:4rem
 }
 
-.h5.dropCap.black {
+.h4.dropCap.black {
   margin-top:1.5rem
 }
-.h5.dropCap.black.too {
+.h4.dropCap.black.too {
   margin-top: 3.5rem
 }
 
@@ -630,7 +644,7 @@ color:white  }
 
 h2.h2_white.cases_openerText {
 color:black  }
-.h5.black.center {
+.h4.black.center {
   font-size: 1.6rem;
 }
 

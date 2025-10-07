@@ -9,10 +9,13 @@
 
 }
 .TestingContainer.ssc {
+  padding-bottom: 0rem;
+}
+.TestingContainer.fh {
   padding-bottom: 3rem;
 }
 .TestingContainer.nyt {
-  padding-bottom: 4.75rem;
+  padding-bottom:6.5rem;
 }
 .competitive.nyt_iteraction {
   margin-top: 1.5rem;
@@ -28,56 +31,68 @@
   width: 55rem
 
 }
-.ssc_testing_new, .fh_mobile {
+.ssc_testing_new{
   display: flex;
   justify-content: space-around;
   width: 100%;
-margin-bottom:4rem
+margin-bottom:3rem
 }
 
-.ssc_testing_new.last {
-  justify-content: space-around;
-}
 .ssc_testing_new .ssc {
   width: auto;
-  height: 44.5rem;
+  height: 36.5rem;
   object-fit: cover;
 }
 
 .fh_testing {
-  width: auto;
-  height: 53rem;
-  object-fit: cover;
-   margin-bottom:-4rem
+    width: 35rem;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 1rem;
 }
-.ssc.checkout {
-  margin-left: 3rem
+
+.iteration_container {
+   width: min-content;
+   margin-bottom: 3rem;
 }
-.ssc.review {
-  margin-right: 3rem
+
+.iteration_container h5 {
+  margin-top: -.5rem;
+}
+.testingFh_h5 h5 {
+  line-height: 1.2;
+}
+.letter_bullets {
+  font-weight: 500;
+    font-size: 1.5rem;
+      line-height: 1;
+}
+.mobile_iter_container {
+  display: flex;
+  justify-content: space-around;
+  width: 95rem;
+  margin: auto;
+  flex-wrap: wrap
+}
+.fh_mobile {
+      width: min-content;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem
+
 }
 
  @media screen and (max-width: 1030px) {
-  img.ssc, img.ssc.two, img.ssc, .ssc.checkout, .ssc.cart {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-  }
-
-   img.ssc.review {
-    margin-top: 2rem
-   }
-
-   .ssc.cart {
-    margin-bottom: 0rem
-  }
    .ssc_testing_new{
-    display: flex;
-      justify-content: space-around;
-      margin-bottom: 2rem;
       flex-direction: column;
       width: 49rem;
       margin: auto;
+      margin-bottom:2rem
   }
+  .iteration_container {
+   width:fit-content;
+}
+
 }
 
 
@@ -87,33 +102,22 @@ margin-bottom:4rem
     margin-bottom: 7.5rem;
   }
   .TestingContainer.fh {
-    padding-bottom: 7rem;
+    padding-bottom: 3rem;
      margin-bottom: 7.5rem;
 
   }
-  img.ssc.two, .ssc.checkout, img.ssc.review, img.ssc.checkout{
+  .mobile_iter_container {
+   width: 67rem;
+   margin:auto
+  }
+  .fh.mobile {
+    width: 70rem
+  }
+  img.ssc.two{
     width: 70%;
     margin: auto;
     height: auto
   }
-  img.ssc, img.ssc.two, img.ssc, .ssc.checkout, .ssc.cart {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-  }
-
-   img.ssc.review {
-    margin-top: 2rem
-   }
-
-   .ssc.cart {
-    margin-bottom: 1rem
-  }
-  .ssc_testing_new .ssc {
-          width: 100%;
-        height: auto;
-        margin: auto;
-}
-
 
   .TestingContainer {
     padding-bottom: 4rem;
@@ -126,9 +130,14 @@ margin-bottom:4rem
     width: 100%
   }
   .fh_testing {
-    width:40%;
+    width: 35rem;
     height: auto
   }
+    .iteration_container  {
+      margin:auto;
+  margin-bottom: 2rem
+}
+
 
 }
 
@@ -137,17 +146,24 @@ margin-bottom:4rem
     padding-bottom: 4rem;
     margin-bottom: 8rem
   }
+    .TestingContainer.fh {
+        padding-bottom: 4.5em;
+    }
+
   .TestingContainer {
     margin-bottom: 7rem
   }
   .TestingContainer.ssc {
-    padding-bottom: 3rem;
+    padding-bottom: 0rem;
+  }
+  .IdeateContainer.fh {
+    padding-bottom: 6.5rem;
   }
   .competitive.nyt_iteraction, .competitive.fh_iteraction {
     width: 100%
   }
   .fh_testing {
-  width: 50%;
+  /* width: 50%; */
   height: auto;
   margin: auto;
   margin-bottom: -1rem
@@ -159,61 +175,62 @@ margin-bottom:4rem
 .fh_mobile {
   display:flex;
   flex-direction: column;
-  margin-bottom: 0
+  margin-bottom: 1rem;
+  /* width: 100% */
+}
+.mobile_iter_container {
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+}
+
+.iteration_container h5, .fh_mobile h5 , .competitive.nyt h5 .nyt_iter_text h55, .nyt_h5 {
+  margin-top: -.5rem;
+  font-size: 1.5rem
+}
+.fh_mobile h5 {
+  margin-top:2rem
 }
 .ssc_testing_new {
-  width: 100%
+  width: 100%;
+  margin-bottom: 3rem
 }
 img.ssc {
   width: 100%;
   height: auto;
   margin: auto;
 }
-.ssc.checkout, .ssc.review {
-    margin:auto
-}
+
 .ssc_testing_new .ssc {
     width: 90%;
     height: auto;
 }
 
-.ssc.two, .ssc.checkout, .ssc.review {
+.ssc.two{
   width: 61%
-}
-img.ssc.two.search, img.ssc.two.product {
-  margin-bottom: 0rem
 }
 
  }
 
 
   @media screen and (max-width: 479px) {
-  img.ssc, img.ssc.two, img.ssc, .ssc.checkout, .ssc.cart {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-  }
-
-   img.ssc.review {
-    margin-top: 2rem
-   }
 
    .ssc.cart {
     margin-bottom: 1rem
   }
    .ssc_testing_new{
       width: 100%;
+      margin-bottom: 3rem
   }
   .ssc_testing_new .ssc {
           width: 100%;
         height: auto;
         margin: auto;
 }
-.ssc.two, .ssc.checkout, .ssc.review {
+.ssc.two {
   width:70%
 }
-.ssc.two.search {
-  margin-bottom: 0rem
-}
+
 
  .competitive.nyt_iteraction {
     width: 100%
@@ -223,8 +240,11 @@ img.ssc.two.search, img.ssc.two.product {
     margin-bottom: 7rem;
   }
   .TestingContainer.nyt {
-    padding-bottom: 3.75rem;
+    padding-bottom: 4.75rem;
   }
+  .TestingContainer.fh {
+    padding-bottom: 3rem;
+}
   .competitive.fh_iteraction {
     width: 100%
   }
@@ -233,19 +253,46 @@ img.ssc.two.search, img.ssc.two.product {
     margin-bottom: 0
   }
 .fh_testing {
-  width: 100%;
+  width: 40%;
   height: auto;
   margin-bottom: -1rem
 }
-.fh_testing.home3 {
-  margin-bottom: 2rem
-}
+    .fh_testing {
+        width: 80%;
+        height: auto;
+        margin-bottom: -1rem;
+        /* width: auto; */
+        margin: auto;
+    }
+.mobile_iter_container {
+  width:100%;
+};
 
-.fh_mobile {
+.mobile_iter_container.fh_mobile {
   flex-direction: column;
-  margin-bottom: 0
+  margin-bottom: 0;
+  width:max-content
 }
 
+.iteration_container h5 {
+  margin-top: -1.5rem;
+  font-size: 1.5rem
+}
+.iteration_container.last {
+  margin-bottom:2rem
+}
+.fh_mobile h5 {
+  margin-top:.5rem;
+  font-size: 1.5rem;
+  /* width: 40% */
+}
+.fh_mobile {
+      width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem
+
+}
 
  }
 

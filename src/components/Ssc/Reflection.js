@@ -9,7 +9,7 @@ export const Reflection = () => {
       </div>
       <section className='ReflectionContainer'>
         <div className='InnerContainer reflection'>
-          <h5 className='h5 dropCap'>
+          <h4 className='h4 dropCap'>
             This project let me apply the full UX/UI process to a brand I care
             about. The main challenge was that users defined sustainability in
             very different ways, which pushed me to prioritize essential content
@@ -17,7 +17,7 @@ export const Reflection = () => {
             bring in experts earlier to strengthen credibility. The key lesson:
             sustainability means different things to different people, and good
             design needs to reflect that.
-          </h5>
+          </h4>
         </div>
       </section>
     </>

@@ -81,6 +81,11 @@ li.smHed {
   .competitive, .competitive.hi_fi, .competitive.designFh, .competitive.research, .competitive.flow {
     width: 80%
   }
+  .competitive.nyt {
+    /* width: 60rem */
+        width: 80%
+
+  }
 
   .competitive.venn {
     margin-top: -5rem;
@@ -121,7 +126,7 @@ li.smHed {
 .Button.enlarge.white.no_margin.fh {
   margin-top: 2rem
 }
-ul.h5.bullets.ssc {
+ul.h4.bullets.ssc {
   padding-left: -1.75rem
 }
 .ButtonContainer.design_fh_first {
@@ -179,10 +184,10 @@ ul.h5.bullets.ssc {
     margin-top: -1rem;
   }
 
-  ul.h5.bullets.ssc {
+  ul.h4.bullets.ssc {
     padding-left: 2rem
   }
-  .h5.dropCap.black.fh {
+  .h4.dropCap.black.fh {
     margin-top: 1rem
   }
   .ButtonContainer.fh_mobile{
@@ -242,7 +247,7 @@ margin-top: 1rem
   width: 120%;
   margin-left: -10%;
 }
-.h5.bullets.fh {
+.h4.bullets.fh {
   padding-left: 0
 }
 li.smHed {
