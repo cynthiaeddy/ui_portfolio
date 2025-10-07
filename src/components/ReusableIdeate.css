@@ -159,6 +159,7 @@ margin-top: -5rem;
 .WireframesContainer {
   width: 100%;
   flex-direction: column;
+  margin-top: -2rem
 }
 .IdeateContainer.nyt {
     padding-bottom: 4.5rem;

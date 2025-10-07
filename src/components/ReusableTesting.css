@@ -247,7 +247,7 @@ img.ssc {
     padding-bottom: 4.75rem;
   }
   .TestingContainer.fh {
-    padding-bottom: 3rem;
+    padding-bottom: 1.5rem;
 }
   .competitive.fh_iteraction {
     width: 100%
@@ -282,6 +282,9 @@ img.ssc {
   margin-top: -1.5rem;
   font-size: 1.5rem
 }
+.iteration_container.bottom{
+  margin-bottom:1rem
+}
 .iteration_container.last {
   margin-bottom:2rem
 }
@@ -294,7 +297,7 @@ img.ssc {
       width: 100%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 2rem
+    margin-bottom: 3rem
 
 }
 

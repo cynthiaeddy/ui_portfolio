@@ -538,22 +538,22 @@ margin-top: 0rem
     margin-top: 3rem;
 }
 .Button.enlarge.ideate.nyt {
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
 }
 .Button.enlarge.iter.nyt {
     margin-bottom: 7rem;
 }
 .Button.enlarge.ideate.nyt1 {
-    margin-top: 4.5rem;
-}
-.Button.enlarge.fh {
-    margin-top: 3rem;
-}
-.Button.enlarge.fh_iter {
     margin-top: 3.5rem;
 }
+.Button.enlarge.fh {
+    margin-top: 2rem;
+}
+.Button.enlarge.fh_iter {
+    margin-top: 2.5rem;
+}
 .Button.enlarge.white.no {
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom:0rem
 }
 .competitive, .competitive.style  {
