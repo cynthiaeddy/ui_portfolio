@@ -55,7 +55,7 @@
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .DefineContainer {
     width: 90%;
-    margin-bottom: 7rem
+    margin-bottom: 8rem
 }
 .dropCap.hang {
     font-size: 8.25rem;

@@ -3,7 +3,6 @@ import '../ReusableTesting.css'
 
 import iteration from '../../assets/nyt/nyt_iteration.png'
 import iteration_small from '../../assets/nyt/nyt_iteration_small.png'
-import iteration_smallest from '../../assets/nyt/nyt_iteration_smallest.png'
 
 export const TestingNyt = () => {
   return (
@@ -25,23 +24,25 @@ export const TestingNyt = () => {
           </h4>
           <div className='ButtonContainer nyt'>
             <div className='Button enlarge iter nyt'>iteration</div>
-            <picture>
-              <source media='(max-width: 479px)' srcSet={iteration_smallest} />
-              <source media='(max-width: 768px)' srcSet={iteration_small} />
-              <source media='(min-width: 769px)' srcSet={iteration} />
-              <img
-                className='competitive nyt'
-                src={iteration}
-                alt='Affinity map'
-                loading='lazy'
-              />
-            </picture>
-            <h5>
-              Before the feature increased/decreased by 2 from 2 to 8 serving
-              sizes
-              <br />
-              Now the feature increases/decreases by 1 from 1 to 8 serving sizes
-            </h5>
+            <div className='nyt_iter_text'>
+              <picture>
+                <source media='(max-width: 479px)' srcSet={iteration_small} />
+                <source media='(min-width: 480px)' srcSet={iteration} />
+                <img
+                  className='competitive nyt'
+                  src={iteration}
+                  alt='Affinity map'
+                  loading='lazy'
+                />
+              </picture>
+              <h5 className='nyt_h5'>
+                Before the feature increased/decreased by 2 from 2 to 8 serving
+                sizes
+                <br />
+                Now the feature increases/decreases by 1 from 1 to 8 serving
+                sizes
+              </h5>
+            </div>
           </div>
         </div>
       </section>

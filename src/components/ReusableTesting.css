@@ -184,7 +184,7 @@ margin-bottom:3rem
     margin: auto;
 }
 
-.iteration_container h5, .fh_mobile h5 {
+.iteration_container h5, .fh_mobile h5 , .competitive.nyt h5 .nyt_iter_text h55, .nyt_h5 {
   margin-top: -.5rem;
   font-size: 1.5rem
 }
@@ -240,7 +240,7 @@ img.ssc {
     margin-bottom: 7rem;
   }
   .TestingContainer.nyt {
-    padding-bottom: 3.75rem;
+    padding-bottom: 4.75rem;
   }
   .TestingContainer.fh {
     padding-bottom: 3rem;
