@@ -48,7 +48,7 @@ margin-bottom:.5rem
     width: 35rem;
     height: auto;
     object-fit: cover;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 .iteration_container {
@@ -170,7 +170,7 @@ margin-bottom:.5rem
   /* width: 50%; */
   height: auto;
   margin: auto;
-  margin-bottom: -1rem
+  margin-bottom: -1.5rem
 }
 .fh_testing.home3 {
   margin-bottom: 2rem
@@ -230,6 +230,7 @@ img.ssc {
           width: 100%;
         height: auto;
         margin: auto;
+        margin-bottom: 1.5rem
 }
 .ssc.two {
   width:70%
