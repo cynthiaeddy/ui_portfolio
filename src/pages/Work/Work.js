@@ -26,7 +26,8 @@ export const Work = () => {
               intuitive
             </span> experiences <br />
             through <span className='HomeSerif Bold'>thoughtful,</span> <br />
-            <span className='HomeSerif Bold'>human</span> centered design.
+            <span className='HomeSerif Bold'>human</span> centered design,
+            shaped by <span className='HomeSerif Bold'>digital</span> know-how.
             <h6 className='after_thought'>and i prefer to type only in l/c</h6>
             <ScrollDownIconCircle />
           </div>
