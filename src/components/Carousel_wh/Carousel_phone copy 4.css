@@ -75,7 +75,7 @@
 
   width: 40px;
   height: 40px;
-  background: #fff !important; /* solid white */
+  background: #fff; /* always white */
   border: 0.75px solid #000;
   border-radius: 50%;
 
@@ -85,13 +85,10 @@
 
   cursor: pointer;
   box-sizing: border-box;
-
-  /* ensure shadow appears only outside the circle */
-  overflow: visible;
-  background-clip: padding-box;
-  backface-visibility: hidden;
-
   transition: box-shadow 0.2s ease, opacity 0.2s ease;
+
+  overflow: visible;
+  backface-visibility: hidden;
 }
 
 /* SVG arrow color */
@@ -100,7 +97,7 @@
   fill: #777 !important;
 }
 
-/* Hover shadow — appears outside circle only */
+/* Hover shadow */
 .custom-arrow:hover {
   box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
 }
@@ -148,4 +145,42 @@
   .slick-slider .next-arrow {
     right: -50px;
   }
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  color: white;
+  background: white;
+  outline: none;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus { color: white; outline: none; background: white}
+/* Custom arrow styling */
+.custom-arrow {
+  background: #fff; /* circle background */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  border: 1px solid #000;
+  transition: opacity 0.2s ease;
+  z-index: 2;
+}
+
+.custom-arrow svg {
+  color: #000;
+  font-size: 16px;
+}
+
+/* Disabled arrows (start/end) */
+.custom-arrow.slick-disabled {
+  opacity: 0.25;       /* faded */
+  pointer-events: none; /* unclickable */
 }

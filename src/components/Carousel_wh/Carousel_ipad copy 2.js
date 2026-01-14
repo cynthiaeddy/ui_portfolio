@@ -7,30 +7,6 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Carousel_slide_ipad from './Carousel_slide_ipad'
 
-// const NextArrow = ({ onClick }) => (
-//   <div className='custom-arrow next-arrow ipad' onClick={onClick}>
-//     <FaArrowRight color='grey' size={14} />
-//   </div>
-// )
-
-// const NextArrow = ({ onClick, className }) => {
-//   const isDisabled = className?.includes('slick-disabled')
-//   return (
-//     <button
-//       onClick={onClick}
-//       disabled={isDisabled} // Disable the button
-//       className={`custom-arrow next-arrow ${isDisabled ? 'disabled-arrow' : ''}`}
-//     >
-//       <FaArrowRight color='grey' size={14} />
-//     </button>
-//   )
-// }
-
-// const PrevArrow = ({ onClick }) => (
-//   <div className='custom-arrow prev-arrow ipad' onClick={onClick}>
-//     <FaArrowLeft color='grey' size={14} />
-//   </div>
-// )
 const NextArrow = ({ className, onClick }) => (
   <div
     className={`${className} custom-arrow next-arrow ipad`}
