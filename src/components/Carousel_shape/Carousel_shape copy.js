@@ -7,11 +7,15 @@ export const Carousel_shape = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const goToPrevious = () => {
-    if (currentIndex > 0) setCurrentIndex(currentIndex - 1)
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? items.length - 1 : prevIndex - 1,
+    )
   }
 
   const goToNext = () => {
-    if (currentIndex < items.length - 1) setCurrentIndex(currentIndex + 1)
+    setCurrentIndex((prevIndex) =>
+      prevIndex === items.length - 1 ? 0 : prevIndex + 1,
+    )
   }
 
   const goToSlide = (index) => {
@@ -21,11 +25,7 @@ export const Carousel_shape = () => {
   return (
     <>
       <div className='carousel-container shape'>
-        <button
-          className={`nav-button left ${currentIndex === 0 ? 'disabled' : ''}`}
-          onClick={goToPrevious}
-          disabled={currentIndex === 0}
-        >
+        <button className='nav-button left' onClick={goToPrevious}>
           <FaArrowLeft className='arrow-icon' />
         </button>
 
@@ -38,11 +38,7 @@ export const Carousel_shape = () => {
           <h1 className='carousel-title'>{items[currentIndex].title}</h1>
         </div>
 
-        <button
-          className={`nav-button right ${currentIndex === items.length - 1 ? 'disabled' : ''}`}
-          onClick={goToNext}
-          disabled={currentIndex === items.length - 1}
-        >
+        <button className='nav-button right' onClick={goToNext}>
           <FaArrowRight className='arrow-icon' />
         </button>
 

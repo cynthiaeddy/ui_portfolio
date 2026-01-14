@@ -76,7 +76,7 @@
   width: 40px;
   height: 40px;
   background: #fff !important; /* solid white */
-  border: 0.75px solid #000;
+  border: 0.75px solid #333;
   border-radius: 50%;
 
   display: flex;
@@ -96,8 +96,8 @@
 
 /* SVG arrow color */
 .custom-arrow svg {
-  color: #777 !important;
-  fill: #777 !important;
+  color: grey !important;
+  fill: grey !important;
 }
 
 /* Hover shadow — appears outside circle only */
