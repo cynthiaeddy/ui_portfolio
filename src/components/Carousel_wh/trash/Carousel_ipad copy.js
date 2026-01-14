@@ -5,23 +5,17 @@ import React, { useRef } from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import Carousel_slide_ipad from './Carousel_slide_ipad'
+import Carousel_slide_ipad from '../Carousel_slide_ipad'
 
-const NextArrow = ({ className, onClick }) => (
-  <div
-    className={`${className} custom-arrow next-arrow ipad`}
-    onClick={onClick}
-  >
-    <FaArrowRight size={14} />
+const NextArrow = ({ onClick }) => (
+  <div className='custom-arrow next-arrow ipad' onClick={onClick}>
+    <FaArrowRight color='grey' size={14} />
   </div>
 )
 
-const PrevArrow = ({ className, onClick }) => (
-  <div
-    className={`${className} custom-arrow prev-arrow ipad`}
-    onClick={onClick}
-  >
-    <FaArrowLeft size={14} />
+const PrevArrow = ({ onClick }) => (
+  <div className='custom-arrow prev-arrow ipad' onClick={onClick}>
+    <FaArrowLeft color='grey' size={14} />
   </div>
 )
 
