@@ -47,7 +47,7 @@ text-decoration-style: none;
   margin-top: 1.5rem
 }
 .spin {
-   animation: spinOnce 2.4s ease-out forwards;
+   animation: spinOnce 2s ease-out forwards;
 }
 
 @keyframes spinOnce {
