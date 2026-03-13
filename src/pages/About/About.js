@@ -43,7 +43,12 @@ export const About = () => {
           most recently in Croatia and Mérida, Mexico.
         </h3>
         <footer className='AboutInfo'>
-          <a href={cynthia_eddy_resume} className='About_link'>
+          <a
+            href={cynthia_eddy_resume}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='About_link'
+          >
             <div className='AboutResume view'>
               view my resume <span className='AboutResume_span'> |</span>{' '}
             </div>

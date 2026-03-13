@@ -1,9 +1,15 @@
+import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import './Navbar.css'
 import logo from '../../assets/swirl_sm.jpg'
 import navActive from '../../assets/bug.svg'
 
 export const NavbarNew = () => {
+  const [spin, setSpin] = useState(false)
+
+  const handleMouseEnter = () => {
+    if (!spin) setSpin(true)
+  }
   return (
     <nav id='NavbarContainer'>
       <div className='NavbarSection'>
@@ -32,7 +38,13 @@ export const NavbarNew = () => {
           </li>
         </ul>
         <div className='Navbar-logo'>
-          <img src={logo} className='logo' alt='logo' />
+          <img
+            src={logo}
+            className={`logo ${spin ? 'spin' : ''}`}
+            alt='logo'
+            onMouseEnter={handleMouseEnter}
+            onAnimationEnd={() => setSpin(false)}
+          />
         </div>
       </div>
     </nav>

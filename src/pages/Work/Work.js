@@ -29,7 +29,7 @@ export const Work = () => {
             <span className='HomeSerif Bold'>storytelling</span>, and <br />
             digital craft.{' '}
             <h6 className='after_thought'>
-              currently available for freelance
+              available for freelance
               <br />
             </h6>
             <ScrollDownIconCircle />
