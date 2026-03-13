@@ -21,14 +21,17 @@ export const Work = () => {
         <div className='HomeContainerTop'>
           <div className='AboutHome'>hiya, i&apos;m cynthia.</div>
           <div className='HomeSerif'>
-            i seek to create <span className='HomeSerif Bold'>beautiful,</span>
-            <br /> <span className='HomeSerif Bold'>
-              intuitive
-            </span> experiences <br />
-            through <span className='HomeSerif Bold'>thoughtful,</span> <br />
-            <span className='HomeSerif Bold'>human</span> centered design,
-            shaped by <span className='HomeSerif Bold'>digital</span> know-how.
-            <h6 className='after_thought'>and i prefer to type only in l/c</h6>
+            i design <span className='HomeSerif Bold'>beautiful</span>,
+            <br /> <span className='HomeSerif Bold'>thoughtful</span>{' '}
+            experiences <br />
+            through <span className='HomeSerif Bold comma'>typography</span>,
+            <br />
+            <span className='HomeSerif Bold'>storytelling</span>, and <br />
+            digital craft.{' '}
+            <h6 className='after_thought'>
+              currently available for freelance
+              <br />
+            </h6>
             <ScrollDownIconCircle />
           </div>
         </div>
