@@ -13,15 +13,32 @@ export const Cards = () => {
   return (
     <>
       <section className='CardContainerHome'>
-        <Link to='/work/ssc' className='IndieCard'>
-          <img className='CardImageHome ssc' src={ssc} alt={ssc} />
-          <div className='CardDek '>
-            <h2 className='Card_hed'>Sustainable Soap Co.</h2>
+        <Link to='/work/editorial' className='IndieCard edit'>
+          <img className='CardImageHome edit' src={singles} alt={singles} />
+          <div className='CardDek edit'>
+            <h2 className='Card_hed'>Editorial Design</h2>
+            <div className='hed_and_blurb edit'>
+              <h6 className='Card_blurb'>
+                Layout, typography, storytelling
+                {/* Layout, typography, and visual storytelling */}
+              </h6>
+              <p className='Card_p'>
+                Editorial design for multiple print publications, blending
+                content, structure, and visual flow.
+              </p>
+            </div>
+            <button className='Button_website'>view</button>
+          </div>
+        </Link>
+        <Link to='/work/wh' className='IndieCard'>
+          <img className='CardImageHome wh' src={wh} alt={wh} />
+          <div className='CardDek wh'>
+            <h2 className='Card_hed'>Women&apos;s Health</h2>
             <div className='hed_and_blurb'>
-              <h6 className='Card_blurb'>mobile ux/ui design</h6>
-              <p className='Card_p ssc'>
-                End to end redesign of a e-commerce website refining user
-                experience and brand identity.
+              <h6 className='Card_blurb'>mobile and tablet ui design</h6>
+              <p className='Card_p wh'>
+                UI design lead for digital publications, optimizing engagement
+                through user-centered layouts and dynamic digital content.
               </p>
             </div>
             <button className='Button_website'>view</button>
@@ -47,15 +64,15 @@ export const Cards = () => {
             <button className='Button_website'>view</button>
           </div>
         </Link>
-        <Link to='/work/wh' className='IndieCard'>
-          <img className='CardImageHome wh' src={wh} alt={wh} />
-          <div className='CardDek wh'>
-            <h2 className='Card_hed'>Women&apos;s Health</h2>
+        <Link to='/work/ssc' className='IndieCard'>
+          <img className='CardImageHome ssc' src={ssc} alt={ssc} />
+          <div className='CardDek '>
+            <h2 className='Card_hed'>Sustainable Soap Co.</h2>
             <div className='hed_and_blurb'>
-              <h6 className='Card_blurb'>mobile and tablet ui design</h6>
-              <p className='Card_p wh'>
-                UI design lead for digital publications, optimizing engagement
-                through user-centered layouts and dynamic digital content.
+              <h6 className='Card_blurb'>mobile ux/ui design</h6>
+              <p className='Card_p ssc'>
+                End to end redesign of a e-commerce website refining user
+                experience and brand identity.
               </p>
             </div>
             <button className='Button_website'>view</button>
@@ -64,7 +81,7 @@ export const Cards = () => {
         <Link to='/work/nyt' className='IndieCard'>
           <img className='CardImageHome nyt' src={nyt} alt={nyt} />
           <div className='CardDek'>
-            <h2 className='Card_hed'>New York Times Cooking App</h2>
+            <h2 className='Card_hed'>NYT Cooking App (Concept)</h2>
             <div className='hed_and_blurb'>
               <h6 className='Card_blurb'>mobile Ux/Ui design</h6>
               <p className='Card_p'>
@@ -84,23 +101,6 @@ export const Cards = () => {
               <p className='Card_p'>
                 Responsive redesign of a veterinary clinic website, enhancing
                 experience and functionality.
-              </p>
-            </div>
-            <button className='Button_website'>view</button>
-          </div>
-        </Link>
-        <Link to='/work/editorial' className='IndieCard edit'>
-          <img className='CardImageHome edit' src={singles} alt={singles} />
-          <div className='CardDek edit'>
-            <h2 className='Card_hed'>Editorial Design</h2>
-            <div className='hed_and_blurb edit'>
-              <h6 className='Card_blurb'>
-                Layout, typography, storytelling
-                {/* Layout, typography, and visual storytelling */}
-              </h6>
-              <p className='Card_p'>
-                Editorial design for multiple print publications, blending
-                content, structure, and visual flow.
               </p>
             </div>
             <button className='Button_website'>view</button>

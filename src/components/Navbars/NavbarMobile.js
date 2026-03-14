@@ -10,6 +10,11 @@ export const NavbarMobile = () => {
   const [hoverAbout, setHoverAbout] = useState(false)
   const [hoverContact, setHoverContact] = useState(false)
   const [hoverWork, setHoverWork] = useState(false)
+  const [spin, setSpin] = useState(false)
+
+  const handleMouseEnter = () => {
+    if (!spin) setSpin(true)
+  }
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
@@ -39,7 +44,13 @@ export const NavbarMobile = () => {
       <div className='navbar-mobile-top'>
         <div className='navbar-spacer'></div>
         <div className='navbar-logo mobile'>
-          <img src={logo} className='logo mobile' alt='logo' />
+          <img
+            src={logo}
+            className={`logo mobile ${spin ? 'spin' : ''}`}
+            alt='logo'
+            onMouseEnter={handleMouseEnter}
+            onAnimationEnd={() => setSpin(false)}
+          />
         </div>
         <div className='navbar-mobile_menu' onClick={toggleMenu}>
           <MenuButton isOpen={isMenuOpen} />

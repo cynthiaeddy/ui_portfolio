@@ -18,6 +18,19 @@ a #navbar-mobile  {
   .Navbar-logo {
     margin-top: 1.5rem
   }
+  .spin {
+   animation: spinOnce 2s ease-out forwards;
+}
+
+@keyframes spinOnce {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
   * {
     margin: 0;

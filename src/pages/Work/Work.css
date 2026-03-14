@@ -64,6 +64,11 @@ margin-left: 23rem;
   font-weight: 500;
   margin: auto
 }
+.HomeSerif.Bold.comma {
+  margin-right:-5px;
+}
+
+
 
 .Button_website.home{
   margin-top: 10rem;
@@ -71,7 +76,7 @@ margin-left: 23rem;
   font-size: 1rem
 }
 .after_thought {
-font-size: 1.2rem;
+font-size: 1.1rem;
   margin-top: 2rem;
 }
 @media screen and (min-width: 769px) and (max-width: 1030px) {
