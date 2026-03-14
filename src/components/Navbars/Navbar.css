@@ -115,7 +115,8 @@ a.nav-links {
 }
 
 a.nav-links:hover {
-  color: rgba(0,0,0,.9);
+  color: black;
+  font-weight: 700;
 }
 
 a.nav-links.active {
