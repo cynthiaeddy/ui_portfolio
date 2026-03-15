@@ -54,9 +54,10 @@
   color: black;
   line-height: 1
 }
-/* .Card_hed.edit {
-  width: 50%
-} */
+.Card_p.italic {
+  font-style: italic;
+  margin: 0 .1rem
+}
 .Card_blurb {
   text-align: center;
   font-size: 1.2rem;
@@ -113,12 +114,14 @@
   .Card_p{
     margin: 1rem -.5rem;
     font-size: 1.6rem;
+    margin-bottom: 0
   }
    /* .Card_p.ssc{
     margin: 0rem 2rem
   } */
    .Card_p.wh{
-    margin: 0rem
+    margin: 0rem;
+    margin-top:1rem
   }
     .Card_p.ose{
     margin-bottom:0rem

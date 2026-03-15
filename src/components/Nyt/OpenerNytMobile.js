@@ -8,9 +8,7 @@ export const OpenerNytMobile = () => {
         <img className='OpenerFoto' src={triple_nyt} alt={triple_nyt} />
       </div>
       <div className='textWrapper'>
-        <h2 className='cases_openerText mobile'>
-          The New York Times Cooking App
-        </h2>
+        <h2 className='cases_openerText mobile'>NYT Cooking App (concept)</h2>
         <h4 className='h4 black opener'>
           A concept project adding a serving size adjustment feature to the NYT
           Cooking app, improving recipe accuracy, grocery lists, and meal prep.

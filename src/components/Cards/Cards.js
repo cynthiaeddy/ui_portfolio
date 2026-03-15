@@ -23,8 +23,9 @@ export const Cards = () => {
                 {/* Layout, typography, and visual storytelling */}
               </h6>
               <p className='Card_p'>
-                Editorial design for multiple print publications, blending
-                content, structure, and visual flow.
+                Editorial design for multiple print publications, including
+                <span className='Card_p italic'> Shape, </span> focusing on
+                structure, and visual storytelling.
               </p>
             </div>
             <button className='Button_website'>view</button>
@@ -33,12 +34,14 @@ export const Cards = () => {
         <Link to='/work/wh' className='IndieCard'>
           <img className='CardImageHome wh' src={wh} alt={wh} />
           <div className='CardDek wh'>
-            <h2 className='Card_hed'>Women&apos;s Health</h2>
+            <h2 className='Card_hed'>Women&rsquo;s Health</h2>
             <div className='hed_and_blurb'>
               <h6 className='Card_blurb'>mobile and tablet ui design</h6>
               <p className='Card_p wh'>
-                UI design lead for digital publications, optimizing engagement
-                through user-centered layouts and dynamic digital content.
+                Design lead for digital publications including{' '}
+                <span className='Card_p italic'>Women&rsquo;s Health,</span>{' '}
+                optimizing engagement through user-centered layouts and dynamic
+                editorial content.
               </p>
             </div>
             <button className='Button_website'>view</button>
