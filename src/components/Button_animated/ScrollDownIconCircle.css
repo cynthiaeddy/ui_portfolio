@@ -10,40 +10,52 @@
   background-color: #000;
   cursor: pointer;
   z-index: 90;
-  margin: 4rem 0rem 7rem 0rem
+  margin: 4rem 0rem 7rem 0rem;
 }
 
 .scroll-down-circle:hover {
   box-shadow: 5px 5px 10px rgba(36, 36, 36, 0.5);
 }
-.scroll-down-circle svg:hover {
-  color:bisque
+
+.scroll-down-arrow {
+  color: rgba(255,255,255,.9);
 }
 
-/* Animation for the icon only */
-.scroll-down-circle svg {
-  font-size: 14px; /* Icon size */
-  color: rgba(255, 255, 255, .9);/* White icon */
-  animation: fade_move_down 2s ease-in-out 5; /* Animate 3 times */
+.scroll-down-arrow svg {
+  font-size: 14px;
 }
 
-/* Only animate the icon */
+.scroll-down-circle:hover .scroll-down-arrow {
+  color: bisque;
+}
+
 @keyframes fade_move_down {
   0% {
-    transform: translateY(-10px); /* Move the icon up */
+    transform: translateY(-10px);
     opacity: 0;
   }
   50% {
     opacity: 1;
   }
   100% {
-    transform: translateY(10px); /* Move the icon down */
+    transform: translateY(10px);
     opacity: 0;
   }
 }
 
+.scroll-down-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-down-arrow svg {
+  font-size: 14px;
+  display: block;
+}
+
 @media screen and (max-width: 479px) {
   .scroll-down-circle {
-   margin-bottom: 2rem;
+    margin-bottom: 2rem;
   }
-  }
+}
