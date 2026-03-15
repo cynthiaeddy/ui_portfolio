@@ -56,7 +56,7 @@ export const Wh = () => {
               window.open('https://cynthiaeddy.me/digital', '_blank')
             }
           >
-            view more on cynthiaeddy.me
+            more digital work on cynthiaeddy.me
           </button>
         </>
       )}

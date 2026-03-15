@@ -19,7 +19,7 @@ export const Work = () => {
     <div className={`work-wrapper ${fadeIn ? 'fade-in' : ''}`}>
       <section className='HomeContainer'>
         <div className='HomeContainerTop'>
-          <div className='AboutHome'>hiya, i&apos;m cynthia.</div>
+          <div className='AboutHome'>hiya, i&rsquo;m cynthia</div>
           <div className='HomeSerif'>
             i design <span className='HomeSerif Bold'>beautiful</span>,
             <br /> <span className='HomeSerif Bold'>thoughtful</span>{' '}

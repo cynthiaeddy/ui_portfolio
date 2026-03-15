@@ -13,7 +13,7 @@ export const About = () => {
           <img src={quilt} className='AboutImage' alt={quilt} />
           <img src={outside} className='AboutImage' alt={outside} />
         </div>
-        <div className='AboutHi'>i&apos;ve been lucky</div>
+        <div className='AboutHi'>i&rsquo;ve been lucky</div>
         <div className='HomeSerif about'>
           enough to <span className='HomeSerif Bold'>design</span> across
           <span className='HomeSerif Bold'> mediums, </span>

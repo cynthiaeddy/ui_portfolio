@@ -9,7 +9,7 @@ export const OpenerNyt = () => {
       </div>
 
       <div className='textWrapper nyt'>
-        <h2 className='openerText nyt'>The New York Times Cooking App</h2>
+        <h2 className='openerText nyt'>NYT Cooking App (Concept)</h2>
         <h4 className='h4 black opener'>
           A concept project adding a serving size adjustment feature to the NYT
           Cooking app, improving recipe accuracy, grocery lists, and meal prep.
