@@ -22,8 +22,8 @@ export const Work = () => {
           <div className='AboutHome'>hiya, i&rsquo;m cynthia.</div>
           <div className='HomeSerif'>
             i design <span className='HomeSerif Bold'>beautiful</span>,
-            <br /> <span className='HomeSerif Bold'>thoughtful</span>{' '}
-            experiences <br />
+            <br /> <span className='HomeSerif Bold'>thoughtful</span> visual
+            systems <br />
             through <span className='HomeSerif Bold comma'>typography</span>,
             <br />
             <span className='HomeSerif Bold'>storytelling</span>, and <br />
